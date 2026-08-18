@@ -17,7 +17,8 @@ function escapeHtml(s) {
 function stageOrder(stage) {
   const order = [
     'Group A', 'Group B', 'Group C', 'Group D', 'Group E', 'Group F', 'Group G', 'Group H',
-    'Round of 16', 'Quarter-final', 'Semi-final', 'Third place', 'Final'
+    'Group I', 'Group J', 'Group K', 'Group L',
+    'Round of 32', 'Round of 16', 'Quarter-final', 'Semi-final', 'Third place', 'Final'
   ];
   const idx = order.indexOf(stage);
   return idx === -1 ? order.length : idx;
@@ -25,19 +26,37 @@ function stageOrder(stage) {
 
 async function renderHome() {
   app.innerHTML = '<div class="loading">Loading editions…</div>';
-  const editions = await fetchJSON('/api/editions');
+  const [editions, stats] = await Promise.all([
+    fetchJSON('/api/editions'),
+    fetchJSON('/api/stats').catch(() => null),
+  ]);
   if (!editions.length) {
     app.innerHTML = '<div class="empty">No editions in the database yet.</div>';
     return;
   }
+
+  const statChips = stats ? `
+    <div class="stat-strip">
+      <div class="stat-chip"><div class="num">${stats.editions}</div><div class="label">Editions</div></div>
+      <div class="stat-chip"><div class="num">${stats.matches}</div><div class="label">Matches</div></div>
+      <div class="stat-chip"><div class="num">${stats.goals}</div><div class="label">Goals</div></div>
+      <div class="stat-chip"><div class="num">${stats.countries}</div><div class="label">Nations</div></div>
+    </div>
+  ` : '';
+
   app.innerHTML = `
-    <h1>World Cup Editions</h1>
+    <div class="hero">
+      <span class="eyebrow">World Cup Archive</span>
+      <h1>Every Tournament.<br>Every Trophy.</h1>
+      <p>Browse World Cup editions, relive every match goal-by-goal, and see who took home the game's biggest individual honors.</p>
+      ${statChips}
+    </div>
     <div class="edition-grid">
       ${editions.map(e => `
         <a class="card" href="#/edition/${e.year}">
           <div class="year">${e.year}</div>
-          <div class="host">${flagImgHtml(e.host)} Host: ${escapeHtml(e.host)}</div>
-          <div class="winner-line"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</div>
+          <div class="host">📍 Host: ${flagImgHtml(e.host)} ${escapeHtml(e.host)}</div>
+          <div class="winner-line champ"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</div>
           <div class="winner-line"><span class="label">Runner-up:</span> ${flagImgHtml(e.runner_up)} ${escapeHtml(e.runner_up)}</div>
         </a>
       `).join('')}

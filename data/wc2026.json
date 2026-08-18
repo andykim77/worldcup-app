@@ -1,0 +1,625 @@
+{
+  "edition": {
+    "year": 2026,
+    "host": "United States, Canada & Mexico",
+    "winner": "Spain",
+    "runnerUp": "Argentina",
+    "thirdPlace": "England",
+    "fourthPlace": "France",
+    "goldenBall": { "player": "Rodri", "nationality": "Spain", "club": "Manchester City" },
+    "silverBall": { "player": "Lionel Messi", "nationality": "Argentina", "club": "Inter Miami" },
+    "bronzeBall": { "player": "Kylian Mbappé", "nationality": "France", "club": "Real Madrid" },
+    "goldenBoot": { "player": "Kylian Mbappé", "nationality": "France", "club": "Real Madrid", "goals": 10 },
+    "silverBoot": { "player": "Lionel Messi", "nationality": "Argentina", "club": "Inter Miami", "goals": 8 },
+    "bronzeBoot": { "player": "Jude Bellingham", "nationality": "England", "club": "Real Madrid", "goals": 7 },
+    "goldenGlove": { "player": "Unai Simón", "nationality": "Spain", "club": "Athletic Bilbao" },
+    "bestYoungPlayer": { "player": "Pau Cubarsí", "nationality": "Spain", "club": "FC Barcelona" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "2026-06-11", "homeTeam": "Mexico", "awayTeam": "South Africa", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Julián Quiñones", "minute": "9" },
+      { "team": "home", "player": "Raúl Jiménez", "minute": "67" }
+    ] },
+    { "stage": "Group A", "date": "2026-06-11", "homeTeam": "South Korea", "awayTeam": "Czechia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ladislav Krejčí", "minute": "59" },
+      { "team": "home", "player": "Hwang In-beom", "minute": "67" },
+      { "team": "home", "player": "Oh Hyeon-gyu", "minute": "80" }
+    ] },
+    { "stage": "Group A", "date": "2026-06-18", "homeTeam": "Czechia", "awayTeam": "South Africa", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Michal Sadílek", "minute": "6" },
+      { "team": "away", "player": "Teboho Mokoena", "minute": "83", "penalty": true }
+    ] },
+    { "stage": "Group A", "date": "2026-06-18", "homeTeam": "Mexico", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Romo", "minute": "50" }
+    ] },
+    { "stage": "Group A", "date": "2026-06-24", "homeTeam": "Czechia", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mateo Chávez", "minute": "55" },
+      { "team": "away", "player": "Julián Quiñones", "minute": "61" },
+      { "team": "away", "player": "Álvaro Fidalgo", "minute": "90+4" }
+    ] },
+    { "stage": "Group A", "date": "2026-06-24", "homeTeam": "South Africa", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thapelo Maseko", "minute": "63" }
+    ] },
+
+    { "stage": "Group B", "date": "2026-06-12", "homeTeam": "Canada", "awayTeam": "Bosnia and Herzegovina", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jovo Lukić", "minute": "21" },
+      { "team": "home", "player": "Cyle Larin", "minute": "78" }
+    ] },
+    { "stage": "Group B", "date": "2026-06-13", "homeTeam": "Qatar", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Breel Embolo", "minute": "17", "penalty": true },
+      { "team": "home", "player": "Miro Muheim", "minute": "90+4", "ownGoal": true }
+    ] },
+    { "stage": "Group B", "date": "2026-06-18", "homeTeam": "Switzerland", "awayTeam": "Bosnia and Herzegovina", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Johan Manzambi", "minute": "74" },
+      { "team": "away", "player": "Ermin Mahmić", "minute": "80" },
+      { "team": "home", "player": "Rubén Vargas", "minute": "84" },
+      { "team": "home", "player": "Johan Manzambi", "minute": "90" },
+      { "team": "home", "player": "Granit Xhaka", "minute": "90+7", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "2026-06-18", "homeTeam": "Canada", "awayTeam": "Qatar", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cyle Larin", "minute": "16" },
+      { "team": "home", "player": "Jonathan David", "minute": "29" },
+      { "team": "home", "player": "Jonathan David", "minute": "45+3" },
+      { "team": "home", "player": "Nathan Saliba", "minute": "64" },
+      { "team": "home", "player": "Mohamed Manai", "minute": "75", "ownGoal": true },
+      { "team": "home", "player": "Jonathan David", "minute": "90+2" }
+    ] },
+    { "stage": "Group B", "date": "2026-06-24", "homeTeam": "Switzerland", "awayTeam": "Canada", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rubén Vargas", "minute": "46" },
+      { "team": "home", "player": "Johan Manzambi", "minute": "57" },
+      { "team": "away", "player": "Promise David", "minute": "76" }
+    ] },
+    { "stage": "Group B", "date": "2026-06-24", "homeTeam": "Bosnia and Herzegovina", "awayTeam": "Qatar", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kerim Alajbegović", "minute": "29" },
+      { "team": "home", "player": "Sultan Al-Brake", "minute": "34", "ownGoal": true },
+      { "team": "away", "player": "Hassan Al-Haydos", "minute": "42" },
+      { "team": "home", "player": "Ermin Mahmić", "minute": "80" }
+    ] },
+
+    { "stage": "Group C", "date": "2026-06-13", "homeTeam": "Brazil", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ismael Saibari", "minute": "21" },
+      { "team": "home", "player": "Vinícius Júnior", "minute": "32" }
+    ] },
+    { "stage": "Group C", "date": "2026-06-13", "homeTeam": "Haiti", "awayTeam": "Scotland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "John McGinn", "minute": "28" }
+    ] },
+    { "stage": "Group C", "date": "2026-06-19", "homeTeam": "Scotland", "awayTeam": "Morocco", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ismael Saibari", "minute": "2" }
+    ] },
+    { "stage": "Group C", "date": "2026-06-19", "homeTeam": "Brazil", "awayTeam": "Haiti", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Matheus Cunha", "minute": "23" },
+      { "team": "home", "player": "Matheus Cunha", "minute": "36" },
+      { "team": "home", "player": "Vinícius Júnior", "minute": "45+3" }
+    ] },
+    { "stage": "Group C", "date": "2026-06-24", "homeTeam": "Scotland", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Vinícius Júnior", "minute": "7" },
+      { "team": "away", "player": "Vinícius Júnior", "minute": "45+3" },
+      { "team": "away", "player": "Matheus Cunha", "minute": "60" }
+    ] },
+    { "stage": "Group C", "date": "2026-06-24", "homeTeam": "Morocco", "awayTeam": "Haiti", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yassine Bounou", "minute": "10", "ownGoal": true },
+      { "team": "home", "player": "Achraf Hakimi", "minute": "39" },
+      { "team": "away", "player": "Wilson Isidor", "minute": "43" },
+      { "team": "home", "player": "Ismael Saibari", "minute": "45+1" },
+      { "team": "home", "player": "Soufiane Rahimi", "minute": "78" },
+      { "team": "home", "player": "Gessime Yassine", "minute": "89" }
+    ] },
+
+    { "stage": "Group D", "date": "2026-06-12", "homeTeam": "United States", "awayTeam": "Paraguay", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Damián Bobadilla", "minute": "7", "ownGoal": true },
+      { "team": "home", "player": "Folarin Balogun", "minute": "31" },
+      { "team": "home", "player": "Folarin Balogun", "minute": "45+5" },
+      { "team": "away", "player": "Maurício", "minute": "73" },
+      { "team": "home", "player": "Giovanni Reyna", "minute": "90+8" }
+    ] },
+    { "stage": "Group D", "date": "2026-06-13", "homeTeam": "Australia", "awayTeam": "Turkey", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Nestory Irankunda", "minute": "27" },
+      { "team": "home", "player": "Connor Metcalfe", "minute": "75" }
+    ] },
+    { "stage": "Group D", "date": "2026-06-19", "homeTeam": "United States", "awayTeam": "Australia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cameron Burgess", "minute": "11", "ownGoal": true },
+      { "team": "home", "player": "Alex Freeman", "minute": "43" }
+    ] },
+    { "stage": "Group D", "date": "2026-06-19", "homeTeam": "Turkey", "awayTeam": "Paraguay", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Matías Galarza", "minute": "2" }
+    ] },
+    { "stage": "Group D", "date": "2026-06-25", "homeTeam": "Turkey", "awayTeam": "United States", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Auston Trusty", "minute": "3" },
+      { "team": "home", "player": "Arda Güler", "minute": "10" },
+      { "team": "home", "player": "Barış Alper Yılmaz", "minute": "31" },
+      { "team": "away", "player": "Sebastian Berhalter", "minute": "49" },
+      { "team": "home", "player": "Kaan Ayhan", "minute": "90+8" }
+    ] },
+    { "stage": "Group D", "date": "2026-06-25", "homeTeam": "Paraguay", "awayTeam": "Australia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group E", "date": "2026-06-14", "homeTeam": "Germany", "awayTeam": "Curaçao", "homeScore": 7, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Felix Nmecha", "minute": "6" },
+      { "team": "away", "player": "Livano Comenencia", "minute": "21" },
+      { "team": "home", "player": "Nico Schlotterbeck", "minute": "38" },
+      { "team": "home", "player": "Kai Havertz", "minute": "45+5", "penalty": true },
+      { "team": "home", "player": "Jamal Musiala", "minute": "47" },
+      { "team": "home", "player": "Nathaniel Brown", "minute": "68" },
+      { "team": "home", "player": "Deniz Undav", "minute": "78" },
+      { "team": "home", "player": "Kai Havertz", "minute": "88" }
+    ] },
+    { "stage": "Group E", "date": "2026-06-14", "homeTeam": "Ivory Coast", "awayTeam": "Ecuador", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Amad Diallo", "minute": "90" }
+    ] },
+    { "stage": "Group E", "date": "2026-06-20", "homeTeam": "Germany", "awayTeam": "Ivory Coast", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Franck Kessié", "minute": "30" },
+      { "team": "home", "player": "Deniz Undav", "minute": "68" },
+      { "team": "home", "player": "Deniz Undav", "minute": "90+4" }
+    ] },
+    { "stage": "Group E", "date": "2026-06-20", "homeTeam": "Ecuador", "awayTeam": "Curaçao", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group E", "date": "2026-06-25", "homeTeam": "Curaçao", "awayTeam": "Ivory Coast", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Nicolas Pépé", "minute": "7" },
+      { "team": "away", "player": "Nicolas Pépé", "minute": "64" }
+    ] },
+    { "stage": "Group E", "date": "2026-06-25", "homeTeam": "Ecuador", "awayTeam": "Germany", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Leroy Sané", "minute": "2" },
+      { "team": "home", "player": "Nilson Angulo", "minute": "9" },
+      { "team": "home", "player": "Gonzalo Plata", "minute": "77" }
+    ] },
+
+    { "stage": "Group F", "date": "2026-06-14", "homeTeam": "Netherlands", "awayTeam": "Japan", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Virgil van Dijk", "minute": "51" },
+      { "team": "away", "player": "Keito Nakamura", "minute": "57" },
+      { "team": "home", "player": "Crysencio Summerville", "minute": "64" },
+      { "team": "away", "player": "Daichi Kamada", "minute": "88" }
+    ] },
+    { "stage": "Group F", "date": "2026-06-14", "homeTeam": "Sweden", "awayTeam": "Tunisia", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Yasin Ayari", "minute": "7" },
+      { "team": "home", "player": "Alexander Isak", "minute": "30" },
+      { "team": "away", "player": "Omar Rekik", "minute": "43" },
+      { "team": "home", "player": "Viktor Gyökeres", "minute": "59" },
+      { "team": "home", "player": "Mattias Svanberg", "minute": "84" },
+      { "team": "home", "player": "Yasin Ayari", "minute": "90+6" }
+    ] },
+    { "stage": "Group F", "date": "2026-06-20", "homeTeam": "Netherlands", "awayTeam": "Sweden", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Brian Brobbey", "minute": "5" },
+      { "team": "home", "player": "Brian Brobbey", "minute": "17" },
+      { "team": "home", "player": "Cody Gakpo", "minute": "47" },
+      { "team": "home", "player": "Cody Gakpo", "minute": "54" },
+      { "team": "away", "player": "Anthony Elanga", "minute": "59" },
+      { "team": "home", "player": "Crysencio Summerville", "minute": "89" }
+    ] },
+    { "stage": "Group F", "date": "2026-06-20", "homeTeam": "Tunisia", "awayTeam": "Japan", "homeScore": 0, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Daichi Kamada", "minute": "4" },
+      { "team": "away", "player": "Ayase Ueda", "minute": "31" },
+      { "team": "away", "player": "Junya Itō", "minute": "69" },
+      { "team": "away", "player": "Ayase Ueda", "minute": "83" }
+    ] },
+    { "stage": "Group F", "date": "2026-06-25", "homeTeam": "Japan", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daizen Maeda", "minute": "56" },
+      { "team": "away", "player": "Anthony Elanga", "minute": "62" }
+    ] },
+    { "stage": "Group F", "date": "2026-06-25", "homeTeam": "Tunisia", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ellyes Skhiri", "minute": "3", "ownGoal": true },
+      { "team": "away", "player": "Brian Brobbey", "minute": "7" },
+      { "team": "home", "player": "Hazem Mastouri", "minute": "54" },
+      { "team": "away", "player": "Jan Paul van Hecke", "minute": "62" }
+    ] },
+
+    { "stage": "Group G", "date": "2026-06-15", "homeTeam": "Belgium", "awayTeam": "Egypt", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Emam Ashour", "minute": "19" },
+      { "team": "home", "player": "Mohamed Hany", "minute": "66", "ownGoal": true }
+    ] },
+    { "stage": "Group G", "date": "2026-06-15", "homeTeam": "Iran", "awayTeam": "New Zealand", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Elijah Just", "minute": "7" },
+      { "team": "home", "player": "Ramin Rezaeian", "minute": "32" },
+      { "team": "away", "player": "Elijah Just", "minute": "54" },
+      { "team": "home", "player": "Mohammad Mohebi", "minute": "64" }
+    ] },
+    { "stage": "Group G", "date": "2026-06-21", "homeTeam": "Belgium", "awayTeam": "Iran", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group G", "date": "2026-06-21", "homeTeam": "New Zealand", "awayTeam": "Egypt", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Finn Surman", "minute": "15" },
+      { "team": "away", "player": "Mostafa Ziko", "minute": "58" },
+      { "team": "away", "player": "Mohamed Salah", "minute": "67" },
+      { "team": "away", "player": "Mahmoud Hassan (Trézéguet)", "minute": "82" }
+    ] },
+    { "stage": "Group G", "date": "2026-06-26", "homeTeam": "Egypt", "awayTeam": "Iran", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mahmoud Saber", "minute": "5" },
+      { "team": "away", "player": "Ramin Rezaeian", "minute": "14" }
+    ] },
+    { "stage": "Group G", "date": "2026-06-26", "homeTeam": "New Zealand", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Leandro Trossard", "minute": "28" },
+      { "team": "away", "player": "Leandro Trossard", "minute": "50" },
+      { "team": "away", "player": "Kevin De Bruyne", "minute": "66" },
+      { "team": "home", "player": "Elijah Just", "minute": "84" },
+      { "team": "away", "player": "Romelu Lukaku", "minute": "86" },
+      { "team": "away", "player": "Alexis Saelemaekers", "minute": "90+4" }
+    ] },
+
+    { "stage": "Group H", "date": "2026-06-15", "homeTeam": "Spain", "awayTeam": "Cape Verde", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group H", "date": "2026-06-15", "homeTeam": "Saudi Arabia", "awayTeam": "Uruguay", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Abdulelah Al-Amri", "minute": "41" },
+      { "team": "away", "player": "Maximiliano Araújo", "minute": "80" }
+    ] },
+    { "stage": "Group H", "date": "2026-06-21", "homeTeam": "Spain", "awayTeam": "Saudi Arabia", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lamine Yamal", "minute": "10" },
+      { "team": "home", "player": "Mikel Oyarzabal", "minute": "21" },
+      { "team": "home", "player": "Mikel Oyarzabal", "minute": "24" },
+      { "team": "home", "player": "Hassan Al-Tambakti", "minute": "49", "ownGoal": true }
+    ] },
+    { "stage": "Group H", "date": "2026-06-21", "homeTeam": "Uruguay", "awayTeam": "Cape Verde", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Kevin Pina", "minute": "21" },
+      { "team": "home", "player": "Maximiliano Araújo", "minute": "44" },
+      { "team": "home", "player": "Agustín Canobbio", "minute": "45+6" },
+      { "team": "away", "player": "Hélio Varela", "minute": "61" }
+    ] },
+    { "stage": "Group H", "date": "2026-06-26", "homeTeam": "Cape Verde", "awayTeam": "Saudi Arabia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group H", "date": "2026-06-26", "homeTeam": "Uruguay", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Álex Baena", "minute": "42" }
+    ] },
+
+    { "stage": "Group I", "date": "2026-06-16", "homeTeam": "France", "awayTeam": "Senegal", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "66" },
+      { "team": "home", "player": "Bradley Barcola", "minute": "82" },
+      { "team": "away", "player": "Ibrahim Mbaye", "minute": "90+5" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "90+6" }
+    ] },
+    { "stage": "Group I", "date": "2026-06-16", "homeTeam": "Iraq", "awayTeam": "Norway", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Erling Haaland", "minute": "29" },
+      { "team": "home", "player": "Aymen Hussein", "minute": "39" },
+      { "team": "away", "player": "Erling Haaland", "minute": "43" },
+      { "team": "away", "player": "Leo Østigård", "minute": "76" },
+      { "team": "away", "player": "Aymen Hussein", "minute": "90+6", "ownGoal": true }
+    ] },
+    { "stage": "Group I", "date": "2026-06-22", "homeTeam": "France", "awayTeam": "Iraq", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "14" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "54" },
+      { "team": "home", "player": "Ousmane Dembélé", "minute": "66" }
+    ] },
+    { "stage": "Group I", "date": "2026-06-22", "homeTeam": "Norway", "awayTeam": "Senegal", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marcus Holmgren Pedersen", "minute": "43" },
+      { "team": "home", "player": "Erling Haaland", "minute": "48" },
+      { "team": "away", "player": "Ismaïla Sarr", "minute": "53" },
+      { "team": "home", "player": "Erling Haaland", "minute": "58" },
+      { "team": "away", "player": "Ismaïla Sarr", "minute": "90+3" }
+    ] },
+    { "stage": "Group I", "date": "2026-06-26", "homeTeam": "Norway", "awayTeam": "France", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ousmane Dembélé", "minute": "7" },
+      { "team": "away", "player": "Ousmane Dembélé", "minute": "20" },
+      { "team": "home", "player": "Thelo Aasgaard", "minute": "21" },
+      { "team": "away", "player": "Ousmane Dembélé", "minute": "32" },
+      { "team": "away", "player": "Désiré Doué", "minute": "90+4" }
+    ] },
+    { "stage": "Group I", "date": "2026-06-26", "homeTeam": "Senegal", "awayTeam": "Iraq", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Habib Diarra", "minute": "4" },
+      { "team": "home", "player": "Ismaïla Sarr", "minute": "56" },
+      { "team": "home", "player": "Pape Gueye", "minute": "59" },
+      { "team": "home", "player": "Pape Gueye", "minute": "71" },
+      { "team": "home", "player": "Iliman Ndiaye", "minute": "82" }
+    ] },
+
+    { "stage": "Group J", "date": "2026-06-16", "homeTeam": "Argentina", "awayTeam": "Algeria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "17" },
+      { "team": "home", "player": "Lionel Messi", "minute": "60" },
+      { "team": "home", "player": "Lionel Messi", "minute": "76" }
+    ] },
+    { "stage": "Group J", "date": "2026-06-16", "homeTeam": "Austria", "awayTeam": "Jordan", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Romano Schmid", "minute": "20" },
+      { "team": "away", "player": "Ali Olwan", "minute": "50" },
+      { "team": "home", "player": "Yazan Al-Arab", "minute": "76", "ownGoal": true },
+      { "team": "home", "player": "Marko Arnautović", "minute": "90+12", "penalty": true }
+    ] },
+    { "stage": "Group J", "date": "2026-06-22", "homeTeam": "Argentina", "awayTeam": "Austria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "38" },
+      { "team": "home", "player": "Lionel Messi", "minute": "90+5" }
+    ] },
+    { "stage": "Group J", "date": "2026-06-22", "homeTeam": "Jordan", "awayTeam": "Algeria", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Nizar Al-Rashdan", "minute": "36" },
+      { "team": "away", "player": "Nadhir Benbouali", "minute": "69" },
+      { "team": "away", "player": "Amine Gouiri", "minute": "82" }
+    ] },
+    { "stage": "Group J", "date": "2026-06-27", "homeTeam": "Algeria", "awayTeam": "Austria", "homeScore": 3, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Marko Arnautović", "minute": "28" },
+      { "team": "home", "player": "Rafik Belghali", "minute": "45" },
+      { "team": "away", "player": "Marcel Sabitzer", "minute": "55" },
+      { "team": "home", "player": "Riyad Mahrez", "minute": "60" },
+      { "team": "home", "player": "Riyad Mahrez", "minute": "90+3" },
+      { "team": "away", "player": "Saša Kalajdžić", "minute": "90+6" }
+    ] },
+    { "stage": "Group J", "date": "2026-06-27", "homeTeam": "Jordan", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Musa Al-Taamari", "minute": "55" },
+      { "team": "away", "player": "Giovani Lo Celso", "minute": "19" },
+      { "team": "away", "player": "Lautaro Martínez", "minute": "31", "penalty": true },
+      { "team": "away", "player": "Lionel Messi", "minute": "80" }
+    ] },
+
+    { "stage": "Group K", "date": "2026-06-17", "homeTeam": "Portugal", "awayTeam": "DR Congo", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "João Neves", "minute": "6" },
+      { "team": "away", "player": "Yoane Wissa", "minute": "45+5" }
+    ] },
+    { "stage": "Group K", "date": "2026-06-17", "homeTeam": "Uzbekistan", "awayTeam": "Colombia", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Daniel Muñoz", "minute": "40" },
+      { "team": "home", "player": "Abbosbek Fayzullaev", "minute": "60" },
+      { "team": "away", "player": "Luis Díaz", "minute": "65" },
+      { "team": "away", "player": "Jaminton Campaz", "minute": "90+9" }
+    ] },
+    { "stage": "Group K", "date": "2026-06-23", "homeTeam": "Portugal", "awayTeam": "Uzbekistan", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "6" },
+      { "team": "home", "player": "Nuno Mendes", "minute": "17" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "39" },
+      { "team": "home", "player": "Abduvohid Nematov", "minute": "60", "ownGoal": true },
+      { "team": "home", "player": "Rafael Leão", "minute": "87" }
+    ] },
+    { "stage": "Group K", "date": "2026-06-23", "homeTeam": "Colombia", "awayTeam": "DR Congo", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniel Muñoz", "minute": "76" }
+    ] },
+    { "stage": "Group K", "date": "2026-06-27", "homeTeam": "Colombia", "awayTeam": "Portugal", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group K", "date": "2026-06-27", "homeTeam": "DR Congo", "awayTeam": "Uzbekistan", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Eldor Shomurodov", "minute": "10" },
+      { "team": "home", "player": "Yoane Wissa", "minute": "68", "penalty": true },
+      { "team": "home", "player": "Fiston Mayele", "minute": "78" },
+      { "team": "home", "player": "Yoane Wissa", "minute": "90+1" }
+    ] },
+
+    { "stage": "Group L", "date": "2026-06-17", "homeTeam": "England", "awayTeam": "Croatia", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Harry Kane", "minute": "12", "penalty": true },
+      { "team": "away", "player": "Martin Baturina", "minute": "36" },
+      { "team": "home", "player": "Harry Kane", "minute": "42" },
+      { "team": "away", "player": "Petar Musa", "minute": "45+5" },
+      { "team": "home", "player": "Jude Bellingham", "minute": "47" },
+      { "team": "home", "player": "Marcus Rashford", "minute": "85" }
+    ] },
+    { "stage": "Group L", "date": "2026-06-17", "homeTeam": "Ghana", "awayTeam": "Panama", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Caleb Yirenkyi", "minute": "90+5" }
+    ] },
+    { "stage": "Group L", "date": "2026-06-23", "homeTeam": "England", "awayTeam": "Ghana", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group L", "date": "2026-06-23", "homeTeam": "Panama", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ante Budimir", "minute": "54" }
+    ] },
+    { "stage": "Group L", "date": "2026-06-27", "homeTeam": "Panama", "awayTeam": "England", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jude Bellingham", "minute": "62" },
+      { "team": "away", "player": "Harry Kane", "minute": "67" }
+    ] },
+    { "stage": "Group L", "date": "2026-06-27", "homeTeam": "Croatia", "awayTeam": "Ghana", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Petar Sučić", "minute": "31" },
+      { "team": "away", "player": "Derrick Luckassen", "minute": "73" },
+      { "team": "home", "player": "Nikola Vlašić", "minute": "83" }
+    ] },
+
+    { "stage": "Round of 32", "date": "2026-06-28", "homeTeam": "South Africa", "awayTeam": "Canada", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Stephen Eustáquio", "minute": "90+2" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-06-29", "homeTeam": "Brazil", "awayTeam": "Japan", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Kaishu Sano", "minute": "29" },
+      { "team": "home", "player": "Casemiro", "minute": "56" },
+      { "team": "home", "player": "Gabriel Martinelli", "minute": "90+5" }
+    ] },
+    {
+      "stage": "Round of 32", "date": "2026-06-29", "homeTeam": "Germany", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 1, "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Julio Enciso", "minute": "42" },
+        { "team": "home", "player": "Kai Havertz", "minute": "54" }
+      ],
+      "penalties": {
+        "homeScore": 3, "awayScore": 4,
+        "homeTakers": [
+          { "player": "Kai Havertz", "result": "missed" },
+          { "player": "Joshua Kimmich", "result": "scored" },
+          { "player": "Jamal Musiala", "result": "scored" },
+          { "player": "Nick Woltemade", "result": "missed" },
+          { "player": "Nadiem Amiri", "result": "scored" },
+          { "player": "Jonathan Tah", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Maurício", "result": "scored" },
+          { "player": "Gustavo Gómez", "result": "scored" },
+          { "player": "Alan Galarza", "result": "scored" },
+          { "player": "Antonio Sanabria", "result": "missed" },
+          { "player": "Gustavo Balbuena", "result": "missed" },
+          { "player": "Diego Canale", "result": "scored" }
+        ]
+      }
+    },
+    {
+      "stage": "Round of 32", "date": "2026-06-29", "homeTeam": "Netherlands", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 1, "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Cody Gakpo", "minute": "72" },
+        { "team": "away", "player": "Issa Diop", "minute": "90+1" }
+      ],
+      "penalties": {
+        "homeScore": 2, "awayScore": 3,
+        "homeTakers": [
+          { "player": "Teun Koopmeiners", "result": "scored" },
+          { "player": "Ruben Kluivert", "result": "missed" },
+          { "player": "Wout Weghorst", "result": "scored" },
+          { "player": "Jurriën Timber", "result": "missed" },
+          { "player": "Crysencio Summerville", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Ilias Akhomach", "result": "missed" },
+          { "player": "Soufiane Rahimi", "result": "scored" },
+          { "player": "Bilal El Khannouss", "result": "scored" },
+          { "player": "Achraf Hakimi", "result": "missed" },
+          { "player": "Ismael Saibari", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Round of 32", "date": "2026-06-30", "homeTeam": "Ivory Coast", "awayTeam": "Norway", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Antonio Nusa", "minute": "39" },
+      { "team": "home", "player": "Amad Diallo", "minute": "74" },
+      { "team": "away", "player": "Erling Haaland", "minute": "86" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-06-30", "homeTeam": "France", "awayTeam": "Sweden", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "45" },
+      { "team": "home", "player": "Bradley Barcola", "minute": "53" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "74" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-06-30", "homeTeam": "Mexico", "awayTeam": "Ecuador", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Julián Quiñones", "minute": "22" },
+      { "team": "home", "player": "Raúl Jiménez", "minute": "31" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-01", "homeTeam": "England", "awayTeam": "DR Congo", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Brian Cipenga", "minute": "7" },
+      { "team": "home", "player": "Harry Kane", "minute": "75" },
+      { "team": "home", "player": "Harry Kane", "minute": "86" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-01", "homeTeam": "Belgium", "awayTeam": "Senegal", "homeScore": 3, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Habib Diarra", "minute": "25" },
+      { "team": "away", "player": "Ismaïla Sarr", "minute": "51" },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "86" },
+      { "team": "home", "player": "Youri Tielemans", "minute": "89" },
+      { "team": "home", "player": "Youri Tielemans", "minute": "120+5", "penalty": true }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-01", "homeTeam": "United States", "awayTeam": "Bosnia and Herzegovina", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Folarin Balogun", "minute": "45" },
+      { "team": "home", "player": "Malik Tillman", "minute": "82" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-02", "homeTeam": "Spain", "awayTeam": "Austria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mikel Oyarzabal", "minute": "36" },
+      { "team": "home", "player": "Pedro Porro", "minute": "66" },
+      { "team": "home", "player": "Mikel Oyarzabal", "minute": "89" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-02", "homeTeam": "Portugal", "awayTeam": "Croatia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ivan Perišić", "minute": "53" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "68", "penalty": true },
+      { "team": "home", "player": "Gonçalo Ramos", "minute": "90+4" }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-02", "homeTeam": "Switzerland", "awayTeam": "Algeria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Breel Embolo", "minute": "10" },
+      { "team": "home", "player": "Dan Ndoye", "minute": "46" }
+    ] },
+    {
+      "stage": "Round of 32", "date": "2026-07-03", "homeTeam": "Australia", "awayTeam": "Egypt", "homeScore": 1, "awayScore": 1, "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Emam Ashour", "minute": "13" },
+        { "team": "home", "player": "Mohamed Hany", "minute": "55", "ownGoal": true }
+      ],
+      "penalties": {
+        "homeScore": 2, "awayScore": 4,
+        "homeTakers": [
+          { "player": "Harry Souttar", "result": "missed" },
+          { "player": "Jackson Irvine", "result": "scored" },
+          { "player": "Awer Mabil", "result": "scored" },
+          { "player": "Nectarios Triantis", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Mahmoud Saber", "result": "scored" },
+          { "player": "Ahmed Rabia", "result": "scored" },
+          { "player": "Mohamed Salah", "result": "scored" },
+          { "player": "Mohamed Abdelmaguid", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Round of 32", "date": "2026-07-03", "homeTeam": "Argentina", "awayTeam": "Cape Verde", "homeScore": 3, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "29" },
+      { "team": "away", "player": "Deroy Duarte", "minute": "59" },
+      { "team": "home", "player": "Lisandro Martínez", "minute": "92" },
+      { "team": "away", "player": "Sidny Lopes Cabral", "minute": "103" },
+      { "team": "home", "player": "Diney Borges", "minute": "111", "ownGoal": true }
+    ] },
+    { "stage": "Round of 32", "date": "2026-07-03", "homeTeam": "Colombia", "awayTeam": "Ghana", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jhon Arias", "minute": "14" }
+    ] },
+
+    { "stage": "Round of 16", "date": "2026-07-04", "homeTeam": "Canada", "awayTeam": "Morocco", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Azzedine Ounahi", "minute": "50" },
+      { "team": "away", "player": "Azzedine Ounahi", "minute": "82" },
+      { "team": "away", "player": "Soufiane Rahimi", "minute": "90+8" }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-04", "homeTeam": "Paraguay", "awayTeam": "France", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Kylian Mbappé", "minute": "70", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-05", "homeTeam": "Brazil", "awayTeam": "Norway", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Erling Haaland", "minute": "79" },
+      { "team": "away", "player": "Erling Haaland", "minute": "90" },
+      { "team": "home", "player": "Neymar", "minute": "90+10", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-05", "homeTeam": "Mexico", "awayTeam": "England", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jude Bellingham", "minute": "36" },
+      { "team": "away", "player": "Jude Bellingham", "minute": "38" },
+      { "team": "home", "player": "Julián Quiñones", "minute": "42" },
+      { "team": "away", "player": "Harry Kane", "minute": "60", "penalty": true },
+      { "team": "home", "player": "Raúl Jiménez", "minute": "69", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-06", "homeTeam": "Portugal", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mikel Merino", "minute": "90+1" }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-06", "homeTeam": "United States", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Charles De Ketelaere", "minute": "9" },
+      { "team": "home", "player": "Malik Tillman", "minute": "31" },
+      { "team": "away", "player": "Charles De Ketelaere", "minute": "33" },
+      { "team": "away", "player": "Hans Vanaken", "minute": "57" },
+      { "team": "away", "player": "Romelu Lukaku", "minute": "90+3" }
+    ] },
+    { "stage": "Round of 16", "date": "2026-07-07", "homeTeam": "Argentina", "awayTeam": "Egypt", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yasser Ibrahim", "minute": "15" },
+      { "team": "away", "player": "Mostafa Ziko", "minute": "67" },
+      { "team": "home", "player": "Cristian Romero", "minute": "79" },
+      { "team": "home", "player": "Lionel Messi", "minute": "83" },
+      { "team": "home", "player": "Enzo Fernández", "minute": "90+2" }
+    ] },
+    {
+      "stage": "Round of 16", "date": "2026-07-07", "homeTeam": "Switzerland", "awayTeam": "Colombia", "homeScore": 0, "awayScore": 0, "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 4, "awayScore": 3,
+        "homeTakers": [
+          { "player": "Granit Xhaka", "result": "scored" },
+          { "player": "Zeki Amdouni", "result": "scored" },
+          { "player": "Manuel Akanji", "result": "missed" },
+          { "player": "Cedric Itten", "result": "scored" },
+          { "player": "Rubén Vargas", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Juan Fernando Quintero", "result": "scored" },
+          { "player": "Davinson Sánchez", "result": "missed" },
+          { "player": "Jaminton Campaz", "result": "scored" },
+          { "player": "Cucho Hernández", "result": "missed" },
+          { "player": "Luis Díaz", "result": "scored" }
+        ]
+      }
+    },
+
+    { "stage": "Quarter-final", "date": "2026-07-09", "homeTeam": "France", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "60" },
+      { "team": "home", "player": "Ousmane Dembélé", "minute": "66" }
+    ] },
+    { "stage": "Quarter-final", "date": "2026-07-10", "homeTeam": "Spain", "awayTeam": "Belgium", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fabián Ruiz", "minute": "30" },
+      { "team": "away", "player": "Charles De Ketelaere", "minute": "41" },
+      { "team": "home", "player": "Mikel Merino", "minute": "88" }
+    ] },
+    { "stage": "Quarter-final", "date": "2026-07-11", "homeTeam": "Norway", "awayTeam": "England", "homeScore": 1, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Schjelderup", "minute": "36" },
+      { "team": "away", "player": "Jude Bellingham", "minute": "45+2" },
+      { "team": "away", "player": "Jude Bellingham", "minute": "93" }
+    ] },
+    { "stage": "Quarter-final", "date": "2026-07-11", "homeTeam": "Argentina", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Alexis Mac Allister", "minute": "10" },
+      { "team": "away", "player": "Dan Ndoye", "minute": "67" },
+      { "team": "home", "player": "Julián Álvarez", "minute": "112" },
+      { "team": "home", "player": "Lautaro Martínez", "minute": "120+1" }
+    ] },
+
+    { "stage": "Semi-final", "date": "2026-07-14", "homeTeam": "France", "awayTeam": "Spain", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mikel Oyarzabal", "minute": "22", "penalty": true },
+      { "team": "away", "player": "Pedro Porro", "minute": "58" }
+    ] },
+    { "stage": "Semi-final", "date": "2026-07-15", "homeTeam": "England", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Anthony Gordon", "minute": "55" },
+      { "team": "away", "player": "Enzo Fernández", "minute": "85" },
+      { "team": "away", "player": "Lautaro Martínez", "minute": "90+2" }
+    ] },
+
+    { "stage": "Third place", "date": "2026-07-18", "homeTeam": "France", "awayTeam": "England", "homeScore": 4, "awayScore": 6, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Declan Rice", "minute": "3" },
+      { "team": "away", "player": "Ezri Konsa", "minute": "18" },
+      { "team": "away", "player": "Bukayo Saka", "minute": "37" },
+      { "team": "away", "player": "Bukayo Saka", "minute": "45+1" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "48" },
+      { "team": "home", "player": "Bradley Barcola", "minute": "54" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "66" },
+      { "team": "away", "player": "Bukayo Saka", "minute": "87", "penalty": true },
+      { "team": "home", "player": "Ousmane Dembélé", "minute": "90+6" },
+      { "team": "away", "player": "Jude Bellingham", "minute": "90+8" }
+    ] },
+
+    { "stage": "Final", "date": "2026-07-19", "homeTeam": "Spain", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Ferran Torres", "minute": "106" }
+    ] }
+  ]
+}

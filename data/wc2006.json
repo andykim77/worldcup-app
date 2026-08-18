@@ -1,0 +1,426 @@
+{
+  "edition": {
+    "year": 2006,
+    "host": "Germany",
+    "winner": "Italy",
+    "runnerUp": "France",
+    "thirdPlace": "Germany",
+    "fourthPlace": "Portugal",
+    "goldenBall": {
+      "player": "Zinedine Zidane",
+      "nationality": "France",
+      "club": "Real Madrid",
+      "note": "Zidane won the Golden Ball as the tournament's best player despite being sent off in the Final for headbutting Marco Materazzi."
+    },
+    "silverBall": { "player": "Fabio Cannavaro", "nationality": "Italy", "club": "Juventus" },
+    "bronzeBall": { "player": "Andrea Pirlo", "nationality": "Italy", "club": "AC Milan" },
+    "goldenBoot": { "player": "Miroslav Klose", "nationality": "Germany", "club": "Werder Bremen", "goals": 5 },
+    "silverBoot": { "player": "Hernán Crespo", "nationality": "Argentina", "club": "Chelsea", "goals": 3 },
+    "bronzeBoot": { "player": "Ronaldo", "nationality": "Brazil", "club": "Real Madrid", "goals": 3 },
+    "goldenGlove": { "player": "Gianluigi Buffon", "nationality": "Italy", "club": "Juventus", "note": "Awarded as the Lev Yashin Award, the predecessor of the Golden Glove." },
+    "bestYoungPlayer": { "player": "Lukas Podolski", "nationality": "Germany", "club": "1. FC Köln" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "2006-06-09", "homeTeam": "Germany", "awayTeam": "Costa Rica", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Philipp Lahm", "minute": "6" },
+      { "team": "away", "player": "Paulo Wanchope", "minute": "12" },
+      { "team": "home", "player": "Miroslav Klose", "minute": "17" },
+      { "team": "home", "player": "Miroslav Klose", "minute": "61" },
+      { "team": "away", "player": "Paulo Wanchope", "minute": "73" },
+      { "team": "home", "player": "Torsten Frings", "minute": "87" }
+    ] },
+    { "stage": "Group A", "date": "2006-06-09", "homeTeam": "Poland", "awayTeam": "Ecuador", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Carlos Tenorio", "minute": "24" },
+      { "team": "away", "player": "Agustín Delgado", "minute": "80" }
+    ] },
+    { "stage": "Group A", "date": "2006-06-14", "homeTeam": "Germany", "awayTeam": "Poland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oliver Neuville", "minute": "90+1" }
+    ] },
+    { "stage": "Group A", "date": "2006-06-15", "homeTeam": "Ecuador", "awayTeam": "Costa Rica", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Tenorio", "minute": "8" },
+      { "team": "home", "player": "Agustín Delgado", "minute": "54" },
+      { "team": "home", "player": "Iván Kaviedes", "minute": "90+2" }
+    ] },
+    { "stage": "Group A", "date": "2006-06-20", "homeTeam": "Ecuador", "awayTeam": "Germany", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Miroslav Klose", "minute": "4" },
+      { "team": "away", "player": "Miroslav Klose", "minute": "44" },
+      { "team": "away", "player": "Lukas Podolski", "minute": "57" }
+    ] },
+    { "stage": "Group A", "date": "2006-06-20", "homeTeam": "Costa Rica", "awayTeam": "Poland", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ronald Gómez", "minute": "24" },
+      { "team": "away", "player": "Bartosz Bosacki", "minute": "33" },
+      { "team": "away", "player": "Bartosz Bosacki", "minute": "66" }
+    ] },
+
+    { "stage": "Group B", "date": "2006-06-10", "homeTeam": "England", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Gamarra", "minute": "4", "ownGoal": true }
+    ] },
+    { "stage": "Group B", "date": "2006-06-10", "homeTeam": "Trinidad and Tobago", "awayTeam": "Sweden", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group B", "date": "2006-06-15", "homeTeam": "England", "awayTeam": "Trinidad and Tobago", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Peter Crouch", "minute": "83" },
+      { "team": "home", "player": "Steven Gerrard", "minute": "90+1" }
+    ] },
+    { "stage": "Group B", "date": "2006-06-15", "homeTeam": "Sweden", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Freddie Ljungberg", "minute": "89" }
+    ] },
+    { "stage": "Group B", "date": "2006-06-20", "homeTeam": "Sweden", "awayTeam": "England", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Joe Cole", "minute": "34" },
+      { "team": "home", "player": "Marcus Allbäck", "minute": "51" },
+      { "team": "away", "player": "Steven Gerrard", "minute": "85" },
+      { "team": "home", "player": "Henrik Larsson", "minute": "90" }
+    ] },
+    { "stage": "Group B", "date": "2006-06-20", "homeTeam": "Paraguay", "awayTeam": "Trinidad and Tobago", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Brent Sancho", "minute": "25", "ownGoal": true },
+      { "team": "home", "player": "Nelson Cuevas", "minute": "86" }
+    ] },
+
+    { "stage": "Group C", "date": "2006-06-10", "homeTeam": "Argentina", "awayTeam": "Ivory Coast", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hernán Crespo", "minute": "24" },
+      { "team": "home", "player": "Javier Saviola", "minute": "38" },
+      { "team": "away", "player": "Didier Drogba", "minute": "82" }
+    ] },
+    { "stage": "Group C", "date": "2006-06-11", "homeTeam": "Serbia and Montenegro", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Arjen Robben", "minute": "18" }
+    ] },
+    { "stage": "Group C", "date": "2006-06-16", "homeTeam": "Argentina", "awayTeam": "Serbia and Montenegro", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Maxi Rodríguez", "minute": "6" },
+      { "team": "home", "player": "Esteban Cambiasso", "minute": "31" },
+      { "team": "home", "player": "Maxi Rodríguez", "minute": "41" },
+      { "team": "home", "player": "Hernán Crespo", "minute": "78" },
+      { "team": "home", "player": "Carlos Tevez", "minute": "84" },
+      { "team": "home", "player": "Lionel Messi", "minute": "88" }
+    ] },
+    { "stage": "Group C", "date": "2006-06-16", "homeTeam": "Netherlands", "awayTeam": "Ivory Coast", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Robin van Persie", "minute": "23" },
+      { "team": "home", "player": "Ruud van Nistelrooy", "minute": "27" },
+      { "team": "away", "player": "Bakari Koné", "minute": "38" }
+    ] },
+    { "stage": "Group C", "date": "2006-06-21", "homeTeam": "Netherlands", "awayTeam": "Argentina", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "2006-06-21", "homeTeam": "Ivory Coast", "awayTeam": "Serbia and Montenegro", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Nikola Žigić", "minute": "10" },
+      { "team": "away", "player": "Saša Ilić", "minute": "20" },
+      { "team": "home", "player": "Aruna Dindane", "minute": "37", "penalty": true },
+      { "team": "home", "player": "Aruna Dindane", "minute": "67" },
+      { "team": "home", "player": "Bonaventure Kalou", "minute": "86", "penalty": true }
+    ] },
+
+    { "stage": "Group D", "date": "2006-06-11", "homeTeam": "Mexico", "awayTeam": "Iran", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Omar Bravo", "minute": "28" },
+      { "team": "away", "player": "Yahya Golmohammadi", "minute": "36" },
+      { "team": "home", "player": "Omar Bravo", "minute": "76" },
+      { "team": "home", "player": "Sinha", "minute": "79" }
+    ] },
+    { "stage": "Group D", "date": "2006-06-11", "homeTeam": "Angola", "awayTeam": "Portugal", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Pauleta", "minute": "4" }
+    ] },
+    { "stage": "Group D", "date": "2006-06-16", "homeTeam": "Mexico", "awayTeam": "Angola", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group D", "date": "2006-06-17", "homeTeam": "Portugal", "awayTeam": "Iran", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Deco", "minute": "63" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "80", "penalty": true }
+    ] },
+    { "stage": "Group D", "date": "2006-06-21", "homeTeam": "Portugal", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Maniche", "minute": "6" },
+      { "team": "home", "player": "Simão", "minute": "24", "penalty": true },
+      { "team": "away", "player": "Francisco Fonseca", "minute": "29" }
+    ] },
+    { "stage": "Group D", "date": "2006-06-21", "homeTeam": "Iran", "awayTeam": "Angola", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Flávio", "minute": "60" },
+      { "team": "home", "player": "Sohrab Bakhtiarizadeh", "minute": "75" }
+    ] },
+
+    { "stage": "Group E", "date": "2006-06-12", "homeTeam": "United States", "awayTeam": "Czech Republic", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jan Koller", "minute": "5" },
+      { "team": "away", "player": "Tomáš Rosický", "minute": "36" },
+      { "team": "away", "player": "Tomáš Rosický", "minute": "76" }
+    ] },
+    { "stage": "Group E", "date": "2006-06-12", "homeTeam": "Italy", "awayTeam": "Ghana", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andrea Pirlo", "minute": "40" },
+      { "team": "home", "player": "Vincenzo Iaquinta", "minute": "83" }
+    ] },
+    { "stage": "Group E", "date": "2006-06-17", "homeTeam": "Czech Republic", "awayTeam": "Ghana", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Asamoah Gyan", "minute": "2" },
+      { "team": "away", "player": "Sulley Muntari", "minute": "82" }
+    ] },
+    { "stage": "Group E", "date": "2006-06-17", "homeTeam": "Italy", "awayTeam": "United States", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alberto Gilardino", "minute": "22" },
+      { "team": "away", "player": "Cristian Zaccardo", "minute": "27", "ownGoal": true }
+    ] },
+    { "stage": "Group E", "date": "2006-06-22", "homeTeam": "Czech Republic", "awayTeam": "Italy", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Marco Materazzi", "minute": "26" },
+      { "team": "away", "player": "Filippo Inzaghi", "minute": "87" }
+    ] },
+    { "stage": "Group E", "date": "2006-06-22", "homeTeam": "Ghana", "awayTeam": "United States", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Haminu Draman", "minute": "22" },
+      { "team": "away", "player": "Clint Dempsey", "minute": "43" },
+      { "team": "home", "player": "Stephen Appiah", "minute": "45+2", "penalty": true }
+    ] },
+
+    { "stage": "Group F", "date": "2006-06-12", "homeTeam": "Australia", "awayTeam": "Japan", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Shunsuke Nakamura", "minute": "26" },
+      { "team": "home", "player": "Tim Cahill", "minute": "84" },
+      { "team": "home", "player": "Tim Cahill", "minute": "89" },
+      { "team": "home", "player": "John Aloisi", "minute": "90+2" }
+    ] },
+    { "stage": "Group F", "date": "2006-06-13", "homeTeam": "Brazil", "awayTeam": "Croatia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kaká", "minute": "44" }
+    ] },
+    { "stage": "Group F", "date": "2006-06-18", "homeTeam": "Japan", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "2006-06-18", "homeTeam": "Brazil", "awayTeam": "Australia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Adriano", "minute": "49" },
+      { "team": "home", "player": "Fred", "minute": "90" }
+    ] },
+    { "stage": "Group F", "date": "2006-06-22", "homeTeam": "Japan", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Keiji Tamada", "minute": "34" },
+      { "team": "away", "player": "Ronaldo", "minute": "45+1" },
+      { "team": "away", "player": "Juninho Pernambucano", "minute": "53" },
+      { "team": "away", "player": "Gilberto", "minute": "59" },
+      { "team": "away", "player": "Ronaldo", "minute": "81" }
+    ] },
+    { "stage": "Group F", "date": "2006-06-22", "homeTeam": "Croatia", "awayTeam": "Australia", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Darijo Srna", "minute": "2" },
+      { "team": "away", "player": "Craig Moore", "minute": "38", "penalty": true },
+      { "team": "home", "player": "Niko Kovač", "minute": "56" },
+      { "team": "away", "player": "Harry Kewell", "minute": "79" }
+    ] },
+
+    { "stage": "Group G", "date": "2006-06-13", "homeTeam": "South Korea", "awayTeam": "Togo", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Kader", "minute": "31" },
+      { "team": "home", "player": "Lee Chun-soo", "minute": "54" },
+      { "team": "home", "player": "Ahn Jung-hwan", "minute": "72" }
+    ] },
+    { "stage": "Group G", "date": "2006-06-13", "homeTeam": "France", "awayTeam": "Switzerland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group G", "date": "2006-06-18", "homeTeam": "France", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thierry Henry", "minute": "9" },
+      { "team": "away", "player": "Park Ji-sung", "minute": "81" }
+    ] },
+    { "stage": "Group G", "date": "2006-06-19", "homeTeam": "Togo", "awayTeam": "Switzerland", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alexander Frei", "minute": "16" },
+      { "team": "away", "player": "Tranquillo Barnetta", "minute": "88" }
+    ] },
+    { "stage": "Group G", "date": "2006-06-23", "homeTeam": "Togo", "awayTeam": "France", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Patrick Vieira", "minute": "55" },
+      { "team": "away", "player": "Thierry Henry", "minute": "61" }
+    ] },
+    { "stage": "Group G", "date": "2006-06-23", "homeTeam": "Switzerland", "awayTeam": "South Korea", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Philippe Senderos", "minute": "23" },
+      { "team": "home", "player": "Alexander Frei", "minute": "77" }
+    ] },
+
+    { "stage": "Group H", "date": "2006-06-14", "homeTeam": "Spain", "awayTeam": "Ukraine", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Xabi Alonso", "minute": "13" },
+      { "team": "home", "player": "David Villa", "minute": "17" },
+      { "team": "home", "player": "David Villa", "minute": "48", "penalty": true },
+      { "team": "home", "player": "Fernando Torres", "minute": "81" }
+    ] },
+    { "stage": "Group H", "date": "2006-06-14", "homeTeam": "Tunisia", "awayTeam": "Saudi Arabia", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ziad Jaziri", "minute": "23" },
+      { "team": "away", "player": "Yasser Al-Qahtani", "minute": "57" },
+      { "team": "away", "player": "Sami Al-Jaber", "minute": "84" },
+      { "team": "home", "player": "Radhi Jaïdi", "minute": "90+2" }
+    ] },
+    { "stage": "Group H", "date": "2006-06-19", "homeTeam": "Saudi Arabia", "awayTeam": "Ukraine", "homeScore": 0, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Andriy Rusol", "minute": "4" },
+      { "team": "away", "player": "Serhii Rebrov", "minute": "36" },
+      { "team": "away", "player": "Andriy Shevchenko", "minute": "46" },
+      { "team": "away", "player": "Maksym Kalynychenko", "minute": "84" }
+    ] },
+    { "stage": "Group H", "date": "2006-06-19", "homeTeam": "Spain", "awayTeam": "Tunisia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jawhar Mnari", "minute": "8" },
+      { "team": "home", "player": "Raúl", "minute": "71" },
+      { "team": "home", "player": "Fernando Torres", "minute": "76" },
+      { "team": "home", "player": "Fernando Torres", "minute": "90+1", "penalty": true }
+    ] },
+    { "stage": "Group H", "date": "2006-06-23", "homeTeam": "Saudi Arabia", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Juanito", "minute": "36" }
+    ] },
+    { "stage": "Group H", "date": "2006-06-23", "homeTeam": "Ukraine", "awayTeam": "Tunisia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andriy Shevchenko", "minute": "70", "penalty": true }
+    ] },
+
+    { "stage": "Round of 16", "date": "2006-06-24", "homeTeam": "Germany", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lukas Podolski", "minute": "4" },
+      { "team": "home", "player": "Lukas Podolski", "minute": "12" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "2006-06-24",
+      "homeTeam": "Argentina",
+      "awayTeam": "Mexico",
+      "homeScore": 2,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Rafael Márquez", "minute": "5" },
+        { "team": "home", "player": "Hernán Crespo", "minute": "10" },
+        { "team": "home", "player": "Maxi Rodríguez", "minute": "98" }
+      ]
+    },
+    { "stage": "Round of 16", "date": "2006-06-25", "homeTeam": "England", "awayTeam": "Ecuador", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "David Beckham", "minute": "60" }
+    ] },
+    { "stage": "Round of 16", "date": "2006-06-25", "homeTeam": "Portugal", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Maniche", "minute": "23" }
+    ] },
+    { "stage": "Round of 16", "date": "2006-06-26", "homeTeam": "Italy", "awayTeam": "Australia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Francesco Totti", "minute": "90+5", "penalty": true }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "2006-06-26",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Ukraine",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 0,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Marco Streller", "result": "missed" },
+          { "player": "Tranquillo Barnetta", "result": "missed" },
+          { "player": "Ricardo Cabanas", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Andriy Shevchenko", "result": "missed" },
+          { "player": "Artem Milevskiy", "result": "scored" },
+          { "player": "Serhii Rebrov", "result": "scored" },
+          { "player": "Oleg Gusev", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Round of 16", "date": "2006-06-27", "homeTeam": "Brazil", "awayTeam": "Ghana", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ronaldo", "minute": "5" },
+      { "team": "home", "player": "Adriano", "minute": "45+1" },
+      { "team": "home", "player": "Zé Roberto", "minute": "84" }
+    ] },
+    { "stage": "Round of 16", "date": "2006-06-27", "homeTeam": "Spain", "awayTeam": "France", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "David Villa", "minute": "28", "penalty": true },
+      { "team": "away", "player": "Franck Ribéry", "minute": "41" },
+      { "team": "away", "player": "Patrick Vieira", "minute": "83" },
+      { "team": "away", "player": "Zinedine Zidane", "minute": "90+2" }
+    ] },
+
+    {
+      "stage": "Quarter-final",
+      "date": "2006-06-30",
+      "homeTeam": "Germany",
+      "awayTeam": "Argentina",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Roberto Ayala", "minute": "49" },
+        { "team": "home", "player": "Miroslav Klose", "minute": "80" }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "Oliver Neuville", "result": "scored" },
+          { "player": "Michael Ballack", "result": "scored" },
+          { "player": "Lukas Podolski", "result": "scored" },
+          { "player": "Tim Borowski", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Julio Cruz", "result": "scored" },
+          { "player": "Roberto Ayala", "result": "missed" },
+          { "player": "Maxi Rodríguez", "result": "scored" },
+          { "player": "Esteban Cambiasso", "result": "missed" }
+        ]
+      }
+    },
+    { "stage": "Quarter-final", "date": "2006-06-30", "homeTeam": "Italy", "awayTeam": "Ukraine", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gianluca Zambrotta", "minute": "6" },
+      { "team": "home", "player": "Luca Toni", "minute": "59" },
+      { "team": "home", "player": "Luca Toni", "minute": "69" }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "2006-07-01",
+      "homeTeam": "England",
+      "awayTeam": "Portugal",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 1,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Frank Lampard", "result": "missed" },
+          { "player": "Owen Hargreaves", "result": "scored" },
+          { "player": "Steven Gerrard", "result": "missed" },
+          { "player": "Jamie Carragher", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Simão", "result": "scored" },
+          { "player": "Hugo Viana", "result": "missed" },
+          { "player": "Petit", "result": "missed" },
+          { "player": "Hélder Postiga", "result": "scored" },
+          { "player": "Cristiano Ronaldo", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Quarter-final", "date": "2006-07-01", "homeTeam": "Brazil", "awayTeam": "France", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Thierry Henry", "minute": "57" }
+    ] },
+
+    {
+      "stage": "Semi-final",
+      "date": "2006-07-04",
+      "homeTeam": "Germany",
+      "awayTeam": "Italy",
+      "homeScore": 0,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Fabio Grosso", "minute": "119" },
+        { "team": "away", "player": "Alessandro Del Piero", "minute": "121" }
+      ]
+    },
+    { "stage": "Semi-final", "date": "2006-07-05", "homeTeam": "Portugal", "awayTeam": "France", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Zinedine Zidane", "minute": "33", "penalty": true }
+    ] },
+
+    { "stage": "Third place", "date": "2006-07-08", "homeTeam": "Germany", "awayTeam": "Portugal", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bastian Schweinsteiger", "minute": "56" },
+      { "team": "home", "player": "Petit", "minute": "61", "ownGoal": true },
+      { "team": "home", "player": "Bastian Schweinsteiger", "minute": "78" },
+      { "team": "away", "player": "Nuno Gomes", "minute": "88" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "2006-07-09",
+      "homeTeam": "Italy",
+      "awayTeam": "France",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Zinedine Zidane", "minute": "7", "penalty": true },
+        { "team": "home", "player": "Marco Materazzi", "minute": "19" }
+      ],
+      "penalties": {
+        "homeScore": 5,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Andrea Pirlo", "result": "scored" },
+          { "player": "Marco Materazzi", "result": "scored" },
+          { "player": "Daniele De Rossi", "result": "scored" },
+          { "player": "Alessandro Del Piero", "result": "scored" },
+          { "player": "Fabio Grosso", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Sylvain Wiltord", "result": "scored" },
+          { "player": "David Trezeguet", "result": "missed" },
+          { "player": "Éric Abidal", "result": "scored" },
+          { "player": "Willy Sagnol", "result": "scored" }
+        ]
+      }
+    }
+  ]
+}

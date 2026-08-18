@@ -27,6 +27,21 @@ app.get('/api/editions', (req, res) => {
   res.json(editions);
 });
 
+// Aggregate totals across all editions, for the homepage hero strip
+app.get('/api/stats', (req, res) => {
+  const editions = get('SELECT COUNT(*) AS n FROM editions').n;
+  const matches = get('SELECT COUNT(*) AS n FROM matches').n;
+  const goals = get('SELECT COUNT(*) AS n FROM goals WHERE own_goal = 0').n;
+  const countries = get(`
+    SELECT COUNT(DISTINCT team) AS n FROM (
+      SELECT home_team AS team FROM matches
+      UNION
+      SELECT away_team AS team FROM matches
+    )
+  `).n;
+  res.json({ editions, matches, goals, countries });
+});
+
 // Full detail for one edition: info + awards + matches
 app.get('/api/editions/:year', (req, res) => {
   const year = Number(req.params.year);
