@@ -1,0 +1,427 @@
+{
+  "edition": {
+    "year": 2014,
+    "host": "Brazil",
+    "winner": "Germany",
+    "runnerUp": "Argentina",
+    "thirdPlace": "Netherlands",
+    "fourthPlace": "Brazil",
+    "goldenBall": { "player": "Lionel Messi", "nationality": "Argentina", "club": "FC Barcelona" },
+    "silverBall": { "player": "Thomas Müller", "nationality": "Germany", "club": "Bayern Munich" },
+    "bronzeBall": { "player": "Arjen Robben", "nationality": "Netherlands", "club": "Bayern Munich" },
+    "goldenBoot": { "player": "James Rodríguez", "nationality": "Colombia", "club": "AS Monaco", "goals": 6 },
+    "silverBoot": { "player": "Thomas Müller", "nationality": "Germany", "club": "Bayern Munich" },
+    "bronzeBoot": { "player": "Neymar", "nationality": "Brazil", "club": "FC Barcelona" },
+    "goldenGlove": { "player": "Manuel Neuer", "nationality": "Germany", "club": "Bayern Munich" },
+    "bestYoungPlayer": { "player": "Paul Pogba", "nationality": "France", "club": "Juventus" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "2014-06-12", "homeTeam": "Brazil", "awayTeam": "Croatia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Marcelo", "minute": "11", "ownGoal": true },
+      { "team": "home", "player": "Neymar", "minute": "29" },
+      { "team": "home", "player": "Neymar", "minute": "71", "penalty": true },
+      { "team": "home", "player": "Oscar", "minute": "90+1" }
+    ] },
+    { "stage": "Group A", "date": "2014-06-13", "homeTeam": "Mexico", "awayTeam": "Cameroon", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oribe Peralta", "minute": "61" }
+    ] },
+    { "stage": "Group A", "date": "2014-06-17", "homeTeam": "Brazil", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group A", "date": "2014-06-18", "homeTeam": "Cameroon", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ivica Olić", "minute": "11" },
+      { "team": "away", "player": "Ivan Perišić", "minute": "48" },
+      { "team": "away", "player": "Mario Mandžukić", "minute": "61" },
+      { "team": "away", "player": "Mario Mandžukić", "minute": "73" }
+    ] },
+    { "stage": "Group A", "date": "2014-06-23", "homeTeam": "Cameroon", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Neymar", "minute": "17" },
+      { "team": "home", "player": "Joël Matip", "minute": "26" },
+      { "team": "away", "player": "Neymar", "minute": "35" },
+      { "team": "away", "player": "Fred", "minute": "49" },
+      { "team": "away", "player": "Fernandinho", "minute": "84" }
+    ] },
+    { "stage": "Group A", "date": "2014-06-23", "homeTeam": "Croatia", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rafael Márquez", "minute": "71" },
+      { "team": "away", "player": "Andrés Guardado", "minute": "74" },
+      { "team": "away", "player": "Javier Hernández", "minute": "80" },
+      { "team": "home", "player": "Ivan Perišić", "minute": "89" }
+    ] },
+
+    { "stage": "Group B", "date": "2014-06-13", "homeTeam": "Spain", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Xabi Alonso", "minute": "27", "penalty": true },
+      { "team": "away", "player": "Robin van Persie", "minute": "44" },
+      { "team": "away", "player": "Arjen Robben", "minute": "53" },
+      { "team": "away", "player": "Stefan de Vrij", "minute": "64" },
+      { "team": "away", "player": "Robin van Persie", "minute": "72" },
+      { "team": "away", "player": "Arjen Robben", "minute": "80" }
+    ] },
+    { "stage": "Group B", "date": "2014-06-13", "homeTeam": "Chile", "awayTeam": "Australia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alexis Sánchez", "minute": "12" },
+      { "team": "home", "player": "Jorge Valdivia", "minute": "14" },
+      { "team": "away", "player": "Tim Cahill", "minute": "35" },
+      { "team": "home", "player": "Jean Beausejour", "minute": "90+2" }
+    ] },
+    { "stage": "Group B", "date": "2014-06-18", "homeTeam": "Australia", "awayTeam": "Netherlands", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Arjen Robben", "minute": "20" },
+      { "team": "home", "player": "Tim Cahill", "minute": "21" },
+      { "team": "home", "player": "Mile Jedinak", "minute": "54", "penalty": true },
+      { "team": "away", "player": "Robin van Persie", "minute": "58" },
+      { "team": "away", "player": "Memphis Depay", "minute": "68" }
+    ] },
+    { "stage": "Group B", "date": "2014-06-18", "homeTeam": "Spain", "awayTeam": "Chile", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Eduardo Vargas", "minute": "20" },
+      { "team": "away", "player": "Charles Aránguiz", "minute": "43" }
+    ] },
+    { "stage": "Group B", "date": "2014-06-23", "homeTeam": "Australia", "awayTeam": "Spain", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "David Villa", "minute": "36" },
+      { "team": "away", "player": "Fernando Torres", "minute": "69" },
+      { "team": "away", "player": "Juan Mata", "minute": "82" }
+    ] },
+    { "stage": "Group B", "date": "2014-06-23", "homeTeam": "Netherlands", "awayTeam": "Chile", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Leroy Fer", "minute": "77" },
+      { "team": "home", "player": "Memphis Depay", "minute": "90+2" }
+    ] },
+
+    { "stage": "Group C", "date": "2014-06-14", "homeTeam": "Colombia", "awayTeam": "Greece", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pablo Armero", "minute": "5" },
+      { "team": "home", "player": "Teófilo Gutiérrez", "minute": "58" },
+      { "team": "home", "player": "James Rodríguez", "minute": "90+3" }
+    ] },
+    { "stage": "Group C", "date": "2014-06-14", "homeTeam": "Ivory Coast", "awayTeam": "Japan", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Keisuke Honda", "minute": "16" },
+      { "team": "home", "player": "Wilfried Bony", "minute": "64" },
+      { "team": "home", "player": "Gervinho", "minute": "66" }
+    ] },
+    { "stage": "Group C", "date": "2014-06-19", "homeTeam": "Colombia", "awayTeam": "Ivory Coast", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "James Rodríguez", "minute": "64" },
+      { "team": "home", "player": "Juan Fernando Quintero", "minute": "70" },
+      { "team": "away", "player": "Gervinho", "minute": "73" }
+    ] },
+    { "stage": "Group C", "date": "2014-06-19", "homeTeam": "Japan", "awayTeam": "Greece", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "2014-06-24", "homeTeam": "Japan", "awayTeam": "Colombia", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Juan Cuadrado", "minute": "17", "penalty": true },
+      { "team": "home", "player": "Shinji Okazaki", "minute": "45+1" },
+      { "team": "away", "player": "Jackson Martínez", "minute": "55" },
+      { "team": "away", "player": "Jackson Martínez", "minute": "82" },
+      { "team": "away", "player": "James Rodríguez", "minute": "90" }
+    ] },
+    { "stage": "Group C", "date": "2014-06-24", "homeTeam": "Greece", "awayTeam": "Ivory Coast", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Samaris", "minute": "42" },
+      { "team": "away", "player": "Wilfried Bony", "minute": "74" },
+      { "team": "home", "player": "Georgios Samaras", "minute": "90+3", "penalty": true }
+    ] },
+
+    { "stage": "Group D", "date": "2014-06-14", "homeTeam": "Uruguay", "awayTeam": "Costa Rica", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Edinson Cavani", "minute": "24", "penalty": true },
+      { "team": "away", "player": "Joel Campbell", "minute": "54" },
+      { "team": "away", "player": "Óscar Duarte", "minute": "57" },
+      { "team": "away", "player": "Marco Ureña", "minute": "84" }
+    ] },
+    { "stage": "Group D", "date": "2014-06-14", "homeTeam": "England", "awayTeam": "Italy", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Claudio Marchisio", "minute": "35" },
+      { "team": "home", "player": "Daniel Sturridge", "minute": "37" },
+      { "team": "away", "player": "Mario Balotelli", "minute": "50" }
+    ] },
+    { "stage": "Group D", "date": "2014-06-19", "homeTeam": "Uruguay", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Suárez", "minute": "39" },
+      { "team": "away", "player": "Wayne Rooney", "minute": "75" },
+      { "team": "home", "player": "Luis Suárez", "minute": "85" }
+    ] },
+    { "stage": "Group D", "date": "2014-06-20", "homeTeam": "Italy", "awayTeam": "Costa Rica", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Bryan Ruiz", "minute": "44" }
+    ] },
+    { "stage": "Group D", "date": "2014-06-24", "homeTeam": "Italy", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Diego Godín", "minute": "81" }
+    ] },
+    { "stage": "Group D", "date": "2014-06-24", "homeTeam": "Costa Rica", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group E", "date": "2014-06-15", "homeTeam": "Switzerland", "awayTeam": "Ecuador", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Enner Valencia", "minute": "22" },
+      { "team": "home", "player": "Admir Mehmedi", "minute": "48" },
+      { "team": "home", "player": "Haris Seferović", "minute": "90+3" }
+    ] },
+    { "stage": "Group E", "date": "2014-06-15", "homeTeam": "France", "awayTeam": "Honduras", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Karim Benzema", "minute": "45", "penalty": true },
+      { "team": "home", "player": "Noel Valladares", "minute": "48", "ownGoal": true },
+      { "team": "home", "player": "Karim Benzema", "minute": "72" }
+    ] },
+    { "stage": "Group E", "date": "2014-06-20", "homeTeam": "Switzerland", "awayTeam": "France", "homeScore": 2, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Olivier Giroud", "minute": "17" },
+      { "team": "away", "player": "Blaise Matuidi", "minute": "18" },
+      { "team": "away", "player": "Mathieu Valbuena", "minute": "40" },
+      { "team": "away", "player": "Karim Benzema", "minute": "67" },
+      { "team": "away", "player": "Moussa Sissoko", "minute": "73" },
+      { "team": "home", "player": "Blerim Džemaili", "minute": "81" },
+      { "team": "home", "player": "Granit Xhaka", "minute": "87" }
+    ] },
+    { "stage": "Group E", "date": "2014-06-20", "homeTeam": "Honduras", "awayTeam": "Ecuador", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlo Costly", "minute": "31" },
+      { "team": "away", "player": "Enner Valencia", "minute": "34" },
+      { "team": "away", "player": "Enner Valencia", "minute": "65" }
+    ] },
+    { "stage": "Group E", "date": "2014-06-25", "homeTeam": "Honduras", "awayTeam": "Switzerland", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Xherdan Shaqiri", "minute": "6" },
+      { "team": "away", "player": "Xherdan Shaqiri", "minute": "31" },
+      { "team": "away", "player": "Xherdan Shaqiri", "minute": "71" }
+    ] },
+    { "stage": "Group E", "date": "2014-06-25", "homeTeam": "Ecuador", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group F", "date": "2014-06-15", "homeTeam": "Argentina", "awayTeam": "Bosnia and Herzegovina", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sead Kolašinac", "minute": "3", "ownGoal": true },
+      { "team": "home", "player": "Lionel Messi", "minute": "65" },
+      { "team": "away", "player": "Vedad Ibišević", "minute": "85" }
+    ] },
+    { "stage": "Group F", "date": "2014-06-16", "homeTeam": "Iran", "awayTeam": "Nigeria", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "2014-06-21", "homeTeam": "Argentina", "awayTeam": "Iran", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "90+1" }
+    ] },
+    { "stage": "Group F", "date": "2014-06-21", "homeTeam": "Nigeria", "awayTeam": "Bosnia and Herzegovina", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Peter Odemwingie", "minute": "29" }
+    ] },
+    { "stage": "Group F", "date": "2014-06-25", "homeTeam": "Nigeria", "awayTeam": "Argentina", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Lionel Messi", "minute": "3" },
+      { "team": "home", "player": "Ahmed Musa", "minute": "4" },
+      { "team": "away", "player": "Lionel Messi", "minute": "45+1" },
+      { "team": "home", "player": "Ahmed Musa", "minute": "47" },
+      { "team": "away", "player": "Marcos Rojo", "minute": "50" }
+    ] },
+    { "stage": "Group F", "date": "2014-06-25", "homeTeam": "Bosnia and Herzegovina", "awayTeam": "Iran", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Edin Džeko", "minute": "23" },
+      { "team": "home", "player": "Miralem Pjanić", "minute": "59" },
+      { "team": "away", "player": "Reza Ghoochannejhad", "minute": "82" },
+      { "team": "home", "player": "Avdija Vršajević", "minute": "83" }
+    ] },
+
+    { "stage": "Group G", "date": "2014-06-16", "homeTeam": "Germany", "awayTeam": "Portugal", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thomas Müller", "minute": "12", "penalty": true },
+      { "team": "home", "player": "Mats Hummels", "minute": "32" },
+      { "team": "home", "player": "Thomas Müller", "minute": "45+1" },
+      { "team": "home", "player": "Thomas Müller", "minute": "78" }
+    ] },
+    { "stage": "Group G", "date": "2014-06-16", "homeTeam": "Ghana", "awayTeam": "United States", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Clint Dempsey", "minute": "1" },
+      { "team": "home", "player": "André Ayew", "minute": "82" },
+      { "team": "away", "player": "John Brooks", "minute": "86" }
+    ] },
+    { "stage": "Group G", "date": "2014-06-21", "homeTeam": "Germany", "awayTeam": "Ghana", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mario Götze", "minute": "51" },
+      { "team": "away", "player": "André Ayew", "minute": "54" },
+      { "team": "away", "player": "Asamoah Gyan", "minute": "63" },
+      { "team": "home", "player": "Miroslav Klose", "minute": "71" }
+    ] },
+    { "stage": "Group G", "date": "2014-06-22", "homeTeam": "United States", "awayTeam": "Portugal", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Nani", "minute": "5" },
+      { "team": "home", "player": "Jermaine Jones", "minute": "64" },
+      { "team": "home", "player": "Clint Dempsey", "minute": "81" },
+      { "team": "away", "player": "Silvestre Varela", "minute": "90+5" }
+    ] },
+    { "stage": "Group G", "date": "2014-06-26", "homeTeam": "United States", "awayTeam": "Germany", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Thomas Müller", "minute": "55" }
+    ] },
+    { "stage": "Group G", "date": "2014-06-26", "homeTeam": "Portugal", "awayTeam": "Ghana", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "John Boye", "minute": "31", "ownGoal": true },
+      { "team": "away", "player": "Asamoah Gyan", "minute": "57" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "80" }
+    ] },
+
+    { "stage": "Group H", "date": "2014-06-17", "homeTeam": "Belgium", "awayTeam": "Algeria", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Sofiane Feghouli", "minute": "25", "penalty": true },
+      { "team": "home", "player": "Marouane Fellaini", "minute": "70" },
+      { "team": "home", "player": "Dries Mertens", "minute": "80" }
+    ] },
+    { "stage": "Group H", "date": "2014-06-17", "homeTeam": "Russia", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Lee Keun-ho", "minute": "68" },
+      { "team": "home", "player": "Aleksandr Kerzhakov", "minute": "74" }
+    ] },
+    { "stage": "Group H", "date": "2014-06-22", "homeTeam": "Belgium", "awayTeam": "Russia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Divock Origi", "minute": "88" }
+    ] },
+    { "stage": "Group H", "date": "2014-06-22", "homeTeam": "South Korea", "awayTeam": "Algeria", "homeScore": 2, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Islam Slimani", "minute": "26" },
+      { "team": "away", "player": "Rafik Halliche", "minute": "28" },
+      { "team": "away", "player": "Abdelmoumene Djabou", "minute": "38" },
+      { "team": "home", "player": "Son Heung-min", "minute": "50" },
+      { "team": "away", "player": "Yacine Brahimi", "minute": "62" },
+      { "team": "home", "player": "Koo Ja-cheol", "minute": "72" }
+    ] },
+    { "stage": "Group H", "date": "2014-06-26", "homeTeam": "South Korea", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jan Vertonghen", "minute": "78" }
+    ] },
+    { "stage": "Group H", "date": "2014-06-26", "homeTeam": "Algeria", "awayTeam": "Russia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Aleksandr Kokorin", "minute": "6" },
+      { "team": "home", "player": "Islam Slimani", "minute": "60" }
+    ] },
+
+    {
+      "stage": "Round of 16",
+      "date": "2014-06-28",
+      "homeTeam": "Brazil",
+      "awayTeam": "Chile",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "David Luiz", "result": "scored" },
+          { "player": "Willian", "result": "missed" },
+          { "player": "Marcelo", "result": "scored" },
+          { "player": "Hulk", "result": "missed" },
+          { "player": "Neymar", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Mauricio Pinilla", "result": "missed" },
+          { "player": "Alexis Sánchez", "result": "missed" },
+          { "player": "Charles Aránguiz", "result": "scored" },
+          { "player": "Gonzalo Jara", "result": "missed" }
+        ]
+      },
+      "goals": [
+        { "team": "home", "player": "David Luiz", "minute": "18" },
+        { "team": "away", "player": "Alexis Sánchez", "minute": "32" }
+      ]
+    },
+    { "stage": "Round of 16", "date": "2014-06-28", "homeTeam": "Colombia", "awayTeam": "Uruguay", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "James Rodríguez", "minute": "28" },
+      { "team": "home", "player": "James Rodríguez", "minute": "50" }
+    ] },
+    { "stage": "Round of 16", "date": "2014-06-29", "homeTeam": "Netherlands", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Giovani dos Santos", "minute": "48" },
+      { "team": "home", "player": "Wesley Sneijder", "minute": "88" },
+      { "team": "home", "player": "Klaas-Jan Huntelaar", "minute": "90+4", "penalty": true }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "2014-06-29",
+      "homeTeam": "Costa Rica",
+      "awayTeam": "Greece",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": {
+        "homeScore": 5,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Celso Borges", "result": "scored" },
+          { "player": "Bryan Ruiz", "result": "scored" },
+          { "player": "Giancarlo González", "result": "scored" },
+          { "player": "Joel Campbell", "result": "scored" },
+          { "player": "Michael Umaña", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Konstantinos Mitroglou", "result": "scored" },
+          { "player": "Lazaros Christodoulopoulos", "result": "scored" },
+          { "player": "José Holebas", "result": "scored" },
+          { "player": "Theofanis Gekas", "result": "missed" }
+        ]
+      },
+      "goals": [
+        { "team": "home", "player": "Bryan Ruiz", "minute": "52" },
+        { "team": "away", "player": "Sokratis Papastathopoulos", "minute": "90+1" }
+      ]
+    },
+    { "stage": "Round of 16", "date": "2014-06-30", "homeTeam": "France", "awayTeam": "Nigeria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paul Pogba", "minute": "79" },
+      { "team": "home", "player": "Joseph Yobo", "minute": "90+1", "ownGoal": true }
+    ] },
+    { "stage": "Round of 16", "date": "2014-06-30", "homeTeam": "Germany", "awayTeam": "Algeria", "homeScore": 2, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "André Schürrle", "minute": "92" },
+      { "team": "home", "player": "Mesut Özil", "minute": "120" },
+      { "team": "away", "player": "Abdelmoumene Djabou", "minute": "120+1" }
+    ] },
+    { "stage": "Round of 16", "date": "2014-07-01", "homeTeam": "Argentina", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Ángel Di María", "minute": "118" }
+    ] },
+    { "stage": "Round of 16", "date": "2014-07-01", "homeTeam": "Belgium", "awayTeam": "United States", "homeScore": 2, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Kevin De Bruyne", "minute": "93" },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "105" },
+      { "team": "away", "player": "Julian Green", "minute": "107" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "2014-07-04", "homeTeam": "France", "awayTeam": "Germany", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mats Hummels", "minute": "13" }
+    ] },
+    { "stage": "Quarter-final", "date": "2014-07-04", "homeTeam": "Brazil", "awayTeam": "Colombia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thiago Silva", "minute": "7" },
+      { "team": "home", "player": "David Luiz", "minute": "69" },
+      { "team": "away", "player": "James Rodríguez", "minute": "80", "penalty": true }
+    ] },
+    { "stage": "Quarter-final", "date": "2014-07-05", "homeTeam": "Argentina", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gonzalo Higuaín", "minute": "8" }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "2014-07-05",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Costa Rica",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Robin van Persie", "result": "scored" },
+          { "player": "Arjen Robben", "result": "scored" },
+          { "player": "Wesley Sneijder", "result": "scored" },
+          { "player": "Dirk Kuyt", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Celso Borges", "result": "scored" },
+          { "player": "Bryan Ruiz", "result": "missed" },
+          { "player": "Giancarlo González", "result": "scored" },
+          { "player": "Cristian Bolaños", "result": "scored" },
+          { "player": "Michael Umaña", "result": "missed" }
+        ]
+      },
+      "goals": []
+    },
+
+    { "stage": "Semi-final", "date": "2014-07-08", "homeTeam": "Brazil", "awayTeam": "Germany", "homeScore": 1, "awayScore": 7, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Thomas Müller", "minute": "11" },
+      { "team": "away", "player": "Miroslav Klose", "minute": "23" },
+      { "team": "away", "player": "Toni Kroos", "minute": "24" },
+      { "team": "away", "player": "Toni Kroos", "minute": "26" },
+      { "team": "away", "player": "Sami Khedira", "minute": "29" },
+      { "team": "away", "player": "André Schürrle", "minute": "69" },
+      { "team": "away", "player": "André Schürrle", "minute": "79" },
+      { "team": "home", "player": "Oscar", "minute": "90" }
+    ] },
+    {
+      "stage": "Semi-final",
+      "date": "2014-07-09",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Argentina",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "penalties": {
+        "homeScore": 2,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Ron Vlaar", "result": "missed" },
+          { "player": "Arjen Robben", "result": "scored" },
+          { "player": "Wesley Sneijder", "result": "missed" },
+          { "player": "Dirk Kuyt", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Lionel Messi", "result": "scored" },
+          { "player": "Ezequiel Garay", "result": "scored" },
+          { "player": "Sergio Agüero", "result": "scored" },
+          { "player": "Maxi Rodríguez", "result": "scored" }
+        ]
+      },
+      "goals": []
+    },
+
+    { "stage": "Third place", "date": "2014-07-12", "homeTeam": "Brazil", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Robin van Persie", "minute": "3", "penalty": true },
+      { "team": "away", "player": "Daley Blind", "minute": "17" },
+      { "team": "away", "player": "Georginio Wijnaldum", "minute": "90+1" }
+    ] },
+
+    { "stage": "Final", "date": "2014-07-13", "homeTeam": "Germany", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Mario Götze", "minute": "113" }
+    ] }
+  ]
+}

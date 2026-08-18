@@ -1,0 +1,456 @@
+{
+  "edition": {
+    "year": 2022,
+    "host": "Qatar",
+    "winner": "Argentina",
+    "runnerUp": "France",
+    "thirdPlace": "Croatia",
+    "fourthPlace": "Morocco",
+    "goldenBall": {
+      "player": "Lionel Messi",
+      "nationality": "Argentina",
+      "club": "Paris Saint-Germain",
+      "note": "Messi won both the World Cup (as champion with Argentina) and the Golden Ball (best player of the tournament) in this edition."
+    },
+    "silverBall": { "player": "Kylian Mbappé", "nationality": "France", "club": "Paris Saint-Germain" },
+    "bronzeBall": { "player": "Luka Modrić", "nationality": "Croatia", "club": "Real Madrid" },
+    "goldenBoot": { "player": "Kylian Mbappé", "nationality": "France", "club": "Paris Saint-Germain", "goals": 8 },
+    "silverBoot": { "player": "Lionel Messi", "nationality": "Argentina", "club": "Paris Saint-Germain" },
+    "bronzeBoot": { "player": "Olivier Giroud", "nationality": "France", "club": "AC Milan" },
+    "goldenGlove": { "player": "Emiliano Martínez", "nationality": "Argentina", "club": "Aston Villa" },
+    "bestYoungPlayer": { "player": "Enzo Fernández", "nationality": "Argentina", "club": "Benfica" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "2022-11-20", "homeTeam": "Qatar", "awayTeam": "Ecuador", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Enner Valencia", "minute": "16", "penalty": true },
+      { "team": "away", "player": "Enner Valencia", "minute": "31" }
+    ] },
+    { "stage": "Group A", "date": "2022-11-21", "homeTeam": "Senegal", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Cody Gakpo", "minute": "84" },
+      { "team": "away", "player": "Davy Klaassen", "minute": "90+9" }
+    ] },
+    { "stage": "Group A", "date": "2022-11-25", "homeTeam": "Qatar", "awayTeam": "Senegal", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Boulaye Dia", "minute": "41" },
+      { "team": "away", "player": "Famara Diédhiou", "minute": "48" },
+      { "team": "home", "player": "Mohammed Muntari", "minute": "78" },
+      { "team": "away", "player": "Bamba Dieng", "minute": "84" }
+    ] },
+    { "stage": "Group A", "date": "2022-11-25", "homeTeam": "Netherlands", "awayTeam": "Ecuador", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cody Gakpo", "minute": "6" },
+      { "team": "away", "player": "Enner Valencia", "minute": "49" }
+    ] },
+    { "stage": "Group A", "date": "2022-11-29", "homeTeam": "Ecuador", "awayTeam": "Senegal", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ismaïla Sarr", "minute": "44", "penalty": true },
+      { "team": "home", "player": "Moisés Caicedo", "minute": "67" },
+      { "team": "away", "player": "Kalidou Koulibaly", "minute": "70" }
+    ] },
+    { "stage": "Group A", "date": "2022-11-29", "homeTeam": "Netherlands", "awayTeam": "Qatar", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cody Gakpo", "minute": "26" },
+      { "team": "home", "player": "Frenkie de Jong", "minute": "49" }
+    ] },
+
+    { "stage": "Group B", "date": "2022-11-21", "homeTeam": "England", "awayTeam": "Iran", "homeScore": 6, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jude Bellingham", "minute": "35" },
+      { "team": "home", "player": "Bukayo Saka", "minute": "43" },
+      { "team": "home", "player": "Raheem Sterling", "minute": "45+1" },
+      { "team": "home", "player": "Bukayo Saka", "minute": "62" },
+      { "team": "away", "player": "Mehdi Taremi", "minute": "65" },
+      { "team": "home", "player": "Marcus Rashford", "minute": "71" },
+      { "team": "home", "player": "Jack Grealish", "minute": "90" },
+      { "team": "away", "player": "Mehdi Taremi", "minute": "90+13", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "2022-11-21", "homeTeam": "United States", "awayTeam": "Wales", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Timothy Weah", "minute": "36" },
+      { "team": "away", "player": "Gareth Bale", "minute": "82", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "2022-11-25", "homeTeam": "Wales", "awayTeam": "Iran", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rouzbeh Cheshmi", "minute": "90+8" },
+      { "team": "away", "player": "Ramin Rezaeian", "minute": "90+11" }
+    ] },
+    { "stage": "Group B", "date": "2022-11-25", "homeTeam": "England", "awayTeam": "United States", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group B", "date": "2022-11-29", "homeTeam": "Wales", "awayTeam": "England", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Marcus Rashford", "minute": "50" },
+      { "team": "away", "player": "Phil Foden", "minute": "51" },
+      { "team": "away", "player": "Marcus Rashford", "minute": "68" }
+    ] },
+    { "stage": "Group B", "date": "2022-11-29", "homeTeam": "Iran", "awayTeam": "United States", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Christian Pulisic", "minute": "38" }
+    ] },
+
+    { "stage": "Group C", "date": "2022-11-22", "homeTeam": "Argentina", "awayTeam": "Saudi Arabia", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "10", "penalty": true },
+      { "team": "away", "player": "Saleh Al-Shehri", "minute": "48" },
+      { "team": "away", "player": "Salem Al-Dawsari", "minute": "53" }
+    ] },
+    { "stage": "Group C", "date": "2022-11-22", "homeTeam": "Mexico", "awayTeam": "Poland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "2022-11-26", "homeTeam": "Poland", "awayTeam": "Saudi Arabia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Piotr Zieliński", "minute": "39" },
+      { "team": "home", "player": "Robert Lewandowski", "minute": "82" }
+    ] },
+    { "stage": "Group C", "date": "2022-11-26", "homeTeam": "Argentina", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "64" },
+      { "team": "home", "player": "Enzo Fernández", "minute": "87" }
+    ] },
+    { "stage": "Group C", "date": "2022-11-30", "homeTeam": "Poland", "awayTeam": "Argentina", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alexis Mac Allister", "minute": "46" },
+      { "team": "away", "player": "Julián Álvarez", "minute": "67" }
+    ] },
+    { "stage": "Group C", "date": "2022-11-30", "homeTeam": "Saudi Arabia", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Henry Martín", "minute": "47" },
+      { "team": "away", "player": "Luis Chávez", "minute": "52" },
+      { "team": "home", "player": "Salem Al-Dawsari", "minute": "90+5" }
+    ] },
+
+    { "stage": "Group D", "date": "2022-11-22", "homeTeam": "Denmark", "awayTeam": "Tunisia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group D", "date": "2022-11-22", "homeTeam": "France", "awayTeam": "Australia", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Craig Goodwin", "minute": "9" },
+      { "team": "home", "player": "Adrien Rabiot", "minute": "27" },
+      { "team": "home", "player": "Olivier Giroud", "minute": "32" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "68" },
+      { "team": "home", "player": "Olivier Giroud", "minute": "71" }
+    ] },
+    { "stage": "Group D", "date": "2022-11-26", "homeTeam": "Tunisia", "awayTeam": "Australia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mitch Duke", "minute": "23" }
+    ] },
+    { "stage": "Group D", "date": "2022-11-26", "homeTeam": "France", "awayTeam": "Denmark", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "61" },
+      { "team": "away", "player": "Andreas Christensen", "minute": "68" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "86" }
+    ] },
+    { "stage": "Group D", "date": "2022-11-30", "homeTeam": "Australia", "awayTeam": "Denmark", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mathew Leckie", "minute": "60" }
+    ] },
+    { "stage": "Group D", "date": "2022-11-30", "homeTeam": "Tunisia", "awayTeam": "France", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Wahbi Khazri", "minute": "58" }
+    ] },
+
+    { "stage": "Group E", "date": "2022-11-23", "homeTeam": "Germany", "awayTeam": "Japan", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "İlkay Gündoğan", "minute": "33", "penalty": true },
+      { "team": "away", "player": "Ritsu Dōan", "minute": "75" },
+      { "team": "away", "player": "Takuma Asano", "minute": "83" }
+    ] },
+    { "stage": "Group E", "date": "2022-11-23", "homeTeam": "Spain", "awayTeam": "Costa Rica", "homeScore": 7, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dani Olmo", "minute": "11" },
+      { "team": "home", "player": "Marco Asensio", "minute": "21" },
+      { "team": "home", "player": "Ferran Torres", "minute": "31", "penalty": true },
+      { "team": "home", "player": "Ferran Torres", "minute": "54" },
+      { "team": "home", "player": "Gavi", "minute": "74" },
+      { "team": "home", "player": "Carlos Soler", "minute": "90" },
+      { "team": "home", "player": "Álvaro Morata", "minute": "90+2" }
+    ] },
+    { "stage": "Group E", "date": "2022-11-27", "homeTeam": "Japan", "awayTeam": "Costa Rica", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Keysher Fuller", "minute": "81" }
+    ] },
+    { "stage": "Group E", "date": "2022-11-27", "homeTeam": "Spain", "awayTeam": "Germany", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Álvaro Morata", "minute": "62" },
+      { "team": "away", "player": "Niclas Füllkrug", "minute": "83" }
+    ] },
+    { "stage": "Group E", "date": "2022-12-01", "homeTeam": "Japan", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Álvaro Morata", "minute": "11" },
+      { "team": "home", "player": "Ritsu Dōan", "minute": "48" },
+      { "team": "home", "player": "Ao Tanaka", "minute": "51" }
+    ] },
+    { "stage": "Group E", "date": "2022-12-01", "homeTeam": "Costa Rica", "awayTeam": "Germany", "homeScore": 2, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Serge Gnabry", "minute": "10" },
+      { "team": "home", "player": "Yeltsin Tejeda", "minute": "58" },
+      { "team": "home", "player": "Juan Pablo Vargas", "minute": "70" },
+      { "team": "away", "player": "Kai Havertz", "minute": "73" },
+      { "team": "away", "player": "Kai Havertz", "minute": "85" },
+      { "team": "away", "player": "Niclas Füllkrug", "minute": "89" }
+    ] },
+
+    { "stage": "Group F", "date": "2022-11-23", "homeTeam": "Morocco", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "2022-11-23", "homeTeam": "Belgium", "awayTeam": "Canada", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Michy Batshuayi", "minute": "44" }
+    ] },
+    { "stage": "Group F", "date": "2022-11-27", "homeTeam": "Belgium", "awayTeam": "Morocco", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Romain Saïss", "minute": "73" },
+      { "team": "away", "player": "Zakaria Aboukhlal", "minute": "90+2" }
+    ] },
+    { "stage": "Group F", "date": "2022-11-27", "homeTeam": "Croatia", "awayTeam": "Canada", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alphonso Davies", "minute": "2" },
+      { "team": "home", "player": "Andrej Kramarić", "minute": "36" },
+      { "team": "home", "player": "Marko Livaja", "minute": "44" },
+      { "team": "home", "player": "Andrej Kramarić", "minute": "70" },
+      { "team": "home", "player": "Lovro Majer", "minute": "90+4" }
+    ] },
+    { "stage": "Group F", "date": "2022-12-01", "homeTeam": "Croatia", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "2022-12-01", "homeTeam": "Canada", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Hakim Ziyech", "minute": "4" },
+      { "team": "away", "player": "Youssef En-Nesyri", "minute": "23" },
+      { "team": "home", "player": "Nayef Aguerd", "minute": "40", "ownGoal": true }
+    ] },
+
+    { "stage": "Group G", "date": "2022-11-24", "homeTeam": "Switzerland", "awayTeam": "Cameroon", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Breel Embolo", "minute": "48" }
+    ] },
+    { "stage": "Group G", "date": "2022-11-24", "homeTeam": "Brazil", "awayTeam": "Serbia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Richarlison", "minute": "62" },
+      { "team": "home", "player": "Richarlison", "minute": "73" }
+    ] },
+    { "stage": "Group G", "date": "2022-11-28", "homeTeam": "Cameroon", "awayTeam": "Serbia", "homeScore": 3, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jean-Charles Castelletto", "minute": "29" },
+      { "team": "away", "player": "Strahinja Pavlović", "minute": "45+1" },
+      { "team": "away", "player": "Sergej Milinković-Savić", "minute": "45+3" },
+      { "team": "away", "player": "Aleksandar Mitrović", "minute": "53" },
+      { "team": "home", "player": "Vincent Aboubakar", "minute": "63" },
+      { "team": "home", "player": "Eric Maxim Choupo-Moting", "minute": "66" }
+    ] },
+    { "stage": "Group G", "date": "2022-11-28", "homeTeam": "Brazil", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Casemiro", "minute": "83" }
+    ] },
+    { "stage": "Group G", "date": "2022-12-02", "homeTeam": "Serbia", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Xherdan Shaqiri", "minute": "20" },
+      { "team": "home", "player": "Aleksandar Mitrović", "minute": "26" },
+      { "team": "home", "player": "Dušan Vlahović", "minute": "35" },
+      { "team": "away", "player": "Breel Embolo", "minute": "44" },
+      { "team": "away", "player": "Remo Freuler", "minute": "48" }
+    ] },
+    { "stage": "Group G", "date": "2022-12-02", "homeTeam": "Cameroon", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Vincent Aboubakar", "minute": "90+2" }
+    ] },
+
+    { "stage": "Group H", "date": "2022-11-24", "homeTeam": "Uruguay", "awayTeam": "South Korea", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group H", "date": "2022-11-24", "homeTeam": "Portugal", "awayTeam": "Ghana", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "65", "penalty": true },
+      { "team": "away", "player": "André Ayew", "minute": "73" },
+      { "team": "home", "player": "João Félix", "minute": "78" },
+      { "team": "home", "player": "Rafael Leão", "minute": "80" },
+      { "team": "away", "player": "Osman Bukari", "minute": "89" }
+    ] },
+    { "stage": "Group H", "date": "2022-11-28", "homeTeam": "South Korea", "awayTeam": "Ghana", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mohammed Salisu", "minute": "24" },
+      { "team": "away", "player": "Mohammed Kudus", "minute": "34" },
+      { "team": "home", "player": "Cho Gue-sung", "minute": "58" },
+      { "team": "home", "player": "Cho Gue-sung", "minute": "61" },
+      { "team": "away", "player": "Mohammed Kudus", "minute": "68" }
+    ] },
+    { "stage": "Group H", "date": "2022-11-28", "homeTeam": "Portugal", "awayTeam": "Uruguay", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bruno Fernandes", "minute": "54" },
+      { "team": "home", "player": "Bruno Fernandes", "minute": "90+3", "penalty": true }
+    ] },
+    { "stage": "Group H", "date": "2022-12-02", "homeTeam": "Ghana", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Giorgian de Arrascaeta", "minute": "26" },
+      { "team": "away", "player": "Giorgian de Arrascaeta", "minute": "32" }
+    ] },
+    { "stage": "Group H", "date": "2022-12-02", "homeTeam": "South Korea", "awayTeam": "Portugal", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ricardo Horta", "minute": "5" },
+      { "team": "home", "player": "Kim Young-gwon", "minute": "27" },
+      { "team": "home", "player": "Hwang Hee-chan", "minute": "90+1" }
+    ] },
+
+    { "stage": "Round of 16", "date": "2022-12-03", "homeTeam": "Netherlands", "awayTeam": "United States", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Memphis Depay", "minute": "10" },
+      { "team": "home", "player": "Daley Blind", "minute": "45+1" },
+      { "team": "away", "player": "Haji Wright", "minute": "76" },
+      { "team": "home", "player": "Denzel Dumfries", "minute": "81" }
+    ] },
+    { "stage": "Round of 16", "date": "2022-12-03", "homeTeam": "Argentina", "awayTeam": "Australia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "35" },
+      { "team": "home", "player": "Julián Álvarez", "minute": "57" },
+      { "team": "away", "player": "Enzo Fernández", "minute": "77", "ownGoal": true }
+    ] },
+    { "stage": "Round of 16", "date": "2022-12-04", "homeTeam": "France", "awayTeam": "Poland", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Olivier Giroud", "minute": "44" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "74" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "90+1" },
+      { "team": "away", "player": "Robert Lewandowski", "minute": "90+9", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "2022-12-04", "homeTeam": "England", "awayTeam": "Senegal", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jordan Henderson", "minute": "38" },
+      { "team": "home", "player": "Harry Kane", "minute": "45+3" },
+      { "team": "home", "player": "Bukayo Saka", "minute": "57" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "2022-12-05",
+      "homeTeam": "Japan",
+      "awayTeam": "Croatia",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Daizen Maeda", "minute": "44" },
+        { "team": "away", "player": "Ivan Perišić", "minute": "55" }
+      ],
+      "penalties": {
+        "homeScore": 1,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Takumi Minamino", "result": "missed" },
+          { "player": "Kaoru Mitoma", "result": "missed" },
+          { "player": "Takuma Asano", "result": "scored" },
+          { "player": "Maya Yoshida", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Nikola Vlašić", "result": "scored" },
+          { "player": "Marcelo Brozović", "result": "scored" },
+          { "player": "Marko Livaja", "result": "missed" },
+          { "player": "Mario Pašalić", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Round of 16", "date": "2022-12-05", "homeTeam": "Brazil", "awayTeam": "South Korea", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Vinícius Júnior", "minute": "7" },
+      { "team": "home", "player": "Neymar", "minute": "13", "penalty": true },
+      { "team": "home", "player": "Richarlison", "minute": "29" },
+      { "team": "home", "player": "Lucas Paquetá", "minute": "36" },
+      { "team": "away", "player": "Paik Seung-ho", "minute": "76" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "2022-12-06",
+      "homeTeam": "Morocco",
+      "awayTeam": "Spain",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "homeTakers": [
+          { "player": "Abdelhamid Sabiri", "result": "scored" },
+          { "player": "Hakim Ziyech", "result": "scored" },
+          { "player": "Badr Benoun", "result": "missed" },
+          { "player": "Achraf Hakimi", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Pablo Sarabia", "result": "missed" },
+          { "player": "Carlos Soler", "result": "missed" },
+          { "player": "Sergio Busquets", "result": "missed" }
+        ]
+      }
+    },
+    { "stage": "Round of 16", "date": "2022-12-06", "homeTeam": "Portugal", "awayTeam": "Switzerland", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gonçalo Ramos", "minute": "17" },
+      { "team": "home", "player": "Pepe", "minute": "33" },
+      { "team": "home", "player": "Gonçalo Ramos", "minute": "51" },
+      { "team": "home", "player": "Raphaël Guerreiro", "minute": "55" },
+      { "team": "away", "player": "Manuel Akanji", "minute": "58" },
+      { "team": "home", "player": "Gonçalo Ramos", "minute": "67" },
+      { "team": "home", "player": "Rafael Leão", "minute": "90+2" }
+    ] },
+
+    {
+      "stage": "Quarter-final",
+      "date": "2022-12-09",
+      "homeTeam": "Croatia",
+      "awayTeam": "Brazil",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Neymar", "minute": "105+1" },
+        { "team": "home", "player": "Bruno Petković", "minute": "117" }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "Nikola Vlašić", "result": "scored" },
+          { "player": "Lovro Majer", "result": "scored" },
+          { "player": "Luka Modrić", "result": "scored" },
+          { "player": "Mislav Oršić", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Rodrygo", "result": "missed" },
+          { "player": "Casemiro", "result": "scored" },
+          { "player": "Pedro", "result": "scored" },
+          { "player": "Marquinhos", "result": "missed" }
+        ]
+      }
+    },
+    {
+      "stage": "Quarter-final",
+      "date": "2022-12-09",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Argentina",
+      "homeScore": 2,
+      "awayScore": 2,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Nahuel Molina", "minute": "35" },
+        { "team": "away", "player": "Lionel Messi", "minute": "73", "penalty": true },
+        { "team": "home", "player": "Wout Weghorst", "minute": "83" },
+        { "team": "home", "player": "Wout Weghorst", "minute": "90+11" }
+      ],
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Virgil van Dijk", "result": "missed" },
+          { "player": "Steven Berghuis", "result": "missed" },
+          { "player": "Teun Koopmeiners", "result": "scored" },
+          { "player": "Wout Weghorst", "result": "scored" },
+          { "player": "Luuk de Jong", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Lionel Messi", "result": "scored" },
+          { "player": "Leandro Paredes", "result": "scored" },
+          { "player": "Gonzalo Montiel", "result": "scored" },
+          { "player": "Enzo Fernández", "result": "missed" },
+          { "player": "Lautaro Martínez", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Quarter-final", "date": "2022-12-10", "homeTeam": "Morocco", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Youssef En-Nesyri", "minute": "42" }
+    ] },
+    { "stage": "Quarter-final", "date": "2022-12-10", "homeTeam": "England", "awayTeam": "France", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Aurélien Tchouaméni", "minute": "17" },
+      { "team": "home", "player": "Harry Kane", "minute": "54", "penalty": true },
+      { "team": "away", "player": "Olivier Giroud", "minute": "78" }
+    ] },
+
+    { "stage": "Semi-final", "date": "2022-12-13", "homeTeam": "Argentina", "awayTeam": "Croatia", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lionel Messi", "minute": "34", "penalty": true },
+      { "team": "home", "player": "Julián Álvarez", "minute": "39" },
+      { "team": "home", "player": "Julián Álvarez", "minute": "69" }
+    ] },
+    { "stage": "Semi-final", "date": "2022-12-14", "homeTeam": "France", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Theo Hernández", "minute": "5" },
+      { "team": "home", "player": "Randal Kolo Muani", "minute": "79" }
+    ] },
+
+    { "stage": "Third place", "date": "2022-12-17", "homeTeam": "Croatia", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Josko Gvardiol", "minute": "7" },
+      { "team": "away", "player": "Achraf Dari", "minute": "9" },
+      { "team": "home", "player": "Mislav Oršić", "minute": "42" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "2022-12-18",
+      "homeTeam": "Argentina",
+      "awayTeam": "France",
+      "homeScore": 3,
+      "awayScore": 3,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Lionel Messi", "minute": "23", "penalty": true },
+        { "team": "home", "player": "Ángel Di María", "minute": "36" },
+        { "team": "away", "player": "Kylian Mbappé", "minute": "80", "penalty": true },
+        { "team": "away", "player": "Kylian Mbappé", "minute": "81" },
+        { "team": "home", "player": "Lionel Messi", "minute": "108" },
+        { "team": "away", "player": "Kylian Mbappé", "minute": "118", "penalty": true }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "Lionel Messi", "result": "scored" },
+          { "player": "Paulo Dybala", "result": "scored" },
+          { "player": "Leandro Paredes", "result": "scored" },
+          { "player": "Gonzalo Montiel", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Kylian Mbappé", "result": "scored" },
+          { "player": "Kingsley Coman", "result": "missed" },
+          { "player": "Aurélien Tchouaméni", "result": "missed" },
+          { "player": "Randal Kolo Muani", "result": "scored" }
+        ]
+      }
+    }
+  ]
+}

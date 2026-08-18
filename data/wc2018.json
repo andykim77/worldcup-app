@@ -1,0 +1,379 @@
+{
+  "edition": {
+    "year": 2018,
+    "host": "Russia",
+    "winner": "France",
+    "runnerUp": "Croatia",
+    "thirdPlace": "Belgium",
+    "fourthPlace": "England",
+    "goldenBall": { "player": "Luka Modrić", "nationality": "Croatia", "club": "Real Madrid" },
+    "silverBall": { "player": "Eden Hazard", "nationality": "Belgium", "club": "Chelsea" },
+    "bronzeBall": { "player": "Antoine Griezmann", "nationality": "France", "club": "Atlético Madrid" },
+    "goldenBoot": { "player": "Harry Kane", "nationality": "England", "club": "Tottenham Hotspur", "goals": 6 },
+    "silverBoot": { "player": "Antoine Griezmann", "nationality": "France", "club": "Atlético Madrid" },
+    "bronzeBoot": { "player": "Romelu Lukaku", "nationality": "Belgium", "club": "Manchester United" },
+    "goldenGlove": { "player": "Thibaut Courtois", "nationality": "Belgium", "club": "Chelsea" },
+    "bestYoungPlayer": { "player": "Kylian Mbappé", "nationality": "France", "club": "Paris Saint-Germain" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "2018-06-14", "homeTeam": "Russia", "awayTeam": "Saudi Arabia", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Yury Gazinsky", "minute": "12" },
+      { "team": "home", "player": "Denis Cheryshev", "minute": "43" },
+      { "team": "home", "player": "Artem Dzyuba", "minute": "71" },
+      { "team": "home", "player": "Denis Cheryshev", "minute": "90+1" },
+      { "team": "home", "player": "Aleksandr Golovin", "minute": "90+4" }
+    ] },
+    { "stage": "Group A", "date": "2018-06-15", "homeTeam": "Egypt", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "José Giménez", "minute": "89" }
+    ] },
+    { "stage": "Group B", "date": "2018-06-15", "homeTeam": "Morocco", "awayTeam": "Iran", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Aziz Bouhaddouz", "minute": "90+5", "ownGoal": true }
+    ] },
+    { "stage": "Group B", "date": "2018-06-15", "homeTeam": "Portugal", "awayTeam": "Spain", "homeScore": 3, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "4", "penalty": true },
+      { "team": "away", "player": "Diego Costa", "minute": "24" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "44" },
+      { "team": "away", "player": "Diego Costa", "minute": "55" },
+      { "team": "away", "player": "Nacho", "minute": "58" },
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "88" }
+    ] },
+    { "stage": "Group C", "date": "2018-06-16", "homeTeam": "France", "awayTeam": "Australia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Antoine Griezmann", "minute": "58", "penalty": true },
+      { "team": "away", "player": "Mile Jedinak", "minute": "62", "penalty": true },
+      { "team": "home", "player": "Aziz Behich", "minute": "81", "ownGoal": true }
+    ] },
+    { "stage": "Group C", "date": "2018-06-16", "homeTeam": "Peru", "awayTeam": "Denmark", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yussuf Poulsen", "minute": "59" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-16", "homeTeam": "Argentina", "awayTeam": "Iceland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sergio Agüero", "minute": "19" },
+      { "team": "away", "player": "Alfreð Finnbogason", "minute": "23" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-16", "homeTeam": "Croatia", "awayTeam": "Nigeria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oghenekaro Etebo", "minute": "32", "ownGoal": true },
+      { "team": "home", "player": "Luka Modrić", "minute": "71", "penalty": true }
+    ] },
+    { "stage": "Group E", "date": "2018-06-17", "homeTeam": "Costa Rica", "awayTeam": "Serbia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Aleksandar Kolarov", "minute": "56" }
+    ] },
+    { "stage": "Group E", "date": "2018-06-17", "homeTeam": "Brazil", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Philippe Coutinho", "minute": "20" },
+      { "team": "away", "player": "Steven Zuber", "minute": "50" }
+    ] },
+    { "stage": "Group F", "date": "2018-06-17", "homeTeam": "Germany", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Hirving Lozano", "minute": "35" }
+    ] },
+    { "stage": "Group F", "date": "2018-06-18", "homeTeam": "Sweden", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Granqvist", "minute": "65", "penalty": true }
+    ] },
+    { "stage": "Group G", "date": "2018-06-18", "homeTeam": "Belgium", "awayTeam": "Panama", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dries Mertens", "minute": "47" },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "69" },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "75" }
+    ] },
+    { "stage": "Group G", "date": "2018-06-18", "homeTeam": "Tunisia", "awayTeam": "England", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Harry Kane", "minute": "11" },
+      { "team": "home", "player": "Ferjani Sassi", "minute": "35", "penalty": true },
+      { "team": "away", "player": "Harry Kane", "minute": "90+1" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-19", "homeTeam": "Colombia", "awayTeam": "Japan", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Shinji Kagawa", "minute": "6", "penalty": true },
+      { "team": "home", "player": "Juan Fernando Quintero", "minute": "39" },
+      { "team": "away", "player": "Yuya Osako", "minute": "73" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-19", "homeTeam": "Poland", "awayTeam": "Senegal", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Thiago Cionek", "minute": "37", "ownGoal": true },
+      { "team": "away", "player": "M'Baye Niang", "minute": "60" },
+      { "team": "home", "player": "Grzegorz Krychowiak", "minute": "86" }
+    ] },
+    { "stage": "Group A", "date": "2018-06-19", "homeTeam": "Russia", "awayTeam": "Egypt", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ahmed Fathy", "minute": "47", "ownGoal": true },
+      { "team": "home", "player": "Denis Cheryshev", "minute": "59" },
+      { "team": "home", "player": "Artem Dzyuba", "minute": "62" },
+      { "team": "away", "player": "Mohamed Salah", "minute": "73", "penalty": true }
+    ] },
+    { "stage": "Group A", "date": "2018-06-20", "homeTeam": "Uruguay", "awayTeam": "Saudi Arabia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Suárez", "minute": "23" }
+    ] },
+    { "stage": "Group B", "date": "2018-06-20", "homeTeam": "Portugal", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cristiano Ronaldo", "minute": "4" }
+    ] },
+    { "stage": "Group B", "date": "2018-06-20", "homeTeam": "Iran", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Diego Costa", "minute": "54" }
+    ] },
+    { "stage": "Group C", "date": "2018-06-21", "homeTeam": "Denmark", "awayTeam": "Australia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christian Eriksen", "minute": "7" },
+      { "team": "away", "player": "Mile Jedinak", "minute": "38", "penalty": true }
+    ] },
+    { "stage": "Group C", "date": "2018-06-21", "homeTeam": "France", "awayTeam": "Peru", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kylian Mbappé", "minute": "34" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-21", "homeTeam": "Argentina", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ante Rebić", "minute": "53" },
+      { "team": "away", "player": "Luka Modrić", "minute": "80" },
+      { "team": "away", "player": "Ivan Rakitić", "minute": "90+1" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-22", "homeTeam": "Nigeria", "awayTeam": "Iceland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ahmed Musa", "minute": "49" },
+      { "team": "home", "player": "Ahmed Musa", "minute": "75" }
+    ] },
+    { "stage": "Group E", "date": "2018-06-22", "homeTeam": "Brazil", "awayTeam": "Costa Rica", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Philippe Coutinho", "minute": "90+1" },
+      { "team": "home", "player": "Neymar", "minute": "90+7" }
+    ] },
+    { "stage": "Group E", "date": "2018-06-22", "homeTeam": "Serbia", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Aleksandar Mitrović", "minute": "5" },
+      { "team": "away", "player": "Granit Xhaka", "minute": "52" },
+      { "team": "away", "player": "Xherdan Shaqiri", "minute": "90" }
+    ] },
+    { "stage": "Group F", "date": "2018-06-23", "homeTeam": "South Korea", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Carlos Vela", "minute": "26", "penalty": true },
+      { "team": "away", "player": "Javier Hernández", "minute": "66" },
+      { "team": "home", "player": "Son Heung-min", "minute": "90+3" }
+    ] },
+    { "stage": "Group F", "date": "2018-06-23", "homeTeam": "Germany", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ola Toivonen", "minute": "32" },
+      { "team": "home", "player": "Marco Reus", "minute": "48" },
+      { "team": "home", "player": "Toni Kroos", "minute": "90+5" }
+    ] },
+    { "stage": "Group G", "date": "2018-06-23", "homeTeam": "Belgium", "awayTeam": "Tunisia", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Eden Hazard", "minute": "6", "penalty": true },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "16" },
+      { "team": "away", "player": "Dylan Bronn", "minute": "18" },
+      { "team": "home", "player": "Romelu Lukaku", "minute": "45+3" },
+      { "team": "home", "player": "Eden Hazard", "minute": "51" },
+      { "team": "home", "player": "Michy Batshuayi", "minute": "90" },
+      { "team": "away", "player": "Wahbi Khazri", "minute": "90+3" }
+    ] },
+    { "stage": "Group G", "date": "2018-06-24", "homeTeam": "England", "awayTeam": "Panama", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "John Stones", "minute": "8" },
+      { "team": "home", "player": "Harry Kane", "minute": "22", "penalty": true },
+      { "team": "home", "player": "Jesse Lingard", "minute": "36" },
+      { "team": "home", "player": "John Stones", "minute": "40" },
+      { "team": "home", "player": "Harry Kane", "minute": "45+1", "penalty": true },
+      { "team": "home", "player": "Harry Kane", "minute": "62" },
+      { "team": "away", "player": "Felipe Baloy", "minute": "78" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-24", "homeTeam": "Japan", "awayTeam": "Senegal", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Sadio Mané", "minute": "11" },
+      { "team": "home", "player": "Takashi Inui", "minute": "34" },
+      { "team": "away", "player": "Moussa Wagué", "minute": "71" },
+      { "team": "home", "player": "Keisuke Honda", "minute": "78" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-24", "homeTeam": "Poland", "awayTeam": "Colombia", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yerry Mina", "minute": "40" },
+      { "team": "away", "player": "Radamel Falcao", "minute": "70" },
+      { "team": "away", "player": "Juan Cuadrado", "minute": "75" }
+    ] },
+    { "stage": "Group A", "date": "2018-06-25", "homeTeam": "Uruguay", "awayTeam": "Russia", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Suárez", "minute": "10" },
+      { "team": "home", "player": "Denis Cheryshev", "minute": "23", "ownGoal": true },
+      { "team": "home", "player": "Edinson Cavani", "minute": "90" }
+    ] },
+    { "stage": "Group A", "date": "2018-06-25", "homeTeam": "Saudi Arabia", "awayTeam": "Egypt", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mohamed Salah", "minute": "22" },
+      { "team": "home", "player": "Salman Al-Faraj", "minute": "45+6", "penalty": true },
+      { "team": "home", "player": "Salem Al-Dawsari", "minute": "90+5" }
+    ] },
+    { "stage": "Group B", "date": "2018-06-25", "homeTeam": "Iran", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ricardo Quaresma", "minute": "45" },
+      { "team": "home", "player": "Karim Ansarifard", "minute": "90+3", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "2018-06-25", "homeTeam": "Spain", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Khalid Boutaïb", "minute": "14" },
+      { "team": "home", "player": "Isco", "minute": "19" },
+      { "team": "away", "player": "Youssef En-Nesyri", "minute": "81" },
+      { "team": "home", "player": "Iago Aspas", "minute": "90+1" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-26", "homeTeam": "Nigeria", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Lionel Messi", "minute": "14" },
+      { "team": "home", "player": "Victor Moses", "minute": "51", "penalty": true },
+      { "team": "away", "player": "Marcos Rojo", "minute": "86" }
+    ] },
+    { "stage": "Group D", "date": "2018-06-26", "homeTeam": "Iceland", "awayTeam": "Croatia", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Milan Badelj", "minute": "53" },
+      { "team": "home", "player": "Gylfi Sigurðsson", "minute": "76", "penalty": true },
+      { "team": "away", "player": "Ivan Perišić", "minute": "90" }
+    ] },
+    { "stage": "Group C", "date": "2018-06-26", "homeTeam": "Denmark", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "2018-06-26", "homeTeam": "Australia", "awayTeam": "Peru", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "André Carrillo", "minute": "18" },
+      { "team": "away", "player": "Paolo Guerrero", "minute": "50" }
+    ] },
+    { "stage": "Group E", "date": "2018-06-27", "homeTeam": "Serbia", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Paulinho", "minute": "36" },
+      { "team": "away", "player": "Thiago Silva", "minute": "68" }
+    ] },
+    { "stage": "Group E", "date": "2018-06-27", "homeTeam": "Switzerland", "awayTeam": "Costa Rica", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Blerim Džemaili", "minute": "31" },
+      { "team": "away", "player": "Kendall Waston", "minute": "56" },
+      { "team": "home", "player": "Josip Drmić", "minute": "88" },
+      { "team": "away", "player": "Yann Sommer", "minute": "90+3", "ownGoal": true }
+    ] },
+    { "stage": "Group F", "date": "2018-06-27", "homeTeam": "South Korea", "awayTeam": "Germany", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kim Young-gwon", "minute": "90+3" },
+      { "team": "home", "player": "Son Heung-min", "minute": "90+6" }
+    ] },
+    { "stage": "Group F", "date": "2018-06-27", "homeTeam": "Mexico", "awayTeam": "Sweden", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ludwig Augustinsson", "minute": "50" },
+      { "team": "away", "player": "Andreas Granqvist", "minute": "62", "penalty": true },
+      { "team": "away", "player": "Edson Álvarez", "minute": "75", "ownGoal": true }
+    ] },
+    { "stage": "Group G", "date": "2018-06-28", "homeTeam": "England", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Adnan Januzaj", "minute": "51" }
+    ] },
+    { "stage": "Group G", "date": "2018-06-28", "homeTeam": "Panama", "awayTeam": "Tunisia", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Yassine Meriah", "minute": "33", "ownGoal": true },
+      { "team": "away", "player": "Fakhreddine Ben Youssef", "minute": "51" },
+      { "team": "away", "player": "Wahbi Khazri", "minute": "66" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-28", "homeTeam": "Japan", "awayTeam": "Poland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jan Bednarek", "minute": "59" }
+    ] },
+    { "stage": "Group H", "date": "2018-06-28", "homeTeam": "Senegal", "awayTeam": "Colombia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yerry Mina", "minute": "74" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-06-30", "homeTeam": "France", "awayTeam": "Argentina", "homeScore": 4, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Antoine Griezmann", "minute": "13", "penalty": true },
+      { "team": "away", "player": "Ángel Di María", "minute": "41" },
+      { "team": "away", "player": "Gabriel Mercado", "minute": "48" },
+      { "team": "home", "player": "Benjamin Pavard", "minute": "57" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "64" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "68" },
+      { "team": "away", "player": "Sergio Agüero", "minute": "90+3" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-06-30", "homeTeam": "Uruguay", "awayTeam": "Portugal", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Edinson Cavani", "minute": "7" },
+      { "team": "away", "player": "Pepe", "minute": "55" },
+      { "team": "home", "player": "Edinson Cavani", "minute": "62" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-07-01", "homeTeam": "Spain", "awayTeam": "Russia", "homeScore": 1, "awayScore": 1, "extraTime": true, "goals": [
+      { "team": "home", "player": "Sergei Ignashevich", "minute": "12", "ownGoal": true },
+      { "team": "away", "player": "Artem Dzyuba", "minute": "41", "penalty": true }
+    ], "penalties": {
+      "homeScore": 3, "awayScore": 4,
+      "homeTakers": [
+        { "player": "Andrés Iniesta", "result": "scored" },
+        { "player": "Gerard Piqué", "result": "scored" },
+        { "player": "Koke", "result": "missed" },
+        { "player": "Sergio Ramos", "result": "scored" },
+        { "player": "Iago Aspas", "result": "missed" }
+      ],
+      "awayTakers": [
+        { "player": "Fyodor Smolov", "result": "scored" },
+        { "player": "Sergei Ignashevich", "result": "scored" },
+        { "player": "Aleksandr Golovin", "result": "scored" },
+        { "player": "Denis Cheryshev", "result": "scored" }
+      ]
+    } },
+    { "stage": "Round of 16", "date": "2018-07-01", "homeTeam": "Croatia", "awayTeam": "Denmark", "homeScore": 1, "awayScore": 1, "extraTime": true, "goals": [
+      { "team": "away", "player": "Mathias Jørgensen", "minute": "1" },
+      { "team": "home", "player": "Mario Mandžukić", "minute": "4" }
+    ], "penalties": {
+      "homeScore": 3, "awayScore": 2,
+      "homeTakers": [
+        { "player": "Milan Badelj", "result": "missed" },
+        { "player": "Andrej Kramarić", "result": "scored" },
+        { "player": "Luka Modrić", "result": "scored" },
+        { "player": "Josip Pivarić", "result": "missed" },
+        { "player": "Ivan Rakitić", "result": "scored" }
+      ],
+      "awayTakers": [
+        { "player": "Christian Eriksen", "result": "missed" },
+        { "player": "Simon Kjær", "result": "scored" },
+        { "player": "Michael Krohn-Dehli", "result": "scored" },
+        { "player": "Lasse Schöne", "result": "missed" },
+        { "player": "Nicolai Jørgensen", "result": "missed" }
+      ]
+    } },
+    { "stage": "Round of 16", "date": "2018-07-02", "homeTeam": "Brazil", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Neymar", "minute": "51" },
+      { "team": "home", "player": "Roberto Firmino", "minute": "88" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-07-02", "homeTeam": "Belgium", "awayTeam": "Japan", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Genki Haraguchi", "minute": "48" },
+      { "team": "away", "player": "Takashi Inui", "minute": "52" },
+      { "team": "home", "player": "Jan Vertonghen", "minute": "69" },
+      { "team": "home", "player": "Marouane Fellaini", "minute": "74" },
+      { "team": "home", "player": "Nacer Chadli", "minute": "90+4" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-07-03", "homeTeam": "Sweden", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Emil Forsberg", "minute": "66" }
+    ] },
+    { "stage": "Round of 16", "date": "2018-07-03", "homeTeam": "Colombia", "awayTeam": "England", "homeScore": 1, "awayScore": 1, "extraTime": true, "goals": [
+      { "team": "away", "player": "Harry Kane", "minute": "57", "penalty": true },
+      { "team": "home", "player": "Yerry Mina", "minute": "90+3" }
+    ], "penalties": {
+      "homeScore": 3, "awayScore": 4,
+      "homeTakers": [
+        { "player": "Radamel Falcao", "result": "scored" },
+        { "player": "Juan Cuadrado", "result": "scored" },
+        { "player": "Luis Muriel", "result": "scored" },
+        { "player": "Mateus Uribe", "result": "missed" },
+        { "player": "Carlos Bacca", "result": "missed" }
+      ],
+      "awayTakers": [
+        { "player": "Harry Kane", "result": "scored" },
+        { "player": "Marcus Rashford", "result": "scored" },
+        { "player": "Jordan Henderson", "result": "missed" },
+        { "player": "Kieran Trippier", "result": "scored" },
+        { "player": "Eric Dier", "result": "scored" }
+      ]
+    } },
+    { "stage": "Quarter-final", "date": "2018-07-06", "homeTeam": "Uruguay", "awayTeam": "France", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Raphaël Varane", "minute": "40" },
+      { "team": "away", "player": "Antoine Griezmann", "minute": "61" }
+    ] },
+    { "stage": "Quarter-final", "date": "2018-07-06", "homeTeam": "Brazil", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Fernandinho", "minute": "13", "ownGoal": true },
+      { "team": "away", "player": "Kevin De Bruyne", "minute": "31" },
+      { "team": "home", "player": "Renato Augusto", "minute": "76" }
+    ] },
+    { "stage": "Quarter-final", "date": "2018-07-07", "homeTeam": "Sweden", "awayTeam": "England", "homeScore": 0, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Harry Maguire", "minute": "30" },
+      { "team": "away", "player": "Dele Alli", "minute": "58" }
+    ] },
+    { "stage": "Quarter-final", "date": "2018-07-07", "homeTeam": "Russia", "awayTeam": "Croatia", "homeScore": 2, "awayScore": 2, "extraTime": true, "goals": [
+      { "team": "home", "player": "Denis Cheryshev", "minute": "31" },
+      { "team": "away", "player": "Andrej Kramarić", "minute": "39" },
+      { "team": "away", "player": "Domagoj Vida", "minute": "101" },
+      { "team": "home", "player": "Mário Fernandes", "minute": "115" }
+    ], "penalties": {
+      "homeScore": 3, "awayScore": 4,
+      "homeTakers": [
+        { "player": "Fyodor Smolov", "result": "missed" },
+        { "player": "Alan Dzagoev", "result": "scored" },
+        { "player": "Mário Fernandes", "result": "missed" },
+        { "player": "Sergei Ignashevich", "result": "scored" },
+        { "player": "Daler Kuzyaev", "result": "scored" }
+      ],
+      "awayTakers": [
+        { "player": "Marcelo Brozović", "result": "scored" },
+        { "player": "Mateo Kovačić", "result": "missed" },
+        { "player": "Luka Modrić", "result": "scored" },
+        { "player": "Domagoj Vida", "result": "scored" },
+        { "player": "Ivan Rakitić", "result": "scored" }
+      ]
+    } },
+    { "stage": "Semi-final", "date": "2018-07-10", "homeTeam": "France", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Samuel Umtiti", "minute": "51" }
+    ] },
+    { "stage": "Semi-final", "date": "2018-07-11", "homeTeam": "Croatia", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Kieran Trippier", "minute": "5" },
+      { "team": "home", "player": "Ivan Perišić", "minute": "68" },
+      { "team": "home", "player": "Mario Mandžukić", "minute": "109" }
+    ] },
+    { "stage": "Third place", "date": "2018-07-14", "homeTeam": "Belgium", "awayTeam": "England", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thomas Meunier", "minute": "4" },
+      { "team": "home", "player": "Eden Hazard", "minute": "82" }
+    ] },
+    { "stage": "Final", "date": "2018-07-15", "homeTeam": "France", "awayTeam": "Croatia", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mario Mandžukić", "minute": "18", "ownGoal": true },
+      { "team": "away", "player": "Ivan Perišić", "minute": "28" },
+      { "team": "home", "player": "Antoine Griezmann", "minute": "38", "penalty": true },
+      { "team": "home", "player": "Paul Pogba", "minute": "59" },
+      { "team": "home", "player": "Kylian Mbappé", "minute": "65" },
+      { "team": "away", "player": "Mario Mandžukić", "minute": "69" }
+    ] }
+  ]
+}
