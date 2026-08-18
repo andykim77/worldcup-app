@@ -64,10 +64,17 @@ async function renderHome() {
   `;
 }
 
+function awardTierClass(name) {
+  if (/^Golden|Best Young Player/.test(name)) return 'tier-gold';
+  if (/^Silver/.test(name)) return 'tier-silver';
+  if (/^Bronze/.test(name)) return 'tier-bronze';
+  return '';
+}
+
 function awardCardHtml(a, wcWinner) {
   const wonWc = a.nationality && wcWinner && a.nationality === wcWinner;
   return `
-    <div class="award-card">
+    <div class="award-card ${awardTierClass(a.award_name)}">
       <div class="award-name">${escapeHtml(a.award_name)}</div>
       <div class="player-name">${escapeHtml(a.player)}</div>
       <div class="club">${flagImgHtml(a.nationality)} ${escapeHtml(a.nationality || '')}${a.club ? ' · ' + escapeHtml(a.club) : ''}</div>
@@ -96,6 +103,24 @@ function goalsLineHtml(m) {
   `;
 }
 
+function cardLabel(c) {
+  let label = `🟥 ${escapeHtml(c.player)} ${escapeHtml(c.minute)}'`;
+  if (c.second_yellow) label += ' (2nd yellow)';
+  return label;
+}
+
+function cardsLineHtml(m) {
+  if (!m.cards || !m.cards.length) return '';
+  const home = m.cards.filter(c => c.team_side === 'home').map(cardLabel).join(', ');
+  const away = m.cards.filter(c => c.team_side === 'away').map(cardLabel).join(', ');
+  return `
+    <div class="goals-line cards-line">
+      <div class="goals-home">${home}</div>
+      <div class="goals-away">${away}</div>
+    </div>
+  `;
+}
+
 function matchRowHtml(m) {
   const penNote = m.pen_home_score != null
     ? `pens ${m.pen_home_score}-${m.pen_away_score}`
@@ -110,6 +135,7 @@ function matchRowHtml(m) {
         <div class="expand-icon">${penNote ? penNote : '›'}</div>
       </a>
       ${goalsLineHtml(m)}
+      ${cardsLineHtml(m)}
     </div>
   `;
 }
@@ -177,6 +203,21 @@ function goalTimelineHtml(m) {
   `;
 }
 
+function redCardSectionHtml(m) {
+  if (!m.cards || !m.cards.length) return '';
+  return `
+    <h3 style="text-align:center; margin-top:24px;">Red Cards</h3>
+    <div class="goal-timeline">
+      ${m.cards.map(c => `
+        <div class="timeline-entry ${c.team_side}">
+          ${c.team_side === 'home' ? `<span class="timeline-team">🟥 ${escapeHtml(c.player)}${c.second_yellow ? ' (2nd yellow)' : ''}</span><span class="timeline-minute card-minute">${escapeHtml(c.minute)}'</span>` : ''}
+          ${c.team_side === 'away' ? `<span class="timeline-minute card-minute">${escapeHtml(c.minute)}'</span><span class="timeline-team">🟥 ${escapeHtml(c.player)}${c.second_yellow ? ' (2nd yellow)' : ''}</span>` : ''}
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
 async function renderMatch(id) {
   app.innerHTML = '<div class="loading">Loading…</div>';
   const m = await fetchJSON(`/api/matches/${id}`);
@@ -201,39 +242,107 @@ async function renderMatch(id) {
       <div class="headline">${flagImgHtml(m.home_team, 'flag flag-lg')} ${escapeHtml(m.home_team)} ${m.home_score} - ${m.away_score} ${escapeHtml(m.away_team)} ${flagImgHtml(m.away_team, 'flag flag-lg')}</div>
       <div class="subline">${escapeHtml(m.stage)} · ${escapeHtml(m.match_date || '')}${m.extra_time ? ' · a.e.t.' : ''}</div>
       ${goalTimelineHtml(m)}
+      ${redCardSectionHtml(m)}
       ${penSection}
     </div>
   `;
 }
 
-async function renderMultiAwards() {
-  app.innerHTML = '<div class="loading">Loading…</div>';
-  const list = await fetchJSON('/api/multi-award-winners');
-
-  if (!list.length) {
-    app.innerHTML = '<h1>Multi-Award Winners</h1><div class="empty">None found yet.</div>';
-    return;
-  }
-
-  app.innerHTML = `
-    <h1>Multi-Award Winners</h1>
-    <p style="color:var(--text-dim); max-width:640px;">
-      Players who picked up more than one individual honor in the same tournament, or won an
-      individual award while their national team lifted the trophy.
-    </p>
-    <div class="multi-award-list">
-      ${list.map(e => `
-        <div class="multi-award-card">
-          <div class="player-name">${escapeHtml(e.player)}</div>
-          <div class="meta">${e.year} · ${flagImgHtml(e.nationality)} ${escapeHtml(e.nationality || '')}${e.club ? ' · ' + escapeHtml(e.club) : ''}</div>
-          <div class="pill-row">
-            ${e.awards.map(a => `<span class="pill">${escapeHtml(a.name)}${a.detail ? ' — ' + escapeHtml(a.detail) : ''}</span>`).join('')}
-            ${e.wonWorldCup ? '<span class="pill wc-pill">World Cup Winner</span>' : ''}
-          </div>
+function leaderboardHtml(rows, opts) {
+  const { nameKey = 'player', teamKey = 'team', totalKey = 'total', totalLabel = '' } = opts || {};
+  if (!rows.length) return '<div class="empty">No data yet.</div>';
+  return `
+    <div class="leaderboard">
+      ${rows.map((r, i) => `
+        <div class="leaderboard-row">
+          <div class="rank rank-${i + 1 <= 3 ? i + 1 : 'other'}">${i + 1}</div>
+          <div class="lb-team">${flagImgHtml(r[teamKey])}</div>
+          <div class="lb-name">${escapeHtml(r[nameKey])}${r[teamKey] ? ` <span class="lb-sub">${escapeHtml(r[teamKey])}</span>` : ''}</div>
+          <div class="lb-total">${r[totalKey]}${totalLabel ? ` <span class="lb-sub">${totalLabel}</span>` : ''}</div>
         </div>
       `).join('')}
     </div>
   `;
+}
+
+function recordCardHtml(title, rows, renderRow) {
+  return `
+    <div class="record-card">
+      <h3>${escapeHtml(title)}</h3>
+      ${rows.length ? rows.map(renderRow).join('') : '<div class="empty">No data yet.</div>'}
+    </div>
+  `;
+}
+
+function matchLineHtml(m, valueLabel) {
+  return `
+    <div class="record-match-line">
+      <span class="rm-teams">${flagImgHtml(m.home_team)} ${escapeHtml(m.home_team)} ${m.home_score}-${m.away_score} ${escapeHtml(m.away_team)} ${flagImgHtml(m.away_team)}</span>
+      <span class="rm-meta">${m.year} · ${escapeHtml(m.stage)}${valueLabel ? ' · ' + valueLabel : ''}</span>
+    </div>
+  `;
+}
+
+async function renderRecords() {
+  app.innerHTML = '<div class="loading">Loading records…</div>';
+  const r = await fetchJSON('/api/records');
+
+  app.innerHTML = `
+    <h1>Records</h1>
+    <p style="color:var(--text-dim); max-width:640px;">
+      All-time leaderboards and tournament superlatives, aggregated across every World Cup in the archive.
+    </p>
+
+    <h2>Player Leaderboards</h2>
+    <div class="record-grid">
+      <div class="record-card">
+        <h3>🥇 Most Goals</h3>
+        ${leaderboardHtml(r.topScorers, { totalLabel: 'goals' })}
+      </div>
+      <div class="record-card">
+        <h3>🏅 Most Individual Awards</h3>
+        ${leaderboardHtml(r.topAwardWinners, { teamKey: 'nationality', totalLabel: 'awards' })}
+      </div>
+      <div class="record-card">
+        <h3>🟥 Most Red Cards</h3>
+        ${leaderboardHtml(r.topRedCards, { totalLabel: 'red cards' })}
+      </div>
+    </div>
+
+    <h2>Tournament Superlatives</h2>
+    <div class="record-grid">
+      ${recordCardHtml('🏆 Most Titles', r.mostTitles, t => `
+        <div class="leaderboard-row">
+          <div class="lb-team">${flagImgHtml(t.team)}</div>
+          <div class="lb-name">${escapeHtml(t.team)}</div>
+          <div class="lb-total">${t.total} <span class="lb-sub">titles</span></div>
+        </div>
+      `)}
+
+      ${recordCardHtml('💥 Biggest Win Margins', r.biggestWinMargins, m => matchLineHtml(m, `won by ${m.margin}`))}
+
+      ${recordCardHtml('⚽ Highest-Scoring Matches', r.highestScoringMatches, m => matchLineHtml(m, `${m.total_goals} goals`))}
+
+      ${recordCardHtml('🎯 Longest Shootouts', r.longestShootouts, m => `
+        <div class="record-match-line">
+          <span class="rm-teams">${flagImgHtml(m.home_team)} ${escapeHtml(m.home_team)} ${escapeHtml(String(m.pen_home_score))}-${escapeHtml(String(m.pen_away_score))} ${escapeHtml(m.away_team)} ${flagImgHtml(m.away_team)}</span>
+          <span class="rm-meta">${m.year} · ${escapeHtml(m.stage)} · ${m.total_kicks} kicks taken</span>
+        </div>
+      `)}
+
+      ${recordCardHtml('🟥 Most Red Cards in a Match', r.mostCardsInAMatch, m => matchLineHtml(m, `${m.total_cards} red card${m.total_cards === 1 ? '' : 's'}`))}
+
+      ${r.highestScoringFinal ? recordCardHtml('🏟️ Highest-Scoring Final', [r.highestScoringFinal], m => matchLineHtml(m, `${m.total_goals} goals${m.extra_time ? ' · a.e.t.' : ''}`)) : ''}
+    </div>
+  `;
+}
+
+function updateActiveNav() {
+  const hash = location.hash || '#/';
+  const topLevel = hash === '#/records' ? '/records' : '/';
+  document.querySelectorAll('.topbar nav a').forEach(a => {
+    a.classList.toggle('active', a.dataset.route === topLevel);
+  });
 }
 
 async function router() {
@@ -241,9 +350,11 @@ async function router() {
   const editionMatch = hash.match(/^#\/edition\/(\d+)$/);
   const matchMatch = hash.match(/^#\/match\/(\d+)$/);
 
+  updateActiveNav();
+
   try {
-    if (hash === '#/multi-awards') {
-      await renderMultiAwards();
+    if (hash === '#/records') {
+      await renderRecords();
     } else if (editionMatch) {
       await renderEdition(editionMatch[1]);
     } else if (matchMatch) {

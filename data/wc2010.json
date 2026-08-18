@@ -20,11 +20,15 @@
       { "team": "home", "player": "Siphiwe Tshabalala", "minute": "55" },
       { "team": "away", "player": "Rafael Márquez", "minute": "79" }
     ] },
-    { "stage": "Group A", "date": "2010-06-11", "homeTeam": "Uruguay", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group A", "date": "2010-06-11", "homeTeam": "Uruguay", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Nicolás Lodeiro", "minute": "81", "secondYellow": true }
+    ] },
     { "stage": "Group A", "date": "2010-06-16", "homeTeam": "South Africa", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Diego Forlán", "minute": "24" },
       { "team": "away", "player": "Diego Forlán", "minute": "80", "penalty": true },
       { "team": "away", "player": "Álvaro Pereira", "minute": "90+5" }
+    ], "redCards": [
+      { "team": "home", "player": "Itumeleng Khune", "minute": "76", "secondYellow": false }
     ] },
     { "stage": "Group A", "date": "2010-06-17", "homeTeam": "France", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Javier Hernández", "minute": "64" },
@@ -37,6 +41,8 @@
       { "team": "away", "player": "Bongani Khumalo", "minute": "20" },
       { "team": "away", "player": "Katlego Mphela", "minute": "37" },
       { "team": "home", "player": "Florent Malouda", "minute": "70" }
+    ], "redCards": [
+      { "team": "home", "player": "Yoann Gourcuff", "minute": "25", "secondYellow": false }
     ] },
 
     { "stage": "Group B", "date": "2010-06-12", "homeTeam": "South Korea", "awayTeam": "Greece", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
@@ -57,6 +63,8 @@
       { "team": "away", "player": "Kalu Uche", "minute": "16" },
       { "team": "home", "player": "Dimitris Salpingidis", "minute": "44" },
       { "team": "home", "player": "Vasilis Torosidis", "minute": "71" }
+    ], "redCards": [
+      { "team": "away", "player": "Sani Kaita", "minute": "33", "secondYellow": false }
     ] },
     { "stage": "Group B", "date": "2010-06-22", "homeTeam": "Nigeria", "awayTeam": "South Korea", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Kalu Uche", "minute": "12" },
@@ -75,6 +83,8 @@
     ] },
     { "stage": "Group C", "date": "2010-06-13", "homeTeam": "Algeria", "awayTeam": "Slovenia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Robert Koren", "minute": "79" }
+    ], "redCards": [
+      { "team": "home", "player": "Abdelkader Ghezzal", "minute": "72", "secondYellow": true }
     ] },
     { "stage": "Group C", "date": "2010-06-18", "homeTeam": "Slovenia", "awayTeam": "United States", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Valter Birsa", "minute": "13" },
@@ -88,23 +98,33 @@
     ] },
     { "stage": "Group C", "date": "2010-06-23", "homeTeam": "United States", "awayTeam": "Algeria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Landon Donovan", "minute": "90+1" }
+    ], "redCards": [
+      { "team": "away", "player": "Antar Yahia", "minute": "90+3", "secondYellow": true }
     ] },
 
     { "stage": "Group D", "date": "2010-06-13", "homeTeam": "Serbia", "awayTeam": "Ghana", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Asamoah Gyan", "minute": "85", "penalty": true }
+    ], "redCards": [
+      { "team": "home", "player": "Aleksandar Luković", "minute": "74", "secondYellow": true }
     ] },
     { "stage": "Group D", "date": "2010-06-13", "homeTeam": "Germany", "awayTeam": "Australia", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Lukas Podolski", "minute": "8" },
       { "team": "home", "player": "Miroslav Klose", "minute": "26" },
       { "team": "home", "player": "Thomas Müller", "minute": "68" },
       { "team": "home", "player": "Cacau", "minute": "70" }
+    ], "redCards": [
+      { "team": "away", "player": "Tim Cahill", "minute": "56", "secondYellow": false }
     ] },
     { "stage": "Group D", "date": "2010-06-18", "homeTeam": "Germany", "awayTeam": "Serbia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Milan Jovanović", "minute": "38" }
+    ], "redCards": [
+      { "team": "home", "player": "Miroslav Klose", "minute": "37", "secondYellow": true }
     ] },
     { "stage": "Group D", "date": "2010-06-19", "homeTeam": "Ghana", "awayTeam": "Australia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Brett Holman", "minute": "11" },
       { "team": "home", "player": "Asamoah Gyan", "minute": "25", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Harry Kewell", "minute": "24", "secondYellow": false }
     ] },
     { "stage": "Group D", "date": "2010-06-23", "homeTeam": "Ghana", "awayTeam": "Germany", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Mesut Özil", "minute": "60" }
@@ -178,6 +198,8 @@
       { "team": "home", "player": "Luís Fabiano", "minute": "50" },
       { "team": "home", "player": "Elano", "minute": "62" },
       { "team": "away", "player": "Didier Drogba", "minute": "79" }
+    ], "redCards": [
+      { "team": "home", "player": "Kaká", "minute": "88", "secondYellow": true }
     ] },
     { "stage": "Group G", "date": "2010-06-21", "homeTeam": "Portugal", "awayTeam": "North Korea", "homeScore": 7, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Raul Meireles", "minute": "29" },
@@ -203,6 +225,8 @@
     ] },
     { "stage": "Group H", "date": "2010-06-21", "homeTeam": "Chile", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Mark González", "minute": "75" }
+    ], "redCards": [
+      { "team": "away", "player": "Valon Behrami", "minute": "31", "secondYellow": false }
     ] },
     { "stage": "Group H", "date": "2010-06-21", "homeTeam": "Spain", "awayTeam": "Honduras", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "David Villa", "minute": "17" },
@@ -212,6 +236,8 @@
       { "team": "home", "player": "Rodrigo Millar", "minute": "47" },
       { "team": "away", "player": "David Villa", "minute": "24" },
       { "team": "away", "player": "Andrés Iniesta", "minute": "37" }
+    ], "redCards": [
+      { "team": "home", "player": "Marco Estrada", "minute": "37", "secondYellow": true }
     ] },
     { "stage": "Group H", "date": "2010-06-25", "homeTeam": "Switzerland", "awayTeam": "Honduras", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
 
@@ -260,6 +286,8 @@
     ] },
     { "stage": "Round of 16", "date": "2010-06-29", "homeTeam": "Spain", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "David Villa", "minute": "63" }
+    ], "redCards": [
+      { "team": "away", "player": "Ricardo Costa", "minute": "89", "secondYellow": false }
     ] },
     {
       "stage": "Round of 16",
@@ -302,6 +330,9 @@
         { "team": "away", "player": "Robinho", "minute": "10" },
         { "team": "home", "player": "Felipe Melo", "minute": "53", "ownGoal": true },
         { "team": "home", "player": "Wesley Sneijder", "minute": "68" }
+      ],
+      "redCards": [
+        { "team": "away", "player": "Felipe Melo", "minute": "73", "secondYellow": false }
       ]
     },
     {
@@ -332,7 +363,10 @@
           { "player": "John Mensah", "result": "missed" },
           { "player": "Dominic Adiyiah", "result": "missed" }
         ]
-      }
+      },
+      "redCards": [
+        { "team": "home", "player": "Luis Suárez", "minute": "120+1", "secondYellow": false }
+      ]
     },
     { "stage": "Quarter-final", "date": "2010-07-03", "homeTeam": "Argentina", "awayTeam": "Germany", "homeScore": 0, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Thomas Müller", "minute": "3" },
@@ -374,6 +408,9 @@
       "penalties": null,
       "goals": [
         { "team": "away", "player": "Andrés Iniesta", "minute": "116" }
+      ],
+      "redCards": [
+        { "team": "home", "player": "Johnny Heitinga", "minute": "109", "secondYellow": true }
       ]
     }
   ]

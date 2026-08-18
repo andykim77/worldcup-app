@@ -59,8 +59,21 @@ CREATE TABLE goals (
   goal_order INTEGER NOT NULL     -- chronological order within the match
 );
 
+-- One row per red card (straight red or second-yellow red). Plain yellow
+-- cards that did not lead to a sending-off are not tracked.
+CREATE TABLE cards (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  match_id INTEGER NOT NULL REFERENCES matches(id),
+  team_side TEXT NOT NULL,        -- 'home' or 'away'
+  player TEXT NOT NULL,
+  minute TEXT NOT NULL,
+  second_yellow INTEGER NOT NULL DEFAULT 0
+);
+
 CREATE INDEX idx_matches_year ON matches(year);
 CREATE INDEX idx_awards_year ON awards(year);
 CREATE INDEX idx_awards_player ON awards(player);
 CREATE INDEX idx_penkicks_match ON penalty_kicks(match_id);
 CREATE INDEX idx_goals_match ON goals(match_id);
+CREATE INDEX idx_cards_match ON cards(match_id);
+CREATE INDEX idx_cards_player ON cards(player);

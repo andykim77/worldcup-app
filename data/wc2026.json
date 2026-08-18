@@ -19,6 +19,10 @@
     { "stage": "Group A", "date": "2026-06-11", "homeTeam": "Mexico", "awayTeam": "South Africa", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Julián Quiñones", "minute": "9" },
       { "team": "home", "player": "Raúl Jiménez", "minute": "67" }
+    ], "redCards": [
+      { "team": "away", "player": "Sphephelo Sithole", "minute": "49", "secondYellow": false },
+      { "team": "away", "player": "Themba Zwane", "minute": "73", "secondYellow": false },
+      { "team": "home", "player": "César Montes", "minute": "90+2", "secondYellow": false }
     ] },
     { "stage": "Group A", "date": "2026-06-11", "homeTeam": "South Korea", "awayTeam": "Czechia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Ladislav Krejčí", "minute": "59" },
@@ -55,6 +59,8 @@
       { "team": "home", "player": "Rubén Vargas", "minute": "84" },
       { "team": "home", "player": "Johan Manzambi", "minute": "90" },
       { "team": "home", "player": "Granit Xhaka", "minute": "90+7", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Tarik Muharemović", "minute": "80", "secondYellow": false }
     ] },
     { "stage": "Group B", "date": "2026-06-18", "homeTeam": "Canada", "awayTeam": "Qatar", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Cyle Larin", "minute": "16" },
@@ -63,6 +69,9 @@
       { "team": "home", "player": "Nathan Saliba", "minute": "64" },
       { "team": "home", "player": "Mohamed Manai", "minute": "75", "ownGoal": true },
       { "team": "home", "player": "Jonathan David", "minute": "90+2" }
+    ], "redCards": [
+      { "team": "away", "player": "Homam Ahmed", "minute": "33", "secondYellow": false },
+      { "team": "away", "player": "Assim Madibo", "minute": "51", "secondYellow": false }
     ] },
     { "stage": "Group B", "date": "2026-06-24", "homeTeam": "Switzerland", "awayTeam": "Canada", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Rubén Vargas", "minute": "46" },
@@ -122,6 +131,8 @@
     ] },
     { "stage": "Group D", "date": "2026-06-19", "homeTeam": "Turkey", "awayTeam": "Paraguay", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Matías Galarza", "minute": "2" }
+    ], "redCards": [
+      { "team": "away", "player": "Miguel Almirón", "minute": "45+3", "secondYellow": false }
     ] },
     { "stage": "Group D", "date": "2026-06-25", "homeTeam": "Turkey", "awayTeam": "United States", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Auston Trusty", "minute": "3" },
@@ -210,7 +221,9 @@
       { "team": "away", "player": "Elijah Just", "minute": "54" },
       { "team": "home", "player": "Mohammad Mohebi", "minute": "64" }
     ] },
-    { "stage": "Group G", "date": "2026-06-21", "homeTeam": "Belgium", "awayTeam": "Iran", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group G", "date": "2026-06-21", "homeTeam": "Belgium", "awayTeam": "Iran", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Nathan Ngoy", "minute": "66", "secondYellow": false }
+    ] },
     { "stage": "Group G", "date": "2026-06-21", "homeTeam": "New Zealand", "awayTeam": "Egypt", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Finn Surman", "minute": "15" },
       { "team": "away", "player": "Mostafa Ziko", "minute": "58" },
@@ -250,6 +263,8 @@
     { "stage": "Group H", "date": "2026-06-26", "homeTeam": "Cape Verde", "awayTeam": "Saudi Arabia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
     { "stage": "Group H", "date": "2026-06-26", "homeTeam": "Uruguay", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Álex Baena", "minute": "42" }
+    ], "redCards": [
+      { "team": "home", "player": "Agustín Canobbio", "minute": "90+4", "secondYellow": false }
     ] },
 
     { "stage": "Group I", "date": "2026-06-16", "homeTeam": "France", "awayTeam": "Senegal", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
@@ -290,6 +305,8 @@
       { "team": "home", "player": "Pape Gueye", "minute": "59" },
       { "team": "home", "player": "Pape Gueye", "minute": "71" },
       { "team": "home", "player": "Iliman Ndiaye", "minute": "82" }
+    ], "redCards": [
+      { "team": "away", "player": "Rebin Sulaka", "minute": "13", "secondYellow": false }
     ] },
 
     { "stage": "Group J", "date": "2026-06-16", "homeTeam": "Argentina", "awayTeam": "Algeria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
@@ -451,6 +468,8 @@
     { "stage": "Round of 32", "date": "2026-06-30", "homeTeam": "Mexico", "awayTeam": "Ecuador", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Julián Quiñones", "minute": "22" },
       { "team": "home", "player": "Raúl Jiménez", "minute": "31" }
+    ], "redCards": [
+      { "team": "away", "player": "Piero Hincapié", "minute": "90+5", "secondYellow": false }
     ] },
     { "stage": "Round of 32", "date": "2026-07-01", "homeTeam": "England", "awayTeam": "DR Congo", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Brian Cipenga", "minute": "7" },
@@ -467,6 +486,8 @@
     { "stage": "Round of 32", "date": "2026-07-01", "homeTeam": "United States", "awayTeam": "Bosnia and Herzegovina", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Folarin Balogun", "minute": "45" },
       { "team": "home", "player": "Malik Tillman", "minute": "82" }
+    ], "redCards": [
+      { "team": "home", "player": "Folarin Balogun", "minute": "64", "secondYellow": false }
     ] },
     { "stage": "Round of 32", "date": "2026-07-02", "homeTeam": "Spain", "awayTeam": "Austria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Mikel Oyarzabal", "minute": "36" },
@@ -534,6 +555,8 @@
       { "team": "home", "player": "Julián Quiñones", "minute": "42" },
       { "team": "away", "player": "Harry Kane", "minute": "60", "penalty": true },
       { "team": "home", "player": "Raúl Jiménez", "minute": "69", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Jarell Quansah", "minute": "54", "secondYellow": false }
     ] },
     { "stage": "Round of 16", "date": "2026-07-06", "homeTeam": "Portugal", "awayTeam": "Spain", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Mikel Merino", "minute": "90+1" }
@@ -593,6 +616,8 @@
       { "team": "away", "player": "Dan Ndoye", "minute": "67" },
       { "team": "home", "player": "Julián Álvarez", "minute": "112" },
       { "team": "home", "player": "Lautaro Martínez", "minute": "120+1" }
+    ], "redCards": [
+      { "team": "away", "player": "Breel Embolo", "minute": "72", "secondYellow": true }
     ] },
 
     { "stage": "Semi-final", "date": "2026-07-14", "homeTeam": "France", "awayTeam": "Spain", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
@@ -620,6 +645,8 @@
 
     { "stage": "Final", "date": "2026-07-19", "homeTeam": "Spain", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
       { "team": "home", "player": "Ferran Torres", "minute": "106" }
+    ], "redCards": [
+      { "team": "away", "player": "Enzo Fernández", "minute": "90+3", "secondYellow": true }
     ] }
   ]
 }

@@ -81,6 +81,7 @@ h1, h2, h3, .brand { font-family: "Sora", "Inter", sans-serif; }
 }
 
 .topbar nav a:hover { color: var(--text); border-color: var(--accent-2); }
+.topbar nav a.active { color: var(--text); border-color: var(--accent); }
 
 main {
   max-width: 1080px;
@@ -266,6 +267,13 @@ h3 { font-size: 0.85rem; margin: 22px 0 10px; color: var(--text-dim); text-trans
 .award-card .club { color: var(--text-dim); font-size: 0.85rem; display: flex; align-items: center; gap: 6px; }
 .award-card .detail { color: var(--text-dim); font-size: 0.8rem; margin-top: 4px; }
 
+.award-card.tier-gold { border-left-color: var(--gold); }
+.award-card.tier-gold .award-name { color: var(--gold); }
+.award-card.tier-silver { border-left-color: var(--silver); }
+.award-card.tier-silver .award-name { color: var(--silver); }
+.award-card.tier-bronze { border-left-color: var(--bronze); }
+.award-card.tier-bronze .award-name { color: var(--bronze); }
+
 .badge {
   display: inline-block;
   background: var(--accent);
@@ -360,34 +368,75 @@ h3 { font-size: 0.85rem; margin: 22px 0 10px; color: var(--text-dim); text-trans
 .pen-kick.scored .result-icon { color: var(--win); }
 .pen-kick.missed .result-icon { color: var(--loss); }
 
-.multi-award-list { display: flex; flex-direction: column; gap: 14px; }
-
-.multi-award-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 18px 20px;
-  transition: transform 0.15s;
-}
-
-.multi-award-card:hover { transform: translateY(-2px); }
-
-.multi-award-card .player-name { font-size: 1.15rem; font-weight: 700; }
-.multi-award-card .meta { color: var(--text-dim); font-size: 0.85rem; margin: 3px 0 12px; display: flex; align-items: center; gap: 6px; }
-.multi-award-card .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
-
-.pill {
-  background: var(--panel-2);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 11px;
-  font-size: 0.76rem;
-}
-
-.pill.wc-pill { background: var(--accent); color: #16130a; border-color: var(--accent); font-weight: 700; }
-
 .loading, .empty { color: var(--text-dim); padding: 48px 0; text-align: center; }
+
+/* ---------- Records page ---------- */
+
+.record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.record-card {
+  background: linear-gradient(160deg, var(--panel) 0%, var(--panel-2) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px 8px;
+}
+
+.record-card h3 {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.leaderboard { display: flex; flex-direction: column; }
+
+.leaderboard-row {
+  display: grid;
+  grid-template-columns: 22px 22px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.leaderboard-row:last-child { border-bottom: none; }
+
+.rank {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-align: center;
+}
+
+.rank-1 { color: var(--gold); }
+.rank-2 { color: var(--silver); }
+.rank-3 { color: var(--bronze); }
+
+.lb-name { font-weight: 500; }
+.lb-sub { color: var(--text-dim); font-weight: 400; font-size: 0.82rem; }
+.lb-total { font-family: "Sora", sans-serif; font-weight: 700; color: var(--accent-2); white-space: nowrap; }
+
+.record-match-line {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.record-match-line:last-child { border-bottom: none; }
+.rm-teams { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.rm-meta { color: var(--text-dim); font-size: 0.78rem; }
 
 .flag {
   width: 20px;
@@ -419,6 +468,8 @@ h3 { font-size: 0.85rem; margin: 22px 0 10px; color: var(--text-dim); text-trans
 .goals-home { text-align: right; }
 .goals-away { text-align: left; }
 
+.cards-line { color: var(--loss); border-top: none; margin-top: -1px; }
+
 .goal-timeline { max-width: 480px; margin: 0 auto; display: flex; flex-direction: column; gap: 6px; }
 
 .timeline-entry {
@@ -446,6 +497,8 @@ h3 { font-size: 0.85rem; margin: 22px 0 10px; color: var(--text-dim); text-trans
 .timeline-entry.home .timeline-minute { grid-column: 2; }
 .timeline-entry.away .timeline-team { grid-column: 3; text-align: left; }
 .timeline-entry.away .timeline-minute { grid-column: 2; }
+
+.timeline-minute.card-minute { color: var(--loss); border-color: rgba(255, 107, 107, 0.35); }
 
 @media (max-width: 600px) {
   .hero { padding: 40px 0 28px; }

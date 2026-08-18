@@ -31,10 +31,14 @@
       { "team": "home", "player": "Darío Rodríguez", "minute": "47" },
       { "team": "away", "player": "Jon Dahl Tomasson", "minute": "83" }
     ] },
-    { "stage": "Group A", "date": "2002-06-06", "homeTeam": "France", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group A", "date": "2002-06-06", "homeTeam": "France", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Thierry Henry", "minute": "25", "secondYellow": false }
+    ] },
     { "stage": "Group A", "date": "2002-06-06", "homeTeam": "Denmark", "awayTeam": "Senegal", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Jon Dahl Tomasson", "minute": "16", "penalty": true },
       { "team": "away", "player": "Salif Diao", "minute": "52" }
+    ], "redCards": [
+      { "team": "away", "player": "Salif Diao", "minute": "80", "secondYellow": true }
     ] },
     { "stage": "Group A", "date": "2002-06-11", "homeTeam": "Senegal", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Khalilou Fadiga", "minute": "20", "penalty": true },
@@ -82,12 +86,18 @@
       { "team": "away", "player": "Nelson Cuevas", "minute": "65" },
       { "team": "away", "player": "Jorge Campos", "minute": "73" },
       { "team": "away", "player": "Nelson Cuevas", "minute": "84" }
+    ], "redCards": [
+      { "team": "away", "player": "Carlos Paredes", "minute": "22", "secondYellow": true },
+      { "team": "home", "player": "Nastja Čeh", "minute": "81", "secondYellow": false }
     ] },
 
     { "stage": "Group C", "date": "2002-06-03", "homeTeam": "Brazil", "awayTeam": "Turkey", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Hasan Şaş", "minute": "45+2" },
       { "team": "home", "player": "Ronaldo", "minute": "50" },
       { "team": "home", "player": "Rivaldo", "minute": "87", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Alpay Özalan", "minute": "86", "secondYellow": true },
+      { "team": "away", "player": "Hakan Ünsal", "minute": "90+4", "secondYellow": true }
     ] },
     { "stage": "Group C", "date": "2002-06-04", "homeTeam": "China", "awayTeam": "Costa Rica", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Rónald Gómez", "minute": "61" },
@@ -116,6 +126,8 @@
       { "team": "home", "player": "Hasan Şaş", "minute": "6" },
       { "team": "home", "player": "Bülent Korkmaz", "minute": "9" },
       { "team": "home", "player": "Ümit Davala", "minute": "85" }
+    ], "redCards": [
+      { "team": "away", "player": "Shao Jiayi", "minute": "58", "secondYellow": false }
     ] },
 
     { "stage": "Group D", "date": "2002-06-04", "homeTeam": "South Korea", "awayTeam": "Poland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
@@ -141,6 +153,9 @@
     ] },
     { "stage": "Group D", "date": "2002-06-14", "homeTeam": "South Korea", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Park Ji-sung", "minute": "70" }
+    ], "redCards": [
+      { "team": "away", "player": "João Pinto", "minute": "27", "secondYellow": false },
+      { "team": "away", "player": "Beto", "minute": "66", "secondYellow": true }
     ] },
     { "stage": "Group D", "date": "2002-06-14", "homeTeam": "Poland", "awayTeam": "United States", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Emmanuel Olisadebe", "minute": "3" },
@@ -173,6 +188,9 @@
     { "stage": "Group E", "date": "2002-06-11", "homeTeam": "Cameroon", "awayTeam": "Germany", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Marco Bode", "minute": "50" },
       { "team": "away", "player": "Miroslav Klose", "minute": "79" }
+    ], "redCards": [
+      { "team": "away", "player": "Carsten Ramelow", "minute": "40", "secondYellow": true },
+      { "team": "home", "player": "Patrick Suffo", "minute": "77", "secondYellow": true }
     ] },
     { "stage": "Group E", "date": "2002-06-11", "homeTeam": "Saudi Arabia", "awayTeam": "Republic of Ireland", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Robbie Keane", "minute": "7" },
@@ -198,11 +216,15 @@
     { "stage": "Group F", "date": "2002-06-12", "homeTeam": "Sweden", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Anders Svensson", "minute": "59" },
       { "team": "away", "player": "Hernán Crespo", "minute": "88" }
+    ], "redCards": [
+      { "team": "away", "player": "Claudio Caniggia", "minute": "45+2", "secondYellow": false }
     ] },
     { "stage": "Group F", "date": "2002-06-12", "homeTeam": "Nigeria", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
 
     { "stage": "Group G", "date": "2002-06-03", "homeTeam": "Croatia", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Cuauhtémoc Blanco", "minute": "60", "penalty": true }
+    ], "redCards": [
+      { "team": "home", "player": "Boris Živković", "minute": "59", "secondYellow": false }
     ] },
     { "stage": "Group G", "date": "2002-06-03", "homeTeam": "Italy", "awayTeam": "Ecuador", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Christian Vieri", "minute": "7" },
@@ -257,6 +279,8 @@
 
     { "stage": "Round of 16", "date": "2002-06-15", "homeTeam": "Germany", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Oliver Neuville", "minute": "88" }
+    ], "redCards": [
+      { "team": "away", "player": "Roberto Acuña", "minute": "90+2", "secondYellow": true }
     ] },
     { "stage": "Round of 16", "date": "2002-06-15", "homeTeam": "Denmark", "awayTeam": "England", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Rio Ferdinand", "minute": "5" },
@@ -316,6 +340,8 @@
     { "stage": "Round of 16", "date": "2002-06-17", "homeTeam": "United States", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Brian McBride", "minute": "8" },
       { "team": "home", "player": "Landon Donovan", "minute": "65" }
+    ], "redCards": [
+      { "team": "away", "player": "Rafael Márquez", "minute": "88", "secondYellow": false }
     ] },
     { "stage": "Round of 16", "date": "2002-06-18", "homeTeam": "Japan", "awayTeam": "Turkey", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Ümit Davala", "minute": "12" }
@@ -333,6 +359,9 @@
         { "team": "away", "player": "Christian Vieri", "minute": "18" },
         { "team": "home", "player": "Seol Ki-hyeon", "minute": "88" },
         { "team": "home", "player": "Ahn Jung-hwan", "minute": "117" }
+      ],
+      "redCards": [
+        { "team": "away", "player": "Francesco Totti", "minute": "103", "secondYellow": true }
       ]
     },
 
@@ -340,6 +369,8 @@
       { "team": "home", "player": "Michael Owen", "minute": "23" },
       { "team": "away", "player": "Rivaldo", "minute": "45+2" },
       { "team": "away", "player": "Ronaldinho", "minute": "50" }
+    ], "redCards": [
+      { "team": "away", "player": "Ronaldinho", "minute": "57", "secondYellow": false }
     ] },
     { "stage": "Quarter-final", "date": "2002-06-21", "homeTeam": "Germany", "awayTeam": "United States", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Michael Ballack", "minute": "39" }

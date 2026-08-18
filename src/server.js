@@ -78,10 +78,24 @@ app.get('/api/editions/:year', (req, res) => {
     }
   }
 
+  let cardsByMatch = {};
+  if (matchIds.length) {
+    const placeholders = matchIds.map(() => '?').join(',');
+    const cards = all(
+      `SELECT * FROM cards WHERE match_id IN (${placeholders}) ORDER BY match_id, id`,
+      matchIds
+    );
+    for (const c of cards) {
+      if (!cardsByMatch[c.match_id]) cardsByMatch[c.match_id] = [];
+      cardsByMatch[c.match_id].push(c);
+    }
+  }
+
   const matchesOut = matches.map(m => ({
     ...m,
     penaltyKicks: penKicksByMatch[m.id] || null,
     goals: goalsByMatch[m.id] || [],
+    cards: cardsByMatch[m.id] || [],
   }));
 
   res.json({ edition, awards, matches: matchesOut });
@@ -115,7 +129,8 @@ app.get('/api/matches/:id', (req, res) => {
   const penaltyKicks = { home: [], away: [] };
   for (const k of kicks) penaltyKicks[k.team_side].push({ player: k.player, result: k.result });
   const goals = all('SELECT * FROM goals WHERE match_id = ? ORDER BY goal_order', [id]);
-  res.json({ ...match, penaltyKicks: kicks.length ? penaltyKicks : null, goals });
+  const cards = all('SELECT * FROM cards WHERE match_id = ? ORDER BY id', [id]);
+  res.json({ ...match, penaltyKicks: kicks.length ? penaltyKicks : null, goals, cards });
 });
 
 // All awards, optionally filtered by player
@@ -131,35 +146,107 @@ app.get('/api/awards', (req, res) => {
   res.json(all(sql, params));
 });
 
-// Players who won multiple things "at once" in the same edition:
-// either (a) received 2+ individual awards in the same year, or
-// (b) received an individual award AND their nationality's team won the World Cup that year.
-app.get('/api/multi-award-winners', (req, res) => {
-  const awards = all(`
-    SELECT a.*, e.winner AS wc_winner
-    FROM awards a
-    JOIN editions e ON e.year = a.year
-    ORDER BY a.year, a.player
+// Cross-tournament records: player leaderboards + team/match superlatives.
+app.get('/api/records', (req, res) => {
+  const topScorers = all(`
+    SELECT player, team, SUM(cnt) AS total
+    FROM (
+      SELECT g.player AS player,
+             CASE WHEN g.team_side = 'home' THEN m.home_team ELSE m.away_team END AS team,
+             COUNT(*) AS cnt
+      FROM goals g JOIN matches m ON m.id = g.match_id
+      WHERE g.own_goal = 0
+      GROUP BY g.player, team
+    )
+    GROUP BY player
+    ORDER BY total DESC
+    LIMIT 10
   `);
 
-  const byPlayerYear = new Map();
-  for (const a of awards) {
-    const key = `${a.year}|${a.player}`;
-    if (!byPlayerYear.has(key)) {
-      byPlayerYear.set(key, { year: a.year, player: a.player, club: a.club, nationality: a.nationality, awards: [], wonWorldCup: false });
-    }
-    const entry = byPlayerYear.get(key);
-    entry.awards.push({ name: a.award_name, detail: a.detail });
-    if (a.nationality && a.wc_winner && a.nationality === a.wc_winner) {
-      entry.wonWorldCup = true;
-    }
-  }
+  const topAwardWinners = all(`
+    SELECT player, nationality, COUNT(*) AS total
+    FROM awards
+    GROUP BY player
+    HAVING total >= 2
+    ORDER BY total DESC
+    LIMIT 10
+  `);
 
-  const result = [...byPlayerYear.values()]
-    .filter(e => e.awards.length > 1 || (e.wonWorldCup && e.awards.length >= 1))
-    .sort((a, b) => b.year - a.year);
+  const topRedCards = all(`
+    SELECT player, team, SUM(cnt) AS total
+    FROM (
+      SELECT c.player AS player,
+             CASE WHEN c.team_side = 'home' THEN m.home_team ELSE m.away_team END AS team,
+             COUNT(*) AS cnt
+      FROM cards c JOIN matches m ON m.id = c.match_id
+      GROUP BY c.player, team
+    )
+    GROUP BY player
+    ORDER BY total DESC
+    LIMIT 10
+  `);
 
-  res.json(result);
+  const mostTitles = all(`
+    SELECT winner AS team, COUNT(*) AS total
+    FROM editions
+    GROUP BY winner
+    ORDER BY total DESC
+    LIMIT 5
+  `);
+
+  const biggestWinMargins = all(`
+    SELECT year, stage, home_team, away_team, home_score, away_score,
+           ABS(home_score - away_score) AS margin
+    FROM matches
+    ORDER BY margin DESC, (home_score + away_score) DESC
+    LIMIT 5
+  `);
+
+  const highestScoringMatches = all(`
+    SELECT year, stage, home_team, away_team, home_score, away_score,
+           (home_score + away_score) AS total_goals
+    FROM matches
+    ORDER BY total_goals DESC
+    LIMIT 5
+  `);
+
+  const highestScoringFinal = get(`
+    SELECT year, stage, home_team, away_team, home_score, away_score, extra_time,
+           pen_home_score, pen_away_score, (home_score + away_score) AS total_goals
+    FROM matches
+    WHERE stage = 'Final'
+    ORDER BY total_goals DESC
+    LIMIT 1
+  `);
+
+  const longestShootouts = all(`
+    SELECT m.year, m.stage, m.home_team, m.away_team, m.pen_home_score, m.pen_away_score,
+           COUNT(pk.id) AS total_kicks
+    FROM penalty_kicks pk JOIN matches m ON m.id = pk.match_id
+    GROUP BY pk.match_id
+    ORDER BY total_kicks DESC
+    LIMIT 3
+  `);
+
+  const mostCardsInAMatch = all(`
+    SELECT m.year, m.stage, m.home_team, m.away_team, m.match_date, COUNT(c.id) AS total_cards
+    FROM cards c JOIN matches m ON m.id = c.match_id
+    GROUP BY c.match_id
+    ORDER BY total_cards DESC
+    LIMIT 5
+  `);
+
+  res.json({
+    topScorers,
+    topAwardWinners,
+    topRedCards,
+    mostTitles,
+    biggestWinMargins,
+    highestScoringMatches,
+    highestScoringFinal,
+    longestShootouts,
+    mostCardsInAMatch,
+  });
 });
 
 app.listen(PORT, () => {

@@ -31,6 +31,8 @@
       { "team": "away", "player": "Ivan Perišić", "minute": "48" },
       { "team": "away", "player": "Mario Mandžukić", "minute": "61" },
       { "team": "away", "player": "Mario Mandžukić", "minute": "73" }
+    ], "redCards": [
+      { "team": "home", "player": "Alex Song", "minute": "40", "secondYellow": false }
     ] },
     { "stage": "Group A", "date": "2014-06-23", "homeTeam": "Cameroon", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Neymar", "minute": "17" },
@@ -44,6 +46,8 @@
       { "team": "away", "player": "Andrés Guardado", "minute": "74" },
       { "team": "away", "player": "Javier Hernández", "minute": "80" },
       { "team": "home", "player": "Ivan Perišić", "minute": "89" }
+    ], "redCards": [
+      { "team": "home", "player": "Ante Rebić", "minute": "89", "secondYellow": false }
     ] },
 
     { "stage": "Group B", "date": "2014-06-13", "homeTeam": "Spain", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
@@ -96,7 +100,9 @@
       { "team": "home", "player": "Juan Fernando Quintero", "minute": "70" },
       { "team": "away", "player": "Gervinho", "minute": "73" }
     ] },
-    { "stage": "Group C", "date": "2014-06-19", "homeTeam": "Japan", "awayTeam": "Greece", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "2014-06-19", "homeTeam": "Japan", "awayTeam": "Greece", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "away", "player": "Konstantinos Katsouranis", "minute": "38", "secondYellow": true }
+    ] },
     { "stage": "Group C", "date": "2014-06-24", "homeTeam": "Japan", "awayTeam": "Colombia", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Juan Cuadrado", "minute": "17", "penalty": true },
       { "team": "home", "player": "Shinji Okazaki", "minute": "45+1" },
@@ -115,6 +121,8 @@
       { "team": "away", "player": "Joel Campbell", "minute": "54" },
       { "team": "away", "player": "Óscar Duarte", "minute": "57" },
       { "team": "away", "player": "Marco Ureña", "minute": "84" }
+    ], "redCards": [
+      { "team": "home", "player": "Maximiliano Pereira", "minute": "90+4", "secondYellow": false }
     ] },
     { "stage": "Group D", "date": "2014-06-14", "homeTeam": "England", "awayTeam": "Italy", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Claudio Marchisio", "minute": "35" },
@@ -131,6 +139,8 @@
     ] },
     { "stage": "Group D", "date": "2014-06-24", "homeTeam": "Italy", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Diego Godín", "minute": "81" }
+    ], "redCards": [
+      { "team": "home", "player": "Claudio Marchisio", "minute": "59", "secondYellow": false }
     ] },
     { "stage": "Group D", "date": "2014-06-24", "homeTeam": "Costa Rica", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
 
@@ -143,6 +153,8 @@
       { "team": "home", "player": "Karim Benzema", "minute": "45", "penalty": true },
       { "team": "home", "player": "Noel Valladares", "minute": "48", "ownGoal": true },
       { "team": "home", "player": "Karim Benzema", "minute": "72" }
+    ], "redCards": [
+      { "team": "away", "player": "Wilson Palacios", "minute": "43", "secondYellow": true }
     ] },
     { "stage": "Group E", "date": "2014-06-20", "homeTeam": "Switzerland", "awayTeam": "France", "homeScore": 2, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Olivier Giroud", "minute": "17" },
@@ -163,7 +175,9 @@
       { "team": "away", "player": "Xherdan Shaqiri", "minute": "31" },
       { "team": "away", "player": "Xherdan Shaqiri", "minute": "71" }
     ] },
-    { "stage": "Group E", "date": "2014-06-25", "homeTeam": "Ecuador", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group E", "date": "2014-06-25", "homeTeam": "Ecuador", "awayTeam": "France", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Antonio Valencia", "minute": "50", "secondYellow": false }
+    ] },
 
     { "stage": "Group F", "date": "2014-06-15", "homeTeam": "Argentina", "awayTeam": "Bosnia and Herzegovina", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Sead Kolašinac", "minute": "3", "ownGoal": true },
@@ -196,6 +210,8 @@
       { "team": "home", "player": "Mats Hummels", "minute": "32" },
       { "team": "home", "player": "Thomas Müller", "minute": "45+1" },
       { "team": "home", "player": "Thomas Müller", "minute": "78" }
+    ], "redCards": [
+      { "team": "away", "player": "Pepe", "minute": "37", "secondYellow": false }
     ] },
     { "stage": "Group G", "date": "2014-06-16", "homeTeam": "Ghana", "awayTeam": "United States", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Clint Dempsey", "minute": "1" },
@@ -245,6 +261,8 @@
     ] },
     { "stage": "Group H", "date": "2014-06-26", "homeTeam": "South Korea", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Jan Vertonghen", "minute": "78" }
+    ], "redCards": [
+      { "team": "away", "player": "Steven Defour", "minute": "45", "secondYellow": false }
     ] },
     { "stage": "Group H", "date": "2014-06-26", "homeTeam": "Algeria", "awayTeam": "Russia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Aleksandr Kokorin", "minute": "6" },
@@ -318,6 +336,9 @@
       "goals": [
         { "team": "home", "player": "Bryan Ruiz", "minute": "52" },
         { "team": "away", "player": "Sokratis Papastathopoulos", "minute": "90+1" }
+      ],
+      "redCards": [
+        { "team": "home", "player": "Óscar Duarte", "minute": "66", "secondYellow": true }
       ]
     },
     { "stage": "Round of 16", "date": "2014-06-30", "homeTeam": "France", "awayTeam": "Nigeria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [

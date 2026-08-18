@@ -80,6 +80,8 @@
       { "team": "away", "player": "Shinji Kagawa", "minute": "6", "penalty": true },
       { "team": "home", "player": "Juan Fernando Quintero", "minute": "39" },
       { "team": "away", "player": "Yuya Osako", "minute": "73" }
+    ], "redCards": [
+      { "team": "home", "player": "Carlos Sánchez", "minute": "3", "secondYellow": false }
     ] },
     { "stage": "Group H", "date": "2018-06-19", "homeTeam": "Poland", "awayTeam": "Senegal", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Thiago Cionek", "minute": "37", "ownGoal": true },
@@ -135,6 +137,8 @@
       { "team": "away", "player": "Ola Toivonen", "minute": "32" },
       { "team": "home", "player": "Marco Reus", "minute": "48" },
       { "team": "home", "player": "Toni Kroos", "minute": "90+5" }
+    ], "redCards": [
+      { "team": "home", "player": "Jérôme Boateng", "minute": "82", "secondYellow": true }
     ] },
     { "stage": "Group G", "date": "2018-06-23", "homeTeam": "Belgium", "awayTeam": "Tunisia", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Eden Hazard", "minute": "6", "penalty": true },
@@ -169,6 +173,8 @@
       { "team": "home", "player": "Luis Suárez", "minute": "10" },
       { "team": "home", "player": "Denis Cheryshev", "minute": "23", "ownGoal": true },
       { "team": "home", "player": "Edinson Cavani", "minute": "90" }
+    ], "redCards": [
+      { "team": "away", "player": "Igor Smolnikov", "minute": "36", "secondYellow": true }
     ] },
     { "stage": "Group A", "date": "2018-06-25", "homeTeam": "Saudi Arabia", "awayTeam": "Egypt", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Mohamed Salah", "minute": "22" },
@@ -299,6 +305,8 @@
     ] },
     { "stage": "Round of 16", "date": "2018-07-03", "homeTeam": "Sweden", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Emil Forsberg", "minute": "66" }
+    ], "redCards": [
+      { "team": "away", "player": "Michael Lang", "minute": "90+4", "secondYellow": false }
     ] },
     { "stage": "Round of 16", "date": "2018-07-03", "homeTeam": "Colombia", "awayTeam": "England", "homeScore": 1, "awayScore": 1, "extraTime": true, "goals": [
       { "team": "away", "player": "Harry Kane", "minute": "57", "penalty": true },

@@ -47,6 +47,11 @@ const insertGoal = db.prepare(`
   VALUES (?, ?, ?, ?, ?, ?, ?)
 `);
 
+const insertCard = db.prepare(`
+  INSERT INTO cards (match_id, team_side, player, minute, second_yellow)
+  VALUES (?, ?, ?, ?, ?)
+`);
+
 const files = fs.readdirSync(DATA_DIR).filter(f => f.startsWith('wc') && f.endsWith('.json'));
 
 if (files.length === 0) {
@@ -58,6 +63,7 @@ let totalMatches = 0;
 let totalAwards = 0;
 let totalPenKicks = 0;
 let totalGoals = 0;
+let totalCards = 0;
 
 for (const file of files.sort()) {
   const raw = fs.readFileSync(path.join(DATA_DIR, file), 'utf8');
@@ -113,10 +119,15 @@ for (const file of files.sort()) {
       );
       totalGoals++;
     });
+
+    (m.redCards || []).forEach((c) => {
+      insertCard.run(matchId, c.team, c.player, String(c.minute), c.secondYellow ? 1 : 0);
+      totalCards++;
+    });
   }
 
   console.log(`Seeded ${file}: ${json.matches.length} matches, edition ${ed.year}`);
 }
 
-console.log(`Done. Editions: ${files.length}, matches: ${totalMatches}, awards: ${totalAwards}, penalty kicks: ${totalPenKicks}, goals: ${totalGoals}`);
+console.log(`Done. Editions: ${files.length}, matches: ${totalMatches}, awards: ${totalAwards}, penalty kicks: ${totalPenKicks}, goals: ${totalGoals}, red cards: ${totalCards}`);
 db.close();

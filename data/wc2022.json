@@ -66,6 +66,8 @@
     { "stage": "Group B", "date": "2022-11-25", "homeTeam": "Wales", "awayTeam": "Iran", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Rouzbeh Cheshmi", "minute": "90+8" },
       { "team": "away", "player": "Ramin Rezaeian", "minute": "90+11" }
+    ], "redCards": [
+      { "team": "home", "player": "Wayne Hennessey", "minute": "86", "secondYellow": false }
     ] },
     { "stage": "Group B", "date": "2022-11-25", "homeTeam": "England", "awayTeam": "United States", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
     { "stage": "Group B", "date": "2022-11-29", "homeTeam": "Wales", "awayTeam": "England", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
@@ -208,6 +210,8 @@
     ] },
     { "stage": "Group G", "date": "2022-12-02", "homeTeam": "Cameroon", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Vincent Aboubakar", "minute": "90+2" }
+    ], "redCards": [
+      { "team": "home", "player": "Vincent Aboubakar", "minute": "90+3", "secondYellow": true }
     ] },
 
     { "stage": "Group H", "date": "2022-11-24", "homeTeam": "Uruguay", "awayTeam": "South Korea", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
@@ -392,10 +396,15 @@
           { "player": "Enzo Fernández", "result": "missed" },
           { "player": "Lautaro Martínez", "result": "scored" }
         ]
-      }
+      },
+      "redCards": [
+        { "team": "home", "player": "Denzel Dumfries", "minute": "120+8", "secondYellow": true }
+      ]
     },
     { "stage": "Quarter-final", "date": "2022-12-10", "homeTeam": "Morocco", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
       { "team": "home", "player": "Youssef En-Nesyri", "minute": "42" }
+    ], "redCards": [
+      { "team": "home", "player": "Walid Cheddira", "minute": "90+3", "secondYellow": true }
     ] },
     { "stage": "Quarter-final", "date": "2022-12-10", "homeTeam": "England", "awayTeam": "France", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
       { "team": "away", "player": "Aurélien Tchouaméni", "minute": "17" },
