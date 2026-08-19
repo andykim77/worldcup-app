@@ -14,6 +14,86 @@ function escapeHtml(s) {
     .replace(/>/g, '&gt;');
 }
 
+// Freely-licensed photos only (this repo is public) — see credits in trophyCollageHtml().
+// Years without an entry render as a placeholder tile instead of a photo.
+const TROPHY_PHOTOS = {
+  2006: {
+    file: '2006.jpg',
+    credit: 'Presidenza della Repubblica (Quirinale.it)',
+    license: 'free use, attribution required',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Italy_2006_FIFA_World_Cup_Champion_-_Melandri,_Napolitano,_Cannavaro_and_Lippi.jpg',
+  },
+  2010: {
+    file: '2010.jpg',
+    credit: 'Rastrojo, Wikimedia Commons',
+    license: 'CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Casillas_besando_la_Copa_del_Mundo_de_f%C3%BAtbol.jpg',
+  },
+  2014: {
+    file: '2014.jpg',
+    credit: 'Marcello Casal Jr / Agência Brasil',
+    license: 'CC BY 3.0 BR',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Germany_lifts_the_2014_FIFA_World_Cup.jpg',
+  },
+  2018: {
+    file: '2018.jpg',
+    credit: 'Anton Zaytsev, via soccer.ru',
+    license: 'CC BY-SA 3.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_World_Cup_Trophy.jpg',
+  },
+  2022: {
+    file: '2022.jpg',
+    credit: 'Sebas, Wikimedia Commons',
+    license: 'CC BY 3.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg',
+  },
+};
+
+function trophyTileHtml(e) {
+  const photo = TROPHY_PHOTOS[e.year];
+  if (photo) {
+    return `
+      <a class="trophy-tile" href="#/edition/${e.year}" title="${e.year} — ${escapeHtml(e.winner)}">
+        <img src="images/trophies/${photo.file}" alt="${escapeHtml(e.winner)} celebrating with the World Cup trophy, ${e.year}" loading="lazy">
+        <div class="tt-scrim">
+          <span class="tt-year">${e.year}</span>
+          <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</span>
+        </div>
+      </a>
+    `;
+  }
+  return `
+    <a class="trophy-tile tt-placeholder" href="#/edition/${e.year}" title="${e.year} — ${escapeHtml(e.winner)}">
+      <span class="tt-trophy">🏆</span>
+      <span class="tt-year">${e.year}</span>
+      <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</span>
+      <span class="tt-note">no free-licensed photo on file</span>
+    </a>
+  `;
+}
+
+function trophyCollageHtml(editions) {
+  const sorted = [...editions].sort((a, b) => a.year - b.year);
+  const credits = Object.entries(TROPHY_PHOTOS).map(([year, p]) => `
+    <li><a href="${p.sourceUrl}" target="_blank" rel="noopener">${year} — ${escapeHtml(p.credit)}</a>, ${escapeHtml(p.license)}</li>
+  `).join('');
+  return `
+    <section class="trophy-collage">
+      <div class="tc-head">
+        <h2 class="tc-title">Champions Through the Years</h2>
+        <span class="tc-sub">The trophy, lifted, kissed, and held high after seven finals.</span>
+      </div>
+      <div class="trophy-strip">
+        ${sorted.map(trophyTileHtml).join('')}
+      </div>
+      <details class="tc-credits">
+        <summary>Photo credits</summary>
+        <ul>${credits}</ul>
+      </details>
+    </section>
+  `;
+}
+
 function stageOrder(stage) {
   const order = [
     'Group A', 'Group B', 'Group C', 'Group D', 'Group E', 'Group F', 'Group G', 'Group H',
@@ -51,6 +131,7 @@ async function renderHome() {
       <p>Browse World Cup editions, relive every match goal-by-goal, and see who took home the game's biggest individual honors.</p>
       ${statChips}
     </div>
+    ${trophyCollageHtml(editions)}
     <div class="edition-grid">
       ${editions.map(e => `
         <a class="card" href="#/edition/${e.year}">
