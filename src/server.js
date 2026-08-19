@@ -242,7 +242,7 @@ app.get('/api/records', (req, res) => {
   `);
 
   const mostCardsInAMatch = all(`
-    SELECT m.year, m.stage, m.home_team, m.away_team, m.match_date, COUNT(c.id) AS total_cards
+    SELECT m.year, m.stage, m.home_team, m.away_team, m.home_score, m.away_score, m.match_date, COUNT(c.id) AS total_cards
     FROM cards c JOIN matches m ON m.id = c.match_id
     GROUP BY c.match_id
     ORDER BY total_cards DESC
