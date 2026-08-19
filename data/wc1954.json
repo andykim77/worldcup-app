@@ -1,0 +1,212 @@
+{
+  "edition": {
+    "year": 1954,
+    "host": "Switzerland",
+    "winner": "West Germany",
+    "runnerUp": "Hungary",
+    "thirdPlace": "Austria",
+    "fourthPlace": "Uruguay",
+    "goldenBoot": { "player": "Sándor Kocsis", "nationality": "Hungary", "club": "Budapest Honvéd", "goals": 11 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1954-06-16", "homeTeam": "Yugoslavia", "awayTeam": "France", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Miloš Milutinović", "minute": "15" }
+    ] },
+    { "stage": "Group 1", "date": "1954-06-16", "homeTeam": "Brazil", "awayTeam": "Mexico", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Baltazar", "minute": "23" },
+      { "team": "home", "player": "Didi", "minute": "30" },
+      { "team": "home", "player": "Pinga", "minute": "34" },
+      { "team": "home", "player": "Pinga", "minute": "43" },
+      { "team": "home", "player": "Julinho", "minute": "69" }
+    ] },
+    { "stage": "Group 1", "date": "1954-06-19", "homeTeam": "Brazil", "awayTeam": "Yugoslavia", "homeScore": 1, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Branko Zebec", "minute": "48" },
+      { "team": "home", "player": "Didi", "minute": "69" }
+    ] },
+    { "stage": "Group 1", "date": "1954-06-19", "homeTeam": "France", "awayTeam": "Mexico", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jean Vincent", "minute": "19" },
+      { "team": "home", "player": "Raúl Cárdenas", "minute": "46", "ownGoal": true },
+      { "team": "away", "player": "José Luis Lamadrid", "minute": "54" },
+      { "team": "away", "player": "Tomás Balcázar", "minute": "85" },
+      { "team": "home", "player": "Raymond Kopa", "minute": "88", "penalty": true }
+    ] },
+
+    { "stage": "Group 2", "date": "1954-06-17", "homeTeam": "West Germany", "awayTeam": "Turkey", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Suat Mamat", "minute": "2" },
+      { "team": "home", "player": "Hans Schäfer", "minute": "14" },
+      { "team": "home", "player": "Bernhard Klodt", "minute": "52" },
+      { "team": "home", "player": "Ottmar Walter", "minute": "60" },
+      { "team": "home", "player": "Max Morlock", "minute": "84" }
+    ] },
+    { "stage": "Group 2", "date": "1954-06-17", "homeTeam": "Hungary", "awayTeam": "South Korea", "homeScore": 9, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ferenc Puskás", "minute": "12" },
+      { "team": "home", "player": "Mihály Lantos", "minute": "18" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "24" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "36" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "50" },
+      { "team": "home", "player": "Zoltán Czibor", "minute": "59" },
+      { "team": "home", "player": "Péter Palotás", "minute": "75" },
+      { "team": "home", "player": "Péter Palotás", "minute": "83" },
+      { "team": "home", "player": "Ferenc Puskás", "minute": "89" }
+    ] },
+    { "stage": "Group 2", "date": "1954-06-20", "homeTeam": "Hungary", "awayTeam": "West Germany", "homeScore": 8, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sándor Kocsis", "minute": "3" },
+      { "team": "home", "player": "Ferenc Puskás", "minute": "17" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "21" },
+      { "team": "away", "player": "Alfred Pfaff", "minute": "25" },
+      { "team": "home", "player": "Nándor Hidegkuti", "minute": "52" },
+      { "team": "home", "player": "Nándor Hidegkuti", "minute": "54" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "69" },
+      { "team": "home", "player": "József Tóth", "minute": "75" },
+      { "team": "away", "player": "Helmut Rahn", "minute": "77" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "78" },
+      { "team": "away", "player": "Richard Herrmann", "minute": "84" }
+    ] },
+    { "stage": "Group 2", "date": "1954-06-20", "homeTeam": "Turkey", "awayTeam": "South Korea", "homeScore": 7, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Suat Mamat", "minute": "10" },
+      { "team": "home", "player": "Lefter Küçükandonyadis", "minute": "24" },
+      { "team": "home", "player": "Suat Mamat", "minute": "30" },
+      { "team": "home", "player": "Burhan Sargun", "minute": "37" },
+      { "team": "home", "player": "Burhan Sargun", "minute": "64" },
+      { "team": "home", "player": "Burhan Sargun", "minute": "70", "penalty": true },
+      { "team": "home", "player": "Erol Keskin", "minute": "76" }
+    ] },
+    { "stage": "Group 2 Play-off", "date": "1954-06-23", "homeTeam": "West Germany", "awayTeam": "Turkey", "homeScore": 7, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ottmar Walter", "minute": "7" },
+      { "team": "home", "player": "Hans Schäfer", "minute": "12" },
+      { "team": "away", "player": "Mustafa Ertan", "minute": "21" },
+      { "team": "home", "player": "Max Morlock", "minute": "30" },
+      { "team": "home", "player": "Max Morlock", "minute": "60" },
+      { "team": "home", "player": "Fritz Walter", "minute": "62" },
+      { "team": "home", "player": "Max Morlock", "minute": "77" },
+      { "team": "home", "player": "Hans Schäfer", "minute": "79" },
+      { "team": "away", "player": "Lefter Küçükandonyadis", "minute": "82" }
+    ] },
+
+    { "stage": "Group 3", "date": "1954-06-16", "homeTeam": "Uruguay", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Óscar Míguez", "minute": "71" },
+      { "team": "home", "player": "Juan Alberto Schiaffino", "minute": "84" }
+    ] },
+    { "stage": "Group 3", "date": "1954-06-16", "homeTeam": "Austria", "awayTeam": "Scotland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Erich Probst", "minute": "33" }
+    ] },
+    { "stage": "Group 3", "date": "1954-06-19", "homeTeam": "Uruguay", "awayTeam": "Scotland", "homeScore": 7, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Borges", "minute": "17" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "30" },
+      { "team": "home", "player": "Carlos Borges", "minute": "47" },
+      { "team": "home", "player": "Julio Abbadie", "minute": "54" },
+      { "team": "home", "player": "Carlos Borges", "minute": "57" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "83" },
+      { "team": "home", "player": "Julio Abbadie", "minute": "85" }
+    ] },
+    { "stage": "Group 3", "date": "1954-06-19", "homeTeam": "Austria", "awayTeam": "Czechoslovakia", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ernst Stojaspal", "minute": "3" },
+      { "team": "home", "player": "Erich Probst", "minute": "4" },
+      { "team": "home", "player": "Erich Probst", "minute": "21" },
+      { "team": "home", "player": "Erich Probst", "minute": "24" },
+      { "team": "home", "player": "Ernst Stojaspal", "minute": "65" }
+    ] },
+
+    { "stage": "Group 4", "date": "1954-06-17", "homeTeam": "England", "awayTeam": "Belgium", "homeScore": 4, "awayScore": 4, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Léopold Anoul", "minute": "5" },
+      { "team": "home", "player": "Ivor Broadis", "minute": "26" },
+      { "team": "home", "player": "Nat Lofthouse", "minute": "36" },
+      { "team": "home", "player": "Ivor Broadis", "minute": "63" },
+      { "team": "away", "player": "Henri Coppens", "minute": "67" },
+      { "team": "away", "player": "Léopold Anoul", "minute": "71" },
+      { "team": "home", "player": "Nat Lofthouse", "minute": "91" },
+      { "team": "away", "player": "Jimmy Dickinson", "minute": "94", "ownGoal": true }
+    ] },
+    { "stage": "Group 4", "date": "1954-06-17", "homeTeam": "Switzerland", "awayTeam": "Italy", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Robert Ballaman", "minute": "18", "penalty": true },
+      { "team": "away", "player": "Giampiero Boniperti", "minute": "44" },
+      { "team": "home", "player": "Josef Hügi", "minute": "78" }
+    ] },
+    { "stage": "Group 4", "date": "1954-06-20", "homeTeam": "England", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jimmy Mullen", "minute": "43" },
+      { "team": "home", "player": "Dennis Wilshaw", "minute": "69" }
+    ] },
+    { "stage": "Group 4", "date": "1954-06-20", "homeTeam": "Italy", "awayTeam": "Belgium", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Egisto Pandolfini", "minute": "41", "penalty": true },
+      { "team": "home", "player": "Carlo Galli", "minute": "48" },
+      { "team": "home", "player": "Amleto Frignani", "minute": "58" },
+      { "team": "home", "player": "Benito Lorenzi", "minute": "78" },
+      { "team": "away", "player": "Léopold Anoul", "minute": "81" }
+    ] },
+    { "stage": "Group 4 Play-off", "date": "1954-06-23", "homeTeam": "Switzerland", "awayTeam": "Italy", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Josef Hügi", "minute": "14" },
+      { "team": "home", "player": "Robert Ballaman", "minute": "48", "penalty": true },
+      { "team": "away", "player": "Fulvio Nesti", "minute": "67" },
+      { "team": "home", "player": "Josef Hügi", "minute": "85" },
+      { "team": "home", "player": "Jacques Fatton", "minute": "90" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1954-06-26", "homeTeam": "Austria", "awayTeam": "Switzerland", "homeScore": 7, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Robert Ballaman", "minute": "16" },
+      { "team": "away", "player": "Josef Hügi", "minute": "17" },
+      { "team": "away", "player": "Josef Hügi", "minute": "19" },
+      { "team": "home", "player": "Theodor Wagner", "minute": "25" },
+      { "team": "home", "player": "Alfred Körner", "minute": "26" },
+      { "team": "home", "player": "Theodor Wagner", "minute": "27" },
+      { "team": "home", "player": "Ernst Ocwirk", "minute": "32" },
+      { "team": "home", "player": "Alfred Körner", "minute": "34" },
+      { "team": "away", "player": "Robert Ballaman", "minute": "39" },
+      { "team": "home", "player": "Theodor Wagner", "minute": "53" },
+      { "team": "away", "player": "Josef Hügi", "minute": "60" },
+      { "team": "home", "player": "Erich Probst", "minute": "76" }
+    ] },
+    { "stage": "Quarter-final", "date": "1954-06-26", "homeTeam": "Uruguay", "awayTeam": "England", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Borges", "minute": "5" },
+      { "team": "away", "player": "Nat Lofthouse", "minute": "16" },
+      { "team": "home", "player": "Obdulio Varela", "minute": "39" },
+      { "team": "home", "player": "Juan Alberto Schiaffino", "minute": "46" },
+      { "team": "away", "player": "Tom Finney", "minute": "67" },
+      { "team": "home", "player": "Javier Ambrois", "minute": "78" }
+    ] },
+    { "stage": "Quarter-final", "date": "1954-06-27", "homeTeam": "Hungary", "awayTeam": "Brazil", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Nándor Hidegkuti", "minute": "4" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "7" },
+      { "team": "away", "player": "Djalma Santos", "minute": "18", "penalty": true },
+      { "team": "home", "player": "Mihály Lantos", "minute": "60", "penalty": true },
+      { "team": "away", "player": "Julinho", "minute": "65" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "88" }
+    ] },
+    { "stage": "Quarter-final", "date": "1954-06-27", "homeTeam": "West Germany", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ivan Horvat", "minute": "9", "ownGoal": true },
+      { "team": "home", "player": "Helmut Rahn", "minute": "85" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1954-06-30", "homeTeam": "West Germany", "awayTeam": "Austria", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hans Schäfer", "minute": "31" },
+      { "team": "home", "player": "Max Morlock", "minute": "47" },
+      { "team": "away", "player": "Erich Probst", "minute": "51" },
+      { "team": "home", "player": "Fritz Walter", "minute": "54", "penalty": true },
+      { "team": "home", "player": "Ottmar Walter", "minute": "61" },
+      { "team": "home", "player": "Fritz Walter", "minute": "64", "penalty": true },
+      { "team": "home", "player": "Ottmar Walter", "minute": "89" }
+    ] },
+    { "stage": "Semi-final", "date": "1954-06-30", "homeTeam": "Hungary", "awayTeam": "Uruguay", "homeScore": 4, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Zoltán Czibor", "minute": "13" },
+      { "team": "home", "player": "Nándor Hidegkuti", "minute": "46" },
+      { "team": "away", "player": "Juan Hohberg", "minute": "75" },
+      { "team": "away", "player": "Juan Hohberg", "minute": "86" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "111" },
+      { "team": "home", "player": "Sándor Kocsis", "minute": "116" }
+    ] },
+
+    { "stage": "Third place", "date": "1954-07-03", "homeTeam": "Austria", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ernst Stojaspal", "minute": "16", "penalty": true },
+      { "team": "away", "player": "Juan Hohberg", "minute": "22" },
+      { "team": "home", "player": "Luis Cruz", "minute": "59", "ownGoal": true },
+      { "team": "home", "player": "Ernst Ocwirk", "minute": "89" }
+    ] },
+
+    { "stage": "Final", "date": "1954-07-04", "homeTeam": "West Germany", "awayTeam": "Hungary", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ferenc Puskás", "minute": "6" },
+      { "team": "away", "player": "Zoltán Czibor", "minute": "8" },
+      { "team": "home", "player": "Max Morlock", "minute": "10" },
+      { "team": "home", "player": "Helmut Rahn", "minute": "18" },
+      { "team": "home", "player": "Helmut Rahn", "minute": "84" }
+    ] }
+  ]
+}

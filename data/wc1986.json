@@ -1,0 +1,376 @@
+{
+  "edition": {
+    "year": 1986,
+    "host": "Mexico",
+    "winner": "Argentina",
+    "runnerUp": "West Germany",
+    "thirdPlace": "France",
+    "fourthPlace": "Belgium",
+    "goldenBall": { "player": "Diego Maradona", "nationality": "Argentina", "club": "Napoli" },
+    "goldenBoot": { "player": "Gary Lineker", "nationality": "England", "club": "Everton", "goals": 6 }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "1986-05-31", "homeTeam": "Italy", "awayTeam": "Bulgaria", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alessandro Altobelli", "minute": "44" },
+      { "team": "away", "player": "Nasko Sirakov", "minute": "85" }
+    ] },
+    { "stage": "Group A", "date": "1986-06-02", "homeTeam": "Argentina", "awayTeam": "South Korea", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jorge Valdano", "minute": "8" },
+      { "team": "home", "player": "Óscar Ruggeri", "minute": "19" },
+      { "team": "home", "player": "Jorge Valdano", "minute": "47" },
+      { "team": "away", "player": "Park Chang-sun", "minute": "72" }
+    ] },
+    { "stage": "Group A", "date": "1986-06-05", "homeTeam": "Italy", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alessandro Altobelli", "minute": "7", "penalty": true },
+      { "team": "away", "player": "Diego Maradona", "minute": "34" }
+    ] },
+    { "stage": "Group A", "date": "1986-06-05", "homeTeam": "South Korea", "awayTeam": "Bulgaria", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Petar Getov", "minute": "11" },
+      { "team": "home", "player": "Kim Jong-boo", "minute": "70" }
+    ] },
+    { "stage": "Group A", "date": "1986-06-10", "homeTeam": "South Korea", "awayTeam": "Italy", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alessandro Altobelli", "minute": "18" },
+      { "team": "home", "player": "Choi Soon-ho", "minute": "62" },
+      { "team": "away", "player": "Alessandro Altobelli", "minute": "73" },
+      { "team": "away", "player": "Cho Kwang-rae", "minute": "82", "ownGoal": true },
+      { "team": "home", "player": "Huh Jung-moo", "minute": "89" }
+    ] },
+    { "stage": "Group A", "date": "1986-06-10", "homeTeam": "Argentina", "awayTeam": "Bulgaria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jorge Valdano", "minute": "4" },
+      { "team": "home", "player": "Jorge Burruchaga", "minute": "77" }
+    ] },
+
+    { "stage": "Group B", "date": "1986-06-03", "homeTeam": "Belgium", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Fernando Quirarte", "minute": "23" },
+      { "team": "away", "player": "Hugo Sánchez", "minute": "39" },
+      { "team": "home", "player": "Erwin Vandenbergh", "minute": "45+1" }
+    ] },
+    { "stage": "Group B", "date": "1986-06-04", "homeTeam": "Paraguay", "awayTeam": "Iraq", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Julio César Romero", "minute": "35" }
+    ] },
+    { "stage": "Group B", "date": "1986-06-07", "homeTeam": "Mexico", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fernando Flores", "minute": "3" },
+      { "team": "away", "player": "Julio César Romero", "minute": "85" }
+    ] },
+    { "stage": "Group B", "date": "1986-06-08", "homeTeam": "Iraq", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Enzo Scifo", "minute": "16" },
+      { "team": "away", "player": "Nico Claesen", "minute": "21", "penalty": true },
+      { "team": "home", "player": "Ahmed Radhi", "minute": "59" }
+    ], "redCards": [
+      { "team": "home", "player": "Basil Gorgis", "minute": "52", "secondYellow": false }
+    ] },
+    { "stage": "Group B", "date": "1986-06-11", "homeTeam": "Paraguay", "awayTeam": "Belgium", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Franky Vercauteren", "minute": "30" },
+      { "team": "home", "player": "Roberto Cabañas", "minute": "50" },
+      { "team": "away", "player": "Patrick Veyt", "minute": "59" },
+      { "team": "home", "player": "Roberto Cabañas", "minute": "76" }
+    ] },
+    { "stage": "Group B", "date": "1986-06-11", "homeTeam": "Iraq", "awayTeam": "Mexico", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Fernando Quirarte", "minute": "54" }
+    ] },
+
+    { "stage": "Group C", "date": "1986-06-01", "homeTeam": "Canada", "awayTeam": "France", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jean-Pierre Papin", "minute": "79" }
+    ] },
+    { "stage": "Group C", "date": "1986-06-02", "homeTeam": "Soviet Union", "awayTeam": "Hungary", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pavel Yakovenko", "minute": "2" },
+      { "team": "home", "player": "Sergei Aleinikov", "minute": "4" },
+      { "team": "home", "player": "Igor Belanov", "minute": "24", "penalty": true },
+      { "team": "home", "player": "Ivan Yaremchuk", "minute": "66" },
+      { "team": "home", "player": "László Dajka", "minute": "73", "ownGoal": true },
+      { "team": "home", "player": "Sergei Rodionov", "minute": "80" }
+    ] },
+    { "stage": "Group C", "date": "1986-06-05", "homeTeam": "France", "awayTeam": "Soviet Union", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Vasyl Rats", "minute": "53" },
+      { "team": "home", "player": "Luis Fernández", "minute": "62" }
+    ] },
+    { "stage": "Group C", "date": "1986-06-06", "homeTeam": "Hungary", "awayTeam": "Canada", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Márton Esterházy", "minute": "2" },
+      { "team": "home", "player": "Lajos Détári", "minute": "75" }
+    ], "redCards": [
+      { "team": "away", "player": "Mike Sweeney", "minute": "85", "secondYellow": false }
+    ] },
+    { "stage": "Group C", "date": "1986-06-09", "homeTeam": "Hungary", "awayTeam": "France", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Yannick Stopyra", "minute": "29" },
+      { "team": "away", "player": "Jean Tigana", "minute": "62" },
+      { "team": "away", "player": "Dominique Rocheteau", "minute": "84" }
+    ] },
+    { "stage": "Group C", "date": "1986-06-09", "homeTeam": "Soviet Union", "awayTeam": "Canada", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oleg Blokhin", "minute": "58" },
+      { "team": "home", "player": "Oleksandr Zavarov", "minute": "74" }
+    ] },
+
+    { "stage": "Group D", "date": "1986-06-01", "homeTeam": "Spain", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Sócrates", "minute": "62" }
+    ] },
+    { "stage": "Group D", "date": "1986-06-03", "homeTeam": "Algeria", "awayTeam": "Northern Ireland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Norman Whiteside", "minute": "6" },
+      { "team": "home", "player": "Djamel Zidane", "minute": "59" }
+    ] },
+    { "stage": "Group D", "date": "1986-06-06", "homeTeam": "Brazil", "awayTeam": "Algeria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Careca", "minute": "66" }
+    ] },
+    { "stage": "Group D", "date": "1986-06-07", "homeTeam": "Northern Ireland", "awayTeam": "Spain", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Emilio Butragueño", "minute": "1" },
+      { "team": "away", "player": "Julio Salinas", "minute": "18" },
+      { "team": "home", "player": "Colin Clarke", "minute": "46" }
+    ] },
+    { "stage": "Group D", "date": "1986-06-12", "homeTeam": "Northern Ireland", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Careca", "minute": "15" },
+      { "team": "away", "player": "Josimar", "minute": "42" },
+      { "team": "away", "player": "Careca", "minute": "87" }
+    ] },
+    { "stage": "Group D", "date": "1986-06-12", "homeTeam": "Algeria", "awayTeam": "Spain", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ramón Calderé", "minute": "15" },
+      { "team": "away", "player": "Ramón Calderé", "minute": "68" },
+      { "team": "away", "player": "Eloy", "minute": "70" }
+    ] },
+
+    { "stage": "Group E", "date": "1986-06-04", "homeTeam": "Uruguay", "awayTeam": "West Germany", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Antonio Alzamendi", "minute": "4" },
+      { "team": "away", "player": "Klaus Allofs", "minute": "84" }
+    ] },
+    { "stage": "Group E", "date": "1986-06-04", "homeTeam": "Scotland", "awayTeam": "Denmark", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Preben Elkjær", "minute": "57" }
+    ] },
+    { "stage": "Group E", "date": "1986-06-08", "homeTeam": "West Germany", "awayTeam": "Scotland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Gordon Strachan", "minute": "18" },
+      { "team": "home", "player": "Rudi Völler", "minute": "23" },
+      { "team": "home", "player": "Klaus Allofs", "minute": "49" }
+    ] },
+    { "stage": "Group E", "date": "1986-06-08", "homeTeam": "Denmark", "awayTeam": "Uruguay", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Preben Elkjær", "minute": "11" },
+      { "team": "home", "player": "Søren Lerby", "minute": "41" },
+      { "team": "away", "player": "Enzo Francescoli", "minute": "45", "penalty": true },
+      { "team": "home", "player": "Michael Laudrup", "minute": "52" },
+      { "team": "home", "player": "Preben Elkjær", "minute": "67" },
+      { "team": "home", "player": "Preben Elkjær", "minute": "80" },
+      { "team": "home", "player": "Jesper Olsen", "minute": "88" }
+    ], "redCards": [
+      { "team": "away", "player": "Miguel Bossio", "minute": "19", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1986-06-13", "homeTeam": "Denmark", "awayTeam": "West Germany", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jesper Olsen", "minute": "43", "penalty": true },
+      { "team": "home", "player": "John Eriksen", "minute": "62" }
+    ], "redCards": [
+      { "team": "home", "player": "Frank Arnesen", "minute": "88", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1986-06-13", "homeTeam": "Scotland", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "away", "player": "José Batista", "minute": "1", "secondYellow": false }
+    ] },
+
+    { "stage": "Group F", "date": "1986-06-02", "homeTeam": "Morocco", "awayTeam": "Poland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "1986-06-03", "homeTeam": "Portugal", "awayTeam": "England", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Manuel", "minute": "75" }
+    ] },
+    { "stage": "Group F", "date": "1986-06-06", "homeTeam": "England", "awayTeam": "Morocco", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Ray Wilkins", "minute": "42", "secondYellow": false }
+    ] },
+    { "stage": "Group F", "date": "1986-06-07", "homeTeam": "Poland", "awayTeam": "Portugal", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Włodzimierz Smolarek", "minute": "68" }
+    ] },
+    { "stage": "Group F", "date": "1986-06-11", "homeTeam": "England", "awayTeam": "Poland", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gary Lineker", "minute": "8" },
+      { "team": "home", "player": "Gary Lineker", "minute": "14" },
+      { "team": "home", "player": "Gary Lineker", "minute": "36" }
+    ] },
+    { "stage": "Group F", "date": "1986-06-11", "homeTeam": "Portugal", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Abderrazak Khairi", "minute": "19" },
+      { "team": "away", "player": "Abderrazak Khairi", "minute": "27" },
+      { "team": "away", "player": "Abdelkrim Merry", "minute": "62" },
+      { "team": "home", "player": "Diamantino", "minute": "80" }
+    ] },
+
+    { "stage": "Round of 16", "date": "1986-06-15", "homeTeam": "Mexico", "awayTeam": "Bulgaria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Manuel Negrete", "minute": "35" },
+      { "team": "home", "player": "Raúl Servín", "minute": "61" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1986-06-15",
+      "homeTeam": "Soviet Union",
+      "awayTeam": "Belgium",
+      "homeScore": 3,
+      "awayScore": 4,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Igor Belanov", "minute": "27" },
+        { "team": "away", "player": "Enzo Scifo", "minute": "56" },
+        { "team": "home", "player": "Igor Belanov", "minute": "70" },
+        { "team": "away", "player": "Jan Ceulemans", "minute": "77" },
+        { "team": "away", "player": "Stéphane Demol", "minute": "102" },
+        { "team": "away", "player": "Nico Claesen", "minute": "110" },
+        { "team": "home", "player": "Igor Belanov", "minute": "111", "penalty": true }
+      ],
+      "penalties": null
+    },
+    { "stage": "Round of 16", "date": "1986-06-16", "homeTeam": "Brazil", "awayTeam": "Poland", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sócrates", "minute": "30", "penalty": true },
+      { "team": "home", "player": "Josimar", "minute": "55" },
+      { "team": "home", "player": "Edinho", "minute": "79" },
+      { "team": "home", "player": "Careca", "minute": "83", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "1986-06-16", "homeTeam": "Argentina", "awayTeam": "Uruguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pedro Pasculli", "minute": "42" }
+    ] },
+    { "stage": "Round of 16", "date": "1986-06-17", "homeTeam": "Italy", "awayTeam": "France", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Michel Platini", "minute": "15" },
+      { "team": "away", "player": "Yannick Stopyra", "minute": "57" }
+    ] },
+    { "stage": "Round of 16", "date": "1986-06-17", "homeTeam": "Morocco", "awayTeam": "West Germany", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Lothar Matthäus", "minute": "88" }
+    ] },
+    { "stage": "Round of 16", "date": "1986-06-18", "homeTeam": "England", "awayTeam": "Paraguay", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gary Lineker", "minute": "31" },
+      { "team": "home", "player": "Peter Beardsley", "minute": "56" },
+      { "team": "home", "player": "Gary Lineker", "minute": "73" }
+    ] },
+    { "stage": "Round of 16", "date": "1986-06-18", "homeTeam": "Denmark", "awayTeam": "Spain", "homeScore": 1, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jesper Olsen", "minute": "33", "penalty": true },
+      { "team": "away", "player": "Emilio Butragueño", "minute": "43" },
+      { "team": "away", "player": "Emilio Butragueño", "minute": "56" },
+      { "team": "away", "player": "Andoni Goikoetxea", "minute": "68", "penalty": true },
+      { "team": "away", "player": "Emilio Butragueño", "minute": "80" },
+      { "team": "away", "player": "Emilio Butragueño", "minute": "89", "penalty": true }
+    ] },
+
+    {
+      "stage": "Quarter-final",
+      "date": "1986-06-21",
+      "homeTeam": "Brazil",
+      "awayTeam": "France",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Careca", "minute": "17" },
+        { "team": "away", "player": "Michel Platini", "minute": "41" }
+      ],
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Sócrates", "result": "missed" },
+          { "player": "Alemão", "result": "scored" },
+          { "player": "Zico", "result": "scored" },
+          { "player": "Branco", "result": "scored" },
+          { "player": "Júlio César", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Yannick Stopyra", "result": "scored" },
+          { "player": "Manuel Amoros", "result": "scored" },
+          { "player": "Bruno Bellone", "result": "scored" },
+          { "player": "Michel Platini", "result": "missed" },
+          { "player": "Luis Fernández", "result": "scored" }
+        ]
+      }
+    },
+    {
+      "stage": "Quarter-final",
+      "date": "1986-06-21",
+      "homeTeam": "West Germany",
+      "awayTeam": "Mexico",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "homeTakers": [
+          { "player": "Klaus Allofs", "result": "scored" },
+          { "player": "Andreas Brehme", "result": "scored" },
+          { "player": "Lothar Matthäus", "result": "scored" },
+          { "player": "Pierre Littbarski", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Manuel Negrete", "result": "scored" },
+          { "player": "Fernando Quirarte", "result": "missed" },
+          { "player": "Raúl Servín", "result": "missed" }
+        ]
+      }
+    },
+    { "stage": "Quarter-final", "date": "1986-06-22", "homeTeam": "Argentina", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Diego Maradona", "minute": "51" },
+      { "team": "home", "player": "Diego Maradona", "minute": "55" },
+      { "team": "away", "player": "Gary Lineker", "minute": "81" }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "1986-06-22",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Jan Ceulemans", "minute": "34" },
+        { "team": "home", "player": "Juan Antonio Señor", "minute": "85" }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 5,
+        "homeTakers": [
+          { "player": "Juan Antonio Señor", "result": "scored" },
+          { "player": "Eloy", "result": "missed" },
+          { "player": "Chendo", "result": "scored" },
+          { "player": "Emilio Butragueño", "result": "scored" },
+          { "player": "Víctor Muñoz", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Nico Claesen", "result": "scored" },
+          { "player": "Enzo Scifo", "result": "scored" },
+          { "player": "Hugo Broos", "result": "scored" },
+          { "player": "Patrick Vervoort", "result": "scored" },
+          { "player": "Leo Van der Elst", "result": "scored" }
+        ]
+      }
+    },
+
+    { "stage": "Semi-final", "date": "1986-06-25", "homeTeam": "West Germany", "awayTeam": "France", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Brehme", "minute": "9" },
+      { "team": "home", "player": "Rudi Völler", "minute": "90" }
+    ] },
+    { "stage": "Semi-final", "date": "1986-06-25", "homeTeam": "Argentina", "awayTeam": "Belgium", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Diego Maradona", "minute": "52" },
+      { "team": "home", "player": "Diego Maradona", "minute": "63" }
+    ] },
+
+    {
+      "stage": "Third place",
+      "date": "1986-06-28",
+      "homeTeam": "France",
+      "awayTeam": "Belgium",
+      "homeScore": 4,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Jan Ceulemans", "minute": "11" },
+        { "team": "home", "player": "Jean-Marc Ferreri", "minute": "27" },
+        { "team": "home", "player": "Jean-Pierre Papin", "minute": "43" },
+        { "team": "away", "player": "Nico Claesen", "minute": "73" },
+        { "team": "home", "player": "Bernard Genghini", "minute": "103", "penalty": true },
+        { "team": "home", "player": "Manuel Amoros", "minute": "109" }
+      ]
+    },
+
+    {
+      "stage": "Final",
+      "date": "1986-06-29",
+      "homeTeam": "Argentina",
+      "awayTeam": "West Germany",
+      "homeScore": 3,
+      "awayScore": 2,
+      "extraTime": false,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "José Luis Brown", "minute": "23" },
+        { "team": "home", "player": "Jorge Valdano", "minute": "56" },
+        { "team": "away", "player": "Karl-Heinz Rummenigge", "minute": "74" },
+        { "team": "away", "player": "Rudi Völler", "minute": "81" },
+        { "team": "home", "player": "Jorge Burruchaga", "minute": "84" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "edition": {
+    "year": 1938,
+    "host": "France",
+    "winner": "Italy",
+    "runnerUp": "Hungary",
+    "thirdPlace": "Brazil",
+    "fourthPlace": "Sweden",
+    "goldenBoot": { "player": "Leônidas", "nationality": "Brazil", "club": "Flamengo", "goals": 7 }
+  },
+  "matches": [
+    { "stage": "Round of 16", "date": "1938-06-04", "homeTeam": "Switzerland", "awayTeam": "Germany", "homeScore": 1, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Rudolf Gauchel", "minute": "29" },
+      { "team": "home", "player": "André Abegglen", "minute": "43" }
+    ] },
+    { "stage": "Round of 16 replay", "date": "1938-06-09", "homeTeam": "Switzerland", "awayTeam": "Germany", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Willy Hahnemann", "minute": "8" },
+      { "team": "away", "player": "Ernst Lörtscher", "minute": "22", "ownGoal": true },
+      { "team": "home", "player": "Eugen Walaschek", "minute": "42" },
+      { "team": "home", "player": "Alfred Bickel", "minute": "64" },
+      { "team": "home", "player": "André Abegglen", "minute": "75" },
+      { "team": "home", "player": "André Abegglen", "minute": "78" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "Hungary", "awayTeam": "Dutch East Indies", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sándor Kohut", "minute": "13" },
+      { "team": "home", "player": "Géza Toldi", "minute": "15" },
+      { "team": "home", "player": "György Sárosi", "minute": "28" },
+      { "team": "home", "player": "Gyula Zsengellér", "minute": "35" },
+      { "team": "home", "player": "Gyula Zsengellér", "minute": "78" },
+      { "team": "home", "player": "György Sárosi", "minute": "89" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "Cuba", "awayTeam": "Romania", "homeScore": 3, "awayScore": 3, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Kovács", "minute": "38" },
+      { "team": "home", "player": "Héctor Socorro", "minute": "41" },
+      { "team": "home", "player": "José Magriñá", "minute": "51" },
+      { "team": "away", "player": "Iuliu Baratky", "minute": "68" },
+      { "team": "home", "player": "José Magriñá", "minute": "93" },
+      { "team": "away", "player": "Ștefan Dobay", "minute": "101" }
+    ] },
+    { "stage": "Round of 16 replay", "date": "1938-06-09", "homeTeam": "Cuba", "awayTeam": "Romania", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ștefan Dobay", "minute": "39" },
+      { "team": "home", "player": "Héctor Socorro", "minute": "51" },
+      { "team": "home", "player": "Fernández", "minute": "53" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "France", "awayTeam": "Belgium", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Émile Veinante", "minute": "1" },
+      { "team": "home", "player": "Jean Nicolas", "minute": "16" },
+      { "team": "away", "player": "Isemborghs", "minute": "38" },
+      { "team": "home", "player": "Jean Nicolas", "minute": "69" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "Italy", "awayTeam": "Norway", "homeScore": 2, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Pietro Ferraris", "minute": "2" },
+      { "team": "away", "player": "Arne Brustad", "minute": "83" },
+      { "team": "home", "player": "Silvio Piola", "minute": "94" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "Brazil", "awayTeam": "Poland", "homeScore": 6, "awayScore": 5, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Leônidas", "minute": "18" },
+      { "team": "away", "player": "Fryderyk Scherfke", "minute": "23", "penalty": true },
+      { "team": "home", "player": "Romeu", "minute": "25" },
+      { "team": "home", "player": "Perácio", "minute": "44" },
+      { "team": "away", "player": "Ernest Wilimowski", "minute": "53" },
+      { "team": "away", "player": "Ernest Wilimowski", "minute": "59" },
+      { "team": "home", "player": "Perácio", "minute": "71" },
+      { "team": "away", "player": "Ernest Wilimowski", "minute": "89" },
+      { "team": "home", "player": "Leônidas", "minute": "93" },
+      { "team": "home", "player": "Leônidas", "minute": "104" },
+      { "team": "away", "player": "Ernest Wilimowski", "minute": "118" }
+    ] },
+    { "stage": "Round of 16", "date": "1938-06-05", "homeTeam": "Czechoslovakia", "awayTeam": "Netherlands", "homeScore": 3, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Jan Košťálek", "minute": "93" },
+      { "team": "home", "player": "František Zeman", "minute": "111" },
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "118" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1938-06-12", "homeTeam": "Hungary", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "György Sárosi", "minute": "40" },
+      { "team": "home", "player": "Gyula Zsengellér", "minute": "90" }
+    ] },
+    { "stage": "Quarter-final", "date": "1938-06-12", "homeTeam": "Sweden", "awayTeam": "Cuba", "homeScore": 8, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Harry Andersson", "minute": "9" },
+      { "team": "home", "player": "Gustav Wetterström", "minute": "22" },
+      { "team": "home", "player": "Gustav Wetterström", "minute": "37" },
+      { "team": "home", "player": "Gustav Wetterström", "minute": "44" },
+      { "team": "home", "player": "Tore Keller", "minute": "60" },
+      { "team": "home", "player": "Harry Andersson", "minute": "61" },
+      { "team": "home", "player": "Arne Nyberg", "minute": "84" },
+      { "team": "home", "player": "Harry Andersson", "minute": "89" }
+    ] },
+    { "stage": "Quarter-final", "date": "1938-06-12", "homeTeam": "Italy", "awayTeam": "France", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gino Colaussi", "minute": "9" },
+      { "team": "away", "player": "Oscar Heisserer", "minute": "10" },
+      { "team": "home", "player": "Silvio Piola", "minute": "51" },
+      { "team": "home", "player": "Silvio Piola", "minute": "72" }
+    ] },
+    { "stage": "Quarter-final", "date": "1938-06-12", "homeTeam": "Brazil", "awayTeam": "Czechoslovakia", "homeScore": 1, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Leônidas", "minute": "30" },
+      { "team": "away", "player": "Oldřich Nejedlý", "minute": "65", "penalty": true }
+    ] },
+    { "stage": "Quarter-final replay", "date": "1938-06-14", "homeTeam": "Brazil", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Václav Kopecký", "minute": "25" },
+      { "team": "home", "player": "Leônidas", "minute": "57" },
+      { "team": "home", "player": "Roberto", "minute": "62" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1938-06-16", "homeTeam": "Hungary", "awayTeam": "Sweden", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Arne Nyberg", "minute": "1" },
+      { "team": "home", "player": "Sven Jacobsson", "minute": "19", "ownGoal": true },
+      { "team": "home", "player": "Pál Titkos", "minute": "26" },
+      { "team": "home", "player": "Gyula Zsengellér", "minute": "38" },
+      { "team": "home", "player": "György Sárosi", "minute": "61" },
+      { "team": "home", "player": "Gyula Zsengellér", "minute": "78" }
+    ] },
+    { "stage": "Semi-final", "date": "1938-06-16", "homeTeam": "Italy", "awayTeam": "Brazil", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gino Colaussi", "minute": "51" },
+      { "team": "home", "player": "Giuseppe Meazza", "minute": "60", "penalty": true },
+      { "team": "away", "player": "Romeu", "minute": "87" }
+    ] },
+
+    { "stage": "Third place", "date": "1938-06-19", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Sven Jonasson", "minute": "28" },
+      { "team": "away", "player": "Arne Nyberg", "minute": "38" },
+      { "team": "home", "player": "Romeu", "minute": "44" },
+      { "team": "home", "player": "Leônidas", "minute": "63" },
+      { "team": "home", "player": "Leônidas", "minute": "74" },
+      { "team": "home", "player": "Perácio", "minute": "80" }
+    ] },
+
+    { "stage": "Final", "date": "1938-06-19", "homeTeam": "Italy", "awayTeam": "Hungary", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gino Colaussi", "minute": "6" },
+      { "team": "away", "player": "Pál Titkos", "minute": "8" },
+      { "team": "home", "player": "Silvio Piola", "minute": "16" },
+      { "team": "home", "player": "Gino Colaussi", "minute": "35" },
+      { "team": "away", "player": "György Sárosi", "minute": "70" },
+      { "team": "home", "player": "Silvio Piola", "minute": "85" }
+    ] }
+  ]
+}

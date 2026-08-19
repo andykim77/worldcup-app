@@ -21,9 +21,17 @@ function get(sql, params = []) {
   return stmt.get(...params);
 }
 
+// FIFA credits Germany's title record as continuous through reunification, so
+// "West Germany" (1954/1974/1990) and "Germany" (2014) count as one title lineage.
+const TITLE_LINEAGE = `CASE WHEN winner IN ('West Germany', 'Germany') THEN 'Germany' ELSE winner END`;
+
 // List all editions with summary info
 app.get('/api/editions', (req, res) => {
-  const editions = all('SELECT * FROM editions ORDER BY year');
+  const editions = all(`
+    SELECT *, COUNT(*) OVER (PARTITION BY ${TITLE_LINEAGE} ORDER BY year) AS title_number
+    FROM editions
+    ORDER BY year
+  `);
   res.json(editions);
 });
 
@@ -45,7 +53,12 @@ app.get('/api/stats', (req, res) => {
 // Full detail for one edition: info + awards + matches
 app.get('/api/editions/:year', (req, res) => {
   const year = Number(req.params.year);
-  const edition = get('SELECT * FROM editions WHERE year = ?', [year]);
+  const edition = get(`
+    SELECT * FROM (
+      SELECT *, COUNT(*) OVER (PARTITION BY ${TITLE_LINEAGE} ORDER BY year) AS title_number
+      FROM editions
+    ) WHERE year = ?
+  `, [year]);
   if (!edition) return res.status(404).json({ error: 'Edition not found' });
 
   const awards = all('SELECT * FROM awards WHERE year = ? ORDER BY id', [year]);
@@ -187,9 +200,9 @@ app.get('/api/records', (req, res) => {
   `);
 
   const mostTitles = all(`
-    SELECT winner AS team, COUNT(*) AS total
+    SELECT ${TITLE_LINEAGE} AS team, COUNT(*) AS total
     FROM editions
-    GROUP BY winner
+    GROUP BY team
     ORDER BY total DESC
     LIMIT 5
   `);

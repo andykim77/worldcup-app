@@ -1,0 +1,214 @@
+{
+  "edition": {
+    "year": 1958,
+    "host": "Sweden",
+    "winner": "Brazil",
+    "runnerUp": "Sweden",
+    "thirdPlace": "France",
+    "fourthPlace": "West Germany",
+    "goldenBoot": { "player": "Just Fontaine", "nationality": "France", "club": "Stade de Reims", "goals": 13 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1958-06-08", "homeTeam": "Argentina", "awayTeam": "West Germany", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Corbatta", "minute": "3" },
+      { "team": "away", "player": "Rahn", "minute": "33" },
+      { "team": "away", "player": "Seeler", "minute": "42" },
+      { "team": "away", "player": "Rahn", "minute": "79" }
+    ] },
+    { "stage": "Group 1", "date": "1958-06-08", "homeTeam": "Northern Ireland", "awayTeam": "Czechoslovakia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Cush", "minute": "20" }
+    ] },
+    { "stage": "Group 1", "date": "1958-06-11", "homeTeam": "West Germany", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Dvořák", "minute": "24", "penalty": true },
+      { "team": "away", "player": "Zikán", "minute": "42" },
+      { "team": "home", "player": "Schäfer", "minute": "60" },
+      { "team": "home", "player": "Rahn", "minute": "70" }
+    ] },
+    { "stage": "Group 1", "date": "1958-06-11", "homeTeam": "Argentina", "awayTeam": "Northern Ireland", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "McParland", "minute": "4" },
+      { "team": "home", "player": "Corbatta", "minute": "36", "penalty": true },
+      { "team": "home", "player": "Menéndez", "minute": "56" },
+      { "team": "home", "player": "Avio", "minute": "60" }
+    ] },
+    { "stage": "Group 1", "date": "1958-06-15", "homeTeam": "West Germany", "awayTeam": "Northern Ireland", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "McParland", "minute": "19" },
+      { "team": "home", "player": "Rahn", "minute": "21" },
+      { "team": "away", "player": "McParland", "minute": "60" },
+      { "team": "home", "player": "Seeler", "minute": "79" }
+    ] },
+    { "stage": "Group 1", "date": "1958-06-15", "homeTeam": "Czechoslovakia", "awayTeam": "Argentina", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dvořák", "minute": "8" },
+      { "team": "home", "player": "Zikán", "minute": "17" },
+      { "team": "home", "player": "Hovorka", "minute": "40" },
+      { "team": "away", "player": "Corbatta", "minute": "65", "penalty": true },
+      { "team": "home", "player": "Feureisl", "minute": "69" },
+      { "team": "home", "player": "Zikán", "minute": "82" },
+      { "team": "home", "player": "Hovorka", "minute": "89" }
+    ] },
+    { "stage": "Group 1 playoff", "date": "1958-06-17", "homeTeam": "Northern Ireland", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 1, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Zikán", "minute": "19" },
+      { "team": "home", "player": "McParland", "minute": "44" },
+      { "team": "home", "player": "McParland", "minute": "99" }
+    ] },
+
+    { "stage": "Group 2", "date": "1958-06-08", "homeTeam": "France", "awayTeam": "Paraguay", "homeScore": 7, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Amarilla", "minute": "20" },
+      { "team": "home", "player": "Fontaine", "minute": "24" },
+      { "team": "home", "player": "Fontaine", "minute": "30" },
+      { "team": "away", "player": "Amarilla", "minute": "44", "penalty": true },
+      { "team": "away", "player": "Romero", "minute": "50" },
+      { "team": "home", "player": "Piantoni", "minute": "52" },
+      { "team": "home", "player": "Wisnieski", "minute": "61" },
+      { "team": "home", "player": "Fontaine", "minute": "67" },
+      { "team": "home", "player": "Kopa", "minute": "70" },
+      { "team": "home", "player": "Vincent", "minute": "83" }
+    ] },
+    { "stage": "Group 2", "date": "1958-06-08", "homeTeam": "Yugoslavia", "awayTeam": "Scotland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Petaković", "minute": "6" },
+      { "team": "away", "player": "Murray", "minute": "49" }
+    ] },
+    { "stage": "Group 2", "date": "1958-06-11", "homeTeam": "Yugoslavia", "awayTeam": "France", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Fontaine", "minute": "4" },
+      { "team": "home", "player": "Petaković", "minute": "16" },
+      { "team": "home", "player": "Veselinović", "minute": "63" },
+      { "team": "away", "player": "Fontaine", "minute": "85" },
+      { "team": "home", "player": "Veselinović", "minute": "88" }
+    ] },
+    { "stage": "Group 2", "date": "1958-06-11", "homeTeam": "Paraguay", "awayTeam": "Scotland", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Agüero", "minute": "4" },
+      { "team": "away", "player": "Mudie", "minute": "24" },
+      { "team": "home", "player": "Ré", "minute": "45" },
+      { "team": "home", "player": "Parodi", "minute": "73" },
+      { "team": "away", "player": "Collins", "minute": "74" }
+    ] },
+    { "stage": "Group 2", "date": "1958-06-15", "homeTeam": "France", "awayTeam": "Scotland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kopa", "minute": "22" },
+      { "team": "home", "player": "Fontaine", "minute": "44" },
+      { "team": "away", "player": "Baird", "minute": "58" }
+    ] },
+    { "stage": "Group 2", "date": "1958-06-15", "homeTeam": "Paraguay", "awayTeam": "Yugoslavia", "homeScore": 3, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ognjanović", "minute": "18" },
+      { "team": "home", "player": "Parodi", "minute": "20" },
+      { "team": "away", "player": "Veselinović", "minute": "21" },
+      { "team": "home", "player": "Agüero", "minute": "52" },
+      { "team": "away", "player": "Rajkov", "minute": "73" },
+      { "team": "home", "player": "Romero", "minute": "80" }
+    ] },
+
+    { "stage": "Group 3", "date": "1958-06-08", "homeTeam": "Sweden", "awayTeam": "Mexico", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Simonsson", "minute": "17" },
+      { "team": "home", "player": "Liedholm", "minute": "58", "penalty": true },
+      { "team": "home", "player": "Simonsson", "minute": "64" }
+    ] },
+    { "stage": "Group 3", "date": "1958-06-08", "homeTeam": "Hungary", "awayTeam": "Wales", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bozsik", "minute": "4" },
+      { "team": "away", "player": "John Charles", "minute": "26" }
+    ] },
+    { "stage": "Group 3", "date": "1958-06-11", "homeTeam": "Mexico", "awayTeam": "Wales", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Allchurch", "minute": "32" },
+      { "team": "home", "player": "Belmonte", "minute": "89" }
+    ] },
+    { "stage": "Group 3", "date": "1958-06-12", "homeTeam": "Sweden", "awayTeam": "Hungary", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hamrin", "minute": "34" },
+      { "team": "home", "player": "Hamrin", "minute": "55" },
+      { "team": "away", "player": "Tichy", "minute": "78" }
+    ] },
+    { "stage": "Group 3", "date": "1958-06-15", "homeTeam": "Sweden", "awayTeam": "Wales", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 3", "date": "1958-06-15", "homeTeam": "Hungary", "awayTeam": "Mexico", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Tichy", "minute": "19" },
+      { "team": "home", "player": "Tichy", "minute": "46" },
+      { "team": "home", "player": "Sándor", "minute": "54" },
+      { "team": "home", "player": "Bencsics", "minute": "69" }
+    ] },
+    { "stage": "Group 3 playoff", "date": "1958-06-17", "homeTeam": "Wales", "awayTeam": "Hungary", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Tichy", "minute": "33" },
+      { "team": "home", "player": "Allchurch", "minute": "35" },
+      { "team": "home", "player": "Medwin", "minute": "76" }
+    ] },
+
+    { "stage": "Group 4", "date": "1958-06-08", "homeTeam": "Brazil", "awayTeam": "Austria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Altafini", "minute": "37" },
+      { "team": "home", "player": "Nílton Santos", "minute": "48" },
+      { "team": "home", "player": "Altafini", "minute": "80" }
+    ] },
+    { "stage": "Group 4", "date": "1958-06-08", "homeTeam": "Soviet Union", "awayTeam": "England", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Simonyan", "minute": "13" },
+      { "team": "home", "player": "Aleksandr Ivanov", "minute": "56" },
+      { "team": "away", "player": "Kevan", "minute": "66" },
+      { "team": "away", "player": "Finney", "minute": "85", "penalty": true }
+    ] },
+    { "stage": "Group 4", "date": "1958-06-11", "homeTeam": "Brazil", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 4", "date": "1958-06-11", "homeTeam": "Soviet Union", "awayTeam": "Austria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ilyin", "minute": "15" },
+      { "team": "home", "player": "Valentin Ivanov", "minute": "62" }
+    ] },
+    { "stage": "Group 4", "date": "1958-06-15", "homeTeam": "England", "awayTeam": "Austria", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Koller", "minute": "15" },
+      { "team": "home", "player": "Haynes", "minute": "56" },
+      { "team": "away", "player": "Körner", "minute": "71" },
+      { "team": "home", "player": "Kevan", "minute": "74" }
+    ] },
+    { "stage": "Group 4", "date": "1958-06-15", "homeTeam": "Brazil", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Vavá", "minute": "3" },
+      { "team": "home", "player": "Vavá", "minute": "77" }
+    ] },
+    { "stage": "Group 4 playoff", "date": "1958-06-17", "homeTeam": "Soviet Union", "awayTeam": "England", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ilyin", "minute": "68" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1958-06-19", "homeTeam": "Sweden", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hamrin", "minute": "48" },
+      { "team": "home", "player": "Simonsson", "minute": "87" }
+    ] },
+    { "stage": "Quarter-final", "date": "1958-06-19", "homeTeam": "West Germany", "awayTeam": "Yugoslavia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rahn", "minute": "12" }
+    ] },
+    { "stage": "Quarter-final", "date": "1958-06-19", "homeTeam": "France", "awayTeam": "Northern Ireland", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Wisnieski", "minute": "43" },
+      { "team": "home", "player": "Fontaine", "minute": "55" },
+      { "team": "home", "player": "Fontaine", "minute": "63" },
+      { "team": "home", "player": "Piantoni", "minute": "70" }
+    ] },
+    { "stage": "Quarter-final", "date": "1958-06-19", "homeTeam": "Brazil", "awayTeam": "Wales", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pelé", "minute": "73" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1958-06-24", "homeTeam": "Brazil", "awayTeam": "France", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Vavá", "minute": "2" },
+      { "team": "away", "player": "Fontaine", "minute": "9" },
+      { "team": "home", "player": "Didi", "minute": "39" },
+      { "team": "home", "player": "Pelé", "minute": "53" },
+      { "team": "home", "player": "Pelé", "minute": "64" },
+      { "team": "home", "player": "Pelé", "minute": "76" },
+      { "team": "away", "player": "Piantoni", "minute": "83" }
+    ] },
+    { "stage": "Semi-final", "date": "1958-06-24", "homeTeam": "Sweden", "awayTeam": "West Germany", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Schäfer", "minute": "24" },
+      { "team": "home", "player": "Skoglund", "minute": "33" },
+      { "team": "home", "player": "Gren", "minute": "50" },
+      { "team": "home", "player": "Hamrin", "minute": "88" }
+    ] },
+
+    { "stage": "Third place", "date": "1958-06-28", "homeTeam": "France", "awayTeam": "West Germany", "homeScore": 6, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fontaine", "minute": "16" },
+      { "team": "away", "player": "Cieslarczyk", "minute": "18" },
+      { "team": "home", "player": "Kopa", "minute": "27", "penalty": true },
+      { "team": "home", "player": "Fontaine", "minute": "36" },
+      { "team": "home", "player": "Douis", "minute": "50" },
+      { "team": "away", "player": "Rahn", "minute": "52" },
+      { "team": "home", "player": "Fontaine", "minute": "78" },
+      { "team": "away", "player": "Schäfer", "minute": "84" },
+      { "team": "home", "player": "Fontaine", "minute": "89" }
+    ] },
+
+    { "stage": "Final", "date": "1958-06-29", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Liedholm", "minute": "4" },
+      { "team": "home", "player": "Vavá", "minute": "9" },
+      { "team": "home", "player": "Vavá", "minute": "32" },
+      { "team": "home", "player": "Pelé", "minute": "55" },
+      { "team": "home", "player": "Zagallo", "minute": "68" },
+      { "team": "away", "player": "Simonsson", "minute": "80" },
+      { "team": "home", "player": "Pelé", "minute": "90" }
+    ] }
+  ]
+}

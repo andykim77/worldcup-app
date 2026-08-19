@@ -1,0 +1,168 @@
+{
+  "edition": {
+    "year": 1962,
+    "host": "Chile",
+    "winner": "Brazil",
+    "runnerUp": "Czechoslovakia",
+    "thirdPlace": "Chile",
+    "fourthPlace": "Yugoslavia"
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1962-05-30", "homeTeam": "Uruguay", "awayTeam": "Colombia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Francisco Zuluaga", "minute": "19", "penalty": true },
+      { "team": "home", "player": "Luis Cubilla", "minute": "56" },
+      { "team": "home", "player": "José Sasía", "minute": "75" }
+    ] },
+    { "stage": "Group 1", "date": "1962-05-31", "homeTeam": "Soviet Union", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Valentin Ivanov", "minute": "51" },
+      { "team": "home", "player": "Viktor Ponedelnik", "minute": "83" }
+    ] },
+    { "stage": "Group 1", "date": "1962-06-02", "homeTeam": "Yugoslavia", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ángel Cabrera", "minute": "19" },
+      { "team": "home", "player": "Josip Skoblar", "minute": "25", "penalty": true },
+      { "team": "home", "player": "Milan Galić", "minute": "29" },
+      { "team": "home", "player": "Dražan Jerković", "minute": "49" }
+    ] },
+    { "stage": "Group 1", "date": "1962-06-03", "homeTeam": "Soviet Union", "awayTeam": "Colombia", "homeScore": 4, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Valentin Ivanov", "minute": "8" },
+      { "team": "home", "player": "Igor Chislenko", "minute": "10" },
+      { "team": "home", "player": "Valentin Ivanov", "minute": "11" },
+      { "team": "away", "player": "Germán Aceros", "minute": "21" },
+      { "team": "home", "player": "Viktor Ponedelnik", "minute": "56" },
+      { "team": "away", "player": "Marcos Coll", "minute": "69" },
+      { "team": "away", "player": "Antonio Rada", "minute": "72" },
+      { "team": "away", "player": "Marino Klinger", "minute": "86" }
+    ] },
+    { "stage": "Group 1", "date": "1962-06-06", "homeTeam": "Soviet Union", "awayTeam": "Uruguay", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Aleksei Mamykin", "minute": "38" },
+      { "team": "away", "player": "José Sasía", "minute": "54" },
+      { "team": "home", "player": "Valentin Ivanov", "minute": "89" }
+    ] },
+    { "stage": "Group 1", "date": "1962-06-07", "homeTeam": "Yugoslavia", "awayTeam": "Colombia", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Milan Galić", "minute": "20" },
+      { "team": "home", "player": "Dražan Jerković", "minute": "25" },
+      { "team": "home", "player": "Milan Galić", "minute": "61" },
+      { "team": "home", "player": "Vojislav Melić", "minute": "82" },
+      { "team": "home", "player": "Dražan Jerković", "minute": "87" }
+    ] },
+
+    { "stage": "Group 2", "date": "1962-05-30", "homeTeam": "Chile", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rolf Wüthrich", "minute": "6" },
+      { "team": "home", "player": "Leonel Sánchez", "minute": "44" },
+      { "team": "home", "player": "Jaime Ramírez", "minute": "51" },
+      { "team": "home", "player": "Leonel Sánchez", "minute": "55" }
+    ] },
+    { "stage": "Group 2", "date": "1962-05-31", "homeTeam": "West Germany", "awayTeam": "Italy", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1962-06-02", "homeTeam": "Chile", "awayTeam": "Italy", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jaime Ramírez", "minute": "73" },
+      { "team": "home", "player": "Jorge Toro", "minute": "87" }
+    ] },
+    { "stage": "Group 2", "date": "1962-06-03", "homeTeam": "West Germany", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Albert Brülls", "minute": "45" },
+      { "team": "home", "player": "Uwe Seeler", "minute": "59" },
+      { "team": "away", "player": "Heinz Schneiter", "minute": "73" }
+    ] },
+    { "stage": "Group 2", "date": "1962-06-06", "homeTeam": "West Germany", "awayTeam": "Chile", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Horst Szymaniak", "minute": "21", "penalty": true },
+      { "team": "home", "player": "Uwe Seeler", "minute": "82" }
+    ] },
+    { "stage": "Group 2", "date": "1962-06-07", "homeTeam": "Italy", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bruno Mora", "minute": "2" },
+      { "team": "home", "player": "Giacomo Bulgarelli", "minute": "65" },
+      { "team": "home", "player": "Giacomo Bulgarelli", "minute": "67" }
+    ] },
+
+    { "stage": "Group 3", "date": "1962-05-30", "homeTeam": "Brazil", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mário Zagallo", "minute": "56" },
+      { "team": "home", "player": "Pelé", "minute": "73" }
+    ] },
+    { "stage": "Group 3", "date": "1962-05-31", "homeTeam": "Czechoslovakia", "awayTeam": "Spain", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jozef Štibrányi", "minute": "80" }
+    ] },
+    { "stage": "Group 3", "date": "1962-06-02", "homeTeam": "Brazil", "awayTeam": "Czechoslovakia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 3", "date": "1962-06-03", "homeTeam": "Spain", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Joaquín Peiró", "minute": "89" }
+    ] },
+    { "stage": "Group 3", "date": "1962-06-06", "homeTeam": "Brazil", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Adelardo", "minute": "35" },
+      { "team": "home", "player": "Amarildo", "minute": "72" },
+      { "team": "home", "player": "Amarildo", "minute": "86" }
+    ] },
+    { "stage": "Group 3", "date": "1962-06-07", "homeTeam": "Mexico", "awayTeam": "Czechoslovakia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Václav Mašek", "minute": "1" },
+      { "team": "home", "player": "Isidoro Díaz", "minute": "12" },
+      { "team": "home", "player": "Alfredo del Águila", "minute": "29" },
+      { "team": "home", "player": "Héctor Hernández", "minute": "90", "penalty": true }
+    ] },
+
+    { "stage": "Group 4", "date": "1962-05-30", "homeTeam": "Argentina", "awayTeam": "Bulgaria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Héctor Facundo", "minute": "4" }
+    ] },
+    { "stage": "Group 4", "date": "1962-05-31", "homeTeam": "Hungary", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lajos Tichy", "minute": "17" },
+      { "team": "away", "player": "Ron Flowers", "minute": "60", "penalty": true },
+      { "team": "home", "player": "Flórián Albert", "minute": "71" }
+    ] },
+    { "stage": "Group 4", "date": "1962-06-02", "homeTeam": "England", "awayTeam": "Argentina", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ron Flowers", "minute": "17", "penalty": true },
+      { "team": "home", "player": "Bobby Charlton", "minute": "42" },
+      { "team": "home", "player": "Jimmy Greaves", "minute": "67" },
+      { "team": "away", "player": "José Sanfilippo", "minute": "81" }
+    ] },
+    { "stage": "Group 4", "date": "1962-06-03", "homeTeam": "Hungary", "awayTeam": "Bulgaria", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Flórián Albert", "minute": "1" },
+      { "team": "home", "player": "Flórián Albert", "minute": "6" },
+      { "team": "home", "player": "Lajos Tichy", "minute": "8" },
+      { "team": "home", "player": "Ernő Solymosi", "minute": "12" },
+      { "team": "home", "player": "Flórián Albert", "minute": "53" },
+      { "team": "away", "player": "Georgi Sokolov", "minute": "64" },
+      { "team": "home", "player": "Lajos Tichy", "minute": "70" }
+    ] },
+    { "stage": "Group 4", "date": "1962-06-06", "homeTeam": "Hungary", "awayTeam": "Argentina", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 4", "date": "1962-06-07", "homeTeam": "England", "awayTeam": "Bulgaria", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Quarter-final", "date": "1962-06-10", "homeTeam": "Chile", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Leonel Sánchez", "minute": "11" },
+      { "team": "away", "player": "Igor Chislenko", "minute": "26" },
+      { "team": "home", "player": "Eladio Rojas", "minute": "27" }
+    ] },
+    { "stage": "Quarter-final", "date": "1962-06-10", "homeTeam": "Brazil", "awayTeam": "England", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Garrincha", "minute": "30" },
+      { "team": "away", "player": "Gerry Hitchens", "minute": "38" },
+      { "team": "home", "player": "Vavá", "minute": "53" },
+      { "team": "home", "player": "Garrincha", "minute": "59" }
+    ] },
+    { "stage": "Quarter-final", "date": "1962-06-10", "homeTeam": "Yugoslavia", "awayTeam": "West Germany", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Petar Radaković", "minute": "87" }
+    ] },
+    { "stage": "Quarter-final", "date": "1962-06-10", "homeTeam": "Czechoslovakia", "awayTeam": "Hungary", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Adolf Scherer", "minute": "14" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1962-06-13", "homeTeam": "Brazil", "awayTeam": "Chile", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Garrincha", "minute": "9" },
+      { "team": "home", "player": "Garrincha", "minute": "31" },
+      { "team": "away", "player": "Jorge Toro", "minute": "41" },
+      { "team": "home", "player": "Vavá", "minute": "48" },
+      { "team": "away", "player": "Leonel Sánchez", "minute": "62", "penalty": true },
+      { "team": "home", "player": "Vavá", "minute": "78" }
+    ] },
+    { "stage": "Semi-final", "date": "1962-06-13", "homeTeam": "Czechoslovakia", "awayTeam": "Yugoslavia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Josef Kadraba", "minute": "49" },
+      { "team": "away", "player": "Dražan Jerković", "minute": "69" },
+      { "team": "home", "player": "Adolf Scherer", "minute": "80" },
+      { "team": "home", "player": "Adolf Scherer", "minute": "87", "penalty": true }
+    ] },
+
+    { "stage": "Third place", "date": "1962-06-16", "homeTeam": "Chile", "awayTeam": "Yugoslavia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Eladio Rojas", "minute": "90" }
+    ] },
+
+    { "stage": "Final", "date": "1962-06-17", "homeTeam": "Brazil", "awayTeam": "Czechoslovakia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Josef Masopust", "minute": "15" },
+      { "team": "home", "player": "Amarildo", "minute": "17" },
+      { "team": "home", "player": "Zito", "minute": "69" },
+      { "team": "home", "player": "Vavá", "minute": "78" }
+    ] }
+  ]
+}

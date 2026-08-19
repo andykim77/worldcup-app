@@ -57,7 +57,7 @@ function trophyTileHtml(e) {
         <img src="images/trophies/${photo.file}" alt="${escapeHtml(e.winner)} celebrating with the World Cup trophy, ${e.year}" loading="lazy">
         <div class="tt-scrim">
           <span class="tt-year">${e.year}</span>
-          <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</span>
+          <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</span>
         </div>
       </a>
     `;
@@ -66,7 +66,7 @@ function trophyTileHtml(e) {
     <a class="trophy-tile tt-placeholder" href="#/edition/${e.year}" title="${e.year} — ${escapeHtml(e.winner)}">
       <span class="tt-trophy">🏆</span>
       <span class="tt-year">${e.year}</span>
-      <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</span>
+      <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</span>
       <span class="tt-note">no free-licensed photo on file</span>
     </a>
   `;
@@ -81,7 +81,7 @@ function trophyCollageHtml(editions) {
     <section class="trophy-collage">
       <div class="tc-head">
         <h2 class="tc-title">Champions Through the Years</h2>
-        <span class="tc-sub">The trophy, lifted, kissed, and held high after seven finals.</span>
+        <span class="tc-sub">The trophy, lifted, kissed, and held high after ${sorted.length} finals.</span>
       </div>
       <div class="trophy-strip">
         ${sorted.map(trophyTileHtml).join('')}
@@ -94,14 +94,30 @@ function trophyCollageHtml(editions) {
   `;
 }
 
+function ordinal(n) {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+function titleBadgeHtml(e) {
+  return e.title_number ? ` <span class="title-count">(${ordinal(e.title_number)} title)</span>` : '';
+}
+
 function stageOrder(stage) {
   const order = [
+    'Group 1', 'Group 2', 'Group 3', 'Group 4', 'Group 5', 'Group 6',
     'Group A', 'Group B', 'Group C', 'Group D', 'Group E', 'Group F', 'Group G', 'Group H',
     'Group I', 'Group J', 'Group K', 'Group L',
+    'Final Group',
     'Round of 32', 'Round of 16', 'Quarter-final', 'Semi-final', 'Third place', 'Final'
   ];
-  const idx = order.indexOf(stage);
-  return idx === -1 ? order.length : idx;
+  // Replays and group-stage playoffs (pre-1982, before penalty shootouts existed)
+  // share a stage with their parent round — sort them right after it.
+  const base = stage.replace(/\s+(replay|play-?off)$/i, '');
+  const idx = order.indexOf(base);
+  if (idx === -1) return order.length;
+  return stage === base ? idx : idx + 0.5;
 }
 
 async function renderHome() {
@@ -119,7 +135,7 @@ async function renderHome() {
     <div class="stat-strip">
       <div class="stat-chip"><div class="num">${stats.editions}</div><div class="label">Editions</div></div>
       <div class="stat-chip"><div class="num">${stats.matches}</div><div class="label">Matches</div></div>
-      <div class="stat-chip"><div class="num">${stats.goals}</div><div class="label">Goals</div></div>
+      <div class="stat-chip"><div class="num">${stats.goals}</div><div class="label">⚽ Goals</div></div>
       <div class="stat-chip"><div class="num">${stats.countries}</div><div class="label">Nations</div></div>
     </div>
   ` : '';
@@ -137,7 +153,7 @@ async function renderHome() {
         <a class="card" href="#/edition/${e.year}">
           <div class="year">${e.year}</div>
           <div class="host">📍 Host: ${flagImgHtml(e.host)} ${escapeHtml(e.host)}</div>
-          <div class="winner-line champ"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}</div>
+          <div class="winner-line champ"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</div>
           <div class="winner-line"><span class="label">Runner-up:</span> ${flagImgHtml(e.runner_up)} ${escapeHtml(e.runner_up)}</div>
         </a>
       `).join('')}
@@ -166,7 +182,7 @@ function awardCardHtml(a, wcWinner) {
 }
 
 function goalLabel(g) {
-  let label = `${escapeHtml(g.player)} ${escapeHtml(g.minute)}'`;
+  let label = `⚽ ${escapeHtml(g.player)} ${escapeHtml(g.minute)}'`;
   if (g.own_goal) label += ' (OG)';
   if (g.penalty) label += ' (pen)';
   return label;
@@ -238,7 +254,7 @@ async function renderEdition(year) {
     <h1>${year} World Cup</h1>
     <div class="summary-grid">
       <div class="summary-box"><div class="label">Host</div><div class="value">${flagImgHtml(edition.host)} ${escapeHtml(edition.host)}</div></div>
-      <div class="summary-box"><div class="label">Winner</div><div class="value">${flagImgHtml(edition.winner)} ${escapeHtml(edition.winner)}</div></div>
+      <div class="summary-box"><div class="label">Winner</div><div class="value">${flagImgHtml(edition.winner)} ${escapeHtml(edition.winner)}${titleBadgeHtml(edition)}</div></div>
       <div class="summary-box"><div class="label">Runner-up</div><div class="value">${flagImgHtml(edition.runner_up)} ${escapeHtml(edition.runner_up)}</div></div>
       <div class="summary-box"><div class="label">3rd Place</div><div class="value">${edition.third_place ? flagImgHtml(edition.third_place) + ' ' + escapeHtml(edition.third_place) : '—'}</div></div>
       <div class="summary-box"><div class="label">4th Place</div><div class="value">${edition.fourth_place ? flagImgHtml(edition.fourth_place) + ' ' + escapeHtml(edition.fourth_place) : '—'}</div></div>
@@ -276,8 +292,8 @@ function goalTimelineHtml(m) {
     <div class="goal-timeline">
       ${m.goals.map(g => `
         <div class="timeline-entry ${g.team_side}">
-          ${g.team_side === 'home' ? `<span class="timeline-team">${escapeHtml(g.player)}${g.own_goal ? ' (OG)' : ''}${g.penalty ? ' (pen)' : ''}</span><span class="timeline-minute">${escapeHtml(g.minute)}'</span>` : ''}
-          ${g.team_side === 'away' ? `<span class="timeline-minute">${escapeHtml(g.minute)}'</span><span class="timeline-team">${escapeHtml(g.player)}${g.own_goal ? ' (OG)' : ''}${g.penalty ? ' (pen)' : ''}</span>` : ''}
+          ${g.team_side === 'home' ? `<span class="timeline-team">⚽ ${escapeHtml(g.player)}${g.own_goal ? ' (OG)' : ''}${g.penalty ? ' (pen)' : ''}</span><span class="timeline-minute">${escapeHtml(g.minute)}'</span>` : ''}
+          ${g.team_side === 'away' ? `<span class="timeline-minute">${escapeHtml(g.minute)}'</span><span class="timeline-team">⚽ ${escapeHtml(g.player)}${g.own_goal ? ' (OG)' : ''}${g.penalty ? ' (pen)' : ''}</span>` : ''}
         </div>
       `).join('')}
     </div>

@@ -1,0 +1,176 @@
+{
+  "edition": {
+    "year": 1970,
+    "host": "Mexico",
+    "winner": "Brazil",
+    "runnerUp": "Italy",
+    "thirdPlace": "West Germany",
+    "fourthPlace": "Uruguay",
+    "goldenBoot": { "player": "Gerd Müller", "nationality": "West Germany", "club": "Bayern Munich", "goals": 10 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1970-05-31", "homeTeam": "Mexico", "awayTeam": "Soviet Union", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1970-06-03", "homeTeam": "Belgium", "awayTeam": "El Salvador", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Wilfried Van Moer", "minute": "13" },
+      { "team": "home", "player": "Wilfried Van Moer", "minute": "55" },
+      { "team": "home", "player": "Raoul Lambert", "minute": "80", "penalty": true }
+    ] },
+    { "stage": "Group 1", "date": "1970-06-06", "homeTeam": "Soviet Union", "awayTeam": "Belgium", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Anatoliy Byshovets", "minute": "14" },
+      { "team": "home", "player": "Vladimir Muntyan", "minute": "57" },
+      { "team": "home", "player": "Anatoliy Byshovets", "minute": "63" },
+      { "team": "home", "player": "Gennadi Khmelnitski", "minute": "78" },
+      { "team": "away", "player": "Raoul Lambert", "minute": "86" }
+    ] },
+    { "stage": "Group 1", "date": "1970-06-07", "homeTeam": "Mexico", "awayTeam": "El Salvador", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Javier Valdivia", "minute": "45" },
+      { "team": "home", "player": "Javier Valdivia", "minute": "46" },
+      { "team": "home", "player": "Horacio Fragoso", "minute": "58" },
+      { "team": "home", "player": "Mario Basaguren", "minute": "83" }
+    ] },
+    { "stage": "Group 1", "date": "1970-06-10", "homeTeam": "Soviet Union", "awayTeam": "El Salvador", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Anatoliy Byshovets", "minute": "51" },
+      { "team": "home", "player": "Anatoliy Byshovets", "minute": "74" }
+    ] },
+    { "stage": "Group 1", "date": "1970-06-11", "homeTeam": "Mexico", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gustavo Peña", "minute": "14", "penalty": true }
+    ] },
+
+    { "stage": "Group 2", "date": "1970-06-02", "homeTeam": "Uruguay", "awayTeam": "Israel", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Alberto Maneiro", "minute": "23" },
+      { "team": "home", "player": "Julio César Mujica", "minute": "81" }
+    ] },
+    { "stage": "Group 2", "date": "1970-06-03", "homeTeam": "Italy", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Angelo Domenghini", "minute": "11" }
+    ] },
+    { "stage": "Group 2", "date": "1970-06-06", "homeTeam": "Uruguay", "awayTeam": "Italy", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1970-06-07", "homeTeam": "Israel", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Tom Turesson", "minute": "53" },
+      { "team": "home", "player": "Mordechai Spiegler", "minute": "56" }
+    ] },
+    { "stage": "Group 2", "date": "1970-06-10", "homeTeam": "Sweden", "awayTeam": "Uruguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ove Grahn", "minute": "90" }
+    ] },
+    { "stage": "Group 2", "date": "1970-06-11", "homeTeam": "Italy", "awayTeam": "Israel", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group 3", "date": "1970-06-02", "homeTeam": "England", "awayTeam": "Romania", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Geoff Hurst", "minute": "65" }
+    ] },
+    { "stage": "Group 3", "date": "1970-06-03", "homeTeam": "Brazil", "awayTeam": "Czechoslovakia", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ladislav Petráš", "minute": "12" },
+      { "team": "home", "player": "Rivelino", "minute": "24" },
+      { "team": "home", "player": "Pelé", "minute": "60" },
+      { "team": "home", "player": "Jairzinho", "minute": "64" },
+      { "team": "home", "player": "Jairzinho", "minute": "83" }
+    ] },
+    { "stage": "Group 3", "date": "1970-06-06", "homeTeam": "Romania", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ladislav Petráš", "minute": "4" },
+      { "team": "home", "player": "Ion Neagu", "minute": "53" },
+      { "team": "home", "player": "Florea Dumitrache", "minute": "76", "penalty": true }
+    ] },
+    { "stage": "Group 3", "date": "1970-06-07", "homeTeam": "Brazil", "awayTeam": "England", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jairzinho", "minute": "60" }
+    ] },
+    { "stage": "Group 3", "date": "1970-06-10", "homeTeam": "Brazil", "awayTeam": "Romania", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pelé", "minute": "20" },
+      { "team": "home", "player": "Jairzinho", "minute": "22" },
+      { "team": "away", "player": "Florea Dumitrache", "minute": "33" },
+      { "team": "home", "player": "Pelé", "minute": "66" },
+      { "team": "away", "player": "Emerich Dembrowski", "minute": "84" }
+    ] },
+    { "stage": "Group 3", "date": "1970-06-11", "homeTeam": "England", "awayTeam": "Czechoslovakia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Allan Clarke", "minute": "49", "penalty": true }
+    ] },
+
+    { "stage": "Group 4", "date": "1970-06-02", "homeTeam": "Peru", "awayTeam": "Bulgaria", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ivaylo Dermendzhiev", "minute": "12" },
+      { "team": "away", "player": "Georgi Bonev", "minute": "50" },
+      { "team": "home", "player": "Alberto Gallardo", "minute": "51" },
+      { "team": "home", "player": "Héctor Chumpitaz", "minute": "56" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "73" }
+    ] },
+    { "stage": "Group 4", "date": "1970-06-03", "homeTeam": "West Germany", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Houmane Jarir", "minute": "21" },
+      { "team": "home", "player": "Uwe Seeler", "minute": "56" },
+      { "team": "home", "player": "Gerd Müller", "minute": "80" }
+    ] },
+    { "stage": "Group 4", "date": "1970-06-06", "homeTeam": "Peru", "awayTeam": "Morocco", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "65" },
+      { "team": "home", "player": "Alfredo Challe", "minute": "68" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "75" }
+    ] },
+    { "stage": "Group 4", "date": "1970-06-07", "homeTeam": "West Germany", "awayTeam": "Bulgaria", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Petar Zhekov", "minute": "12" },
+      { "team": "home", "player": "Reinhard Libuda", "minute": "20" },
+      { "team": "home", "player": "Gerd Müller", "minute": "28" },
+      { "team": "home", "player": "Gerd Müller", "minute": "52", "penalty": true },
+      { "team": "home", "player": "Uwe Seeler", "minute": "69" },
+      { "team": "home", "player": "Gerd Müller", "minute": "87" },
+      { "team": "away", "player": "Ivan Kolev", "minute": "88" }
+    ] },
+    { "stage": "Group 4", "date": "1970-06-10", "homeTeam": "West Germany", "awayTeam": "Peru", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gerd Müller", "minute": "20" },
+      { "team": "home", "player": "Gerd Müller", "minute": "26" },
+      { "team": "home", "player": "Gerd Müller", "minute": "39" },
+      { "team": "away", "player": "Teófilo Cubillas", "minute": "44" }
+    ] },
+    { "stage": "Group 4", "date": "1970-06-11", "homeTeam": "Bulgaria", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Georgi Hristakiev", "minute": "40" },
+      { "team": "away", "player": "Ghazouani Maouhoub", "minute": "60" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1970-06-14", "homeTeam": "Uruguay", "awayTeam": "Soviet Union", "homeScore": 1, "awayScore": 0, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Víctor Espárrago", "minute": "117" }
+    ] },
+    { "stage": "Quarter-final", "date": "1970-06-14", "homeTeam": "Italy", "awayTeam": "Mexico", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "José Luis González", "minute": "13" },
+      { "team": "home", "player": "Gustavo Peña", "minute": "26", "ownGoal": true },
+      { "team": "home", "player": "Luigi Riva", "minute": "64" },
+      { "team": "home", "player": "Gianni Rivera", "minute": "69" },
+      { "team": "home", "player": "Luigi Riva", "minute": "76" }
+    ] },
+    { "stage": "Quarter-final", "date": "1970-06-14", "homeTeam": "Brazil", "awayTeam": "Peru", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rivelino", "minute": "11" },
+      { "team": "home", "player": "Tostão", "minute": "18" },
+      { "team": "away", "player": "Alberto Gallardo", "minute": "28" },
+      { "team": "home", "player": "Tostão", "minute": "52" },
+      { "team": "away", "player": "Teófilo Cubillas", "minute": "69" },
+      { "team": "home", "player": "Jairzinho", "minute": "76" }
+    ] },
+    { "stage": "Quarter-final", "date": "1970-06-14", "homeTeam": "West Germany", "awayTeam": "England", "homeScore": 3, "awayScore": 2, "extraTime": true, "penalties": null, "goals": [
+      { "team": "away", "player": "Alan Mullery", "minute": "31" },
+      { "team": "away", "player": "Martin Peters", "minute": "49" },
+      { "team": "home", "player": "Franz Beckenbauer", "minute": "68" },
+      { "team": "home", "player": "Uwe Seeler", "minute": "76" },
+      { "team": "home", "player": "Gerd Müller", "minute": "108" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1970-06-17", "homeTeam": "Brazil", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Luis Cubilla", "minute": "19" },
+      { "team": "home", "player": "Clodoaldo", "minute": "45" },
+      { "team": "home", "player": "Jairzinho", "minute": "76" },
+      { "team": "home", "player": "Rivelino", "minute": "90" }
+    ] },
+    { "stage": "Semi-final", "date": "1970-06-17", "homeTeam": "Italy", "awayTeam": "West Germany", "homeScore": 4, "awayScore": 3, "extraTime": true, "penalties": null, "goals": [
+      { "team": "home", "player": "Roberto Boninsegna", "minute": "8" },
+      { "team": "away", "player": "Karl-Heinz Schnellinger", "minute": "90+2" },
+      { "team": "away", "player": "Gerd Müller", "minute": "94" },
+      { "team": "home", "player": "Tarcisio Burgnich", "minute": "98" },
+      { "team": "home", "player": "Luigi Riva", "minute": "104" },
+      { "team": "away", "player": "Gerd Müller", "minute": "110" },
+      { "team": "home", "player": "Gianni Rivera", "minute": "111" }
+    ] },
+
+    { "stage": "Third place", "date": "1970-06-20", "homeTeam": "West Germany", "awayTeam": "Uruguay", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Wolfgang Overath", "minute": "27" }
+    ] },
+
+    { "stage": "Final", "date": "1970-06-21", "homeTeam": "Brazil", "awayTeam": "Italy", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pelé", "minute": "18" },
+      { "team": "away", "player": "Roberto Boninsegna", "minute": "37" },
+      { "team": "home", "player": "Gérson", "minute": "66" },
+      { "team": "home", "player": "Jairzinho", "minute": "71" },
+      { "team": "home", "player": "Carlos Alberto", "minute": "86" }
+    ] }
+  ]
+}

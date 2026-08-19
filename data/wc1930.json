@@ -1,0 +1,134 @@
+{
+  "edition": {
+    "year": 1930,
+    "host": "Uruguay",
+    "winner": "Uruguay",
+    "runnerUp": "Argentina",
+    "thirdPlace": null,
+    "fourthPlace": null,
+    "goldenBoot": { "player": "Guillermo Stábile", "nationality": "Argentina", "club": "Huracán", "goals": 8 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1930-07-13", "homeTeam": "France", "awayTeam": "Mexico", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lucien Laurent", "minute": "19" },
+      { "team": "home", "player": "Marcel Langiller", "minute": "40" },
+      { "team": "home", "player": "André Maschinot", "minute": "43" },
+      { "team": "away", "player": "Juan Carreño", "minute": "70" },
+      { "team": "home", "player": "André Maschinot", "minute": "87" }
+    ] },
+    { "stage": "Group 1", "date": "1930-07-15", "homeTeam": "Argentina", "awayTeam": "France", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Monti", "minute": "81" }
+    ] },
+    { "stage": "Group 1", "date": "1930-07-16", "homeTeam": "Chile", "awayTeam": "Mexico", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Carlos Vidal", "minute": "3" },
+      { "team": "home", "player": "Manuel Rosas", "minute": "52", "ownGoal": true },
+      { "team": "home", "player": "Carlos Vidal", "minute": "65" }
+    ] },
+    { "stage": "Group 1", "date": "1930-07-19", "homeTeam": "Chile", "awayTeam": "France", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Guillermo Subiabre", "minute": "67" }
+    ] },
+    { "stage": "Group 1", "date": "1930-07-19", "homeTeam": "Argentina", "awayTeam": "Mexico", "homeScore": 6, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Guillermo Stábile", "minute": "8" },
+      { "team": "home", "player": "Adolfo Zumelzú", "minute": "12" },
+      { "team": "home", "player": "Guillermo Stábile", "minute": "17" },
+      { "team": "away", "player": "Manuel Rosas", "minute": "42", "penalty": true },
+      { "team": "home", "player": "Francisco Varallo", "minute": "53" },
+      { "team": "home", "player": "Adolfo Zumelzú", "minute": "55" },
+      { "team": "away", "player": "Manuel Rosas", "minute": "65" },
+      { "team": "away", "player": "Roberto Gayón", "minute": "75" },
+      { "team": "home", "player": "Guillermo Stábile", "minute": "80" }
+    ] },
+    { "stage": "Group 1", "date": "1930-07-22", "homeTeam": "Argentina", "awayTeam": "Chile", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Guillermo Stábile", "minute": "12" },
+      { "team": "home", "player": "Guillermo Stábile", "minute": "13" },
+      { "team": "away", "player": "Guillermo Subiabre", "minute": "15" },
+      { "team": "home", "player": "Mario Evaristo", "minute": "51" }
+    ] },
+
+    { "stage": "Group 2", "date": "1930-07-14", "homeTeam": "Yugoslavia", "awayTeam": "Brazil", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Aleksandar Tirnanić", "minute": "21" },
+      { "team": "home", "player": "Ivan Bek", "minute": "30" },
+      { "team": "away", "player": "Preguinho", "minute": "62" }
+    ] },
+    { "stage": "Group 2", "date": "1930-07-17", "homeTeam": "Yugoslavia", "awayTeam": "Bolivia", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ivan Bek", "minute": "60" },
+      { "team": "home", "player": "Blagoje Marjanović", "minute": "65" },
+      { "team": "home", "player": "Ivan Bek", "minute": "67" },
+      { "team": "home", "player": "Đorđe Vujadinović", "minute": "85" }
+    ] },
+    { "stage": "Group 2", "date": "1930-07-20", "homeTeam": "Brazil", "awayTeam": "Bolivia", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Moderato", "minute": "37" },
+      { "team": "home", "player": "Preguinho", "minute": "57" },
+      { "team": "home", "player": "Moderato", "minute": "73" },
+      { "team": "home", "player": "Preguinho", "minute": "83" }
+    ] },
+
+    { "stage": "Group 3", "date": "1930-07-14", "homeTeam": "Romania", "awayTeam": "Peru", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Adalbert Deșu", "minute": "1" },
+      { "team": "away", "player": "Luis de Souza Ferreira", "minute": "75" },
+      { "team": "home", "player": "Constantin Stanciu", "minute": "79" },
+      { "team": "home", "player": "Miklós Kovács", "minute": "89" }
+    ] },
+    { "stage": "Group 3", "date": "1930-07-18", "homeTeam": "Uruguay", "awayTeam": "Peru", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Héctor Castro", "minute": "65" }
+    ] },
+    { "stage": "Group 3", "date": "1930-07-21", "homeTeam": "Uruguay", "awayTeam": "Romania", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pablo Dorado", "minute": "7" },
+      { "team": "home", "player": "Héctor Scarone", "minute": "26" },
+      { "team": "home", "player": "Peregrino Anselmo", "minute": "31" },
+      { "team": "home", "player": "Pedro Cea", "minute": "35" }
+    ] },
+
+    { "stage": "Group 4", "date": "1930-07-13", "homeTeam": "United States", "awayTeam": "Belgium", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bart McGhee", "minute": "23" },
+      { "team": "home", "player": "Tom Florie", "minute": "45" },
+      { "team": "home", "player": "Bert Patenaude", "minute": "69" }
+    ] },
+    { "stage": "Group 4", "date": "1930-07-17", "homeTeam": "United States", "awayTeam": "Paraguay", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bert Patenaude", "minute": "10" },
+      { "team": "home", "player": "Bert Patenaude", "minute": "15" },
+      { "team": "home", "player": "Bert Patenaude", "minute": "50" }
+    ] },
+    { "stage": "Group 4", "date": "1930-07-20", "homeTeam": "Paraguay", "awayTeam": "Belgium", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Vargas Peña", "minute": "40" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1930-07-26", "homeTeam": "Argentina", "awayTeam": "United States", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Monti", "minute": "20" },
+      { "team": "home", "player": "Alejandro Scopelli", "minute": "56" },
+      { "team": "home", "player": "Guillermo Stábile", "minute": "69" },
+      { "team": "home", "player": "Carlos Peucelle", "minute": "80" },
+      { "team": "home", "player": "Carlos Peucelle", "minute": "85" },
+      { "team": "home", "player": "Guillermo Stábile", "minute": "87" },
+      { "team": "away", "player": "Jim Brown", "minute": "89" }
+    ] },
+    { "stage": "Semi-final", "date": "1930-07-27", "homeTeam": "Uruguay", "awayTeam": "Yugoslavia", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Đorđe Vujadinović", "minute": "4" },
+      { "team": "home", "player": "Pedro Cea", "minute": "18" },
+      { "team": "home", "player": "Peregrino Anselmo", "minute": "20" },
+      { "team": "home", "player": "Peregrino Anselmo", "minute": "31" },
+      { "team": "home", "player": "Santos Iriarte", "minute": "61" },
+      { "team": "home", "player": "Pedro Cea", "minute": "67" },
+      { "team": "home", "player": "Pedro Cea", "minute": "72" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1930-07-30",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Argentina",
+      "homeScore": 4,
+      "awayScore": 2,
+      "extraTime": false,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Pablo Dorado", "minute": "12" },
+        { "team": "away", "player": "Carlos Peucelle", "minute": "20" },
+        { "team": "away", "player": "Guillermo Stábile", "minute": "37" },
+        { "team": "home", "player": "Pedro Cea", "minute": "57" },
+        { "team": "home", "player": "Santos Iriarte", "minute": "68" },
+        { "team": "home", "player": "Héctor Castro", "minute": "89" }
+      ]
+    }
+  ]
+}

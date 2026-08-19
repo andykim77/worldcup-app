@@ -1,0 +1,149 @@
+{
+  "edition": {
+    "year": 1950,
+    "host": "Brazil",
+    "winner": "Uruguay",
+    "runnerUp": "Brazil",
+    "thirdPlace": "Sweden",
+    "fourthPlace": "Spain",
+    "goldenBoot": { "player": "Ademir", "nationality": "Brazil", "club": "Vasco da Gama", "goals": 9 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1950-06-24", "homeTeam": "Brazil", "awayTeam": "Mexico", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ademir", "minute": "30" },
+      { "team": "home", "player": "Jair", "minute": "65" },
+      { "team": "home", "player": "Baltazar", "minute": "71" },
+      { "team": "home", "player": "Ademir", "minute": "79" }
+    ] },
+    { "stage": "Group 1", "date": "1950-06-25", "homeTeam": "Yugoslavia", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rajko Mitić", "minute": "59" },
+      { "team": "home", "player": "Kosta Tomašević", "minute": "70" },
+      { "team": "home", "player": "Tihomir Ognjanov", "minute": "84" }
+    ] },
+    { "stage": "Group 1", "date": "1950-06-28", "homeTeam": "Brazil", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alfredo", "minute": "3" },
+      { "team": "away", "player": "Jacques Fatton", "minute": "17" },
+      { "team": "home", "player": "Baltazar", "minute": "32" },
+      { "team": "away", "player": "Jacques Fatton", "minute": "88" }
+    ] },
+    { "stage": "Group 1", "date": "1950-06-28", "homeTeam": "Yugoslavia", "awayTeam": "Mexico", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stjepan Bobek", "minute": "20" },
+      { "team": "home", "player": "Žarko Čajkovski", "minute": "23" },
+      { "team": "home", "player": "Žarko Čajkovski", "minute": "51" },
+      { "team": "home", "player": "Kosta Tomašević", "minute": "81" },
+      { "team": "away", "player": "Horacio Ortiz", "minute": "89", "penalty": true }
+    ] },
+    { "stage": "Group 1", "date": "1950-07-01", "homeTeam": "Brazil", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ademir", "minute": "4" },
+      { "team": "home", "player": "Zizinho", "minute": "69" }
+    ] },
+    { "stage": "Group 1", "date": "1950-07-02", "homeTeam": "Switzerland", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "René Bader", "minute": "10" },
+      { "team": "home", "player": "Charles Antenen", "minute": "44" },
+      { "team": "away", "player": "Horacio Casarín", "minute": "89" }
+    ] },
+
+    { "stage": "Group 2", "date": "1950-06-25", "homeTeam": "England", "awayTeam": "Chile", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stan Mortensen", "minute": "39" },
+      { "team": "home", "player": "Wilf Mannion", "minute": "51" }
+    ] },
+    { "stage": "Group 2", "date": "1950-06-25", "homeTeam": "Spain", "awayTeam": "United States", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Gino Pariani", "minute": "17" },
+      { "team": "home", "player": "Silvestre Igoa", "minute": "81" },
+      { "team": "home", "player": "Estanislao Basora", "minute": "83" },
+      { "team": "home", "player": "Telmo Zarra", "minute": "89" }
+    ] },
+    { "stage": "Group 2", "date": "1950-06-29", "homeTeam": "Spain", "awayTeam": "Chile", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Estanislao Basora", "minute": "17" },
+      { "team": "home", "player": "Telmo Zarra", "minute": "30" }
+    ] },
+    { "stage": "Group 2", "date": "1950-06-29", "homeTeam": "United States", "awayTeam": "England", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Joe Gaetjens", "minute": "38" }
+    ] },
+    { "stage": "Group 2", "date": "1950-07-02", "homeTeam": "Spain", "awayTeam": "England", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Telmo Zarra", "minute": "48" }
+    ] },
+    { "stage": "Group 2", "date": "1950-07-02", "homeTeam": "Chile", "awayTeam": "United States", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "George Robledo", "minute": "16" },
+      { "team": "home", "player": "Atilio Cremaschi", "minute": "32" },
+      { "team": "away", "player": "Frank Wallace", "minute": "47" },
+      { "team": "away", "player": "Joe Maca", "minute": "48", "penalty": true },
+      { "team": "home", "player": "Andrés Prieto", "minute": "54" },
+      { "team": "home", "player": "Atilio Cremaschi", "minute": "60" },
+      { "team": "home", "player": "Fernando Riera", "minute": "82" }
+    ] },
+
+    { "stage": "Group 3", "date": "1950-06-25", "homeTeam": "Sweden", "awayTeam": "Italy", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Riccardo Carapellese", "minute": "7" },
+      { "team": "home", "player": "Hasse Jeppson", "minute": "25" },
+      { "team": "home", "player": "Sune Andersson", "minute": "33" },
+      { "team": "home", "player": "Hasse Jeppson", "minute": "68" },
+      { "team": "away", "player": "Ermes Muccinelli", "minute": "75" }
+    ] },
+    { "stage": "Group 3", "date": "1950-06-29", "homeTeam": "Sweden", "awayTeam": "Paraguay", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stig Sundqvist", "minute": "17" },
+      { "team": "home", "player": "Karl-Erik Palmér", "minute": "26" },
+      { "team": "away", "player": "Atilio López", "minute": "35" },
+      { "team": "away", "player": "César López Fretes", "minute": "74" }
+    ] },
+    { "stage": "Group 3", "date": "1950-07-02", "homeTeam": "Italy", "awayTeam": "Paraguay", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Riccardo Carapellese", "minute": "12" },
+      { "team": "home", "player": "Egisto Pandolfini", "minute": "62" }
+    ] },
+
+    { "stage": "Group 4", "date": "1950-07-02", "homeTeam": "Uruguay", "awayTeam": "Bolivia", "homeScore": 8, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Óscar Míguez", "minute": "14" },
+      { "team": "home", "player": "Ernesto Vidal", "minute": "18" },
+      { "team": "home", "player": "Juan Alberto Schiaffino", "minute": "23" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "40" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "51" },
+      { "team": "home", "player": "Juan Alberto Schiaffino", "minute": "54" },
+      { "team": "home", "player": "Julio Pérez", "minute": "83" },
+      { "team": "home", "player": "Alcides Ghiggia", "minute": "87" }
+    ] },
+
+    { "stage": "Final Group", "date": "1950-07-09", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 7, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ademir", "minute": "17" },
+      { "team": "home", "player": "Ademir", "minute": "36" },
+      { "team": "home", "player": "Chico", "minute": "39" },
+      { "team": "home", "player": "Ademir", "minute": "52" },
+      { "team": "home", "player": "Ademir", "minute": "58" },
+      { "team": "away", "player": "Sune Andersson", "minute": "67", "penalty": true },
+      { "team": "home", "player": "Maneca", "minute": "85" },
+      { "team": "home", "player": "Chico", "minute": "88" }
+    ] },
+    { "stage": "Final Group", "date": "1950-07-09", "homeTeam": "Uruguay", "awayTeam": "Spain", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alcides Ghiggia", "minute": "29" },
+      { "team": "away", "player": "Estanislao Basora", "minute": "37" },
+      { "team": "away", "player": "Estanislao Basora", "minute": "39" },
+      { "team": "home", "player": "Obdulio Varela", "minute": "73" }
+    ] },
+    { "stage": "Final Group", "date": "1950-07-13", "homeTeam": "Brazil", "awayTeam": "Spain", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ademir", "minute": "15" },
+      { "team": "home", "player": "Jair", "minute": "21" },
+      { "team": "home", "player": "Chico", "minute": "31" },
+      { "team": "home", "player": "Chico", "minute": "55" },
+      { "team": "home", "player": "Ademir", "minute": "57" },
+      { "team": "home", "player": "Zizinho", "minute": "67" },
+      { "team": "away", "player": "Silvestre Igoa", "minute": "71" }
+    ] },
+    { "stage": "Final Group", "date": "1950-07-13", "homeTeam": "Uruguay", "awayTeam": "Sweden", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Karl-Erik Palmér", "minute": "5" },
+      { "team": "home", "player": "Alcides Ghiggia", "minute": "39" },
+      { "team": "away", "player": "Stig Sundqvist", "minute": "40" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "77" },
+      { "team": "home", "player": "Óscar Míguez", "minute": "85" }
+    ] },
+    { "stage": "Final Group", "date": "1950-07-16", "homeTeam": "Sweden", "awayTeam": "Spain", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stig Sundqvist", "minute": "15" },
+      { "team": "home", "player": "Bror Mellberg", "minute": "33" },
+      { "team": "home", "player": "Karl-Erik Palmér", "minute": "80" },
+      { "team": "away", "player": "Telmo Zarra", "minute": "82" }
+    ] },
+    { "stage": "Final Group", "date": "1950-07-16", "homeTeam": "Uruguay", "awayTeam": "Brazil", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Friaça", "minute": "47" },
+      { "team": "home", "player": "Juan Alberto Schiaffino", "minute": "66" },
+      { "team": "home", "player": "Alcides Ghiggia", "minute": "79" }
+    ] }
+  ]
+}

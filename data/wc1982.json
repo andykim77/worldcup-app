@@ -1,0 +1,323 @@
+{
+  "edition": {
+    "year": 1982,
+    "host": "Spain",
+    "winner": "Italy",
+    "runnerUp": "West Germany",
+    "thirdPlace": "Poland",
+    "fourthPlace": "France",
+    "goldenBall": {
+      "player": "Paolo Rossi",
+      "nationality": "Italy",
+      "club": "Juventus",
+      "note": "First FIFA World Cup with a Golden Ball award. Rossi returned from a two-year match-fixing ban only weeks before the tournament, then top-scored and led Italy to the title, winning both the Golden Ball and the Golden Boot - an unusual double."
+    },
+    "goldenBoot": { "player": "Paolo Rossi", "nationality": "Italy", "club": "Juventus", "goals": 6 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1982-06-14", "homeTeam": "Italy", "awayTeam": "Poland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1982-06-15", "homeTeam": "Peru", "awayTeam": "Cameroon", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1982-06-18", "homeTeam": "Italy", "awayTeam": "Peru", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bruno Conti", "minute": "18" },
+      { "team": "away", "player": "Rubén Toribio Díaz", "minute": "83" }
+    ] },
+    { "stage": "Group 1", "date": "1982-06-19", "homeTeam": "Poland", "awayTeam": "Cameroon", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1982-06-22", "homeTeam": "Poland", "awayTeam": "Peru", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Włodzimierz Smolarek", "minute": "55" },
+      { "team": "home", "player": "Grzegorz Lato", "minute": "58" },
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "61" },
+      { "team": "home", "player": "Andrzej Buncol", "minute": "68" },
+      { "team": "home", "player": "Włodzimierz Ciołek", "minute": "76" },
+      { "team": "away", "player": "Guillermo La Rosa", "minute": "83" }
+    ] },
+    { "stage": "Group 1", "date": "1982-06-23", "homeTeam": "Italy", "awayTeam": "Cameroon", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Francesco Graziani", "minute": "60" },
+      { "team": "away", "player": "Grégoire M'Bida", "minute": "61" }
+    ] },
+
+    { "stage": "Group 2", "date": "1982-06-16", "homeTeam": "West Germany", "awayTeam": "Algeria", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rabah Madjer", "minute": "54" },
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "67" },
+      { "team": "away", "player": "Lakhdar Belloumi", "minute": "68" }
+    ] },
+    { "stage": "Group 2", "date": "1982-06-17", "homeTeam": "Chile", "awayTeam": "Austria", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Walter Schachner", "minute": "21" }
+    ] },
+    { "stage": "Group 2", "date": "1982-06-20", "homeTeam": "West Germany", "awayTeam": "Chile", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "9" },
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "57" },
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "66" },
+      { "team": "home", "player": "Uwe Reinders", "minute": "83" },
+      { "team": "away", "player": "Gustavo Moscoso", "minute": "90" }
+    ] },
+    { "stage": "Group 2", "date": "1982-06-21", "homeTeam": "Algeria", "awayTeam": "Austria", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Walter Schachner", "minute": "55" },
+      { "team": "away", "player": "Hans Krankl", "minute": "67" }
+    ] },
+    { "stage": "Group 2", "date": "1982-06-24", "homeTeam": "Algeria", "awayTeam": "Chile", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Salah Assad", "minute": "7" },
+      { "team": "home", "player": "Salah Assad", "minute": "31" },
+      { "team": "home", "player": "Tedj Bensaoula", "minute": "35" },
+      { "team": "away", "player": "Miguel Ángel Neira", "minute": "59", "penalty": true },
+      { "team": "away", "player": "Juan Carlos Letelier", "minute": "73" }
+    ] },
+    { "stage": "Group 2", "date": "1982-06-25", "homeTeam": "West Germany", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Horst Hrubesch", "minute": "10" }
+    ] },
+
+    { "stage": "Group 3", "date": "1982-06-13", "homeTeam": "Argentina", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Erwin Vandenbergh", "minute": "62" }
+    ] },
+    { "stage": "Group 3", "date": "1982-06-15", "homeTeam": "Hungary", "awayTeam": "El Salvador", "homeScore": 10, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Tibor Nyilasi", "minute": "4" },
+      { "team": "home", "player": "Gábor Pölöskei", "minute": "11" },
+      { "team": "home", "player": "László Fazekas", "minute": "23" },
+      { "team": "home", "player": "József Tóth", "minute": "50" },
+      { "team": "home", "player": "László Fazekas", "minute": "54" },
+      { "team": "away", "player": "Luis Ramírez Zapata", "minute": "64" },
+      { "team": "home", "player": "László Kiss", "minute": "69" },
+      { "team": "home", "player": "Lázár Szentes", "minute": "70" },
+      { "team": "home", "player": "László Kiss", "minute": "72" },
+      { "team": "home", "player": "László Kiss", "minute": "76" },
+      { "team": "home", "player": "Tibor Nyilasi", "minute": "83" }
+    ] },
+    { "stage": "Group 3", "date": "1982-06-18", "homeTeam": "Argentina", "awayTeam": "Hungary", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniel Bertoni", "minute": "26" },
+      { "team": "home", "player": "Diego Maradona", "minute": "28" },
+      { "team": "home", "player": "Diego Maradona", "minute": "57" },
+      { "team": "home", "player": "Osvaldo Ardiles", "minute": "60" },
+      { "team": "away", "player": "Gábor Pölöskei", "minute": "76" }
+    ] },
+    { "stage": "Group 3", "date": "1982-06-19", "homeTeam": "Belgium", "awayTeam": "El Salvador", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ludo Coeck", "minute": "19" }
+    ] },
+    { "stage": "Group 3", "date": "1982-06-22", "homeTeam": "Belgium", "awayTeam": "Hungary", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "József Varga", "minute": "27" },
+      { "team": "home", "player": "Alexandre Czerniatynski", "minute": "76" }
+    ] },
+    { "stage": "Group 3", "date": "1982-06-23", "homeTeam": "Argentina", "awayTeam": "El Salvador", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniel Passarella", "minute": "22", "penalty": true },
+      { "team": "home", "player": "Daniel Bertoni", "minute": "54" }
+    ] },
+
+    { "stage": "Group 4", "date": "1982-06-16", "homeTeam": "England", "awayTeam": "France", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bryan Robson", "minute": "1" },
+      { "team": "away", "player": "Gérard Soler", "minute": "24" },
+      { "team": "home", "player": "Bryan Robson", "minute": "67" },
+      { "team": "home", "player": "Paul Mariner", "minute": "83" }
+    ] },
+    { "stage": "Group 4", "date": "1982-06-17", "homeTeam": "Czechoslovakia", "awayTeam": "Kuwait", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Antonín Panenka", "minute": "21", "penalty": true },
+      { "team": "away", "player": "Faisal Al-Dakhil", "minute": "57" }
+    ] },
+    { "stage": "Group 4", "date": "1982-06-20", "homeTeam": "England", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Trevor Francis", "minute": "62" },
+      { "team": "home", "player": "Jozef Barmoš", "minute": "66", "ownGoal": true }
+    ] },
+    { "stage": "Group 4", "date": "1982-06-21", "homeTeam": "France", "awayTeam": "Kuwait", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bernard Genghini", "minute": "31" },
+      { "team": "home", "player": "Michel Platini", "minute": "43" },
+      { "team": "home", "player": "Didier Six", "minute": "48" },
+      { "team": "away", "player": "Abdullah Al-Buloushi", "minute": "75" },
+      { "team": "home", "player": "Maxime Bossis", "minute": "89" }
+    ] },
+    { "stage": "Group 4", "date": "1982-06-24", "homeTeam": "France", "awayTeam": "Czechoslovakia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Didier Six", "minute": "66" },
+      { "team": "away", "player": "Antonín Panenka", "minute": "84", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Ladislav Vízek", "minute": "87", "secondYellow": false }
+    ] },
+    { "stage": "Group 4", "date": "1982-06-25", "homeTeam": "England", "awayTeam": "Kuwait", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Trevor Francis", "minute": "27" }
+    ] },
+
+    { "stage": "Group 5", "date": "1982-06-16", "homeTeam": "Spain", "awayTeam": "Honduras", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Héctor Zelaya", "minute": "8" },
+      { "team": "home", "player": "Roberto López Ufarte", "minute": "65", "penalty": true }
+    ] },
+    { "stage": "Group 5", "date": "1982-06-17", "homeTeam": "Yugoslavia", "awayTeam": "Northern Ireland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 5", "date": "1982-06-20", "homeTeam": "Spain", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ivan Gudelj", "minute": "10" },
+      { "team": "home", "player": "Juanito", "minute": "14", "penalty": true },
+      { "team": "home", "player": "Enrique Saura", "minute": "66" }
+    ] },
+    { "stage": "Group 5", "date": "1982-06-21", "homeTeam": "Honduras", "awayTeam": "Northern Ireland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Gerry Armstrong", "minute": "10" },
+      { "team": "home", "player": "Eduardo Laing", "minute": "60" }
+    ] },
+    { "stage": "Group 5", "date": "1982-06-24", "homeTeam": "Honduras", "awayTeam": "Yugoslavia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Vladimir Petrović", "minute": "88", "penalty": true }
+    ], "redCards": [
+      { "team": "home", "player": "Gilberto Yearwood", "minute": "89", "secondYellow": false }
+    ] },
+    { "stage": "Group 5", "date": "1982-06-25", "homeTeam": "Spain", "awayTeam": "Northern Ireland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Gerry Armstrong", "minute": "47" }
+    ], "redCards": [
+      { "team": "away", "player": "Mal Donaghy", "minute": "60", "secondYellow": false }
+    ] },
+
+    { "stage": "Group 6", "date": "1982-06-14", "homeTeam": "Brazil", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Andriy Bal", "minute": "34" },
+      { "team": "home", "player": "Sócrates", "minute": "75" },
+      { "team": "home", "player": "Éder", "minute": "88" }
+    ] },
+    { "stage": "Group 6", "date": "1982-06-15", "homeTeam": "Scotland", "awayTeam": "New Zealand", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kenny Dalglish", "minute": "18" },
+      { "team": "home", "player": "John Wark", "minute": "29" },
+      { "team": "home", "player": "John Wark", "minute": "32" },
+      { "team": "away", "player": "Steve Sumner", "minute": "54" },
+      { "team": "away", "player": "Steve Wooddin", "minute": "64" },
+      { "team": "home", "player": "John Robertson", "minute": "73" },
+      { "team": "home", "player": "Steve Archibald", "minute": "79" }
+    ] },
+    { "stage": "Group 6", "date": "1982-06-18", "homeTeam": "Brazil", "awayTeam": "Scotland", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "David Narey", "minute": "18" },
+      { "team": "home", "player": "Zico", "minute": "33" },
+      { "team": "home", "player": "Oscar", "minute": "48" },
+      { "team": "home", "player": "Éder", "minute": "63" },
+      { "team": "home", "player": "Falcão", "minute": "87" }
+    ] },
+    { "stage": "Group 6", "date": "1982-06-19", "homeTeam": "Soviet Union", "awayTeam": "New Zealand", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Yuri Gavrilov", "minute": "24" },
+      { "team": "home", "player": "Oleh Blokhin", "minute": "48" },
+      { "team": "home", "player": "Sergei Baltacha", "minute": "68" }
+    ] },
+    { "stage": "Group 6", "date": "1982-06-22", "homeTeam": "Soviet Union", "awayTeam": "Scotland", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Joe Jordan", "minute": "15" },
+      { "team": "home", "player": "Alexandre Chivadze", "minute": "59" },
+      { "team": "home", "player": "Ramaz Shengelia", "minute": "84" },
+      { "team": "away", "player": "Graeme Souness", "minute": "86" }
+    ] },
+    { "stage": "Group 6", "date": "1982-06-23", "homeTeam": "Brazil", "awayTeam": "New Zealand", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Zico", "minute": "28" },
+      { "team": "home", "player": "Zico", "minute": "31" },
+      { "team": "home", "player": "Falcão", "minute": "64" },
+      { "team": "home", "player": "Serginho", "minute": "70" }
+    ] },
+
+    { "stage": "Group A", "date": "1982-06-28", "homeTeam": "Poland", "awayTeam": "Belgium", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "4" },
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "26" },
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "53" }
+    ] },
+    { "stage": "Group A", "date": "1982-07-01", "homeTeam": "Belgium", "awayTeam": "Soviet Union", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Khoren Oganesian", "minute": "48" }
+    ] },
+    { "stage": "Group A", "date": "1982-07-04", "homeTeam": "Soviet Union", "awayTeam": "Poland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group B", "date": "1982-06-29", "homeTeam": "West Germany", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group B", "date": "1982-07-02", "homeTeam": "West Germany", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pierre Littbarski", "minute": "50" },
+      { "team": "home", "player": "Klaus Fischer", "minute": "75" },
+      { "team": "away", "player": "Jesús María Zamora", "minute": "82" }
+    ] },
+    { "stage": "Group B", "date": "1982-07-05", "homeTeam": "Spain", "awayTeam": "England", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group C", "date": "1982-06-29", "homeTeam": "Italy", "awayTeam": "Argentina", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marco Tardelli", "minute": "57" },
+      { "team": "home", "player": "Antonio Cabrini", "minute": "67" },
+      { "team": "away", "player": "Daniel Passarella", "minute": "83" }
+    ], "redCards": [
+      { "team": "away", "player": "Américo Gallego", "minute": "84", "secondYellow": true }
+    ] },
+    { "stage": "Group C", "date": "1982-07-02", "homeTeam": "Argentina", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Zico", "minute": "11" },
+      { "team": "away", "player": "Serginho", "minute": "66" },
+      { "team": "away", "player": "Júnior", "minute": "75" },
+      { "team": "home", "player": "Ramón Díaz", "minute": "89" }
+    ], "redCards": [
+      { "team": "home", "player": "Diego Maradona", "minute": "85", "secondYellow": false }
+    ] },
+    { "stage": "Group C", "date": "1982-07-05", "homeTeam": "Italy", "awayTeam": "Brazil", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paolo Rossi", "minute": "5" },
+      { "team": "away", "player": "Sócrates", "minute": "12" },
+      { "team": "home", "player": "Paolo Rossi", "minute": "25" },
+      { "team": "home", "player": "Paolo Rossi", "minute": "74" },
+      { "team": "away", "player": "Falcão", "minute": "68" }
+    ] },
+
+    { "stage": "Group D", "date": "1982-06-28", "homeTeam": "Austria", "awayTeam": "France", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Bernard Genghini", "minute": "39" }
+    ] },
+    { "stage": "Group D", "date": "1982-07-01", "homeTeam": "Austria", "awayTeam": "Northern Ireland", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Billy Hamilton", "minute": "27" },
+      { "team": "home", "player": "Bruno Pezzey", "minute": "50" },
+      { "team": "home", "player": "Reinhold Hintermaier", "minute": "68" },
+      { "team": "away", "player": "Billy Hamilton", "minute": "75" }
+    ] },
+    { "stage": "Group D", "date": "1982-07-04", "homeTeam": "France", "awayTeam": "Northern Ireland", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alain Giresse", "minute": "33" },
+      { "team": "home", "player": "Dominique Rocheteau", "minute": "46" },
+      { "team": "home", "player": "Dominique Rocheteau", "minute": "68" },
+      { "team": "home", "player": "Alain Giresse", "minute": "80" },
+      { "team": "away", "player": "Gerry Armstrong", "minute": "75" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1982-07-08", "homeTeam": "Italy", "awayTeam": "Poland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paolo Rossi", "minute": "22" },
+      { "team": "home", "player": "Paolo Rossi", "minute": "73" }
+    ] },
+    {
+      "stage": "Semi-final",
+      "date": "1982-07-08",
+      "homeTeam": "West Germany",
+      "awayTeam": "France",
+      "homeScore": 3,
+      "awayScore": 3,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Pierre Littbarski", "minute": "17" },
+        { "team": "away", "player": "Michel Platini", "minute": "26", "penalty": true },
+        { "team": "away", "player": "Marius Trésor", "minute": "92" },
+        { "team": "away", "player": "Alain Giresse", "minute": "98" },
+        { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "102" },
+        { "team": "home", "player": "Klaus Fischer", "minute": "108" }
+      ],
+      "penalties": {
+        "homeScore": 5,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Manfred Kaltz", "result": "scored" },
+          { "player": "Paul Breitner", "result": "scored" },
+          { "player": "Uli Stielike", "result": "missed" },
+          { "player": "Pierre Littbarski", "result": "scored" },
+          { "player": "Karl-Heinz Rummenigge", "result": "scored" },
+          { "player": "Horst Hrubesch", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Alain Giresse", "result": "scored" },
+          { "player": "Manuel Amoros", "result": "scored" },
+          { "player": "Dominique Rocheteau", "result": "scored" },
+          { "player": "Didier Six", "result": "missed" },
+          { "player": "Michel Platini", "result": "scored" },
+          { "player": "Maxime Bossis", "result": "missed" }
+        ]
+      }
+    },
+
+    { "stage": "Third place", "date": "1982-07-10", "homeTeam": "Poland", "awayTeam": "France", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "René Girard", "minute": "13" },
+      { "team": "home", "player": "Andrzej Szarmach", "minute": "41" },
+      { "team": "home", "player": "Stefan Majewski", "minute": "44" },
+      { "team": "home", "player": "Janusz Kupcewicz", "minute": "46" },
+      { "team": "away", "player": "Alain Couriol", "minute": "73" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1982-07-11",
+      "homeTeam": "Italy",
+      "awayTeam": "West Germany",
+      "homeScore": 3,
+      "awayScore": 1,
+      "extraTime": false,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Paolo Rossi", "minute": "57" },
+        { "team": "home", "player": "Marco Tardelli", "minute": "69" },
+        { "team": "home", "player": "Alessandro Altobelli", "minute": "81" },
+        { "team": "away", "player": "Paul Breitner", "minute": "83" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "edition": {
+    "year": 1998,
+    "host": "France",
+    "winner": "France",
+    "runnerUp": "Brazil",
+    "thirdPlace": "Croatia",
+    "fourthPlace": "Netherlands",
+    "goldenBall": { "player": "Ronaldo", "nationality": "Brazil", "club": "Inter Milan" },
+    "silverBall": { "player": "Davor Šuker", "nationality": "Croatia", "club": "Real Madrid" },
+    "bronzeBall": { "player": "Lilian Thuram", "nationality": "France", "club": "Parma" },
+    "goldenBoot": { "player": "Davor Šuker", "nationality": "Croatia", "club": "Real Madrid", "goals": 6 },
+    "goldenGlove": {
+      "player": "Fabien Barthez",
+      "nationality": "France",
+      "club": "Monaco",
+      "note": "In 1998 this award for the tournament's best goalkeeper was known as the Lev Yashin Award, before being rebranded the Golden Glove from the 2010 World Cup onward."
+    },
+    "bestYoungPlayer": { "player": "Michael Owen", "nationality": "England", "club": "Liverpool" }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "1998-06-10", "homeTeam": "Brazil", "awayTeam": "Scotland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "César Sampaio", "minute": "5" },
+      { "team": "away", "player": "John Collins", "minute": "38", "penalty": true },
+      { "team": "home", "player": "Tom Boyd", "minute": "74", "ownGoal": true }
+    ] },
+    { "stage": "Group A", "date": "1998-06-10", "homeTeam": "Morocco", "awayTeam": "Norway", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mustapha Hadji", "minute": "37" },
+      { "team": "away", "player": "Youssef Chippo", "minute": "45+1", "ownGoal": true },
+      { "team": "home", "player": "Abdeljalil Hadda", "minute": "60" },
+      { "team": "away", "player": "Dan Eggen", "minute": "61" }
+    ] },
+    { "stage": "Group A", "date": "1998-06-16", "homeTeam": "Scotland", "awayTeam": "Norway", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Håvard Flo", "minute": "46" },
+      { "team": "home", "player": "Craig Burley", "minute": "66" }
+    ] },
+    { "stage": "Group A", "date": "1998-06-16", "homeTeam": "Brazil", "awayTeam": "Morocco", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ronaldo", "minute": "9" },
+      { "team": "home", "player": "Rivaldo", "minute": "45+2" },
+      { "team": "home", "player": "Bebeto", "minute": "50" }
+    ] },
+    { "stage": "Group A", "date": "1998-06-23", "homeTeam": "Scotland", "awayTeam": "Morocco", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Salaheddine Bassir", "minute": "23" },
+      { "team": "away", "player": "Abdeljalil Hadda", "minute": "46" },
+      { "team": "away", "player": "Salaheddine Bassir", "minute": "85" }
+    ], "redCards": [
+      { "team": "home", "player": "Craig Burley", "minute": "53", "secondYellow": false }
+    ] },
+    { "stage": "Group A", "date": "1998-06-23", "homeTeam": "Brazil", "awayTeam": "Norway", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bebeto", "minute": "78" },
+      { "team": "away", "player": "Tore André Flo", "minute": "83" },
+      { "team": "away", "player": "Kjetil Rekdal", "minute": "89", "penalty": true }
+    ] },
+
+    { "stage": "Group B", "date": "1998-06-11", "homeTeam": "Italy", "awayTeam": "Chile", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christian Vieri", "minute": "10" },
+      { "team": "away", "player": "Marcelo Salas", "minute": "45+3" },
+      { "team": "away", "player": "Marcelo Salas", "minute": "50" },
+      { "team": "home", "player": "Roberto Baggio", "minute": "84", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1998-06-11", "homeTeam": "Cameroon", "awayTeam": "Austria", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pierre Njanka", "minute": "77" },
+      { "team": "away", "player": "Toni Polster", "minute": "90+1" }
+    ] },
+    { "stage": "Group B", "date": "1998-06-17", "homeTeam": "Chile", "awayTeam": "Austria", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marcelo Salas", "minute": "70" },
+      { "team": "away", "player": "Ivica Vastić", "minute": "90+2" }
+    ] },
+    { "stage": "Group B", "date": "1998-06-17", "homeTeam": "Italy", "awayTeam": "Cameroon", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luigi Di Biagio", "minute": "7" },
+      { "team": "home", "player": "Christian Vieri", "minute": "75" },
+      { "team": "home", "player": "Christian Vieri", "minute": "89" }
+    ], "redCards": [
+      { "team": "away", "player": "Raymond Kalla", "minute": "42", "secondYellow": false }
+    ] },
+    { "stage": "Group B", "date": "1998-06-23", "homeTeam": "Italy", "awayTeam": "Austria", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christian Vieri", "minute": "48" },
+      { "team": "home", "player": "Roberto Baggio", "minute": "90" },
+      { "team": "away", "player": "Andreas Herzog", "minute": "90+2", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1998-06-23", "homeTeam": "Chile", "awayTeam": "Cameroon", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "José Luis Sierra", "minute": "20" },
+      { "team": "away", "player": "Patrick Mboma", "minute": "56" }
+    ], "redCards": [
+      { "team": "away", "player": "Rigobert Song", "minute": "51", "secondYellow": false },
+      { "team": "away", "player": "Lauren", "minute": "88", "secondYellow": false }
+    ] },
+
+    { "stage": "Group C", "date": "1998-06-12", "homeTeam": "Saudi Arabia", "awayTeam": "Denmark", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Marc Rieper", "minute": "69" }
+    ] },
+    { "stage": "Group C", "date": "1998-06-12", "homeTeam": "France", "awayTeam": "South Africa", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christophe Dugarry", "minute": "36" },
+      { "team": "home", "player": "Pierre Issa", "minute": "77", "ownGoal": true },
+      { "team": "home", "player": "Thierry Henry", "minute": "90+2" }
+    ] },
+    { "stage": "Group C", "date": "1998-06-18", "homeTeam": "South Africa", "awayTeam": "Denmark", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Allan Nielsen", "minute": "12" },
+      { "team": "home", "player": "Benni McCarthy", "minute": "51" }
+    ], "redCards": [
+      { "team": "away", "player": "Miklós Molnár", "minute": "66", "secondYellow": false },
+      { "team": "home", "player": "Alfred Phiri", "minute": "68", "secondYellow": true },
+      { "team": "away", "player": "Morten Wieghorst", "minute": "85", "secondYellow": false }
+    ] },
+    { "stage": "Group C", "date": "1998-06-18", "homeTeam": "France", "awayTeam": "Saudi Arabia", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Thierry Henry", "minute": "37" },
+      { "team": "home", "player": "David Trezeguet", "minute": "68" },
+      { "team": "home", "player": "Thierry Henry", "minute": "78" },
+      { "team": "home", "player": "Bixente Lizarazu", "minute": "85" }
+    ], "redCards": [
+      { "team": "away", "player": "Mohammed Al-Khilaiwi", "minute": "19", "secondYellow": false },
+      { "team": "home", "player": "Zinedine Zidane", "minute": "71", "secondYellow": false }
+    ] },
+    { "stage": "Group C", "date": "1998-06-24", "homeTeam": "France", "awayTeam": "Denmark", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Youri Djorkaeff", "minute": "12", "penalty": true },
+      { "team": "away", "player": "Michael Laudrup", "minute": "42", "penalty": true },
+      { "team": "home", "player": "Emmanuel Petit", "minute": "56" }
+    ] },
+    { "stage": "Group C", "date": "1998-06-24", "homeTeam": "South Africa", "awayTeam": "Saudi Arabia", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Shaun Bartlett", "minute": "18" },
+      { "team": "away", "player": "Sami Al-Jaber", "minute": "45+2", "penalty": true },
+      { "team": "away", "player": "Yousuf Al-Thunayan", "minute": "74", "penalty": true },
+      { "team": "home", "player": "Shaun Bartlett", "minute": "90+3", "penalty": true }
+    ] },
+
+    { "stage": "Group D", "date": "1998-06-12", "homeTeam": "Paraguay", "awayTeam": "Bulgaria", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group D", "date": "1998-06-13", "homeTeam": "Spain", "awayTeam": "Nigeria", "homeScore": 2, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fernando Hierro", "minute": "21" },
+      { "team": "away", "player": "Mutiu Adepoju", "minute": "24" },
+      { "team": "home", "player": "Raúl", "minute": "47" },
+      { "team": "away", "player": "Andoni Zubizarreta", "minute": "73", "ownGoal": true },
+      { "team": "away", "player": "Sunday Oliseh", "minute": "78" }
+    ] },
+    { "stage": "Group D", "date": "1998-06-19", "homeTeam": "Nigeria", "awayTeam": "Bulgaria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Victor Ikpeba", "minute": "28" }
+    ] },
+    { "stage": "Group D", "date": "1998-06-19", "homeTeam": "Spain", "awayTeam": "Paraguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group D", "date": "1998-06-24", "homeTeam": "Nigeria", "awayTeam": "Paraguay", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Celso Ayala", "minute": "1" },
+      { "team": "home", "player": "Wilson Oruma", "minute": "11" },
+      { "team": "away", "player": "Miguel Ángel Benítez", "minute": "58" },
+      { "team": "away", "player": "José Cardozo", "minute": "86" }
+    ] },
+    { "stage": "Group D", "date": "1998-06-24", "homeTeam": "Spain", "awayTeam": "Bulgaria", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fernando Hierro", "minute": "6", "penalty": true },
+      { "team": "home", "player": "Luis Enrique", "minute": "18" },
+      { "team": "home", "player": "Fernando Morientes", "minute": "55" },
+      { "team": "away", "player": "Emil Kostadinov", "minute": "58" },
+      { "team": "home", "player": "Fernando Morientes", "minute": "81" },
+      { "team": "home", "player": "Georgi Bachev", "minute": "88", "ownGoal": true },
+      { "team": "home", "player": "Kiko", "minute": "90+4" }
+    ] },
+
+    { "stage": "Group E", "date": "1998-06-13", "homeTeam": "South Korea", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ha Seok-ju", "minute": "27" },
+      { "team": "away", "player": "Ricardo Peláez", "minute": "50" },
+      { "team": "away", "player": "Luis Hernández", "minute": "75" },
+      { "team": "away", "player": "Luis Hernández", "minute": "84" }
+    ], "redCards": [
+      { "team": "home", "player": "Ha Seok-ju", "minute": "30", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1998-06-13", "homeTeam": "Netherlands", "awayTeam": "Belgium", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Patrick Kluivert", "minute": "80", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1998-06-20", "homeTeam": "Belgium", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marc Wilmots", "minute": "42" },
+      { "team": "home", "player": "Marc Wilmots", "minute": "47" },
+      { "team": "away", "player": "Alberto García Aspe", "minute": "55", "penalty": true },
+      { "team": "away", "player": "Cuauhtémoc Blanco", "minute": "62" }
+    ], "redCards": [
+      { "team": "away", "player": "Pável Pardo", "minute": "28", "secondYellow": false },
+      { "team": "home", "player": "Gert Verheyen", "minute": "54", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1998-06-20", "homeTeam": "Netherlands", "awayTeam": "South Korea", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Phillip Cocu", "minute": "37" },
+      { "team": "home", "player": "Marc Overmars", "minute": "41" },
+      { "team": "home", "player": "Dennis Bergkamp", "minute": "71" },
+      { "team": "home", "player": "Pierre van Hooijdonk", "minute": "80" },
+      { "team": "home", "player": "Ronald de Boer", "minute": "83" }
+    ] },
+    { "stage": "Group E", "date": "1998-06-25", "homeTeam": "Netherlands", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Phillip Cocu", "minute": "4" },
+      { "team": "home", "player": "Ronald de Boer", "minute": "18" },
+      { "team": "away", "player": "Ricardo Peláez", "minute": "75" },
+      { "team": "away", "player": "Luis Hernández", "minute": "90+4" }
+    ], "redCards": [
+      { "team": "away", "player": "Ramón Ramírez", "minute": "89", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1998-06-25", "homeTeam": "Belgium", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luc Nilis", "minute": "7" },
+      { "team": "away", "player": "Yoo Sang-chul", "minute": "72" }
+    ] },
+
+    { "stage": "Group F", "date": "1998-06-14", "homeTeam": "Yugoslavia", "awayTeam": "Iran", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Siniša Mihajlović", "minute": "73" }
+    ] },
+    { "stage": "Group F", "date": "1998-06-15", "homeTeam": "Germany", "awayTeam": "United States", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Möller", "minute": "9" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "65" }
+    ] },
+    { "stage": "Group F", "date": "1998-06-21", "homeTeam": "Germany", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Predrag Mijatović", "minute": "13" },
+      { "team": "away", "player": "Dragan Stojković", "minute": "52" },
+      { "team": "home", "player": "Siniša Mihajlović", "minute": "72", "ownGoal": true },
+      { "team": "home", "player": "Oliver Bierhoff", "minute": "78" }
+    ] },
+    { "stage": "Group F", "date": "1998-06-21", "homeTeam": "United States", "awayTeam": "Iran", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Hamid Estili", "minute": "40" },
+      { "team": "away", "player": "Mehdi Mahdavikia", "minute": "84" },
+      { "team": "home", "player": "Brian McBride", "minute": "87" }
+    ] },
+    { "stage": "Group F", "date": "1998-06-25", "homeTeam": "Germany", "awayTeam": "Iran", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oliver Bierhoff", "minute": "50" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "57" }
+    ] },
+    { "stage": "Group F", "date": "1998-06-25", "homeTeam": "United States", "awayTeam": "Yugoslavia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Slobodan Komljenović", "minute": "4" }
+    ] },
+
+    { "stage": "Group G", "date": "1998-06-15", "homeTeam": "England", "awayTeam": "Tunisia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Alan Shearer", "minute": "42" },
+      { "team": "home", "player": "Paul Scholes", "minute": "89" }
+    ] },
+    { "stage": "Group G", "date": "1998-06-15", "homeTeam": "Romania", "awayTeam": "Colombia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Adrian Ilie", "minute": "45+1" }
+    ] },
+    { "stage": "Group G", "date": "1998-06-22", "homeTeam": "Colombia", "awayTeam": "Tunisia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Léider Preciado", "minute": "83" }
+    ] },
+    { "stage": "Group G", "date": "1998-06-22", "homeTeam": "Romania", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Viorel Moldovan", "minute": "46" },
+      { "team": "away", "player": "Michael Owen", "minute": "81" },
+      { "team": "home", "player": "Dan Petrescu", "minute": "90" }
+    ] },
+    { "stage": "Group G", "date": "1998-06-26", "homeTeam": "Colombia", "awayTeam": "England", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Darren Anderton", "minute": "20" },
+      { "team": "away", "player": "David Beckham", "minute": "29" }
+    ] },
+    { "stage": "Group G", "date": "1998-06-26", "homeTeam": "Romania", "awayTeam": "Tunisia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Skander Souayah", "minute": "12", "penalty": true },
+      { "team": "home", "player": "Viorel Moldovan", "minute": "71" }
+    ] },
+
+    { "stage": "Group H", "date": "1998-06-14", "homeTeam": "Argentina", "awayTeam": "Japan", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "28" }
+    ] },
+    { "stage": "Group H", "date": "1998-06-14", "homeTeam": "Jamaica", "awayTeam": "Croatia", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Mario Stanić", "minute": "27" },
+      { "team": "home", "player": "Robbie Earle", "minute": "45" },
+      { "team": "away", "player": "Robert Prosinečki", "minute": "53" },
+      { "team": "away", "player": "Davor Šuker", "minute": "69" }
+    ] },
+    { "stage": "Group H", "date": "1998-06-20", "homeTeam": "Japan", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Davor Šuker", "minute": "77" }
+    ] },
+    { "stage": "Group H", "date": "1998-06-21", "homeTeam": "Argentina", "awayTeam": "Jamaica", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ariel Ortega", "minute": "31" },
+      { "team": "home", "player": "Ariel Ortega", "minute": "55" },
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "73" },
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "78" },
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "83", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Darryl Powell", "minute": "45+1", "secondYellow": true }
+    ] },
+    { "stage": "Group H", "date": "1998-06-26", "homeTeam": "Argentina", "awayTeam": "Croatia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mauricio Pineda", "minute": "36" }
+    ] },
+    { "stage": "Group H", "date": "1998-06-26", "homeTeam": "Japan", "awayTeam": "Jamaica", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Theodore Whitmore", "minute": "39" },
+      { "team": "away", "player": "Theodore Whitmore", "minute": "54" },
+      { "team": "home", "player": "Masashi Nakayama", "minute": "74" }
+    ] },
+
+    { "stage": "Round of 16", "date": "1998-06-27", "homeTeam": "Italy", "awayTeam": "Norway", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christian Vieri", "minute": "18" }
+    ] },
+    { "stage": "Round of 16", "date": "1998-06-27", "homeTeam": "Brazil", "awayTeam": "Chile", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "César Sampaio", "minute": "11" },
+      { "team": "home", "player": "César Sampaio", "minute": "27" },
+      { "team": "home", "player": "Ronaldo", "minute": "45+3", "penalty": true },
+      { "team": "away", "player": "Marcelo Salas", "minute": "69" },
+      { "team": "home", "player": "Ronaldo", "minute": "72" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1998-06-28",
+      "homeTeam": "France",
+      "awayTeam": "Paraguay",
+      "homeScore": 1,
+      "awayScore": 0,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Laurent Blanc", "minute": "114" }
+      ]
+    },
+    { "stage": "Round of 16", "date": "1998-06-28", "homeTeam": "Nigeria", "awayTeam": "Denmark", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Peter Møller", "minute": "3" },
+      { "team": "away", "player": "Brian Laudrup", "minute": "12" },
+      { "team": "away", "player": "Ebbe Sand", "minute": "60" },
+      { "team": "away", "player": "Thomas Helveg", "minute": "76" },
+      { "team": "home", "player": "Tijani Babangida", "minute": "78" }
+    ] },
+    { "stage": "Round of 16", "date": "1998-06-29", "homeTeam": "Germany", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Luis Hernández", "minute": "47" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "74" },
+      { "team": "home", "player": "Oliver Bierhoff", "minute": "86" }
+    ] },
+    { "stage": "Round of 16", "date": "1998-06-29", "homeTeam": "Netherlands", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dennis Bergkamp", "minute": "38" },
+      { "team": "away", "player": "Slobodan Komljenović", "minute": "48" },
+      { "team": "home", "player": "Edgar Davids", "minute": "90+2" }
+    ] },
+    { "stage": "Round of 16", "date": "1998-06-30", "homeTeam": "Romania", "awayTeam": "Croatia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Davor Šuker", "minute": "45+1", "penalty": true }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1998-06-30",
+      "homeTeam": "Argentina",
+      "awayTeam": "England",
+      "homeScore": 2,
+      "awayScore": 2,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Gabriel Batistuta", "minute": "5", "penalty": true },
+        { "team": "away", "player": "Alan Shearer", "minute": "9", "penalty": true },
+        { "team": "away", "player": "Michael Owen", "minute": "16" },
+        { "team": "home", "player": "Javier Zanetti", "minute": "45" }
+      ],
+      "redCards": [
+        { "team": "away", "player": "David Beckham", "minute": "47", "secondYellow": false }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Sergio Berti", "result": "scored" },
+          { "player": "Hernán Crespo", "result": "missed" },
+          { "player": "Juan Sebastián Verón", "result": "scored" },
+          { "player": "Marcelo Gallardo", "result": "scored" },
+          { "player": "Roberto Ayala", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Alan Shearer", "result": "scored" },
+          { "player": "Paul Ince", "result": "missed" },
+          { "player": "Paul Merson", "result": "scored" },
+          { "player": "Michael Owen", "result": "scored" },
+          { "player": "David Batty", "result": "missed" }
+        ]
+      }
+    },
+
+    { "stage": "Quarter-final", "date": "1998-07-03", "homeTeam": "Brazil", "awayTeam": "Denmark", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Martin Jørgensen", "minute": "2" },
+      { "team": "home", "player": "Bebeto", "minute": "11" },
+      { "team": "home", "player": "Rivaldo", "minute": "26" },
+      { "team": "away", "player": "Brian Laudrup", "minute": "50" },
+      { "team": "home", "player": "Rivaldo", "minute": "60" }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "1998-07-03",
+      "homeTeam": "France",
+      "awayTeam": "Italy",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Zinedine Zidane", "result": "scored" },
+          { "player": "Bixente Lizarazu", "result": "missed" },
+          { "player": "David Trezeguet", "result": "scored" },
+          { "player": "Thierry Henry", "result": "scored" },
+          { "player": "Laurent Blanc", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Roberto Baggio", "result": "scored" },
+          { "player": "Demetrio Albertini", "result": "missed" },
+          { "player": "Alessandro Costacurta", "result": "scored" },
+          { "player": "Christian Vieri", "result": "scored" },
+          { "player": "Luigi Di Biagio", "result": "missed" }
+        ]
+      }
+    },
+    { "stage": "Quarter-final", "date": "1998-07-04", "homeTeam": "Netherlands", "awayTeam": "Argentina", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Patrick Kluivert", "minute": "12" },
+      { "team": "away", "player": "Claudio López", "minute": "18" },
+      { "team": "home", "player": "Dennis Bergkamp", "minute": "90" }
+    ], "redCards": [
+      { "team": "home", "player": "Arthur Numan", "minute": "76", "secondYellow": false },
+      { "team": "away", "player": "Ariel Ortega", "minute": "87", "secondYellow": false }
+    ] },
+    { "stage": "Quarter-final", "date": "1998-07-04", "homeTeam": "Croatia", "awayTeam": "Germany", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Robert Jarni", "minute": "45" },
+      { "team": "home", "player": "Goran Vlaović", "minute": "80" },
+      { "team": "home", "player": "Davor Šuker", "minute": "85" }
+    ], "redCards": [
+      { "team": "away", "player": "Christian Wörns", "minute": "40", "secondYellow": false }
+    ] },
+
+    {
+      "stage": "Semi-final",
+      "date": "1998-07-07",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Brazil",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Ronaldo", "minute": "46" },
+        { "team": "home", "player": "Patrick Kluivert", "minute": "87" }
+      ],
+      "penalties": {
+        "homeScore": 2,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Frank de Boer", "result": "scored" },
+          { "player": "Dennis Bergkamp", "result": "scored" },
+          { "player": "Phillip Cocu", "result": "missed" },
+          { "player": "Ronald de Boer", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Ronaldo", "result": "scored" },
+          { "player": "Rivaldo", "result": "scored" },
+          { "player": "Emerson", "result": "scored" },
+          { "player": "Dunga", "result": "scored" }
+        ]
+      }
+    },
+    { "stage": "Semi-final", "date": "1998-07-08", "homeTeam": "France", "awayTeam": "Croatia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Davor Šuker", "minute": "46" },
+      { "team": "home", "player": "Lilian Thuram", "minute": "47" },
+      { "team": "home", "player": "Lilian Thuram", "minute": "69" }
+    ], "redCards": [
+      { "team": "home", "player": "Laurent Blanc", "minute": "76", "secondYellow": false }
+    ] },
+
+    { "stage": "Third place", "date": "1998-07-11", "homeTeam": "Croatia", "awayTeam": "Netherlands", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Robert Prosinečki", "minute": "13" },
+      { "team": "away", "player": "Boudewijn Zenden", "minute": "21" },
+      { "team": "home", "player": "Davor Šuker", "minute": "35" }
+    ] },
+
+    { "stage": "Final", "date": "1998-07-12", "homeTeam": "France", "awayTeam": "Brazil", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Zinedine Zidane", "minute": "27" },
+      { "team": "home", "player": "Zinedine Zidane", "minute": "45+1" },
+      { "team": "home", "player": "Emmanuel Petit", "minute": "90+3" }
+    ], "redCards": [
+      { "team": "home", "player": "Marcel Desailly", "minute": "68", "secondYellow": true }
+    ] }
+  ]
+}

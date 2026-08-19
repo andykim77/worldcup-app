@@ -1,0 +1,151 @@
+{
+  "edition": {
+    "year": 1934,
+    "host": "Italy",
+    "winner": "Italy",
+    "runnerUp": "Czechoslovakia",
+    "thirdPlace": "Germany",
+    "fourthPlace": "Austria",
+    "goldenBoot": { "player": "Oldřich Nejedlý", "nationality": "Czechoslovakia", "club": "Sparta Prague", "goals": 5 }
+  },
+  "matches": [
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Italy", "awayTeam": "United States", "homeScore": 7, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Angelo Schiavio", "minute": "18" },
+      { "team": "home", "player": "Raimundo Orsi", "minute": "20" },
+      { "team": "home", "player": "Angelo Schiavio", "minute": "29" },
+      { "team": "away", "player": "Aldo Donelli", "minute": "57" },
+      { "team": "home", "player": "Giovanni Ferrari", "minute": "63" },
+      { "team": "home", "player": "Angelo Schiavio", "minute": "64" },
+      { "team": "home", "player": "Raimundo Orsi", "minute": "69" },
+      { "team": "home", "player": "Giuseppe Meazza", "minute": "89" }
+    ] },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Czechoslovakia", "awayTeam": "Romania", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ștefan Dobay", "minute": "11" },
+      { "team": "home", "player": "Antonín Puč", "minute": "50" },
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "67" }
+    ] },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Germany", "awayTeam": "Belgium", "homeScore": 5, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stanislaus Kobierski", "minute": "25" },
+      { "team": "away", "player": "Bernard Voorhoof", "minute": "29" },
+      { "team": "away", "player": "Bernard Voorhoof", "minute": "43" },
+      { "team": "home", "player": "Otto Siffling", "minute": "49" },
+      { "team": "home", "player": "Edmund Conen", "minute": "66" },
+      { "team": "home", "player": "Edmund Conen", "minute": "70" },
+      { "team": "home", "player": "Edmund Conen", "minute": "87" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1934-05-27",
+      "homeTeam": "Austria",
+      "awayTeam": "France",
+      "homeScore": 3,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Jean Nicolas", "minute": "18" },
+        { "team": "home", "player": "Matthias Sindelar", "minute": "44" },
+        { "team": "home", "player": "Anton Schall", "minute": "93" },
+        { "team": "home", "player": "Josef Bican", "minute": "109" },
+        { "team": "away", "player": "Georges Verriest", "minute": "118", "penalty": true }
+      ]
+    },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Spain", "awayTeam": "Brazil", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "José Iraragorri", "minute": "18", "penalty": true },
+      { "team": "home", "player": "Isidro Lángara", "minute": "25" },
+      { "team": "home", "player": "Isidro Lángara", "minute": "29" },
+      { "team": "away", "player": "Leônidas", "minute": "55" }
+    ] },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Switzerland", "awayTeam": "Netherlands", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Leopold Kielholz", "minute": "7" },
+      { "team": "away", "player": "Leen Smit", "minute": "19" },
+      { "team": "home", "player": "Leopold Kielholz", "minute": "29" },
+      { "team": "home", "player": "André Abegglen", "minute": "69" },
+      { "team": "away", "player": "Beb Vente", "minute": "84" }
+    ] },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Sweden", "awayTeam": "Argentina", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alejandro Belis", "minute": "4" },
+      { "team": "home", "player": "Sven Jonasson", "minute": "9" },
+      { "team": "away", "player": "Ludovico Galateo", "minute": "46" },
+      { "team": "home", "player": "Sven Jonasson", "minute": "67" },
+      { "team": "home", "player": "Knut Kroon", "minute": "79" }
+    ] },
+    { "stage": "Round of 16", "date": "1934-05-27", "homeTeam": "Hungary", "awayTeam": "Egypt", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pál Teleki", "minute": "11" },
+      { "team": "home", "player": "Géza Toldi", "minute": "31" },
+      { "team": "away", "player": "Abdulrahman Fawzi", "minute": "35" },
+      { "team": "away", "player": "Abdulrahman Fawzi", "minute": "39" },
+      { "team": "home", "player": "Jenő Vincze", "minute": "53" },
+      { "team": "home", "player": "Géza Toldi", "minute": "61" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1934-05-31", "homeTeam": "Germany", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Karl Hohmann", "minute": "60" },
+      { "team": "home", "player": "Karl Hohmann", "minute": "63" },
+      { "team": "away", "player": "Gösta Dunker", "minute": "82" }
+    ] },
+    { "stage": "Quarter-final", "date": "1934-05-31", "homeTeam": "Austria", "awayTeam": "Hungary", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Johann Horvath", "minute": "8" },
+      { "team": "home", "player": "Karl Zischek", "minute": "51" },
+      { "team": "away", "player": "György Sárosi", "minute": "60", "penalty": true }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "1934-05-31",
+      "homeTeam": "Italy",
+      "awayTeam": "Spain",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Luis Regueiro", "minute": "30" },
+        { "team": "home", "player": "Giovanni Ferrari", "minute": "44" }
+      ]
+    },
+    { "stage": "Quarter-final replay", "date": "1934-06-01", "homeTeam": "Italy", "awayTeam": "Spain", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Giuseppe Meazza", "minute": "11" }
+    ] },
+    { "stage": "Quarter-final", "date": "1934-05-31", "homeTeam": "Czechoslovakia", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Leopold Kielholz", "minute": "18" },
+      { "team": "home", "player": "František Svoboda", "minute": "24" },
+      { "team": "home", "player": "Jiří Sobotka", "minute": "49" },
+      { "team": "away", "player": "Willy Jäggi", "minute": "78" },
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "82" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1934-06-03", "homeTeam": "Italy", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Enrique Guaita", "minute": "19" }
+    ] },
+    { "stage": "Semi-final", "date": "1934-06-03", "homeTeam": "Czechoslovakia", "awayTeam": "Germany", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "21" },
+      { "team": "away", "player": "Rudolf Noack", "minute": "59" },
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "69" },
+      { "team": "home", "player": "Oldřich Nejedlý", "minute": "81" }
+    ] },
+
+    { "stage": "Third place", "date": "1934-06-07", "homeTeam": "Germany", "awayTeam": "Austria", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ernst Lehner", "minute": "4" },
+      { "team": "home", "player": "Edmund Conen", "minute": "29" },
+      { "team": "away", "player": "Johann Horvath", "minute": "30" },
+      { "team": "home", "player": "Ernst Lehner", "minute": "42" },
+      { "team": "away", "player": "Karl Sesta", "minute": "55" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1934-06-10",
+      "homeTeam": "Italy",
+      "awayTeam": "Czechoslovakia",
+      "homeScore": 2,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Antonín Puč", "minute": "71" },
+        { "team": "home", "player": "Raimundo Orsi", "minute": "81" },
+        { "team": "home", "player": "Angelo Schiavio", "minute": "95" }
+      ]
+    }
+  ]
+}

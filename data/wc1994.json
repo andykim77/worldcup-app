@@ -1,0 +1,379 @@
+{
+  "edition": {
+    "year": 1994,
+    "host": "United States",
+    "winner": "Brazil",
+    "runnerUp": "Italy",
+    "thirdPlace": "Sweden",
+    "fourthPlace": "Bulgaria",
+    "goldenBall": { "player": "Romário", "nationality": "Brazil", "club": "FC Barcelona" },
+    "goldenBoot": { "player": "Hristo Stoichkov", "nationality": "Bulgaria", "club": "FC Barcelona", "goals": 6, "note": "Stoichkov and Oleg Salenko (Russia) both finished the tournament with 6 goals and 1 assist. Under FIFA's tiebreak rules (goals, then assists) the two could not be separated, so the Golden Boot/Golden Shoe was officially shared by both players — the only time this award has been jointly awarded. See silverBoot for Salenko." },
+    "silverBoot": { "player": "Oleg Salenko", "nationality": "Russia", "club": "CD Logroñés", "goals": 6, "note": "Salenko set the World Cup record for most goals in a single match (5, in Russia's 6-1 win over Cameroon) and shares the joint 1994 Golden Boot with Hristo Stoichkov, despite Russia being eliminated in the group stage." },
+    "goldenGlove": { "player": "Michel Preud'homme", "nationality": "Belgium", "club": "KV Mechelen", "note": "Known at the time as the Lev Yashin Award — this was the first World Cup at which the award for best goalkeeper was given. It was renamed the Golden Glove in 2010." }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "1994-06-18", "homeTeam": "United States", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Georges Bregy", "minute": "39" },
+      { "team": "home", "player": "Eric Wynalda", "minute": "45" }
+    ] },
+    { "stage": "Group A", "date": "1994-06-18", "homeTeam": "Colombia", "awayTeam": "Romania", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Florin Răducioiu", "minute": "16" },
+      { "team": "away", "player": "Gheorghe Hagi", "minute": "34" },
+      { "team": "home", "player": "Adolfo Valencia", "minute": "43" },
+      { "team": "away", "player": "Florin Răducioiu", "minute": "89" }
+    ] },
+    { "stage": "Group A", "date": "1994-06-22", "homeTeam": "Romania", "awayTeam": "Switzerland", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Alain Sutter", "minute": "16" },
+      { "team": "home", "player": "Gheorghe Hagi", "minute": "35" },
+      { "team": "away", "player": "Stéphane Chapuisat", "minute": "52" },
+      { "team": "away", "player": "Adrian Knup", "minute": "65" },
+      { "team": "away", "player": "Adrian Knup", "minute": "72" }
+    ], "redCards": [
+      { "team": "home", "player": "Ion Vlădoiu", "minute": "73", "secondYellow": false }
+    ] },
+    { "stage": "Group A", "date": "1994-06-22", "homeTeam": "United States", "awayTeam": "Colombia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andrés Escobar", "minute": "35", "ownGoal": true },
+      { "team": "home", "player": "Earnie Stewart", "minute": "52" },
+      { "team": "away", "player": "Adolfo Valencia", "minute": "90" }
+    ] },
+    { "stage": "Group A", "date": "1994-06-26", "homeTeam": "Switzerland", "awayTeam": "Colombia", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Hernán Gaviria", "minute": "44" },
+      { "team": "away", "player": "Harold Lozano", "minute": "90" }
+    ] },
+    { "stage": "Group A", "date": "1994-06-26", "homeTeam": "United States", "awayTeam": "Romania", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Dan Petrescu", "minute": "18" }
+    ] },
+
+    { "stage": "Group B", "date": "1994-06-19", "homeTeam": "Cameroon", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Roger Ljung", "minute": "8" },
+      { "team": "home", "player": "David Embé", "minute": "31" },
+      { "team": "home", "player": "François Omam-Biyik", "minute": "47" },
+      { "team": "away", "player": "Martin Dahlin", "minute": "75" }
+    ] },
+    { "stage": "Group B", "date": "1994-06-20", "homeTeam": "Brazil", "awayTeam": "Russia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Romário", "minute": "26" },
+      { "team": "home", "player": "Raí", "minute": "52", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1994-06-24", "homeTeam": "Brazil", "awayTeam": "Cameroon", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Romário", "minute": "39" },
+      { "team": "home", "player": "Márcio Santos", "minute": "66" },
+      { "team": "home", "player": "Bebeto", "minute": "73" }
+    ], "redCards": [
+      { "team": "away", "player": "Rigobert Song", "minute": "63", "secondYellow": false }
+    ] },
+    { "stage": "Group B", "date": "1994-06-24", "homeTeam": "Sweden", "awayTeam": "Russia", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Oleg Salenko", "minute": "4", "penalty": true },
+      { "team": "home", "player": "Tomas Brolin", "minute": "39", "penalty": true },
+      { "team": "home", "player": "Martin Dahlin", "minute": "60" },
+      { "team": "home", "player": "Martin Dahlin", "minute": "82" }
+    ], "redCards": [
+      { "team": "away", "player": "Sergei Gorlukovich", "minute": "49", "secondYellow": true }
+    ] },
+    { "stage": "Group B", "date": "1994-06-28", "homeTeam": "Russia", "awayTeam": "Cameroon", "homeScore": 6, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oleg Salenko", "minute": "15" },
+      { "team": "home", "player": "Oleg Salenko", "minute": "41" },
+      { "team": "home", "player": "Oleg Salenko", "minute": "44", "penalty": true },
+      { "team": "away", "player": "Roger Milla", "minute": "46" },
+      { "team": "home", "player": "Oleg Salenko", "minute": "72" },
+      { "team": "home", "player": "Oleg Salenko", "minute": "75" },
+      { "team": "home", "player": "Dmitri Radchenko", "minute": "81" }
+    ] },
+    { "stage": "Group B", "date": "1994-06-28", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Kennet Andersson", "minute": "23" },
+      { "team": "home", "player": "Romário", "minute": "47" }
+    ] },
+
+    { "stage": "Group C", "date": "1994-06-17", "homeTeam": "Germany", "awayTeam": "Bolivia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "61" }
+    ] },
+    { "stage": "Group C", "date": "1994-06-17", "homeTeam": "Spain", "awayTeam": "South Korea", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Julio Salinas", "minute": "51" },
+      { "team": "home", "player": "Jon Andoni Goikoetxea", "minute": "55" },
+      { "team": "away", "player": "Hong Myung-bo", "minute": "85" },
+      { "team": "away", "player": "Seo Jung-won", "minute": "90" }
+    ], "redCards": [
+      { "team": "home", "player": "Miguel Ángel Nadal", "minute": "25", "secondYellow": false }
+    ] },
+    { "stage": "Group C", "date": "1994-06-21", "homeTeam": "Germany", "awayTeam": "Spain", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jon Andoni Goikoetxea", "minute": "14" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "48" }
+    ] },
+    { "stage": "Group C", "date": "1994-06-23", "homeTeam": "South Korea", "awayTeam": "Bolivia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group C", "date": "1994-06-27", "homeTeam": "Bolivia", "awayTeam": "Spain", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Pep Guardiola", "minute": "19", "penalty": true },
+      { "team": "away", "player": "José Luis Caminero", "minute": "66" },
+      { "team": "home", "player": "Erwin Sánchez", "minute": "67" },
+      { "team": "away", "player": "José Luis Caminero", "minute": "70" }
+    ] },
+    { "stage": "Group C", "date": "1994-06-27", "homeTeam": "Germany", "awayTeam": "South Korea", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "12" },
+      { "team": "home", "player": "Karl-Heinz Riedle", "minute": "20" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "37" },
+      { "team": "away", "player": "Hwang Sun-hong", "minute": "52" },
+      { "team": "away", "player": "Hong Myung-bo", "minute": "63" }
+    ] },
+
+    { "stage": "Group D", "date": "1994-06-21", "homeTeam": "Argentina", "awayTeam": "Greece", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "2" },
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "45", "penalty": true },
+      { "team": "home", "player": "Diego Maradona", "minute": "60" },
+      { "team": "home", "player": "Gabriel Batistuta", "minute": "90+2" }
+    ] },
+    { "stage": "Group D", "date": "1994-06-21", "homeTeam": "Nigeria", "awayTeam": "Bulgaria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rashidi Yekini", "minute": "21" },
+      { "team": "home", "player": "Daniel Amokachi", "minute": "43" },
+      { "team": "home", "player": "Emmanuel Amunike", "minute": "55" }
+    ] },
+    { "stage": "Group D", "date": "1994-06-25", "homeTeam": "Argentina", "awayTeam": "Nigeria", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Samson Siasia", "minute": "8" },
+      { "team": "home", "player": "Claudio Caniggia", "minute": "21" },
+      { "team": "home", "player": "Claudio Caniggia", "minute": "28" }
+    ] },
+    { "stage": "Group D", "date": "1994-06-26", "homeTeam": "Bulgaria", "awayTeam": "Greece", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hristo Stoichkov", "minute": "5", "penalty": true },
+      { "team": "home", "player": "Hristo Stoichkov", "minute": "55", "penalty": true },
+      { "team": "home", "player": "Yordan Letchkov", "minute": "65" },
+      { "team": "home", "player": "Daniel Borimirov", "minute": "90" }
+    ] },
+    { "stage": "Group D", "date": "1994-06-30", "homeTeam": "Argentina", "awayTeam": "Bulgaria", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Hristo Stoichkov", "minute": "61" },
+      { "team": "away", "player": "Nasko Sirakov", "minute": "90+3" }
+    ], "redCards": [
+      { "team": "away", "player": "Tsanko Tsvetanov", "minute": "67", "secondYellow": true }
+    ] },
+    { "stage": "Group D", "date": "1994-06-30", "homeTeam": "Greece", "awayTeam": "Nigeria", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Finidi George", "minute": "45+2" },
+      { "team": "away", "player": "Daniel Amokachi", "minute": "90+5" }
+    ] },
+
+    { "stage": "Group E", "date": "1994-06-18", "homeTeam": "Italy", "awayTeam": "Republic of Ireland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ray Houghton", "minute": "12" }
+    ] },
+    { "stage": "Group E", "date": "1994-06-19", "homeTeam": "Norway", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kjetil Rekdal", "minute": "84" }
+    ] },
+    { "stage": "Group E", "date": "1994-06-23", "homeTeam": "Italy", "awayTeam": "Norway", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dino Baggio", "minute": "69" }
+    ], "redCards": [
+      { "team": "home", "player": "Gianluca Pagliuca", "minute": "21", "secondYellow": false }
+    ] },
+    { "stage": "Group E", "date": "1994-06-24", "homeTeam": "Mexico", "awayTeam": "Republic of Ireland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis García", "minute": "42" },
+      { "team": "home", "player": "Luis García", "minute": "65" },
+      { "team": "away", "player": "John Aldridge", "minute": "84" }
+    ] },
+    { "stage": "Group E", "date": "1994-06-28", "homeTeam": "Italy", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniele Massaro", "minute": "48" },
+      { "team": "away", "player": "Marcelino Bernal", "minute": "57" }
+    ] },
+    { "stage": "Group E", "date": "1994-06-28", "homeTeam": "Republic of Ireland", "awayTeam": "Norway", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+
+    { "stage": "Group F", "date": "1994-06-19", "homeTeam": "Belgium", "awayTeam": "Morocco", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marc Degryse", "minute": "11" }
+    ] },
+    { "stage": "Group F", "date": "1994-06-20", "homeTeam": "Netherlands", "awayTeam": "Saudi Arabia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Fuad Anwar", "minute": "18" },
+      { "team": "home", "player": "Wim Jonk", "minute": "50" },
+      { "team": "home", "player": "Gaston Taument", "minute": "86" }
+    ] },
+    { "stage": "Group F", "date": "1994-06-25", "homeTeam": "Belgium", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Philippe Albert", "minute": "65" }
+    ] },
+    { "stage": "Group F", "date": "1994-06-25", "homeTeam": "Saudi Arabia", "awayTeam": "Morocco", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sami Al-Jaber", "minute": "7", "penalty": true },
+      { "team": "away", "player": "Mohammed Chaouch", "minute": "26" },
+      { "team": "home", "player": "Fuad Anwar", "minute": "45" }
+    ] },
+    { "stage": "Group F", "date": "1994-06-29", "homeTeam": "Belgium", "awayTeam": "Saudi Arabia", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Saeed Al-Owairan", "minute": "5" }
+    ] },
+    { "stage": "Group F", "date": "1994-06-29", "homeTeam": "Morocco", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Dennis Bergkamp", "minute": "43" },
+      { "team": "home", "player": "Hassan Nader", "minute": "47" },
+      { "team": "away", "player": "Bryan Roy", "minute": "77" }
+    ] },
+
+    { "stage": "Round of 16", "date": "1994-07-02", "homeTeam": "Germany", "awayTeam": "Belgium", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rudi Völler", "minute": "6" },
+      { "team": "away", "player": "Georges Grün", "minute": "8" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "11" },
+      { "team": "home", "player": "Rudi Völler", "minute": "39" },
+      { "team": "away", "player": "Philippe Albert", "minute": "90" }
+    ] },
+    { "stage": "Round of 16", "date": "1994-07-02", "homeTeam": "Spain", "awayTeam": "Switzerland", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Fernando Hierro", "minute": "15" },
+      { "team": "home", "player": "Luis Enrique", "minute": "74" },
+      { "team": "home", "player": "Txiki Begiristain", "minute": "86", "penalty": true }
+    ] },
+    { "stage": "Round of 16", "date": "1994-07-03", "homeTeam": "Saudi Arabia", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Martin Dahlin", "minute": "6" },
+      { "team": "away", "player": "Kennet Andersson", "minute": "51" },
+      { "team": "home", "player": "Fahad Al-Ghesheyan", "minute": "85" },
+      { "team": "away", "player": "Kennet Andersson", "minute": "88" }
+    ] },
+    { "stage": "Round of 16", "date": "1994-07-03", "homeTeam": "Romania", "awayTeam": "Argentina", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ilie Dumitrescu", "minute": "11" },
+      { "team": "away", "player": "Gabriel Batistuta", "minute": "16", "penalty": true },
+      { "team": "home", "player": "Ilie Dumitrescu", "minute": "18" },
+      { "team": "home", "player": "Gheorghe Hagi", "minute": "58" },
+      { "team": "away", "player": "Abel Balbo", "minute": "75" }
+    ] },
+    { "stage": "Round of 16", "date": "1994-07-04", "homeTeam": "Netherlands", "awayTeam": "Republic of Ireland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dennis Bergkamp", "minute": "11" },
+      { "team": "home", "player": "Wim Jonk", "minute": "41" }
+    ] },
+    { "stage": "Round of 16", "date": "1994-07-04", "homeTeam": "Brazil", "awayTeam": "United States", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bebeto", "minute": "72" }
+    ], "redCards": [
+      { "team": "home", "player": "Leonardo", "minute": "44", "secondYellow": false }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1994-07-05",
+      "homeTeam": "Nigeria",
+      "awayTeam": "Italy",
+      "homeScore": 1,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Emmanuel Amunike", "minute": "25" },
+        { "team": "away", "player": "Roberto Baggio", "minute": "88" },
+        { "team": "away", "player": "Roberto Baggio", "minute": "102", "penalty": true }
+      ]
+    },
+    {
+      "stage": "Round of 16",
+      "date": "1994-07-05",
+      "homeTeam": "Mexico",
+      "awayTeam": "Bulgaria",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Hristo Stoichkov", "minute": "6" },
+        { "team": "home", "player": "Alberto García Aspe", "minute": "18", "penalty": true }
+      ],
+      "redCards": [
+        { "team": "away", "player": "Emil Kremenliev", "minute": "50", "secondYellow": true },
+        { "team": "home", "player": "Luis García", "minute": "58", "secondYellow": true }
+      ],
+      "penalties": {
+        "homeScore": 1,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Alberto García Aspe", "result": "missed" },
+          { "player": "Marcelino Bernal", "result": "missed" },
+          { "player": "Jorge Rodríguez", "result": "missed" },
+          { "player": "Claudio Suárez", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Krasimir Balakov", "result": "missed" },
+          { "player": "Boncho Guentchev", "result": "scored" },
+          { "player": "Daniel Borimirov", "result": "scored" },
+          { "player": "Yordan Letchkov", "result": "scored" }
+        ]
+      }
+    },
+
+    { "stage": "Quarter-final", "date": "1994-07-09", "homeTeam": "Italy", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dino Baggio", "minute": "26" },
+      { "team": "away", "player": "José Luis Caminero", "minute": "59" },
+      { "team": "home", "player": "Roberto Baggio", "minute": "88" }
+    ] },
+    { "stage": "Quarter-final", "date": "1994-07-09", "homeTeam": "Brazil", "awayTeam": "Netherlands", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Romário", "minute": "52" },
+      { "team": "home", "player": "Bebeto", "minute": "62" },
+      { "team": "away", "player": "Dennis Bergkamp", "minute": "64" },
+      { "team": "away", "player": "Aron Winter", "minute": "76" },
+      { "team": "home", "player": "Branco", "minute": "81" }
+    ] },
+    { "stage": "Quarter-final", "date": "1994-07-10", "homeTeam": "Bulgaria", "awayTeam": "Germany", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Lothar Matthäus", "minute": "47", "penalty": true },
+      { "team": "home", "player": "Hristo Stoichkov", "minute": "75" },
+      { "team": "home", "player": "Yordan Letchkov", "minute": "78" }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "1994-07-10",
+      "homeTeam": "Romania",
+      "awayTeam": "Sweden",
+      "homeScore": 2,
+      "awayScore": 2,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Tomas Brolin", "minute": "78" },
+        { "team": "home", "player": "Florin Răducioiu", "minute": "88" },
+        { "team": "home", "player": "Florin Răducioiu", "minute": "100" },
+        { "team": "away", "player": "Kennet Andersson", "minute": "115" }
+      ],
+      "redCards": [
+        { "team": "away", "player": "Stefan Schwarz", "minute": "101", "secondYellow": true }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 5,
+        "homeTakers": [
+          { "player": "Florin Răducioiu", "result": "scored" },
+          { "player": "Gheorghe Hagi", "result": "scored" },
+          { "player": "Ioan Lupescu", "result": "scored" },
+          { "player": "Dan Petrescu", "result": "missed" },
+          { "player": "Ilie Dumitrescu", "result": "scored" },
+          { "player": "Miodrag Belodedici", "result": "missed" }
+        ],
+        "awayTakers": [
+          { "player": "Håkan Mild", "result": "missed" },
+          { "player": "Kennet Andersson", "result": "scored" },
+          { "player": "Tomas Brolin", "result": "scored" },
+          { "player": "Klas Ingesson", "result": "scored" },
+          { "player": "Roland Nilsson", "result": "scored" },
+          { "player": "Henrik Larsson", "result": "scored" }
+        ]
+      }
+    },
+
+    { "stage": "Semi-final", "date": "1994-07-13", "homeTeam": "Bulgaria", "awayTeam": "Italy", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Roberto Baggio", "minute": "21" },
+      { "team": "away", "player": "Roberto Baggio", "minute": "25" },
+      { "team": "home", "player": "Hristo Stoichkov", "minute": "44", "penalty": true }
+    ] },
+    { "stage": "Semi-final", "date": "1994-07-13", "homeTeam": "Sweden", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Romário", "minute": "80" }
+    ] },
+
+    { "stage": "Third place", "date": "1994-07-16", "homeTeam": "Sweden", "awayTeam": "Bulgaria", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Tomas Brolin", "minute": "8" },
+      { "team": "home", "player": "Håkan Mild", "minute": "30" },
+      { "team": "home", "player": "Henrik Larsson", "minute": "37" },
+      { "team": "home", "player": "Kennet Andersson", "minute": "39" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1994-07-17",
+      "homeTeam": "Brazil",
+      "awayTeam": "Italy",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "Márcio Santos", "result": "missed" },
+          { "player": "Romário", "result": "scored" },
+          { "player": "Branco", "result": "scored" },
+          { "player": "Dunga", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Franco Baresi", "result": "missed" },
+          { "player": "Demetrio Albertini", "result": "scored" },
+          { "player": "Alberigo Evani", "result": "scored" },
+          { "player": "Daniele Massaro", "result": "missed" },
+          { "player": "Roberto Baggio", "result": "missed" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "edition": {
+    "year": 1966,
+    "host": "England",
+    "winner": "England",
+    "runnerUp": "West Germany",
+    "thirdPlace": "Portugal",
+    "fourthPlace": "Soviet Union",
+    "goldenBoot": { "player": "Eusébio", "nationality": "Portugal", "club": "Benfica", "goals": 9 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1966-07-11", "homeTeam": "England", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1966-07-13", "homeTeam": "France", "awayTeam": "Mexico", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Enrique Borja", "minute": "48" },
+      { "team": "home", "player": "Gérard Hausser", "minute": "62" }
+    ] },
+    { "stage": "Group 1", "date": "1966-07-15", "homeTeam": "Uruguay", "awayTeam": "France", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Héctor De Bourgoing", "minute": "15", "penalty": true },
+      { "team": "home", "player": "Pedro Rocha", "minute": "26" },
+      { "team": "home", "player": "Julio César Cortés", "minute": "31" }
+    ] },
+    { "stage": "Group 1", "date": "1966-07-16", "homeTeam": "England", "awayTeam": "Mexico", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bobby Charlton", "minute": "37" },
+      { "team": "home", "player": "Roger Hunt", "minute": "75" }
+    ] },
+    { "stage": "Group 1", "date": "1966-07-19", "homeTeam": "Mexico", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 1", "date": "1966-07-20", "homeTeam": "England", "awayTeam": "France", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Roger Hunt", "minute": "38" },
+      { "team": "home", "player": "Roger Hunt", "minute": "75" }
+    ] },
+
+    { "stage": "Group 2", "date": "1966-07-12", "homeTeam": "West Germany", "awayTeam": "Switzerland", "homeScore": 5, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Siegfried Held", "minute": "16" },
+      { "team": "home", "player": "Helmut Haller", "minute": "21" },
+      { "team": "home", "player": "Franz Beckenbauer", "minute": "40" },
+      { "team": "home", "player": "Franz Beckenbauer", "minute": "52" },
+      { "team": "home", "player": "Helmut Haller", "minute": "77", "penalty": true }
+    ] },
+    { "stage": "Group 2", "date": "1966-07-13", "homeTeam": "Argentina", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Artime", "minute": "66" },
+      { "team": "home", "player": "Luis Artime", "minute": "79" },
+      { "team": "away", "player": "Pirri", "minute": "72" }
+    ] },
+    { "stage": "Group 2", "date": "1966-07-15", "homeTeam": "Spain", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "René-Pierre Quentin", "minute": "31" },
+      { "team": "home", "player": "Manuel Sanchís", "minute": "57" },
+      { "team": "home", "player": "Amancio", "minute": "75" }
+    ] },
+    { "stage": "Group 2", "date": "1966-07-16", "homeTeam": "Argentina", "awayTeam": "West Germany", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1966-07-19", "homeTeam": "Argentina", "awayTeam": "Switzerland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Luis Artime", "minute": "52" },
+      { "team": "home", "player": "Ermindo Onega", "minute": "79" }
+    ] },
+    { "stage": "Group 2", "date": "1966-07-20", "homeTeam": "West Germany", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Josep Maria Fusté", "minute": "23" },
+      { "team": "home", "player": "Lothar Emmerich", "minute": "39" },
+      { "team": "home", "player": "Uwe Seeler", "minute": "84" }
+    ] },
+
+    { "stage": "Group 3", "date": "1966-07-12", "homeTeam": "Brazil", "awayTeam": "Bulgaria", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pelé", "minute": "15" },
+      { "team": "home", "player": "Garrincha", "minute": "63" }
+    ] },
+    { "stage": "Group 3", "date": "1966-07-13", "homeTeam": "Portugal", "awayTeam": "Hungary", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "José Augusto", "minute": "2" },
+      { "team": "away", "player": "Ferenc Bene", "minute": "60" },
+      { "team": "home", "player": "José Augusto", "minute": "67" },
+      { "team": "home", "player": "José Torres", "minute": "90" }
+    ] },
+    { "stage": "Group 3", "date": "1966-07-15", "homeTeam": "Hungary", "awayTeam": "Brazil", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ferenc Bene", "minute": "2" },
+      { "team": "away", "player": "Tostão", "minute": "14" },
+      { "team": "home", "player": "János Farkas", "minute": "64" },
+      { "team": "home", "player": "Kálmán Mészöly", "minute": "73", "penalty": true }
+    ] },
+    { "stage": "Group 3", "date": "1966-07-16", "homeTeam": "Portugal", "awayTeam": "Bulgaria", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ivan Vutsov", "minute": "7", "ownGoal": true },
+      { "team": "home", "player": "Eusébio", "minute": "38" },
+      { "team": "home", "player": "José Torres", "minute": "81" }
+    ] },
+    { "stage": "Group 3", "date": "1966-07-19", "homeTeam": "Portugal", "awayTeam": "Brazil", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "António Simões", "minute": "15" },
+      { "team": "home", "player": "Eusébio", "minute": "27" },
+      { "team": "away", "player": "Rildo", "minute": "73" },
+      { "team": "home", "player": "Eusébio", "minute": "85" }
+    ] },
+    { "stage": "Group 3", "date": "1966-07-20", "homeTeam": "Hungary", "awayTeam": "Bulgaria", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Georgi Asparuhov", "minute": "15" },
+      { "team": "home", "player": "Ivan Davidov", "minute": "43", "ownGoal": true },
+      { "team": "home", "player": "Kálmán Mészöly", "minute": "45" },
+      { "team": "home", "player": "Ferenc Bene", "minute": "54" }
+    ] },
+
+    { "stage": "Group 4", "date": "1966-07-12", "homeTeam": "Soviet Union", "awayTeam": "North Korea", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Eduard Malofeyev", "minute": "31" },
+      { "team": "home", "player": "Anatoliy Banishevskiy", "minute": "33" },
+      { "team": "home", "player": "Eduard Malofeyev", "minute": "88" }
+    ] },
+    { "stage": "Group 4", "date": "1966-07-13", "homeTeam": "Italy", "awayTeam": "Chile", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Sandro Mazzola", "minute": "8" },
+      { "team": "home", "player": "Paolo Barison", "minute": "88" }
+    ] },
+    { "stage": "Group 4", "date": "1966-07-15", "homeTeam": "Chile", "awayTeam": "North Korea", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rubén Marcos", "minute": "26", "penalty": true },
+      { "team": "away", "player": "Pak Seung-zin", "minute": "88" }
+    ] },
+    { "stage": "Group 4", "date": "1966-07-16", "homeTeam": "Soviet Union", "awayTeam": "Italy", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Igor Chislenko", "minute": "57" }
+    ] },
+    { "stage": "Group 4", "date": "1966-07-19", "homeTeam": "North Korea", "awayTeam": "Italy", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pak Doo-ik", "minute": "42" }
+    ] },
+    { "stage": "Group 4", "date": "1966-07-20", "homeTeam": "Soviet Union", "awayTeam": "Chile", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Valeriy Porkuyan", "minute": "28" },
+      { "team": "away", "player": "Rubén Marcos", "minute": "32" },
+      { "team": "home", "player": "Valeriy Porkuyan", "minute": "85" }
+    ] },
+
+    { "stage": "Quarter-final", "date": "1966-07-23", "homeTeam": "England", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Geoff Hurst", "minute": "78" }
+    ] },
+    { "stage": "Quarter-final", "date": "1966-07-23", "homeTeam": "West Germany", "awayTeam": "Uruguay", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Helmut Haller", "minute": "11" },
+      { "team": "home", "player": "Franz Beckenbauer", "minute": "70" },
+      { "team": "home", "player": "Uwe Seeler", "minute": "75" },
+      { "team": "home", "player": "Helmut Haller", "minute": "83" }
+    ] },
+    { "stage": "Quarter-final", "date": "1966-07-23", "homeTeam": "Portugal", "awayTeam": "North Korea", "homeScore": 5, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Pak Seung-zin", "minute": "1" },
+      { "team": "away", "player": "Li Dong-woon", "minute": "22" },
+      { "team": "away", "player": "Yang Seung-kook", "minute": "25" },
+      { "team": "home", "player": "Eusébio", "minute": "27" },
+      { "team": "home", "player": "Eusébio", "minute": "43", "penalty": true },
+      { "team": "home", "player": "Eusébio", "minute": "56" },
+      { "team": "home", "player": "Eusébio", "minute": "59", "penalty": true },
+      { "team": "home", "player": "José Augusto", "minute": "80" }
+    ] },
+    { "stage": "Quarter-final", "date": "1966-07-23", "homeTeam": "Soviet Union", "awayTeam": "Hungary", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Igor Chislenko", "minute": "5" },
+      { "team": "home", "player": "Valeriy Porkuyan", "minute": "46" },
+      { "team": "away", "player": "Ferenc Bene", "minute": "57" }
+    ] },
+
+    { "stage": "Semi-final", "date": "1966-07-25", "homeTeam": "West Germany", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Helmut Haller", "minute": "43" },
+      { "team": "home", "player": "Franz Beckenbauer", "minute": "67" },
+      { "team": "away", "player": "Valeriy Porkuyan", "minute": "88" }
+    ] },
+    { "stage": "Semi-final", "date": "1966-07-26", "homeTeam": "England", "awayTeam": "Portugal", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bobby Charlton", "minute": "30" },
+      { "team": "home", "player": "Bobby Charlton", "minute": "80" },
+      { "team": "away", "player": "Eusébio", "minute": "82", "penalty": true }
+    ] },
+
+    { "stage": "Third place", "date": "1966-07-28", "homeTeam": "Portugal", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Eusébio", "minute": "12", "penalty": true },
+      { "team": "away", "player": "Eduard Malofeyev", "minute": "43" },
+      { "team": "home", "player": "José Torres", "minute": "89" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1966-07-30",
+      "homeTeam": "England",
+      "awayTeam": "West Germany",
+      "homeScore": 4,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "away", "player": "Helmut Haller", "minute": "12" },
+        { "team": "home", "player": "Geoff Hurst", "minute": "18" },
+        { "team": "home", "player": "Martin Peters", "minute": "78" },
+        { "team": "away", "player": "Wolfgang Weber", "minute": "89" },
+        { "team": "home", "player": "Geoff Hurst", "minute": "101" },
+        { "team": "home", "player": "Geoff Hurst", "minute": "120" }
+      ]
+    }
+  ]
+}

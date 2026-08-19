@@ -1,0 +1,207 @@
+{
+  "edition": {
+    "year": 1978,
+    "host": "Argentina",
+    "winner": "Argentina",
+    "runnerUp": "Netherlands",
+    "thirdPlace": "Brazil",
+    "fourthPlace": "Italy",
+    "goldenBoot": { "player": "Mario Kempes", "nationality": "Argentina", "club": "Valencia", "goals": 6 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1978-06-02", "homeTeam": "Italy", "awayTeam": "France", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Bernard Lacombe", "minute": "1" },
+      { "team": "home", "player": "Paolo Rossi", "minute": "29" },
+      { "team": "home", "player": "Renato Zaccarelli", "minute": "54" }
+    ] },
+    { "stage": "Group 1", "date": "1978-06-02", "homeTeam": "Argentina", "awayTeam": "Hungary", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Csapó", "minute": "9" },
+      { "team": "home", "player": "Leopoldo Luque", "minute": "14" },
+      { "team": "home", "player": "Daniel Bertoni", "minute": "83" }
+    ], "redCards": [
+      { "team": "away", "player": "András Törőcsik", "minute": "88", "secondYellow": true },
+      { "team": "away", "player": "Tibor Nyilasi", "minute": "89", "secondYellow": true }
+    ] },
+    { "stage": "Group 1", "date": "1978-06-06", "homeTeam": "Italy", "awayTeam": "Hungary", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paolo Rossi", "minute": "34" },
+      { "team": "home", "player": "Roberto Bettega", "minute": "35" },
+      { "team": "home", "player": "Romeo Benetti", "minute": "61" },
+      { "team": "away", "player": "András Tóth", "minute": "81", "penalty": true }
+    ] },
+    { "stage": "Group 1", "date": "1978-06-06", "homeTeam": "Argentina", "awayTeam": "France", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniel Passarella", "minute": "45", "penalty": true },
+      { "team": "away", "player": "Michel Platini", "minute": "60" },
+      { "team": "home", "player": "Leopoldo Luque", "minute": "73" }
+    ] },
+    { "stage": "Group 1", "date": "1978-06-10", "homeTeam": "France", "awayTeam": "Hungary", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Christian Lopez", "minute": "23" },
+      { "team": "home", "player": "Marc Berdoll", "minute": "38" },
+      { "team": "away", "player": "Sándor Zombori", "minute": "41" },
+      { "team": "home", "player": "Dominique Rocheteau", "minute": "42" }
+    ] },
+    { "stage": "Group 1", "date": "1978-06-10", "homeTeam": "Italy", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Roberto Bettega", "minute": "67" }
+    ] },
+
+    { "stage": "Group 2", "date": "1978-06-01", "homeTeam": "West Germany", "awayTeam": "Poland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1978-06-02", "homeTeam": "Tunisia", "awayTeam": "Mexico", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Arturo Vázquez Ayala", "minute": "45", "penalty": true },
+      { "team": "home", "player": "Ali Kaabi", "minute": "55" },
+      { "team": "home", "player": "Néjib Ghommidh", "minute": "79" },
+      { "team": "home", "player": "Mokhtar Dhouieb", "minute": "87" }
+    ] },
+    { "stage": "Group 2", "date": "1978-06-06", "homeTeam": "West Germany", "awayTeam": "Mexico", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dieter Müller", "minute": "15" },
+      { "team": "home", "player": "Hansi Müller", "minute": "30" },
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "38" },
+      { "team": "home", "player": "Heinz Flohe", "minute": "44" },
+      { "team": "home", "player": "Karl-Heinz Rummenigge", "minute": "73" },
+      { "team": "home", "player": "Heinz Flohe", "minute": "89" }
+    ] },
+    { "stage": "Group 2", "date": "1978-06-06", "homeTeam": "Poland", "awayTeam": "Tunisia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Grzegorz Lato", "minute": "43" }
+    ] },
+    { "stage": "Group 2", "date": "1978-06-10", "homeTeam": "West Germany", "awayTeam": "Tunisia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1978-06-10", "homeTeam": "Poland", "awayTeam": "Mexico", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "43" },
+      { "team": "away", "player": "Víctor Rangel", "minute": "52" },
+      { "team": "home", "player": "Kazimierz Deyna", "minute": "56" },
+      { "team": "home", "player": "Zbigniew Boniek", "minute": "84" }
+    ] },
+
+    { "stage": "Group 3", "date": "1978-06-03", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Thomas Sjöberg", "minute": "37" },
+      { "team": "home", "player": "Reinaldo", "minute": "45" }
+    ] },
+    { "stage": "Group 3", "date": "1978-06-03", "homeTeam": "Austria", "awayTeam": "Spain", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Walter Schachner", "minute": "10" },
+      { "team": "away", "player": "Dani", "minute": "21" },
+      { "team": "home", "player": "Hans Krankl", "minute": "76" }
+    ] },
+    { "stage": "Group 3", "date": "1978-06-07", "homeTeam": "Austria", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hans Krankl", "minute": "42", "penalty": true }
+    ] },
+    { "stage": "Group 3", "date": "1978-06-07", "homeTeam": "Brazil", "awayTeam": "Spain", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 3", "date": "1978-06-11", "homeTeam": "Brazil", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Roberto Dinâmite", "minute": "40" }
+    ] },
+    { "stage": "Group 3", "date": "1978-06-11", "homeTeam": "Spain", "awayTeam": "Sweden", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Juan Manuel Asensi", "minute": "75" }
+    ] },
+
+    { "stage": "Group 4", "date": "1978-06-03", "homeTeam": "Netherlands", "awayTeam": "Iran", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rob Rensenbrink", "minute": "40", "penalty": true },
+      { "team": "home", "player": "Rob Rensenbrink", "minute": "62" },
+      { "team": "home", "player": "Rob Rensenbrink", "minute": "79", "penalty": true }
+    ] },
+    { "stage": "Group 4", "date": "1978-06-03", "homeTeam": "Peru", "awayTeam": "Scotland", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Joe Jordan", "minute": "14" },
+      { "team": "home", "player": "César Cueto", "minute": "43" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "71" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "77" }
+    ] },
+    { "stage": "Group 4", "date": "1978-06-07", "homeTeam": "Netherlands", "awayTeam": "Peru", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 4", "date": "1978-06-07", "homeTeam": "Scotland", "awayTeam": "Iran", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andranik Eskandarian", "minute": "43", "ownGoal": true },
+      { "team": "away", "player": "Iraj Danaeifard", "minute": "60" }
+    ] },
+    { "stage": "Group 4", "date": "1978-06-11", "homeTeam": "Scotland", "awayTeam": "Netherlands", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rob Rensenbrink", "minute": "34", "penalty": true },
+      { "team": "home", "player": "Kenny Dalglish", "minute": "45" },
+      { "team": "home", "player": "Archie Gemmill", "minute": "46", "penalty": true },
+      { "team": "home", "player": "Archie Gemmill", "minute": "68" },
+      { "team": "away", "player": "Johnny Rep", "minute": "71" }
+    ] },
+    { "stage": "Group 4", "date": "1978-06-11", "homeTeam": "Peru", "awayTeam": "Iran", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "José Velásquez", "minute": "2" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "36", "penalty": true },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "39", "penalty": true },
+      { "team": "away", "player": "Hassan Roshan", "minute": "41" },
+      { "team": "home", "player": "Teófilo Cubillas", "minute": "79" }
+    ] },
+
+    { "stage": "Group A", "date": "1978-06-14", "homeTeam": "Austria", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 5, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ernie Brandts", "minute": "6" },
+      { "team": "away", "player": "Rob Rensenbrink", "minute": "35", "penalty": true },
+      { "team": "away", "player": "Johnny Rep", "minute": "36" },
+      { "team": "away", "player": "Johnny Rep", "minute": "53" },
+      { "team": "home", "player": "Erich Obermayer", "minute": "80" },
+      { "team": "away", "player": "Willy van de Kerkhof", "minute": "82" }
+    ] },
+    { "stage": "Group A", "date": "1978-06-14", "homeTeam": "Italy", "awayTeam": "West Germany", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group A", "date": "1978-06-18", "homeTeam": "Netherlands", "awayTeam": "West Germany", "homeScore": 2, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rüdiger Abramczik", "minute": "3" },
+      { "team": "home", "player": "Arie Haan", "minute": "27" },
+      { "team": "away", "player": "Dieter Müller", "minute": "70" },
+      { "team": "home", "player": "René van de Kerkhof", "minute": "82" }
+    ], "redCards": [
+      { "team": "home", "player": "Dick Nanninga", "minute": "88", "secondYellow": false }
+    ] },
+    { "stage": "Group A", "date": "1978-06-18", "homeTeam": "Italy", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paolo Rossi", "minute": "13" }
+    ] },
+    { "stage": "Group A", "date": "1978-06-21", "homeTeam": "Austria", "awayTeam": "West Germany", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Karl-Heinz Rummenigge", "minute": "19" },
+      { "team": "home", "player": "Berti Vogts", "minute": "59", "ownGoal": true },
+      { "team": "home", "player": "Hans Krankl", "minute": "66" },
+      { "team": "away", "player": "Bernd Hölzenbein", "minute": "68" },
+      { "team": "home", "player": "Hans Krankl", "minute": "87" }
+    ] },
+    { "stage": "Group A", "date": "1978-06-21", "homeTeam": "Italy", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ernie Brandts", "minute": "19", "ownGoal": true },
+      { "team": "away", "player": "Ernie Brandts", "minute": "49" },
+      { "team": "away", "player": "Arie Haan", "minute": "76" }
+    ] },
+
+    { "stage": "Group B", "date": "1978-06-14", "homeTeam": "Brazil", "awayTeam": "Peru", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dirceu", "minute": "15" },
+      { "team": "home", "player": "Dirceu", "minute": "27" },
+      { "team": "home", "player": "Zico", "minute": "72", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1978-06-14", "homeTeam": "Argentina", "awayTeam": "Poland", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mario Kempes", "minute": "16" },
+      { "team": "home", "player": "Mario Kempes", "minute": "71" }
+    ] },
+    { "stage": "Group B", "date": "1978-06-18", "homeTeam": "Peru", "awayTeam": "Poland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Andrzej Szarmach", "minute": "65" }
+    ] },
+    { "stage": "Group B", "date": "1978-06-18", "homeTeam": "Argentina", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group B", "date": "1978-06-21", "homeTeam": "Brazil", "awayTeam": "Poland", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Nelinho", "minute": "13" },
+      { "team": "away", "player": "Grzegorz Lato", "minute": "45" },
+      { "team": "home", "player": "Roberto Dinâmite", "minute": "58" },
+      { "team": "home", "player": "Roberto Dinâmite", "minute": "63" }
+    ] },
+    { "stage": "Group B", "date": "1978-06-21", "homeTeam": "Argentina", "awayTeam": "Peru", "homeScore": 6, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mario Kempes", "minute": "21" },
+      { "team": "home", "player": "Alberto Tarantini", "minute": "43", "penalty": true },
+      { "team": "home", "player": "Mario Kempes", "minute": "49" },
+      { "team": "home", "player": "Leopoldo Luque", "minute": "50" },
+      { "team": "home", "player": "René Houseman", "minute": "67" },
+      { "team": "home", "player": "Leopoldo Luque", "minute": "72" }
+    ] },
+
+    { "stage": "Third place", "date": "1978-06-24", "homeTeam": "Brazil", "awayTeam": "Italy", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Franco Causio", "minute": "39" },
+      { "team": "home", "player": "Nelinho", "minute": "65" },
+      { "team": "home", "player": "Dirceu", "minute": "73" }
+    ] },
+
+    {
+      "stage": "Final",
+      "date": "1978-06-25",
+      "homeTeam": "Argentina",
+      "awayTeam": "Netherlands",
+      "homeScore": 3,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Mario Kempes", "minute": "38" },
+        { "team": "away", "player": "Dick Nanninga", "minute": "82" },
+        { "team": "home", "player": "Mario Kempes", "minute": "105" },
+        { "team": "home", "player": "Daniel Bertoni", "minute": "115" }
+      ]
+    }
+  ]
+}

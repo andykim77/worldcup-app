@@ -1,0 +1,418 @@
+{
+  "edition": {
+    "year": 1990,
+    "host": "Italy",
+    "winner": "West Germany",
+    "runnerUp": "Argentina",
+    "thirdPlace": "Italy",
+    "fourthPlace": "England",
+    "goldenBall": { "player": "Salvatore Schillaci", "nationality": "Italy", "club": "Juventus" },
+    "silverBall": { "player": "Lothar Matthäus", "nationality": "West Germany", "club": "Inter Milan" },
+    "bronzeBall": { "player": "Diego Maradona", "nationality": "Argentina", "club": "Napoli" },
+    "goldenBoot": { "player": "Salvatore Schillaci", "nationality": "Italy", "club": "Juventus", "goals": 6 },
+    "silverBoot": { "player": "Tomáš Skuhravý", "nationality": "Czechoslovakia", "club": "Sparta Prague", "goals": 5 }
+  },
+  "matches": [
+    { "stage": "Group A", "date": "1990-06-09", "homeTeam": "Italy", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Salvatore Schillaci", "minute": "78" }
+    ] },
+    { "stage": "Group A", "date": "1990-06-10", "homeTeam": "Czechoslovakia", "awayTeam": "United States", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Tomáš Skuhravý", "minute": "25" },
+      { "team": "home", "player": "Michal Bílek", "minute": "39", "penalty": true },
+      { "team": "home", "player": "Ivan Hašek", "minute": "50" },
+      { "team": "away", "player": "Paul Caligiuri", "minute": "61" },
+      { "team": "home", "player": "Tomáš Skuhravý", "minute": "78" },
+      { "team": "home", "player": "Milan Luhový", "minute": "90" }
+    ], "redCards": [
+      { "team": "away", "player": "Eric Wynalda", "minute": "52", "secondYellow": false }
+    ] },
+    { "stage": "Group A", "date": "1990-06-14", "homeTeam": "Italy", "awayTeam": "United States", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Giuseppe Giannini", "minute": "11" }
+    ] },
+    { "stage": "Group A", "date": "1990-06-15", "homeTeam": "Czechoslovakia", "awayTeam": "Austria", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Michal Bílek", "minute": "30", "penalty": true }
+    ] },
+    { "stage": "Group A", "date": "1990-06-19", "homeTeam": "Italy", "awayTeam": "Czechoslovakia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Salvatore Schillaci", "minute": "9" },
+      { "team": "home", "player": "Roberto Baggio", "minute": "78" }
+    ] },
+    { "stage": "Group A", "date": "1990-06-19", "homeTeam": "Austria", "awayTeam": "United States", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Ogris", "minute": "52" },
+      { "team": "home", "player": "Gerhard Rodax", "minute": "65" },
+      { "team": "away", "player": "Bruce Murray", "minute": "85" }
+    ], "redCards": [
+      { "team": "home", "player": "Peter Artner", "minute": "34", "secondYellow": false }
+    ] },
+
+    { "stage": "Group B", "date": "1990-06-08", "homeTeam": "Cameroon", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "François Omam-Biyik", "minute": "67" }
+    ], "redCards": [
+      { "team": "home", "player": "André Kana-Biyik", "minute": "61", "secondYellow": false },
+      { "team": "home", "player": "Benjamin Massing", "minute": "87", "secondYellow": true }
+    ] },
+    { "stage": "Group B", "date": "1990-06-09", "homeTeam": "Romania", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marius Lăcătuș", "minute": "42" },
+      { "team": "home", "player": "Marius Lăcătuș", "minute": "57", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1990-06-13", "homeTeam": "Argentina", "awayTeam": "Soviet Union", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pedro Troglio", "minute": "27" },
+      { "team": "home", "player": "Jorge Burruchaga", "minute": "79" }
+    ], "redCards": [
+      { "team": "away", "player": "Volodymyr Bezsonov", "minute": "46", "secondYellow": false }
+    ] },
+    { "stage": "Group B", "date": "1990-06-14", "homeTeam": "Cameroon", "awayTeam": "Romania", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Roger Milla", "minute": "76" },
+      { "team": "home", "player": "Roger Milla", "minute": "86" },
+      { "team": "away", "player": "Gabi Balint", "minute": "88" }
+    ] },
+    { "stage": "Group B", "date": "1990-06-18", "homeTeam": "Soviet Union", "awayTeam": "Cameroon", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Oleg Protasov", "minute": "20" },
+      { "team": "home", "player": "Sergei Zygmantovich", "minute": "29" },
+      { "team": "home", "player": "Aleksandr Zavarov", "minute": "59" },
+      { "team": "home", "player": "Igor Dobrovolski", "minute": "63" }
+    ] },
+    { "stage": "Group B", "date": "1990-06-18", "homeTeam": "Argentina", "awayTeam": "Romania", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Pedro Monzón", "minute": "63" },
+      { "team": "away", "player": "Gabi Balint", "minute": "68" }
+    ] },
+
+    { "stage": "Group C", "date": "1990-06-10", "homeTeam": "Brazil", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Careca", "minute": "40" },
+      { "team": "home", "player": "Careca", "minute": "63" },
+      { "team": "away", "player": "Tomas Brolin", "minute": "79" }
+    ] },
+    { "stage": "Group C", "date": "1990-06-11", "homeTeam": "Costa Rica", "awayTeam": "Scotland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Juan Cayasso", "minute": "49" }
+    ] },
+    { "stage": "Group C", "date": "1990-06-16", "homeTeam": "Brazil", "awayTeam": "Costa Rica", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Müller", "minute": "33" }
+    ] },
+    { "stage": "Group C", "date": "1990-06-16", "homeTeam": "Scotland", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Stuart McCall", "minute": "10" },
+      { "team": "home", "player": "Mo Johnston", "minute": "80", "penalty": true },
+      { "team": "away", "player": "Glenn Strömberg", "minute": "86" }
+    ] },
+    { "stage": "Group C", "date": "1990-06-20", "homeTeam": "Costa Rica", "awayTeam": "Sweden", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Johnny Ekström", "minute": "32" },
+      { "team": "home", "player": "Róger Flores", "minute": "75", "penalty": true },
+      { "team": "home", "player": "Hernán Medford", "minute": "88" }
+    ] },
+    { "stage": "Group C", "date": "1990-06-20", "homeTeam": "Brazil", "awayTeam": "Scotland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Müller", "minute": "82" }
+    ] },
+
+    { "stage": "Group D", "date": "1990-06-09", "homeTeam": "Colombia", "awayTeam": "United Arab Emirates", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Bernardo Redín", "minute": "50" },
+      { "team": "home", "player": "Carlos Valderrama", "minute": "86" }
+    ] },
+    { "stage": "Group D", "date": "1990-06-10", "homeTeam": "West Germany", "awayTeam": "Yugoslavia", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lothar Matthäus", "minute": "29" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "39" },
+      { "team": "away", "player": "Davor Jozić", "minute": "55" },
+      { "team": "home", "player": "Lothar Matthäus", "minute": "65" },
+      { "team": "home", "player": "Rudi Völler", "minute": "71" }
+    ] },
+    { "stage": "Group D", "date": "1990-06-14", "homeTeam": "Yugoslavia", "awayTeam": "Colombia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Davor Jozić", "minute": "75" }
+    ] },
+    { "stage": "Group D", "date": "1990-06-15", "homeTeam": "West Germany", "awayTeam": "United Arab Emirates", "homeScore": 5, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rudi Völler", "minute": "35" },
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "36" },
+      { "team": "away", "player": "Khalid Ismaïl", "minute": "46" },
+      { "team": "home", "player": "Lothar Matthäus", "minute": "47" },
+      { "team": "home", "player": "Uwe Bein", "minute": "59" },
+      { "team": "home", "player": "Rudi Völler", "minute": "75" }
+    ] },
+    { "stage": "Group D", "date": "1990-06-19", "homeTeam": "Colombia", "awayTeam": "West Germany", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Pierre Littbarski", "minute": "88" },
+      { "team": "home", "player": "Freddy Rincón", "minute": "90" }
+    ] },
+    { "stage": "Group D", "date": "1990-06-19", "homeTeam": "Yugoslavia", "awayTeam": "United Arab Emirates", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Safet Sušić", "minute": "8" },
+      { "team": "home", "player": "Darko Pančev", "minute": "9" },
+      { "team": "away", "player": "Ali Thani Jumaa", "minute": "23" },
+      { "team": "home", "player": "Darko Pančev", "minute": "46" },
+      { "team": "home", "player": "Robert Prosinečki", "minute": "90" }
+    ], "redCards": [
+      { "team": "away", "player": "Khalil Ghanim", "minute": "76", "secondYellow": true }
+    ] },
+
+    { "stage": "Group E", "date": "1990-06-12", "homeTeam": "Belgium", "awayTeam": "South Korea", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Marc Degryse", "minute": "53" },
+      { "team": "home", "player": "Michel De Wolf", "minute": "64" }
+    ] },
+    { "stage": "Group E", "date": "1990-06-13", "homeTeam": "Spain", "awayTeam": "Uruguay", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group E", "date": "1990-06-17", "homeTeam": "Spain", "awayTeam": "South Korea", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Michel", "minute": "22" },
+      { "team": "away", "player": "Hwang Bo-kwan", "minute": "42" },
+      { "team": "home", "player": "Michel", "minute": "61", "penalty": true },
+      { "team": "home", "player": "Michel", "minute": "81" }
+    ] },
+    { "stage": "Group E", "date": "1990-06-17", "homeTeam": "Belgium", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lei Clijsters", "minute": "16" },
+      { "team": "home", "player": "Enzo Scifo", "minute": "22" },
+      { "team": "home", "player": "Jan Ceulemans", "minute": "48" },
+      { "team": "away", "player": "Bengoechea", "minute": "74" }
+    ], "redCards": [
+      { "team": "home", "player": "Eric Gerets", "minute": "41", "secondYellow": true }
+    ] },
+    { "stage": "Group E", "date": "1990-06-21", "homeTeam": "Spain", "awayTeam": "Belgium", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Michel", "minute": "20", "penalty": true },
+      { "team": "away", "player": "Bart Vervoort", "minute": "28", "penalty": true },
+      { "team": "home", "player": "José Ramón Gorriz", "minute": "37" }
+    ] },
+    { "stage": "Group E", "date": "1990-06-21", "homeTeam": "Uruguay", "awayTeam": "South Korea", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Daniel Fonseca", "minute": "90" }
+    ], "redCards": [
+      { "team": "away", "player": "Yoon Deuk-yeo", "minute": "70", "secondYellow": true }
+    ] },
+
+    { "stage": "Group F", "date": "1990-06-11", "homeTeam": "England", "awayTeam": "Republic of Ireland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Gary Lineker", "minute": "8" },
+      { "team": "away", "player": "Kevin Sheedy", "minute": "72" }
+    ] },
+    { "stage": "Group F", "date": "1990-06-12", "homeTeam": "Egypt", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Wim Kieft", "minute": "58" },
+      { "team": "home", "player": "Magdy Abdelghani", "minute": "83", "penalty": true }
+    ] },
+    { "stage": "Group F", "date": "1990-06-16", "homeTeam": "England", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "1990-06-17", "homeTeam": "Egypt", "awayTeam": "Republic of Ireland", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group F", "date": "1990-06-21", "homeTeam": "England", "awayTeam": "Egypt", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Mark Wright", "minute": "59" }
+    ] },
+    { "stage": "Group F", "date": "1990-06-21", "homeTeam": "Netherlands", "awayTeam": "Republic of Ireland", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ruud Gullit", "minute": "10" },
+      { "team": "away", "player": "Niall Quinn", "minute": "71" }
+    ] },
+
+    {
+      "stage": "Round of 16",
+      "date": "1990-06-23",
+      "homeTeam": "Cameroon",
+      "awayTeam": "Colombia",
+      "homeScore": 2,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Roger Milla", "minute": "106" },
+        { "team": "home", "player": "Roger Milla", "minute": "109" },
+        { "team": "away", "player": "Bernardo Redín", "minute": "116" }
+      ]
+    },
+    { "stage": "Round of 16", "date": "1990-06-23", "homeTeam": "Czechoslovakia", "awayTeam": "Costa Rica", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Tomáš Skuhravý", "minute": "11" },
+      { "team": "away", "player": "Rónald González", "minute": "55" },
+      { "team": "home", "player": "Tomáš Skuhravý", "minute": "62" },
+      { "team": "home", "player": "Luboš Kubík", "minute": "78", "penalty": true },
+      { "team": "home", "player": "Tomáš Skuhravý", "minute": "82" }
+    ] },
+    { "stage": "Round of 16", "date": "1990-06-24", "homeTeam": "Argentina", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Claudio Caniggia", "minute": "81" }
+    ], "redCards": [
+      { "team": "away", "player": "Ricardo Gomes", "minute": "85", "secondYellow": false }
+    ] },
+    { "stage": "Round of 16", "date": "1990-06-24", "homeTeam": "West Germany", "awayTeam": "Netherlands", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jürgen Klinsmann", "minute": "51" },
+      { "team": "home", "player": "Andreas Brehme", "minute": "82" },
+      { "team": "away", "player": "Ronald Koeman", "minute": "89", "penalty": true }
+    ], "redCards": [
+      { "team": "home", "player": "Rudi Völler", "minute": "22", "secondYellow": true },
+      { "team": "away", "player": "Frank Rijkaard", "minute": "22", "secondYellow": true }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1990-06-25",
+      "homeTeam": "Republic of Ireland",
+      "awayTeam": "Romania",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 5,
+        "awayScore": 4,
+        "homeTakers": [
+          { "player": "Kevin Sheedy", "result": "scored" },
+          { "player": "Ray Houghton", "result": "scored" },
+          { "player": "Andy Townsend", "result": "scored" },
+          { "player": "Tony Cascarino", "result": "scored" },
+          { "player": "David O'Leary", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Gheorghe Hagi", "result": "scored" },
+          { "player": "Dănuț Lupu", "result": "scored" },
+          { "player": "Iosif Rotariu", "result": "scored" },
+          { "player": "Ioan Lupescu", "result": "scored" },
+          { "player": "Daniel Timofte", "result": "missed" }
+        ]
+      }
+    },
+    { "stage": "Round of 16", "date": "1990-06-25", "homeTeam": "Italy", "awayTeam": "Uruguay", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Salvatore Schillaci", "minute": "65" },
+      { "team": "home", "player": "Aldo Serena", "minute": "85" }
+    ] },
+    {
+      "stage": "Round of 16",
+      "date": "1990-06-26",
+      "homeTeam": "Yugoslavia",
+      "awayTeam": "Spain",
+      "homeScore": 2,
+      "awayScore": 1,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "Dragan Stojković", "minute": "77" },
+        { "team": "away", "player": "Julio Salinas", "minute": "83" },
+        { "team": "home", "player": "Dragan Stojković", "minute": "92" }
+      ]
+    },
+    {
+      "stage": "Round of 16",
+      "date": "1990-06-26",
+      "homeTeam": "England",
+      "awayTeam": "Belgium",
+      "homeScore": 1,
+      "awayScore": 0,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "David Platt", "minute": "119" }
+      ]
+    },
+
+    {
+      "stage": "Quarter-final",
+      "date": "1990-06-30",
+      "homeTeam": "Argentina",
+      "awayTeam": "Yugoslavia",
+      "homeScore": 0,
+      "awayScore": 0,
+      "extraTime": true,
+      "goals": [],
+      "penalties": {
+        "homeScore": 3,
+        "awayScore": 2,
+        "homeTakers": [
+          { "player": "José Serrizuela", "result": "scored" },
+          { "player": "Jorge Burruchaga", "result": "scored" },
+          { "player": "Diego Maradona", "result": "missed" },
+          { "player": "Pedro Troglio", "result": "missed" },
+          { "player": "Gustavo Dezotti", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Dragan Stojković", "result": "missed" },
+          { "player": "Robert Prosinečki", "result": "scored" },
+          { "player": "Dejan Savićević", "result": "scored" },
+          { "player": "Dragoljub Brnović", "result": "missed" },
+          { "player": "Faruk Hadžibegić", "result": "missed" }
+        ]
+      },
+      "redCards": [
+        { "team": "away", "player": "Refik Šabanadžović", "minute": "31", "secondYellow": true }
+      ]
+    },
+    { "stage": "Quarter-final", "date": "1990-06-30", "homeTeam": "Italy", "awayTeam": "Republic of Ireland", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Salvatore Schillaci", "minute": "38" }
+    ] },
+    { "stage": "Quarter-final", "date": "1990-07-01", "homeTeam": "West Germany", "awayTeam": "Czechoslovakia", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Lothar Matthäus", "minute": "24", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Ľubomír Moravčík", "minute": "70", "secondYellow": true }
+    ] },
+    {
+      "stage": "Quarter-final",
+      "date": "1990-07-01",
+      "homeTeam": "England",
+      "awayTeam": "Cameroon",
+      "homeScore": 3,
+      "awayScore": 2,
+      "extraTime": true,
+      "penalties": null,
+      "goals": [
+        { "team": "home", "player": "David Platt", "minute": "25" },
+        { "team": "away", "player": "Emmanuel Kundé", "minute": "63", "penalty": true },
+        { "team": "away", "player": "Eugène Ékéké", "minute": "65" },
+        { "team": "home", "player": "Gary Lineker", "minute": "83", "penalty": true },
+        { "team": "home", "player": "Gary Lineker", "minute": "105", "penalty": true }
+      ]
+    },
+
+    {
+      "stage": "Semi-final",
+      "date": "1990-07-03",
+      "homeTeam": "Argentina",
+      "awayTeam": "Italy",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "away", "player": "Salvatore Schillaci", "minute": "17" },
+        { "team": "home", "player": "Claudio Caniggia", "minute": "67" }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "José Serrizuela", "result": "scored" },
+          { "player": "Jorge Burruchaga", "result": "scored" },
+          { "player": "Julio Olarticoechea", "result": "scored" },
+          { "player": "Diego Maradona", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Franco Baresi", "result": "scored" },
+          { "player": "Roberto Baggio", "result": "scored" },
+          { "player": "Luigi De Agostini", "result": "scored" },
+          { "player": "Roberto Donadoni", "result": "missed" },
+          { "player": "Aldo Serena", "result": "missed" }
+        ]
+      },
+      "redCards": [
+        { "team": "home", "player": "Ricardo Giusti", "minute": "103", "secondYellow": true }
+      ]
+    },
+    {
+      "stage": "Semi-final",
+      "date": "1990-07-04",
+      "homeTeam": "West Germany",
+      "awayTeam": "England",
+      "homeScore": 1,
+      "awayScore": 1,
+      "extraTime": true,
+      "goals": [
+        { "team": "home", "player": "Andreas Brehme", "minute": "59" },
+        { "team": "away", "player": "Gary Lineker", "minute": "80" }
+      ],
+      "penalties": {
+        "homeScore": 4,
+        "awayScore": 3,
+        "homeTakers": [
+          { "player": "Andreas Brehme", "result": "scored" },
+          { "player": "Lothar Matthäus", "result": "scored" },
+          { "player": "Karl-Heinz Riedle", "result": "scored" },
+          { "player": "Olaf Thon", "result": "scored" }
+        ],
+        "awayTakers": [
+          { "player": "Gary Lineker", "result": "scored" },
+          { "player": "Peter Beardsley", "result": "scored" },
+          { "player": "David Platt", "result": "scored" },
+          { "player": "Stuart Pearce", "result": "missed" },
+          { "player": "Chris Waddle", "result": "missed" }
+        ]
+      }
+    },
+
+    { "stage": "Third place", "date": "1990-07-07", "homeTeam": "Italy", "awayTeam": "England", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Roberto Baggio", "minute": "70" },
+      { "team": "away", "player": "David Platt", "minute": "80" },
+      { "team": "home", "player": "Salvatore Schillaci", "minute": "85", "penalty": true }
+    ] },
+
+    { "stage": "Final", "date": "1990-07-08", "homeTeam": "West Germany", "awayTeam": "Argentina", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andreas Brehme", "minute": "85", "penalty": true }
+    ], "redCards": [
+      { "team": "away", "player": "Pedro Monzón", "minute": "65", "secondYellow": false },
+      { "team": "away", "player": "Gustavo Dezotti", "minute": "87", "secondYellow": true }
+    ] }
+  ]
+}

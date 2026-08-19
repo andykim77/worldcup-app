@@ -1,0 +1,196 @@
+{
+  "edition": {
+    "year": 1974,
+    "host": "West Germany",
+    "winner": "West Germany",
+    "runnerUp": "Netherlands",
+    "thirdPlace": "Poland",
+    "fourthPlace": "Brazil",
+    "goldenBoot": { "player": "Grzegorz Lato", "nationality": "Poland", "club": "Stal Mielec", "goals": 7 }
+  },
+  "matches": [
+    { "stage": "Group 1", "date": "1974-06-14", "homeTeam": "West Germany", "awayTeam": "Chile", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paul Breitner", "minute": "18" }
+    ] },
+    { "stage": "Group 1", "date": "1974-06-14", "homeTeam": "East Germany", "awayTeam": "Australia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Colin Curran", "minute": "58", "ownGoal": true },
+      { "team": "home", "player": "Joachim Streich", "minute": "72" }
+    ] },
+    { "stage": "Group 1", "date": "1974-06-18", "homeTeam": "Australia", "awayTeam": "West Germany", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Wolfgang Overath", "minute": "12" },
+      { "team": "away", "player": "Bernhard Cullmann", "minute": "34" },
+      { "team": "away", "player": "Gerd Müller", "minute": "53" }
+    ] },
+    { "stage": "Group 1", "date": "1974-06-18", "homeTeam": "Chile", "awayTeam": "East Germany", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Martin Hoffmann", "minute": "55" },
+      { "team": "home", "player": "Sergio Ahumada", "minute": "69" }
+    ] },
+    { "stage": "Group 1", "date": "1974-06-22", "homeTeam": "Australia", "awayTeam": "Chile", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [], "redCards": [
+      { "team": "home", "player": "Ray Richards", "minute": "83", "secondYellow": true }
+    ] },
+    { "stage": "Group 1", "date": "1974-06-22", "homeTeam": "East Germany", "awayTeam": "West Germany", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Jürgen Sparwasser", "minute": "77" }
+    ] },
+
+    { "stage": "Group 2", "date": "1974-06-13", "homeTeam": "Brazil", "awayTeam": "Yugoslavia", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1974-06-14", "homeTeam": "Zaire", "awayTeam": "Scotland", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Peter Lorimer", "minute": "26" },
+      { "team": "away", "player": "Joe Jordan", "minute": "34" }
+    ] },
+    { "stage": "Group 2", "date": "1974-06-18", "homeTeam": "Yugoslavia", "awayTeam": "Zaire", "homeScore": 9, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Dušan Bajević", "minute": "8" },
+      { "team": "home", "player": "Dragan Džajić", "minute": "14" },
+      { "team": "home", "player": "Ivica Šurjak", "minute": "18" },
+      { "team": "home", "player": "Josip Katalinski", "minute": "22" },
+      { "team": "home", "player": "Dušan Bajević", "minute": "30" },
+      { "team": "home", "player": "Vladislav Bogićević", "minute": "35" },
+      { "team": "home", "player": "Branko Oblak", "minute": "61" },
+      { "team": "home", "player": "Ilija Petković", "minute": "65" },
+      { "team": "home", "player": "Dušan Bajević", "minute": "81" }
+    ], "redCards": [
+      { "team": "away", "player": "Ndaye Mulamba", "minute": "22", "secondYellow": false }
+    ] },
+    { "stage": "Group 2", "date": "1974-06-18", "homeTeam": "Scotland", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 2", "date": "1974-06-22", "homeTeam": "Scotland", "awayTeam": "Yugoslavia", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Stanislav Karasi", "minute": "81" },
+      { "team": "home", "player": "Joe Jordan", "minute": "88" }
+    ] },
+    { "stage": "Group 2", "date": "1974-06-22", "homeTeam": "Zaire", "awayTeam": "Brazil", "homeScore": 0, "awayScore": 3, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Jairzinho", "minute": "12" },
+      { "team": "away", "player": "Rivellino", "minute": "66" },
+      { "team": "away", "player": "Valdomiro", "minute": "79" }
+    ] },
+
+    { "stage": "Group 3", "date": "1974-06-15", "homeTeam": "Uruguay", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Johnny Rep", "minute": "7" },
+      { "team": "away", "player": "Johnny Rep", "minute": "86" }
+    ], "redCards": [
+      { "team": "home", "player": "Julio Montero Castillo", "minute": "69", "secondYellow": false }
+    ] },
+    { "stage": "Group 3", "date": "1974-06-15", "homeTeam": "Sweden", "awayTeam": "Bulgaria", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 3", "date": "1974-06-19", "homeTeam": "Bulgaria", "awayTeam": "Uruguay", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Hristo Bonev", "minute": "75" },
+      { "team": "away", "player": "Ricardo Pavoni", "minute": "87" }
+    ] },
+    { "stage": "Group 3", "date": "1974-06-19", "homeTeam": "Netherlands", "awayTeam": "Sweden", "homeScore": 0, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [] },
+    { "stage": "Group 3", "date": "1974-06-23", "homeTeam": "Bulgaria", "awayTeam": "Netherlands", "homeScore": 1, "awayScore": 4, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Johan Neeskens", "minute": "5", "penalty": true },
+      { "team": "away", "player": "Johan Neeskens", "minute": "45", "penalty": true },
+      { "team": "away", "player": "Johnny Rep", "minute": "71" },
+      { "team": "home", "player": "Ruud Krol", "minute": "78", "ownGoal": true },
+      { "team": "away", "player": "Theo de Jong", "minute": "88" }
+    ] },
+    { "stage": "Group 3", "date": "1974-06-23", "homeTeam": "Sweden", "awayTeam": "Uruguay", "homeScore": 3, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Ralf Edström", "minute": "46" },
+      { "team": "home", "player": "Roland Sandberg", "minute": "74" },
+      { "team": "home", "player": "Ralf Edström", "minute": "77" }
+    ] },
+
+    { "stage": "Group 4", "date": "1974-06-15", "homeTeam": "Italy", "awayTeam": "Haiti", "homeScore": 3, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Emmanuel Sanon", "minute": "46" },
+      { "team": "home", "player": "Gianni Rivera", "minute": "52" },
+      { "team": "home", "player": "Romeo Benetti", "minute": "66" },
+      { "team": "home", "player": "Pietro Anastasi", "minute": "79" }
+    ] },
+    { "stage": "Group 4", "date": "1974-06-15", "homeTeam": "Poland", "awayTeam": "Argentina", "homeScore": 3, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Grzegorz Lato", "minute": "7" },
+      { "team": "home", "player": "Andrzej Szarmach", "minute": "8" },
+      { "team": "home", "player": "Grzegorz Lato", "minute": "62" },
+      { "team": "away", "player": "Ramón Heredia", "minute": "60" },
+      { "team": "away", "player": "Carlos Babington", "minute": "66" }
+    ] },
+    { "stage": "Group 4", "date": "1974-06-19", "homeTeam": "Argentina", "awayTeam": "Italy", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "René Houseman", "minute": "20" },
+      { "team": "away", "player": "Roberto Perfumo", "minute": "35", "ownGoal": true }
+    ] },
+    { "stage": "Group 4", "date": "1974-06-19", "homeTeam": "Haiti", "awayTeam": "Poland", "homeScore": 0, "awayScore": 7, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Grzegorz Lato", "minute": "17" },
+      { "team": "away", "player": "Kazimierz Deyna", "minute": "18" },
+      { "team": "away", "player": "Andrzej Szarmach", "minute": "30" },
+      { "team": "away", "player": "Jerzy Gorgoń", "minute": "31" },
+      { "team": "away", "player": "Andrzej Szarmach", "minute": "34" },
+      { "team": "away", "player": "Andrzej Szarmach", "minute": "50" },
+      { "team": "away", "player": "Grzegorz Lato", "minute": "87" }
+    ] },
+    { "stage": "Group 4", "date": "1974-06-23", "homeTeam": "Argentina", "awayTeam": "Haiti", "homeScore": 4, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Héctor Yazalde", "minute": "15" },
+      { "team": "home", "player": "René Houseman", "minute": "18" },
+      { "team": "away", "player": "Emmanuel Sanon", "minute": "63" },
+      { "team": "home", "player": "Rubén Ayala", "minute": "55" },
+      { "team": "home", "player": "Héctor Yazalde", "minute": "68" }
+    ] },
+    { "stage": "Group 4", "date": "1974-06-23", "homeTeam": "Poland", "awayTeam": "Italy", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Andrzej Szarmach", "minute": "38" },
+      { "team": "home", "player": "Kazimierz Deyna", "minute": "44" },
+      { "team": "away", "player": "Fabio Capello", "minute": "85" }
+    ] },
+
+    { "stage": "Group A", "date": "1974-06-26", "homeTeam": "Netherlands", "awayTeam": "Argentina", "homeScore": 4, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Johan Cruyff", "minute": "11" },
+      { "team": "home", "player": "Ruud Krol", "minute": "25" },
+      { "team": "home", "player": "Johnny Rep", "minute": "73" },
+      { "team": "home", "player": "Johan Cruyff", "minute": "90" }
+    ] },
+    { "stage": "Group A", "date": "1974-06-26", "homeTeam": "Brazil", "awayTeam": "East Germany", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Rivellino", "minute": "60" }
+    ] },
+    { "stage": "Group A", "date": "1974-06-30", "homeTeam": "Argentina", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Rivellino", "minute": "32" },
+      { "team": "home", "player": "Miguel Ángel Brindisi", "minute": "35" },
+      { "team": "away", "player": "Jairzinho", "minute": "49" }
+    ] },
+    { "stage": "Group A", "date": "1974-06-30", "homeTeam": "East Germany", "awayTeam": "Netherlands", "homeScore": 0, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Johan Neeskens", "minute": "7" },
+      { "team": "away", "player": "Rob Rensenbrink", "minute": "59" }
+    ] },
+    { "stage": "Group A", "date": "1974-07-03", "homeTeam": "Argentina", "awayTeam": "East Germany", "homeScore": 1, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Joachim Streich", "minute": "14" },
+      { "team": "home", "player": "René Houseman", "minute": "20" }
+    ] },
+    { "stage": "Group A", "date": "1974-07-03", "homeTeam": "Netherlands", "awayTeam": "Brazil", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Johan Neeskens", "minute": "50" },
+      { "team": "home", "player": "Johan Cruyff", "minute": "65" }
+    ], "redCards": [
+      { "team": "away", "player": "Luís Pereira", "minute": "84", "secondYellow": false }
+    ] },
+
+    { "stage": "Group B", "date": "1974-06-26", "homeTeam": "West Germany", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Paul Breitner", "minute": "39" },
+      { "team": "home", "player": "Gerd Müller", "minute": "82" }
+    ] },
+    { "stage": "Group B", "date": "1974-06-26", "homeTeam": "Sweden", "awayTeam": "Poland", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Grzegorz Lato", "minute": "43" }
+    ] },
+    { "stage": "Group B", "date": "1974-06-30", "homeTeam": "Poland", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Kazimierz Deyna", "minute": "24", "penalty": true },
+      { "team": "away", "player": "Stanislav Karasi", "minute": "43" },
+      { "team": "home", "player": "Grzegorz Lato", "minute": "62" }
+    ] },
+    { "stage": "Group B", "date": "1974-06-30", "homeTeam": "West Germany", "awayTeam": "Sweden", "homeScore": 4, "awayScore": 2, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ralf Edström", "minute": "24" },
+      { "team": "home", "player": "Wolfgang Overath", "minute": "51" },
+      { "team": "home", "player": "Rainer Bonhof", "minute": "52" },
+      { "team": "away", "player": "Roland Sandberg", "minute": "53" },
+      { "team": "home", "player": "Jürgen Grabowski", "minute": "76" },
+      { "team": "home", "player": "Uli Hoeneß", "minute": "89", "penalty": true }
+    ] },
+    { "stage": "Group B", "date": "1974-07-03", "homeTeam": "Poland", "awayTeam": "West Germany", "homeScore": 0, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Gerd Müller", "minute": "76" }
+    ] },
+    { "stage": "Group B", "date": "1974-07-03", "homeTeam": "Sweden", "awayTeam": "Yugoslavia", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Ivica Šurjak", "minute": "27" },
+      { "team": "home", "player": "Ralf Edström", "minute": "29" },
+      { "team": "home", "player": "Conny Torstensson", "minute": "85" }
+    ] },
+
+    { "stage": "Third place", "date": "1974-07-06", "homeTeam": "Poland", "awayTeam": "Brazil", "homeScore": 1, "awayScore": 0, "extraTime": false, "penalties": null, "goals": [
+      { "team": "home", "player": "Grzegorz Lato", "minute": "76" }
+    ] },
+
+    { "stage": "Final", "date": "1974-07-07", "homeTeam": "West Germany", "awayTeam": "Netherlands", "homeScore": 2, "awayScore": 1, "extraTime": false, "penalties": null, "goals": [
+      { "team": "away", "player": "Johan Neeskens", "minute": "2", "penalty": true },
+      { "team": "home", "player": "Paul Breitner", "minute": "25", "penalty": true },
+      { "team": "home", "player": "Gerd Müller", "minute": "43" }
+    ] }
+  ]
+}
