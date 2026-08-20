@@ -123,8 +123,8 @@ function stageOrder(stage) {
 async function renderHome() {
   app.innerHTML = '<div class="loading">Loading editions…</div>';
   const [editions, stats] = await Promise.all([
-    fetchJSON('/api/editions'),
-    fetchJSON('/api/stats').catch(() => null),
+    fetchJSON('/api/editions.json'),
+    fetchJSON('/api/stats.json').catch(() => null),
   ]);
   if (!editions.length) {
     app.innerHTML = '<div class="empty">No editions in the database yet.</div>';
@@ -239,7 +239,7 @@ function matchRowHtml(m) {
 
 async function renderEdition(year) {
   app.innerHTML = '<div class="loading">Loading…</div>';
-  const data = await fetchJSON(`/api/editions/${year}`);
+  const data = await fetchJSON(`/api/editions/${year}.json`);
   const { edition, awards, matches } = data;
 
   const grouped = {};
@@ -317,7 +317,7 @@ function redCardSectionHtml(m) {
 
 async function renderMatch(id) {
   app.innerHTML = '<div class="loading">Loading…</div>';
-  const m = await fetchJSON(`/api/matches/${id}`);
+  const m = await fetchJSON(`/api/matches/${id}.json`);
 
   const penSection = m.penaltyKicks ? `
     <h3 style="text-align:center; margin-top:24px;">Penalty Shootout ${m.pen_home_score}-${m.pen_away_score}</h3>
@@ -382,7 +382,7 @@ function matchLineHtml(m, valueLabel) {
 
 async function renderRecords() {
   app.innerHTML = '<div class="loading">Loading records…</div>';
-  const r = await fetchJSON('/api/records');
+  const r = await fetchJSON('/api/records.json');
 
   app.innerHTML = `
     <h1>Records</h1>

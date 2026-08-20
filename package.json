@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node src/server.js",
-    "seed": "node src/seed.js"
+    "seed": "node src/seed.js",
+    "build": "node src/seed.js && node src/export-static.js"
   },
   "dependencies": {
     "express": "^4.19.2"
