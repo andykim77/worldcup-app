@@ -408,8 +408,9 @@ async function renderRecords() {
 
     <h2>Tournament Superlatives</h2>
     <div class="record-grid">
-      ${recordCardHtml('🏆 Most Titles', r.mostTitles, t => `
+      ${recordCardHtml('🏆 Most Titles', r.mostTitles, (t, i) => `
         <div class="leaderboard-row">
+          <div class="rank rank-${i + 1 <= 3 ? i + 1 : 'other'}">${i + 1}</div>
           <div class="lb-team">${flagImgHtml(t.team)}</div>
           <div class="lb-name">${escapeHtml(t.team)}</div>
           <div class="lb-total">${t.total} <span class="lb-sub">titles</span></div>
