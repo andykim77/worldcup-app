@@ -14,7 +14,7 @@ function escapeHtml(s) {
     .replace(/>/g, '&gt;');
 }
 
-// Freely-licensed photos only (this repo is public) — see credits in trophyCollageHtml().
+// Freely-licensed photos only (this repo is public) — see credits in heroBackgroundHtml().
 // Years without an entry render as a placeholder tile instead of a photo.
 const TROPHY_PHOTOS = {
   2006: {
@@ -49,48 +49,20 @@ const TROPHY_PHOTOS = {
   },
 };
 
-function trophyTileHtml(e) {
-  const photo = TROPHY_PHOTOS[e.year];
-  if (photo) {
-    return `
-      <a class="trophy-tile" href="#/edition/${e.year}" title="${e.year} — ${escapeHtml(e.winner)}">
-        <img src="images/trophies/${photo.file}" alt="${escapeHtml(e.winner)} celebrating with the World Cup trophy, ${e.year}" loading="lazy">
-        <div class="tt-scrim">
-          <span class="tt-year">${e.year}</span>
-          <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</span>
-        </div>
-      </a>
-    `;
-  }
-  return `
-    <a class="trophy-tile tt-placeholder" href="#/edition/${e.year}" title="${e.year} — ${escapeHtml(e.winner)}">
-      <span class="tt-trophy">🏆</span>
-      <span class="tt-year">${e.year}</span>
-      <span class="tt-winner">${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</span>
-      <span class="tt-note">no free-licensed photo on file</span>
-    </a>
-  `;
-}
-
-function trophyCollageHtml(editions) {
-  const sorted = [...editions].sort((a, b) => a.year - b.year);
-  const credits = Object.entries(TROPHY_PHOTOS).map(([year, p]) => `
+function heroBackgroundHtml() {
+  const photos = Object.entries(TROPHY_PHOTOS);
+  const credits = photos.map(([year, p]) => `
     <li><a href="${p.sourceUrl}" target="_blank" rel="noopener">${year} — ${escapeHtml(p.credit)}</a>, ${escapeHtml(p.license)}</li>
   `).join('');
   return `
-    <section class="trophy-collage">
-      <div class="tc-head">
-        <h2 class="tc-title">Champions Through the Years</h2>
-        <span class="tc-sub">The trophy, lifted, kissed, and held high after ${sorted.length} finals.</span>
-      </div>
-      <div class="trophy-strip">
-        ${sorted.map(trophyTileHtml).join('')}
-      </div>
-      <details class="tc-credits">
-        <summary>Photo credits</summary>
-        <ul>${credits}</ul>
-      </details>
-    </section>
+    <div class="hero-collage" aria-hidden="true">
+      ${photos.map(([, p]) => `<img src="images/trophies/${p.file}" alt="" loading="lazy">`).join('')}
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <details class="hero-credits">
+      <summary>Trophy photo credits</summary>
+      <ul>${credits}</ul>
+    </details>
   `;
 }
 
@@ -142,19 +114,21 @@ async function renderHome() {
 
   app.innerHTML = `
     <div class="hero">
-      <span class="eyebrow">World Cup Archive</span>
-      <h1>Every Tournament.<br>Every Trophy.</h1>
-      <p>Browse World Cup editions, relive every match goal-by-goal, and see who took home the game's biggest individual honors.</p>
-      ${statChips}
+      ${heroBackgroundHtml()}
+      <div class="hero-content">
+        <span class="eyebrow">World Cup Archive</span>
+        <h1>Every Tournament.<br>Every Trophy.</h1>
+        <p>Browse World Cup editions, relive every match goal-by-goal, and see who took home the game's biggest individual honors.</p>
+        ${statChips}
+      </div>
     </div>
-    ${trophyCollageHtml(editions)}
     <div class="edition-grid">
       ${editions.map(e => `
         <a class="card" href="#/edition/${e.year}">
           <div class="year">${e.year}</div>
           <div class="host">📍 Host: ${flagImgHtml(e.host)} ${escapeHtml(e.host)}</div>
-          <div class="winner-line champ"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} ${escapeHtml(e.winner)}${titleBadgeHtml(e)}</div>
-          <div class="winner-line"><span class="label">Runner-up:</span> ${flagImgHtml(e.runner_up)} ${escapeHtml(e.runner_up)}</div>
+          <div class="winner-line champ"><span class="label">Winner:</span> ${flagImgHtml(e.winner)} <span class="team-name">${escapeHtml(e.winner)}</span>${titleBadgeHtml(e)}</div>
+          <div class="winner-line"><span class="label">Runner-up:</span> ${flagImgHtml(e.runner_up)} <span class="team-name">${escapeHtml(e.runner_up)}</span></div>
         </a>
       `).join('')}
     </div>
@@ -226,9 +200,9 @@ function matchRowHtml(m) {
     <div class="match-block">
       <a class="match-row" href="#/match/${m.id}">
         <div class="date">${escapeHtml(m.match_date || '')}</div>
-        <div class="team home">${escapeHtml(m.home_team)} ${flagImgHtml(m.home_team)}</div>
+        <div class="team home"><span class="team-name">${escapeHtml(m.home_team)}</span> ${flagImgHtml(m.home_team)}</div>
         <div class="score">${m.home_score} - ${m.away_score}</div>
-        <div class="team away">${flagImgHtml(m.away_team)} ${escapeHtml(m.away_team)}</div>
+        <div class="team away">${flagImgHtml(m.away_team)} <span class="team-name">${escapeHtml(m.away_team)}</span></div>
         <div class="expand-icon">${penNote ? penNote : '›'}</div>
       </a>
       ${goalsLineHtml(m)}
@@ -253,11 +227,11 @@ async function renderEdition(year) {
     <a class="back-link" href="#/">← All editions</a>
     <h1>${year} World Cup</h1>
     <div class="summary-grid">
-      <div class="summary-box"><div class="label">Host</div><div class="value">${flagImgHtml(edition.host)} ${escapeHtml(edition.host)}</div></div>
-      <div class="summary-box"><div class="label">Winner</div><div class="value">${flagImgHtml(edition.winner)} ${escapeHtml(edition.winner)}${titleBadgeHtml(edition)}</div></div>
-      <div class="summary-box"><div class="label">Runner-up</div><div class="value">${flagImgHtml(edition.runner_up)} ${escapeHtml(edition.runner_up)}</div></div>
-      <div class="summary-box"><div class="label">3rd Place</div><div class="value">${edition.third_place ? flagImgHtml(edition.third_place) + ' ' + escapeHtml(edition.third_place) : '—'}</div></div>
-      <div class="summary-box"><div class="label">4th Place</div><div class="value">${edition.fourth_place ? flagImgHtml(edition.fourth_place) + ' ' + escapeHtml(edition.fourth_place) : '—'}</div></div>
+      <div class="summary-box"><div class="label">Host</div><div class="value">${flagImgHtml(edition.host)} <span class="team-name">${escapeHtml(edition.host)}</span></div></div>
+      <div class="summary-box"><div class="label">Winner</div><div class="value">${flagImgHtml(edition.winner)} <span class="team-name">${escapeHtml(edition.winner)}</span>${titleBadgeHtml(edition)}</div></div>
+      <div class="summary-box"><div class="label">Runner-up</div><div class="value">${flagImgHtml(edition.runner_up)} <span class="team-name">${escapeHtml(edition.runner_up)}</span></div></div>
+      <div class="summary-box"><div class="label">3rd Place</div><div class="value">${edition.third_place ? flagImgHtml(edition.third_place) + ' <span class="team-name">' + escapeHtml(edition.third_place) + '</span>' : '—'}</div></div>
+      <div class="summary-box"><div class="label">4th Place</div><div class="value">${edition.fourth_place ? flagImgHtml(edition.fourth_place) + ' <span class="team-name">' + escapeHtml(edition.fourth_place) + '</span>' : '—'}</div></div>
     </div>
 
     <h2>Awards</h2>
